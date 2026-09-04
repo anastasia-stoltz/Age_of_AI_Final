@@ -1,5 +1,7 @@
 ---
-title:"This is so stasia can see changes"
+title: "This is so stasia can see changes"
+
+
 subtitle: "Team Dash App Project Check List"
 date: ""
 format:
