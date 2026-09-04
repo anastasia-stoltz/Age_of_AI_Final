@@ -26,7 +26,6 @@ Before your team spends hours building, I want you to catch dead-end ideas early
 
 **Team name:** *[Team One]*
 
-**Members:** */Christian Fannell, Anastasia Stotlz, Sean McElwain, Tracy Frey*
 **Members:** *[Tracy Frey, Anastasia Stoltz, Christian Fannell, Sean McElwain]*
 
 ---
