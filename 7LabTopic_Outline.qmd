@@ -1,5 +1,5 @@
 ---
-title: "This is so stasia can see changes"
+title: "Hi Christian"
 
 subtitle: "Team Dash App Project Check List"
 date: ""
@@ -24,9 +24,10 @@ Before your team spends hours building, I want you to catch dead-end ideas early
 
 ## Team
 
-**Team name:** *Team 1*
+**Team name:** *[Team One]*
 
 **Members:** */Christian Fannell, Anastasia Stotlz, Sean McElwain, Tracy Frey*
+**Members:** *[Tracy Frey, Anastasia Stoltz, Christian Fannell, Sean McElwain]*
 
 ---
 
