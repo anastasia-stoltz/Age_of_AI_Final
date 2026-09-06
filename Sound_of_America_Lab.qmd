@@ -1,0 +1,130 @@
+---
+title: "The Sound of America"
+subtitle: "Team Dash App Project Check List — Idea Pitch"
+date: ""
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: darkly
+    self-contained: true
+---
+
+## Overview
+
+Before your team spends hours building, I want you to catch dead-end ideas early: a dataset that turns out to be too small, an API that's paywalled, or a question that doesn't actually need a dashboard. This lab is short on purpose — work through it with your team during class and answer each question directly, in plain language. One submission per team.
+
+::: {.callout-note}
+**How to complete this lab:** Edit this `.qmd` file directly — one shared copy per team. Wherever you see text in square brackets `[...]`, delete the brackets and the placeholder text and type your own response in its place.
+:::
+
+---
+
+## Team
+
+**Team name:** *Team One*
+
+**Members:** *Christian Fannell, Tracy Frey, Sean McElwain, Anastasia Stoltz*
+
+---
+
+## 1. Topic
+
+*The Sound of America* would explore how American music changes across **place, time, and artists**. Designed for music fans and curious users, the dashboard would allow them to explore where live music happens, how hit music has changed across generations, and which artists have demonstrated the greatest staying power.
+
+---
+
+## 2. Dataset or API
+
+This idea would use complementary data sources because no single source contains all of the geographic, genre, and historical chart information needed for the three questions.
+
+### Primary source A — Setlist.fm API
+
+- **Source name and link:** [Setlist.fm API](https://api.setlist.fm/docs/)
+- **Format** (CSV, JSON, SQL table, REST API, etc.): **REST API returning JSON**
+- **Rough size** (rows/columns, date range, or number of records): Setlist.fm contains a large collection of historical live-performance records. Our initial tests found records spanning multiple decades. For example, Virginia returned 900 documented setlists for 1995, 1,778 for 2005, 2,449 for 2015, and 4,137 for 2025. Searches for larger states such as California, Texas, and New York reached 10,000 results for some state/year combinations, so the available dataset is much larger than we would need for the project.
+- **Access requirements** (API key, rate limits, cost, login): A free API key is required. Our current project access allows a maximum of **2 requests per second and 1,440 requests per day**, so we would need to manage requests carefully and avoid repeatedly downloading the same data.
+- **License/usage terms** (can you actually use and share this?): Setlist.fm provides API access subject to its API terms and attribution requirements. We would use the data for this non-commercial academic project and include the required source attribution.
+
+### Primary source B — MusicBrainz
+
+- **Source name and link:** [MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)
+- **Format:** **REST API returning JSON**
+- **Rough size:** MusicBrainz contains metadata for a very large collection of artists and recordings. We would only request information for artists contained in our Setlist.fm data. Setlist.fm already provides MusicBrainz artist IDs for many records, which gives us a natural field for connecting the two sources.
+- **Access requirements:** MusicBrainz provides public API access without a paid API key, subject to its usage and rate-limit requirements.
+- **License/usage terms:** MusicBrainz provides open music metadata under its published data licenses. We would provide appropriate attribution for any MusicBrainz data used in the dashboard.
+
+We have already tested this connection on a sample of artists. MusicBrainz returned genre information such as **country** for Home Free, **thrash metal** for Desolus, and multiple genre classifications for artists such as Rose Royce, Darius Rucker, and Today Is the Day. Some artists returned no genre information, which we would need to address during data cleaning.
+
+### Primary source C — Historical Billboard chart data
+
+- **Source name and link:** **Final historical Billboard dataset still needs to be selected and tested.**
+- **Format:** Likely CSV or another structured historical dataset.
+- **Rough size:** We would look for multiple decades of song/artist chart observations so users can compare musical eras and calculate artist longevity measures.
+- **Access requirements:** To be determined once the team selects the specific source.
+- **License/usage terms:** We would verify the sharing and academic-use terms before adopting the dataset.
+
+### Possible supporting source — U.S. Census population data
+
+If we decide that raw concert totals unfairly favor highly populated states, Census population data could be used to calculate a measure such as **documented live events per 100,000 residents**.
+
+**Backup plan:** Setlist.fm can support a narrower version of the project on its own. If the Billboard dataset does not pan out, we could focus the dashboard on **Music Across America** and explore live-performance activity by state, year, artist, venue, and available genre information. If MusicBrainz genre coverage is too incomplete, we could remove genre filtering rather than abandon the geographic analysis.
+
+---
+
+## 3. What are we trying to answer?
+
+### 1. How has the geography of documented live music changed across the United States over time?
+
+The main visualization could be an interactive **U.S. choropleth map**. A user could select a year, genre, or measure and watch the map update. Selecting a state could also update a time-series chart showing how documented live-music activity in that state changes over time.
+
+We have already built a five-state Plotly choropleth as a proof of concept using Virginia, California, Texas, New York, and Wyoming.
+
+![Early proof of concept using historical Setlist.fm data for five test states.](sound_of_america.png){fig-align="center" width="85%"}
+
+### 2. How has the profile of a hit song changed across different musical eras?
+
+Using historical Billboard chart data, a user could select a decade or year range and compare measures such as chart performance, weeks on the chart, or other characteristics available in the final dataset. Possible visualizations include a **time series, scatterplot, or ranked bar chart**, with callbacks updating the chart when the selected era or measure changes.
+
+### 3. Which artists have demonstrated the greatest staying power?
+
+We could aggregate historical chart data by artist and calculate measures such as **number of distinct charting songs, total chart weeks, Top 10 hits, number-one hits, and career span**. A user could choose the measure used to rank artists, or a stretch feature could allow the user to adjust weights and recalculate a custom **Staying Power Score**.
+
+---
+
+## 4. Sticking points
+
+- **Known data quality issues** (missing values, inconsistent formats, merging multiple sources): MusicBrainz genre information is incomplete for some artists, while other artists have several highly specific genres or tags. We would need to decide how to group related subgenres into broader categories such as Rock, Metal, Country, Pop, R&B/Soul, or Electronic and how to handle artists with multiple or missing genres. Historical chart data may also require artist-name cleaning and aggregation because the same song can appear repeatedly across weekly chart observations.
+
+- **Feasibility risks** (data too small/large, API reliability, scope for 4+ callbacks and 2+ chart types): Our testing suggests that **too much data may be a bigger issue than too little**. Some Setlist.fm state/year searches reached 10,000 results, so we need to determine how the API handles large result sets and should not assume that a result of exactly 10,000 represents a complete count. Setlist.fm's rate limits also make it impractical for the Dash app to download large historical datasets every time a user changes a filter. We would likely collect and store the needed data ahead of time, then let Dash filter the prepared dataset locally.
+
+- **Skills your team doesn't have yet** for this idea, and your plan to close that gap: We would need to learn how to efficiently handle API pagination, store/cache API results, join Setlist.fm records with MusicBrainz metadata, normalize genre classifications, aggregate large datasets, and share cleaned data across multiple Dash pages. We would begin with small proofs of concept for each analytical question before scaling the data collection and would divide the project so team members can work on separate components in parallel.
+
+- **Fallback plan** if this dataset doesn't pan out: The project can be narrowed to **Music Across America**, using Setlist.fm as the primary source. MusicBrainz genre enrichment, Billboard analysis, Census normalization, and the Staying Power Score can be treated as separate components rather than dependencies required for the core dashboard. If one secondary source fails, we can reduce the scope without losing the entire project.
+
+### Feasibility testing already completed
+
+We have already tested several of the major assumptions behind this idea rather than relying only on API documentation:
+
+- Successfully authenticated with the Setlist.fm API.
+- Retrieved historical state-level concert/setlist data.
+- Tested Virginia, California, Texas, New York, and Wyoming.
+- Confirmed that records contain artist, date, venue, city, and state information.
+- Confirmed that Setlist.fm records can provide MusicBrainz artist IDs.
+- Successfully retrieved MusicBrainz genre information for several artists.
+- Confirmed that some artists have missing genre data.
+- Identified the 10,000-result issue for several large state/year searches.
+- Built a working Plotly U.S. choropleth using five test states.
+
+The largest unresolved feasibility question is the **historical Billboard dataset**, which would need to be selected and tested before committing to Pages 2 and 3.
+
+---
+
+## Feasibility self-check
+
+- [x] Dataset/API is confirmed accessible right now — Setlist.fm and MusicBrainz have both been tested; the historical Billboard source still needs to be selected.
+- [x] Data includes at least one field that supports a real visualization — including state, city, date, artist, venue, genre, and numeric event counts.
+- [x] Data has enough rows/columns for meaningful filtering — our testing suggests data volume will need to be managed rather than expanded.
+- [x] We can name 2 distinct chart types this data would support — including a U.S. choropleth, time series, scatterplot, and ranked bar chart.
+- [x] We can name 4 things a user could filter, select, or input that would change those charts — including year, state, genre, metric, artist, and ranking measure/weights.
+- [x] We have a fallback dataset in mind if one component falls through — Setlist.fm alone can support a narrower live-music geography dashboard.
