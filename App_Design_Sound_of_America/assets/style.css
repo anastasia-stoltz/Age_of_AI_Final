@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background-color: #0f1720;
+    color: #f4f1ea;
+    font-family: Arial, sans-serif;
+}
+
+
+.sound-navbar {
+    background-color: #111820;
+    border-bottom: 1px solid #303945;
+}
+
+.sound-navbar .navbar-brand {
+    color: hsl(42, 77%, 65%);
+    font-weight: bold;
+}
+
+.sound-navbar .nav-link {
+    color: #81b6fa;
+}
+
+.sound-navbar .nav-link:hover {
+    color: #8a1875;
+}
+
+.sound-navbar .nav-link.active {
+    color: #d9ad5b;
+}
+
+
+.intro-section {
+    padding: 100px 20px;
+    background-color: #131d27;
+    border-bottom: 1px solid #303945;
+}
+
+.small-label {
+    color: #d9ad5b;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main-title {
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.main-question {
+    max-width: 800px;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.intro-text {
+    max-width: 750px;
+    color: #b7bec7;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.main-button {
+    background-color: #d9ad5b;
+    border-color: #d9ad5b;
+    color: #111820;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+
+.main-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    color: #b7bec7;
+    margin-bottom: 35px;
+}
+
+
+.project-card {
+    height: 100%;
+    background-color: #18222d;
+    border: 1px solid #303945;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.project-card h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #b7bec7;
+    line-height: 1.6;
+}
+
+.project-card .small-label {
+    color: #d9ad5b;
+}
+
+.source-text {
+    font-size: 13px;
+}
+
+.card-button {
+    background-color: transparent;
+    border: 1px solid #d9ad5b;
+    color: #d9ad5b;
+    margin-top: 10px;
+}
+
+.card-button:hover {
+    background-color: #d9ad5b;
+    color: #111820;
+}
+
+
+.finding-card {
+    height: 100%;
+    background-color: #18222d;
+    border-left: 3px solid #d9ad5b;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+
+@media (max-width: 768px) {
+
+    .intro-section {
+        padding: 60px 20px;
+    }
+
+    .main-title {
+        font-size: 45px;
+    }
+
+    .main-question {
+        font-size: 22px;
+    }
+
+    .project-card {
+        margin-bottom: 20px;
+    }
+}
