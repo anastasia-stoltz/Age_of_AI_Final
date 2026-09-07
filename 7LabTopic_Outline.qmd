@@ -1,6 +1,5 @@
 ---
-title: "Hi Christian"
-
+title: "Lab: Dash Project Topic Proposal"
 subtitle: "Team Dash App Project Check List"
 date: ""
 format:
@@ -26,7 +25,7 @@ Before your team spends hours building, I want you to catch dead-end ideas early
 
 **Team name:** *[Team One]*
 
-**Members:** *[Tracy Frey, Anastasia Stoltz, Christian Fannell, Sean McElwain]*
+**Members:** *[Christian Fannell, Tracy Frey, Sean McElwain, Anastasia Stoltz]*
 
 ---
 
@@ -34,7 +33,7 @@ Before your team spends hours building, I want you to catch dead-end ideas early
 
 What's the subject area, and who is this dashboard for? Two to three sentences — enough that someone outside your team understands the idea without asking follow-up questions.
 
-*[Write your response here]*
+*[We are creating a dashboard for a new American record label looking to sign new artists and book new venues, but they want to ensure that the popularity of their label can stand the test of trends and time. The main question they want answered is, how does American music change across place, time, and artists? Specifically, where is different live music happening, how has the definition of a hit song changed, and who has "staying power"]*
 
 ---
 
