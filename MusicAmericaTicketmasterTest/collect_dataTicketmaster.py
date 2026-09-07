@@ -5,9 +5,6 @@ Uses the Ticketmaster Discovery API for both concert location AND genre —
 Ticketmaster's own classification system (segment -> genre -> subGenre)
 tags each event directly, so no second genre-lookup API is needed.
 
-Run this on its own (e.g. `python collect_data.py`) to build/refresh
-concert_map_data.csv. The dashboard page just reads that CSV — it should
-NOT be re-scraping the API every time someone loads the page.
 """
 
 import os
@@ -20,13 +17,9 @@ from dotenv import load_dotenv
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-# Reads variables from a .env file in the current directory into os.environ.
 load_dotenv()
 
-# --- Config -------------------------------------------------------------
-# Never hardcode API keys in source. Put this in a .env file next to this
-# script (and make sure .env is in your .gitignore):
-#   TICKETMASTER_API_KEY=your-key-here
+
 TICKETMASTER_API_KEY = os.environ.get("TICKETMASTER_API_KEY", "")
 if not TICKETMASTER_API_KEY:
     raise RuntimeError(
@@ -36,14 +29,10 @@ if not TICKETMASTER_API_KEY:
 
 EVENTS_URL = "https://app.ticketmaster.com/discovery/v2/events.json"
 
-# Ticketmaster's "music" classification occasionally includes non-musical
-# categories (rodeo, motorsports, etc. get lumped in under some events).
-# These get dropped entirely rather than treated as a genre.
+# Ticketmaster's "music" classification occasionally includes non-musical cats
 NON_MUSIC_GENRES = {"rodeo", "motorsports/racing", "wrestling", "fairs & festivals"}
 
-# Generic/catch-all labels Ticketmaster uses when an event isn't classified
-# more specifically. These are kept (they're still real music events) but
-# bucketed together instead of showing up as their own confusing "genres".
+# Generic/catch-all labels
 GENERIC_GENRES = {"music", "other", "undefined", "unknown"}
 
 
