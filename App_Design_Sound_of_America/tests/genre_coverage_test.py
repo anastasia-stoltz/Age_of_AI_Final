@@ -1,11 +1,14 @@
 import os
 import time
 import requests
+from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv()
+ENV_PATH = Path(__file__).resolve().parent.parent.parent / ".env"
 
-SETLISTFM_API_KEY = os.getenv("SETLISTFM_API_KEY")
+load_dotenv(ENV_PATH)
+
+SETLISTFM_API_KEY = os.getenv("SETLIST_API_KEY")
 
 if not SETLISTFM_API_KEY:
     raise ValueError("SETLISTFM_API_KEY not found in .env")

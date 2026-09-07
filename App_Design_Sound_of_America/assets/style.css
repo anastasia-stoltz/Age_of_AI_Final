@@ -155,3 +155,27 @@ body {
         margin-bottom: 20px;
     }
 }
+
+/* Anatomy of a Hit dropdown styling */
+
+.hit-dropdown {
+    color: #111820;
+}
+
+.hit-dropdown input {
+    color: #111820 !important;
+}
+
+.hit-dropdown [class*="singleValue"] {
+    color: #111820 !important;
+    font-weight: bold;
+}
+
+.hit-dropdown [class*="control"] {
+    background-color: #f4f1ea !important;
+}
+
+.hit-dropdown [class*="menu"] {
+    color: #111820 !important;
+    background-color: #f4f1ea !important;
+}
