@@ -1,0 +1,124 @@
+THE SOUND OF AMERICA
+DATA FEASIBILITY TEST RESULTS
+
+
+============================================================
+SETLIST.FM — 50-STATE COVERAGE TEST
+============================================================
+
+Purpose:
+Determine whether Setlist.fm contains documented setlist data
+for all 50 U.S. states.
+
+Results:
+- 50 states tested
+- 50 states returned data
+- 0 states returned no data
+- Alaska initially returned HTTP 429 due to rate limiting
+- Alaska was retested separately and returned HTTP 200
+- Alaska returned 2,191 setlists
+
+Conclusion:
+Setlist.fm has documented setlist data for all 50 U.S. states.
+
+The earlier concern that the source only contained data for
+approximately 30 states does not appear to be a geographic
+coverage limitation of Setlist.fm.
+
+Geographic coverage therefore appears viable for the
+Music Across America portion of the project.
+
+Important limitation:
+The existence of data in all 50 states does not mean coverage is
+equally complete across states or across historical periods.
+Setlist.fm represents documented setlists rather than a complete
+census of every concert that occurred.
+
+
+============================================================
+MUSICBRAINZ — GENRE/CATEGORY COVERAGE TEST
+============================================================
+
+Purpose:
+Determine how often artists found through Setlist.fm have usable
+genre/category information available through MusicBrainz.
+
+Sample:
+- 200 unique artists collected from Setlist.fm
+
+Final results:
+- 200 artists sampled
+- 195 successful MusicBrainz responses
+- 5 API errors after retries
+- 153 artists had formal genre data
+- 0 artists had tags but no formal genre
+- 42 artists had neither genre nor tags
+
+Coverage:
+- Formal genre coverage among successful responses: 78.5%
+- Genre-or-tag coverage among successful responses: 78.5%
+- True missing metadata among successful responses: 21.5%
+- API error rate after retries: 2.5%
+
+Examples with no genre or tags:
+- DJ Moon
+- Band of Silver
+- Armlock
+- Charloux
+- Dark Chapel
+- Kevin Atwater
+- Chad Gray
+- Rum Jungle
+- Stephen Dawes
+- Mismiths
+
+Artists that still failed after retries:
+- Blue Snaggletooth
+- Jimmie Vaughan & The Tilt-A-Whirl Band
+- Incantation
+- Miki Fiki
+- BABYMETAL
+
+Conclusion:
+MusicBrainz provides usable formal genre information for roughly
+4 out of 5 artists in this sample.
+
+Missing category information is therefore a real data-quality
+issue, but it does not affect the majority of artists.
+
+The retry test also showed that many temporary MusicBrainz 503
+errors can be recovered. After retry handling, only 5 of the
+200 sampled artists still failed, producing a final API error
+rate of 2.5%.
+
+This distinction is important:
+- A MusicBrainz API failure does not mean an artist has no genre.
+- A successful response with zero genres and zero tags represents
+  genuinely missing metadata in MusicBrainz.
+
+Next step:
+Test a secondary enrichment source for the 42 artists that had
+successful MusicBrainz responses but returned neither genre nor tags.
+
+The goal is to determine whether a fallback data source can improve
+genre coverage enough to make genre a reliable interactive filter
+for the Music Across America dashboard.
+
+
+============================================================
+CURRENT FEASIBILITY STATUS
+============================================================
+
+Geographic state coverage:
+CONFIRMED — 50 of 50 U.S. states returned Setlist.fm data.
+
+Genre/category coverage:
+PARTIALLY CONFIRMED — 78.5% formal genre coverage among successful
+MusicBrainz responses.
+
+API reliability:
+MANAGEABLE — retry logic reduced final MusicBrainz failures to 2.5%.
+
+Next feasibility task:
+Test fallback genre enrichment for the 42 genuine MusicBrainz
+metadata gaps.
