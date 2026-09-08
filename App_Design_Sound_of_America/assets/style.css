@@ -455,3 +455,15 @@ input[type="number"] {
     color: #1D2A30 !important;
     background-color: #F4F1EA !important;
 }
+
+/* Vertical flex container */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-card .card-button {
+    margin-top: auto;
+    align-self: flex-start;
+}
