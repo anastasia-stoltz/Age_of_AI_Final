@@ -2,14 +2,23 @@
 Data collection script for Music Across America.
 
 Pipeline:
-Setlist.fm -> MusicBrainz -> Last.fm -> Wikidata -> Discogs -> Unknown
+Setlist.fm -> MusicBrainz -> Last.fm -> Wikidata -> Discogs
+           -> Tribute-act inference -> Unknown
 
 The script:
 1. Collects U.S. setlist data by state and year.
 2. Uses MusicBrainz as the primary genre source.
 3. Enriches unresolved artists with Last.fm, Wikidata, and Discogs.
-4. Caches completed lookups so API work does not need to be repeated.
-5. Aggregates the results by year, state, and genre for the dashboard map.
+4. For explicit tribute acts (e.g. "Badfish: A Tribute to Sublime") that
+   still come up unresolved, extracts the named original artist and
+   classifies the show by *their* genre instead.
+5. Caches completed lookups so API work does not need to be repeated.
+6. Aggregates the results by year, state, and genre for the dashboard map.
+
+This folds in what used to be a separate two-step rescue pass
+(find_unresolved_artists.py + rescue_unresolved_artists.py) directly into
+the main resolve_genre() hierarchy, so a fresh full run gets the same
+coverage in one pass instead of needing a manual follow-up.
 """
 
 import json
@@ -661,6 +670,77 @@ def get_genre_from_mbid(mbid):
 
 
 # --------------------------------------------------
+# TRIBUTE-ACT DETECTION
+# --------------------------------------------------
+
+# Matches artist names that explicitly identify themselves as a tribute
+# act, e.g. "Badfish: A Tribute to Sublime" or "Rain - Tribute to the
+# Beatles". These acts are almost never in MusicBrainz/Last.fm/Wikidata/
+# Discogs under their own name, but the *named* target artist usually is.
+TRIBUTE_PATTERNS = [
+    r"(.+?):\s*a tribute to (.+)",
+    r"(.+?):\s*tribute to (.+)",
+    r"(.+?)\s*-\s*a tribute to (.+)",
+    r"(.+?)\s*-\s*tribute to (.+)",
+]
+
+
+def detect_tribute_target(artist_name):
+    """
+    Detect explicit tribute-act names such as:
+
+    Badfish: A Tribute to Sublime
+    Rain: A Tribute to the Beatles
+
+    Returns the named tribute target, or None.
+    """
+
+    artist_name = artist_name.strip()
+
+    for pattern in TRIBUTE_PATTERNS:
+
+        match = re.match(
+            pattern,
+            artist_name,
+            flags=re.IGNORECASE
+        )
+
+        if match:
+            return match.group(2).strip()
+
+    return None
+
+
+def resolve_tribute_target(target_name):
+    """
+    Classify the explicitly named tribute target using Last.fm and
+    Discogs, since both support lookup by artist name (unlike Wikidata,
+    which needs an MBID we won't have for the target either).
+    """
+
+    if get_lastfm_genre is not None:
+
+        genre, reason = get_lastfm_genre(
+            artist_name=target_name,
+            mbid=None
+        )
+
+        if genre != "unknown":
+            return genre, "tribute_lastfm"
+
+    if get_discogs_genre is not None:
+
+        genre, reason = get_discogs_genre(
+            target_name
+        )
+
+        if genre != "unknown":
+            return genre, "tribute_discogs"
+
+    return "unknown", "unknown"
+
+
+# --------------------------------------------------
 # FINAL MULTI-SOURCE GENRE RESOLVER
 # --------------------------------------------------
 
@@ -817,7 +897,38 @@ def resolve_genre(
 
 
     # --------------------------------------------------
-    # 5. UNKNOWN
+    # 5. EXPLICIT TRIBUTE ACT
+    # --------------------------------------------------
+    # Tried last, since it only applies to names matching a specific
+    # "X: A Tribute to Y" pattern -- and even then, classifies the show
+    # by the *original* artist's genre, not the tribute act's own.
+
+    tribute_target = detect_tribute_target(
+        artist_name
+    )
+
+    if tribute_target:
+
+        tribute_genre, tribute_source = resolve_tribute_target(
+            tribute_target
+        )
+
+        if tribute_genre != "unknown":
+
+            result = (
+                tribute_genre,
+                tribute_source
+            )
+
+            enriched_genre_cache[
+                cache_key
+            ] = result
+
+            return result
+
+
+    # --------------------------------------------------
+    # 6. UNKNOWN
     # --------------------------------------------------
 
     result = (
