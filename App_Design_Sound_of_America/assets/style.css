@@ -186,3 +186,21 @@ body {
 .hit-dropdown [class*="placeholder"] {
     color: #111820 !important;
 }
+
+/* Year-slider floating tooltip (the bubble above the handle showing the
+   selected year). Confirmed via dev tools inspection: this component
+   uses .dash-slider-tooltip (not the rc-slider classes earlier attempts
+   assumed), with the actual year text in a child div whose id ends in
+   "-content". Separate from the mark labels below the track, which are
+   styled inline via the marks dict in music_map.py. */
+.dash-slider-tooltip {
+    background-color: #ffffff !important;
+    border: 1px solid #1D2A30;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+.dash-slider-tooltip [id$="-content"] {
+    color: #1D2A30 !important;
+    font-weight: 600 !important;
+}
