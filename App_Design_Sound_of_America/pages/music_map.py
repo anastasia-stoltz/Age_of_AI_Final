@@ -43,6 +43,7 @@ layout = html.Div(
                       'margin': '0 0 20px 0'}),
         html.Div(
             dcc.Dropdown(id='genre-picker',
+                         className='hit-dropdown',
                          options=[{'label': g.title(), 'value': g} for g in genres],
                          value=default_genre, clearable=False),
             style={'maxWidth': '320px', 'margin': '0 auto'}),

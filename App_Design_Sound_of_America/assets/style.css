@@ -180,27 +180,9 @@ body {
     background-color: #f4f1ea !important;
 }
 
-/* Genre dropdown text contrast (closed box, selected value, and open menu) */
-#genre-picker .Select-control {
-    background-color: #ffffff;
-}
-
-#genre-picker .Select-value-label,
-#genre-picker .Select-value .Select-value-label,
-#genre-picker .Select-placeholder,
-#genre-picker .Select-input input {
-    color: #1D2A30 !important;
-}
-
-#genre-picker .Select-menu-outer {
-    background-color: #ffffff;
-}
-
-#genre-picker .Select-option {
-    color: #1D2A30 !important;
-    background-color: #ffffff;
-}
-
-#genre-picker .Select-option.is-focused {
-    background-color: #e6eef2;
+/* Genre dropdown reuses .hit-dropdown styling (added via className in
+   music_map.py). This just fills the one gap those rules don't cover:
+   the placeholder text shown before a value is selected. */
+.hit-dropdown [class*="placeholder"] {
+    color: #111820 !important;
 }
