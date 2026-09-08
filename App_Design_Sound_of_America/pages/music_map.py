@@ -8,19 +8,20 @@ dash.register_page(__name__, path='/music-map', name='Music Across America')
 
 BG = "#1D2A30"
 
-import os
-
 #changed to allow for directory differences
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 df = pd.read_csv(os.path.join(BASE_DIR, "..", "data", "concert_map_data_setlistfm.csv"))
 
 years = sorted(df["year"].unique())
 genres = sorted(df["genre"].unique())
-marks = {int(y): str(y) for y in years}
+marks = {
+    int(y): {'label': str(y), 'style': {'color': '#EAF2F8', 'fontWeight': '600'}}
+    for y in years
+}
 max_count = int(df["event_count"].max())
 
 
-default_year = years[0]
+default_year = years[-2] if len(years) >= 2 else years[-1]
 default_genre = df.groupby("genre")["event_count"].sum().idxmax()
 
 layout = html.Div(
@@ -29,6 +30,14 @@ layout = html.Div(
     children=[
         html.H1("Live Music in the US",
                 style={'color': 'white', 'textAlign': 'center', 'fontSize': '30px'}),
+        html.P(
+            "This map shows how live music activity is spread across the United States, "
+            "broken down by genre and year. Each state is shaded by how many documented "
+            "shows took place there for the genre and year you select — darker means more "
+            "shows. Use it to see where different genres tour most, and how that's shifted "
+            "year to year.",
+            style={'color': '#9fbccd', 'backgroundColor': BG, 'textAlign': 'center',
+                   'maxWidth': '780px', 'margin': '0 auto 12px auto', 'lineHeight': '1.5'}),
         html.P("Pick a genre, drag the slider to change year.",
                style={'color': '#9fbccd', 'backgroundColor': BG, 'textAlign': 'center',
                       'margin': '0 0 20px 0'}),
@@ -44,6 +53,31 @@ layout = html.Div(
             style={'padding': '28px'}),
         dcc.Graph(id='choropleth-map', style={'height': '70vh', 'minHeight': '520px'},
                   config={'displaylogo': False}),
+        html.Details(
+            style={'color': '#9fbccd', 'maxWidth': '780px', 'margin': '24px auto 0 auto',
+                   'lineHeight': '1.6', 'fontSize': '14px'},
+            children=[
+                html.Summary(
+                    "About this data",
+                    style={'color': 'white', 'cursor': 'pointer', 'fontSize': '15px',
+                           'marginBottom': '8px'}),
+                html.P(
+                    "Concert data comes from setlist.fm, a crowd-sourced archive of "
+                    "real, documented setlists. We queried it state by state and year "
+                    "by year to make sure every state and each year from 2022–2026 is "
+                    "represented, rather than just whatever was most recently added."),
+                html.P(
+                    "Genres are resolved per artist through a chain of sources "
+                    "(MusicBrainz, Last.fm, Wikidata, and Discogs), then grouped into "
+                    "broad categories like \"Rock\" or \"Electronic/Dance\" so the map "
+                    "stays readable — the underlying data has hundreds of much more "
+                    "specific micro-genres."),
+                html.P(
+                    "A few honest limitations: not every show that ever happened is in "
+                    "setlist.fm, coverage is a sample rather than a full census, and "
+                    "some artists' genres couldn't be resolved by any source and are "
+                    "grouped as \"Unknown\" or \"Other/Uncategorized.\""),
+            ]),
     ]
 )
 
@@ -73,7 +107,7 @@ def update_map(selected_year, genre):
 
     if filtered.empty:
         fig.add_annotation(
-            text="No shows listed yet for this genre/year combination.",
+            text="No documented shows found for this genre and year.",
             showarrow=False, x=0.5, y=0.5, xref='paper', yref='paper',
             font=dict(color='#9fbccd', size=16),
         )
