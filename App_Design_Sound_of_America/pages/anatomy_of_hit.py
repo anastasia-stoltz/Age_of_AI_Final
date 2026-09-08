@@ -7,20 +7,34 @@ import requests
 from functools import lru_cache
 
 
-## Explore how chart success has evolved across eras ##
-## Ensure IDs have prefixes to avoid callback collisions ##
+# --------------------------------------------------
+# PAGE REGISTRATION
+# --------------------------------------------------
 
 dash.register_page(
     __name__,
     path="/anatomy-of-a-hit",
-    name="Lifestyle of a Hit"
+    name="Lifespan of a Hit"
 )
 
 
 # --------------------------------------------------
-# DATA HELPER
+# COLORS
 # --------------------------------------------------
 
+BG = "#0f1720"
+SECTION_BG = "#131d27"
+BORDER = "#303945"
+GOLD = "#d9ad5b"
+BLUE = "#81b6fa"
+CREAM = "#f4f1ea"
+
+
+# --------------------------------------------------
+# BILLBOARD DATA
+# --------------------------------------------------
+
+@lru_cache(maxsize=None)
 def get_chart(date):
     url = (
         "https://raw.githubusercontent.com/"
@@ -28,18 +42,25 @@ def get_chart(date):
         f"{date}.json"
     )
 
-    response = requests.get(url, timeout=30)
+    response = requests.get(
+        url,
+        timeout=30
+    )
+
     response.raise_for_status()
 
     chart = response.json()
 
-    df = pd.DataFrame(chart["data"])
+    df = pd.DataFrame(
+        chart["data"]
+    )
+
     df["chart_date"] = chart["date"]
 
     return df
 
 
-# Same three non-holiday comparison points for each year
+# Three comparable chart weeks per year
 YEAR_DATES = {
     1985: ["1985-04-06", "1985-07-06", "1985-10-05"],
     1990: ["1990-04-07", "1990-07-07", "1990-10-06"],
@@ -52,11 +73,9 @@ YEAR_DATES = {
     2025: ["2025-04-05", "2025-07-05", "2025-10-04"]
 }
 
-print("LIFESPAN YEARS LOADED:", list(YEAR_DATES.keys()))
 
 @lru_cache(maxsize=None)
 def summarize_year(year):
-
     hot100_weeks = []
     top10_weeks = []
     unique_artist_counts = []
@@ -87,43 +106,64 @@ def summarize_year(year):
             2
         ),
         "avg_unique_artists": round(
-            sum(unique_artist_counts) /
-            len(unique_artist_counts),
+            sum(unique_artist_counts) / len(unique_artist_counts),
             2
         )
     }
 
 
 # --------------------------------------------------
-# PAGE LAYOUT
-# --------------------------------------------------
-
-# --------------------------------------------------
-# PAGE LAYOUT
+# DROPDOWN OPTIONS
 # --------------------------------------------------
 
 year_options = [
-    {"label": str(year), "value": year}
+    {
+        "label": str(year),
+        "value": year
+    }
     for year in YEAR_DATES
 ]
 
 
+# --------------------------------------------------
+# PAGE LAYOUT
+# --------------------------------------------------
+
 layout = dbc.Container([
 
-    html.H1(
-        "Lifespan of a Hit",
-        className="mt-4"
-    ),
+    html.Div([
 
-    html.P(
-        "How has the staying power of a Billboard hit changed over time?"
-    ),
+        html.P(
+            "TIME",
+            className="small-label"
+        ),
 
-    # Year comparison dropdowns
+        html.H1(
+            "Lifespan of a Hit",
+            className="section-title"
+        ),
+
+        html.P(
+            "How has the staying power of a Billboard hit changed over time?",
+            className="section-text"
+        ),
+
+        html.P(
+            "Each year uses three Billboard Hot 100 charts from April, July, "
+            "and October. For songs currently in the Top 10, weeks on chart "
+            "refers to their total time on the Hot 100.",
+            className="source-text"
+        )
+
+    ], className="mt-4 mb-4"),
+
+
     dbc.Row([
 
         dbc.Col([
+
             html.Label("Compare Year 1"),
+
             dcc.Dropdown(
                 id="hit-year-1",
                 options=year_options,
@@ -131,10 +171,13 @@ layout = dbc.Container([
                 clearable=False,
                 className="hit-dropdown"
             )
+
         ], md=6),
 
         dbc.Col([
+
             html.Label("Compare Year 2"),
+
             dcc.Dropdown(
                 id="hit-year-2",
                 options=year_options,
@@ -142,140 +185,93 @@ layout = dbc.Container([
                 clearable=False,
                 className="hit-dropdown"
             )
+
         ], md=6)
 
     ], className="mb-4"),
 
-    # Loading indicator appears while callback is updating
+
     dcc.Loading(
         id="hit-loading",
         type="circle",
         children=[
 
-            # Weeks-on-chart cards
-            dbc.Row([
+            html.Div([
 
-                dbc.Col(
-                    dbc.Card(
-                        dbc.CardBody([
-                            html.H5(
-                                "Avg. Weeks on Hot 100",
-                                className="card-title"
-                            ),
-                            html.H2(
-                                id="hit-hot100-year1"
-                            )
-                        ])
-                    ),
-                    md=3
+                html.P(
+                    "HIT LIFESPAN",
+                    className="small-label"
                 ),
 
-                dbc.Col(
-                    dbc.Card(
-                        dbc.CardBody([
-                            html.H5(
-                                "Avg. Weeks on Hot 100",
-                                className="card-title"
-                            ),
-                            html.H2(
-                                id="hit-hot100-year2"
-                            )
-                        ])
-                    ),
-                    md=3
+                html.H2(
+                    "Hits are staying on the chart longer",
+                    className="section-title"
                 ),
 
-                dbc.Col(
-                    dbc.Card(
-                        dbc.CardBody([
-                            html.H5(
-                                "Avg. Weeks in Top 10",
-                                className="card-title"
-                            ),
-                            html.H2(
-                                id="hit-top10-year1"
-                            )
-                        ])
-                    ),
-                    md=3
-                ),
-
-                dbc.Col(
-                    dbc.Card(
-                        dbc.CardBody([
-                            html.H5(
-                                "Avg. Weeks in Top 10",
-                                className="card-title"
-                            ),
-                            html.H2(
-                                id="hit-top10-year2"
-                            )
-                        ])
-                    ),
-                    md=3
+                html.Div(
+                    id="hit-lifespan-comparison"
                 )
 
-            ], className="mb-4"),
+            ], className="project-card mb-4"),
 
-            # Unique artist cards
-            dbc.Row([
 
-                dbc.Col(
-                    html.Div([
-                        html.H5(
-                            "Average Unique Artists",
-                            className="card-title"
-                        ),
-                        html.H2(
-                            id="hit-artists-year1"
-                        )
-                    ], className="project-card"),
-                    md=6
-                ),
-
-                dbc.Col(
-                    html.Div([
-                        html.H5(
-                            "Average Unique Artists",
-                            className="card-title"
-                        ),
-                        html.H2(
-                            id="hit-artists-year2"
-                        )
-                    ], className="project-card"),
-                    md=6
-                )
-
-            ], className="mb-4"),
-
-            # Comparison chart
             dcc.Graph(
-                id="hit-comparison-chart"
+                id="hit-lifespan-trend"
             ),
 
-            # Written comparison
-            html.Div(
-                id="hit-insight",
-                className="mt-3 mb-5"
-            )
+
+            html.Div([
+
+                html.P(
+                    "ARTIST VARIETY",
+                    className="small-label"
+                ),
+
+                html.H2(
+                    "Fewer artists are sharing the spotlight",
+                    className="section-title"
+                ),
+
+                html.Div(
+                    id="hit-artist-comparison"
+                )
+
+            ], className="project-card mb-4"),
+
+
+            dcc.Graph(
+                id="hit-artist-trend"
+            ),
+
+
+            html.Div([
+
+                html.P(
+                    "WHAT CHANGED?",
+                    className="small-label"
+                ),
+
+                html.Div(
+                    id="hit-insight"
+                )
+
+            ], className="finding-card mt-4 mb-5")
 
         ]
     )
 
 ], fluid=True)
 
+
 # --------------------------------------------------
 # CALLBACK
 # --------------------------------------------------
 
 @callback(
-    Output("hit-hot100-year1", "children"),
-    Output("hit-hot100-year2", "children"),
-    Output("hit-top10-year1", "children"),
-    Output("hit-top10-year2", "children"),
-    Output("hit-artists-year1", "children"),
-    Output("hit-artists-year2", "children"),
-    Output("hit-comparison-chart", "figure"),
+    Output("hit-lifespan-comparison", "children"),
+    Output("hit-artist-comparison", "children"),
+    Output("hit-lifespan-trend", "figure"),
+    Output("hit-artist-trend", "figure"),
     Output("hit-insight", "children"),
     Input("hit-year-1", "value"),
     Input("hit-year-2", "value")
@@ -285,89 +281,342 @@ def update_hit_comparison(year1, year2):
     summary1 = summarize_year(year1)
     summary2 = summarize_year(year2)
 
-    chart_df = pd.DataFrame([
-        {
-            "Year": str(year1),
-            "Metric": "Avg. Weeks on Hot 100",
-            "Value": summary1["avg_hot100"]
-        },
-        {
-            "Year": str(year1),
-            "Metric": "Avg. Weeks in Top 10",
-            "Value": summary1["avg_top10"]
-        },
-        {
-            "Year": str(year2),
-            "Metric": "Avg. Weeks on Hot 100",
-            "Value": summary2["avg_hot100"]
-        },
-        {
-            "Year": str(year2),
-            "Metric": "Avg. Weeks in Top 10",
-            "Value": summary2["avg_top10"]
-        }
+
+    # --------------------------------------------------
+    # LIFESPAN COMPARISON
+    # --------------------------------------------------
+
+    lifespan_comparison = dbc.Row([
+
+        dbc.Col([
+
+            html.P(
+                "ALL HOT 100 SONGS",
+                className="small-label"
+            ),
+
+            html.Div([
+
+                html.Div([
+                    html.H4(str(year1)),
+                    html.H2(
+                        f"{summary1['avg_hot100']} weeks"
+                    )
+                ]),
+
+                html.H2("→"),
+
+                html.Div([
+                    html.H4(str(year2)),
+                    html.H2(
+                        f"{summary2['avg_hot100']} weeks"
+                    )
+                ])
+
+            ], style={
+                "display": "flex",
+                "justifyContent": "space-between",
+                "alignItems": "center",
+                "gap": "20px"
+            })
+
+        ], md=6),
+
+        dbc.Col([
+
+            html.P(
+                "SONGS CURRENTLY IN THE TOP 10",
+                className="small-label"
+            ),
+
+            html.Div([
+
+                html.Div([
+                    html.H4(str(year1)),
+                    html.H2(
+                        f"{summary1['avg_top10']} weeks"
+                    )
+                ]),
+
+                html.H2("→"),
+
+                html.Div([
+                    html.H4(str(year2)),
+                    html.H2(
+                        f"{summary2['avg_top10']} weeks"
+                    )
+                ])
+
+            ], style={
+                "display": "flex",
+                "justifyContent": "space-between",
+                "alignItems": "center",
+                "gap": "20px"
+            })
+
+        ], md=6)
+
+    ], className="g-4")
+
+
+    # --------------------------------------------------
+    # ARTIST VARIETY COMPARISON
+    # --------------------------------------------------
+
+    artist_difference = (
+        summary2["avg_unique_artists"]
+        - summary1["avg_unique_artists"]
+    )
+
+    if summary1["avg_unique_artists"] != 0:
+        artist_pct_change = (
+            artist_difference
+            / summary1["avg_unique_artists"]
+            * 100
+        )
+    else:
+        artist_pct_change = 0
+
+
+    if artist_pct_change < 0:
+        artist_change_text = (
+            f"{abs(artist_pct_change):.1f}% fewer unique artists"
+        )
+    elif artist_pct_change > 0:
+        artist_change_text = (
+            f"{abs(artist_pct_change):.1f}% more unique artists"
+        )
+    else:
+        artist_change_text = (
+            "No change in unique artist count"
+        )
+
+
+    artist_comparison = html.Div([
+
+        html.Div([
+
+            html.Div([
+                html.H4(str(year1)),
+                html.H2(
+                    f"{summary1['avg_unique_artists']}"
+                ),
+                html.P(
+                    "average unique artists"
+                )
+            ]),
+
+            html.H1("→"),
+
+            html.Div([
+                html.H4(str(year2)),
+                html.H2(
+                    f"{summary2['avg_unique_artists']}"
+                ),
+                html.P(
+                    "average unique artists"
+                )
+            ])
+
+        ], style={
+            "display": "flex",
+            "justifyContent": "space-around",
+            "alignItems": "center",
+            "textAlign": "center",
+            "gap": "30px"
+        }),
+
+        html.H3(
+            artist_change_text,
+            className="mt-3"
+        )
+
     ])
 
-    fig = px.bar(
-        chart_df,
-        x="Metric",
-        y="Value",
-        color="Year",
-        barmode="group",
-        title="How Long Do Hits Stay on the Chart?",
+
+    # --------------------------------------------------
+    # FULL TREND DATA
+    # --------------------------------------------------
+
+    lifespan_rows = []
+    artist_rows = []
+
+    for year in YEAR_DATES:
+
+        summary = summarize_year(year)
+
+        lifespan_rows.append({
+            "Year": year,
+            "Metric": "All Hot 100 Songs",
+            "Weeks": summary["avg_hot100"]
+        })
+
+        lifespan_rows.append({
+            "Year": year,
+            "Metric": "Songs Currently in Top 10",
+            "Weeks": summary["avg_top10"]
+        })
+
+        artist_rows.append({
+            "Year": year,
+            "Unique Artists": summary["avg_unique_artists"]
+        })
+
+
+    lifespan_df = pd.DataFrame(
+        lifespan_rows
+    )
+
+    artist_df = pd.DataFrame(
+        artist_rows
+    )
+
+
+    # --------------------------------------------------
+    # LIFESPAN TREND CHART
+    # --------------------------------------------------
+
+    lifespan_fig = px.line(
+        lifespan_df,
+        x="Year",
+        y="Weeks",
+        color="Metric",
+        markers=True,
+        title="How Hit Lifespans Changed, 1985–2025",
         color_discrete_sequence=[
-             "#d9ad5b",   # warm gold
-             "#81b6fa"    # muted blue
+            GOLD,
+            BLUE
         ]
-        )
+    )
 
-    fig.update_layout(
-        paper_bgcolor="#0f1720",
-        plot_bgcolor="#131d27",
-        font_color="#f4f1ea",
-        title_font_color="#f4f1ea",
-        legend_title_font_color="#f4f1ea"
+    lifespan_fig.update_layout(
+        paper_bgcolor=BG,
+        plot_bgcolor=SECTION_BG,
+        font_color=CREAM,
+        title_font_color=CREAM,
+        legend_title_text="",
+        margin=dict(
+            l=40,
+            r=20,
+            t=70,
+            b=40
         )
+    )
 
-    fig.update_xaxes(
-        gridcolor="#303945",
-        zerolinecolor="#303945"
+    lifespan_fig.update_xaxes(
+        gridcolor=BORDER
+    )
+
+    lifespan_fig.update_yaxes(
+        gridcolor=BORDER,
+        title="Average Weeks on Hot 100",
+        rangemode="tozero"
+    )
+
+
+    # --------------------------------------------------
+    # ARTIST VARIETY TREND CHART
+    # --------------------------------------------------
+
+    artist_fig = px.line(
+        artist_df,
+        x="Year",
+        y="Unique Artists",
+        markers=True,
+        title="How Artist Variety Changed, 1985–2025"
+    )
+
+    artist_fig.update_traces(
+        line=dict(
+            color=GOLD
+        ),
+        marker=dict(
+            color=GOLD
         )
+    )
 
-    fig.update_yaxes(
-        gridcolor="#303945",
-        zerolinecolor="#303945"
+    artist_fig.update_layout(
+        paper_bgcolor=BG,
+        plot_bgcolor=SECTION_BG,
+        font_color=CREAM,
+        title_font_color=CREAM,
+        margin=dict(
+            l=40,
+            r=20,
+            t=70,
+            b=40
         )
+    )
 
-    difference = (
+    artist_fig.update_xaxes(
+        gridcolor=BORDER
+    )
+
+    artist_fig.update_yaxes(
+        gridcolor=BORDER,
+        title="Average Unique Artists",
+        rangemode="tozero"
+    )
+
+
+    # --------------------------------------------------
+    # DYNAMIC TAKEAWAY
+    # --------------------------------------------------
+
+    hot100_difference = (
         summary2["avg_hot100"]
         - summary1["avg_hot100"]
     )
 
-    if difference > 0:
-        direction = "longer"
-    elif difference < 0:
-        direction = "shorter"
-    else:
-        direction = "about the same amount of time"
-
-    insight = html.P(
-        f"In this comparison, songs on the Hot 100 in "
-        f"{year2} had been charting an average of "
-        f"{abs(difference):.2f} weeks {direction} "
-        f"than songs in {year1}. "
-        f"The average number of unique artists was "
-        f"{summary1['avg_unique_artists']} in {year1} "
-        f"and {summary2['avg_unique_artists']} in {year2}."
+    top10_difference = (
+        summary2["avg_top10"]
+        - summary1["avg_top10"]
     )
 
+
+    if hot100_difference > 0:
+        hot100_phrase = (
+            f"{abs(hot100_difference):.2f} weeks longer"
+        )
+    elif hot100_difference < 0:
+        hot100_phrase = (
+            f"{abs(hot100_difference):.2f} weeks shorter"
+        )
+    else:
+        hot100_phrase = (
+            "about the same amount of time"
+        )
+
+
+    if top10_difference > 0:
+        top10_phrase = (
+            f"{abs(top10_difference):.2f} weeks longer"
+        )
+    elif top10_difference < 0:
+        top10_phrase = (
+            f"{abs(top10_difference):.2f} weeks shorter"
+        )
+    else:
+        top10_phrase = (
+            "about the same amount of time"
+        )
+
+
+    insight = html.P(
+        f"Compared with {year1}, songs on the Hot 100 in {year2} "
+        f"had been charting {hot100_phrase} on average. "
+        f"For songs occupying the Top 10, the difference was "
+        f"{top10_phrase}. "
+        f"Meanwhile, the average number of unique artists changed "
+        f"from {summary1['avg_unique_artists']} to "
+        f"{summary2['avg_unique_artists']}."
+    )
+
+
     return (
-        f"{summary1['avg_hot100']} weeks",
-        f"{summary2['avg_hot100']} weeks",
-        f"{summary1['avg_top10']} weeks",
-        f"{summary2['avg_top10']} weeks",
-        f"{summary1['avg_unique_artists']}",
-        f"{summary2['avg_unique_artists']}",
-        fig,
+        lifespan_comparison,
+        artist_comparison,
+        lifespan_fig,
+        artist_fig,
         insight
     )
