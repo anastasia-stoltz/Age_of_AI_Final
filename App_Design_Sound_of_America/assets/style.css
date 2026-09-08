@@ -1,141 +1,289 @@
 body {
     margin: 0;
-    background-color: #0f1720;
-    color: #f4f1ea;
-    font-family: Arial, sans-serif;
+    background-color: #0F1720;
+    color: #F4F1EA;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 
+/* NAVIGATION */
+
 .sound-navbar {
-    background-color: #111820;
-    border-bottom: 1px solid #303945;
+    background-color: #0F1720;
+    border-bottom: 1px solid rgba(244, 241, 234, 0.15);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.20);
 }
 
 .sound-navbar .navbar-brand {
-    color: hsl(42, 77%, 65%);
+    color: #E8B86D;
+    font-family: Georgia, "Times New Roman", serif;
     font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 .sound-navbar .nav-link {
-    color: #81b6fa;
+    color: #F4F1EA;
+    opacity: 0.78;
 }
 
 .sound-navbar .nav-link:hover {
-    color: #8a1875;
+    color: #E8B86D;
+    opacity: 1;
 }
 
 .sound-navbar .nav-link.active {
-    color: #d9ad5b;
+    color: #E8B86D;
+    opacity: 1;
+    border-bottom: 2px solid #E8B86D;
 }
 
+
+/* HOME INTRO */
 
 .intro-section {
-    padding: 100px 20px;
-    background-color: #131d27;
-    border-bottom: 1px solid #303945;
+    padding: 105px 20px 75px;
+
+    background:
+        radial-gradient(
+            circle at 82% 25%,
+            rgba(232, 184, 109, 0.18),
+            transparent 30%
+        ),
+        #0F1720;
+
+    border-bottom: 1px solid rgba(244, 241, 234, 0.12);
 }
 
+
 .small-label {
-    color: #d9ad5b;
+    color: #E8B86D;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
+
 .main-title {
-    font-size: 70px;
+    max-width: 900px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 76px;
     font-weight: bold;
+    line-height: 1.05;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
+
+
+.title-rule {
+    width: 85px;
+    height: 3px;
+    background-color: #E8B86D;
+    margin-bottom: 28px;
+}
+
 
 .main-question {
     max-width: 800px;
     font-size: 28px;
+    font-weight: 500;
+    line-height: 1.4;
     margin-bottom: 15px;
 }
 
+
 .intro-text {
     max-width: 750px;
-    color: #b7bec7;
+    color: rgba(244, 241, 234, 0.75);
     font-size: 18px;
     line-height: 1.7;
     margin-bottom: 30px;
 }
 
+
 .main-button {
-    background-color: #d9ad5b;
-    border-color: #d9ad5b;
-    color: #111820;
+    background-color: #E8B86D;
+    border-color: #E8B86D;
+    color: #0F1720;
     font-weight: bold;
     padding: 12px 20px;
+    border-radius: 6px;
+    transition: 0.2s;
 }
 
+
+.main-button:hover {
+    background-color: #F4F1EA;
+    border-color: #F4F1EA;
+    color: #0F1720;
+    transform: translateY(-2px);
+}
+
+
+/* PLACE / TIME / LEGACY */
+
+.story-row {
+    margin-top: 65px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(244, 241, 234, 0.15);
+}
+
+
+.story-item {
+    padding-right: 30px;
+}
+
+
+.story-item h4 {
+    color: #F4F1EA;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.story-item p {
+    color: rgba(244, 241, 234, 0.70);
+    line-height: 1.5;
+}
+
+
+/* SHARED SECTIONS */
 
 .main-section {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
+
 .section-title {
-    font-size: 36px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+
 .section-text {
-    color: #b7bec7;
+    color: rgba(244, 241, 234, 0.72);
+    line-height: 1.6;
     margin-bottom: 35px;
 }
 
 
-.project-card {
-    height: 100%;
-    background-color: #18222d;
-    border: 1px solid #303945;
-    border-radius: 10px;
-    padding: 30px;
+/* LIGHT PROJECT SECTION */
+
+.project-section {
+    background-color: #F4F1EA;
+    color: #0F1720;
 }
 
+
+.project-section .section-title {
+    color: #0F1720;
+}
+
+
+.project-section .section-text {
+    color: rgba(15, 23, 32, 0.72);
+}
+
+
+.section-label-light {
+    color: #0F1720;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 0.75;
+}
+
+
+/* PROJECT CARDS */
+
+.project-card {
+    height: 100%;
+    background-color: #18222D;
+    color: #F4F1EA;
+    border: 1px solid rgba(244, 241, 234, 0.12);
+    border-top: 4px solid #E8B86D;
+    border-radius: 10px;
+    padding: 30px;
+
+    box-shadow: 0 12px 30px rgba(15, 23, 32, 0.14);
+
+    transition: 0.2s;
+}
+
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 38px rgba(15, 23, 32, 0.22);
+}
+
+
 .project-card h3 {
+    color: #F4F1EA;
+    font-family: Georgia, "Times New Roman", serif;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
+
 .project-card p {
-    color: #b7bec7;
+    color: rgba(244, 241, 234, 0.74);
     line-height: 1.6;
 }
 
+
 .project-card .small-label {
-    color: #d9ad5b;
+    color: #E8B86D;
 }
+
 
 .source-text {
     font-size: 13px;
 }
 
+
 .card-button {
     background-color: transparent;
-    border: 1px solid #d9ad5b;
-    color: #d9ad5b;
+    border: 1px solid #E8B86D;
+    color: #E8B86D;
     margin-top: 10px;
+    font-weight: bold;
 }
 
+
 .card-button:hover {
-    background-color: #d9ad5b;
-    color: #111820;
+    background-color: #E8B86D;
+    color: #0F1720;
+}
+
+
+/* FINDINGS */
+
+.findings-section {
+    background-color: #0F1720;
 }
 
 
 .finding-card {
     height: 100%;
-    background-color: #18222d;
-    border-left: 3px solid #d9ad5b;
+    background-color: #18222D;
+    border: 1px solid rgba(244, 241, 234, 0.10);
+    border-left: 4px solid #E8B86D;
     border-radius: 8px;
     padding: 25px;
 }
 
+
+.finding-card h4 {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.45;
+}
+
+
+/* MOBILE */
 
 @media (max-width: 768px) {
 
@@ -144,11 +292,15 @@ body {
     }
 
     .main-title {
-        font-size: 45px;
+        font-size: 48px;
     }
 
     .main-question {
         font-size: 22px;
+    }
+
+    .story-item {
+        padding-bottom: 20px;
     }
 
     .project-card {
@@ -194,14 +346,14 @@ body {
    "-content". Separate from the mark labels below the track, which are
    styled inline via the marks dict in music_map.py. */
 .dash-slider-tooltip {
-    background-color: #ffffff !important;
-    border: 1px solid #1D2A30;
+    background-color: #F4F1EA !important;
+    border: 1px solid #0F1720;
     box-shadow: none;
     border-radius: 4px;
 }
 
 .dash-slider-tooltip [id$="-content"] {
-    color: #1D2A30 !important;
+    color: #0F1720 !important;
     font-weight: 600 !important;
 }
 
