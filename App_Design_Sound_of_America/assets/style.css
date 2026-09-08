@@ -204,3 +204,30 @@ body {
     color: #1D2A30 !important;
     font-weight: 600 !important;
 }
+
+/* ==================================================
+   GLOBAL TABLES
+   ================================================== */
+
+.table,
+.table > :not(caption) > * > * {
+    color: #F4F1EA !important;
+    background-color: transparent !important;
+    border-color: rgba(244, 241, 234, 0.12) !important;
+}
+
+.table thead th {
+    background-color: #1D2A30 !important;
+    color: #E8B86D !important;
+    border-color: rgba(244, 241, 234, 0.18) !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba(244, 241, 234, 0.04) !important;
+    color: #F4F1EA !important;
+}
+
+.table-hover > tbody > tr:hover > * {
+    background-color: rgba(232, 184, 109, 0.10) !important;
+    color: #F4F1EA !important;
+}
