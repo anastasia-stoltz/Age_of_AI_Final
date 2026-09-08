@@ -92,11 +92,20 @@ def update_map(selected_year, genre):
     filtered = df[(df['year'] == selected_year) & (df['genre'] == genre)]
 
     fig = px.choropleth(
-        filtered, locations='state', locationmode='USA-states',
-        color='event_count', scope='usa',
-        color_continuous_scale='Reds', hover_name='state',
-        labels={'event_count': 'Shows'},
-        range_color=(0, max_count),  # fixed scale so years/genres stay comparable
+    filtered,
+    locations='state',
+    locationmode='USA-states',
+    color='event_count',
+    scope='usa',
+    color_continuous_scale=[
+        [0, "#E4EBF2"],
+        [0.35, "#81B6FA"],
+        [0.7, "#397B9B"],
+        [1, "#D9AD5B"]
+    ],
+    hover_name='state',
+    labels={'event_count': 'Shows'},
+    range_color=(0, max_count),
     )
     fig.update_layout(
         margin=dict(l=0, r=0, t=10, b=0),
