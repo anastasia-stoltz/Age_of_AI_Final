@@ -2,14 +2,23 @@
 Data collection script for Music Across America.
 
 Pipeline:
-Setlist.fm -> MusicBrainz -> Last.fm -> Wikidata -> Discogs -> Unknown
+Setlist.fm -> MusicBrainz -> Last.fm -> Wikidata -> Discogs
+           -> Tribute-act inference -> Unknown
 
 The script:
 1. Collects U.S. setlist data by state and year.
 2. Uses MusicBrainz as the primary genre source.
 3. Enriches unresolved artists with Last.fm, Wikidata, and Discogs.
-4. Caches completed lookups so API work does not need to be repeated.
-5. Aggregates the results by year, state, and genre for the dashboard map.
+4. For explicit tribute acts (e.g. "Badfish: A Tribute to Sublime") that
+   still come up unresolved, extracts the named original artist and
+   classifies the show by *their* genre instead.
+5. Caches completed lookups so API work does not need to be repeated.
+6. Aggregates the results by year, state, and genre for the dashboard map.
+
+This folds in what used to be a separate two-step rescue pass
+(find_unresolved_artists.py + rescue_unresolved_artists.py) directly into
+the main resolve_genre() hierarchy, so a fresh full run gets the same
+coverage in one pass instead of needing a manual follow-up.
 """
 
 import json
@@ -661,6 +670,190 @@ def get_genre_from_mbid(mbid):
 
 
 # --------------------------------------------------
+# TRIBUTE-ACT DETECTION
+# --------------------------------------------------
+
+# Matches artist names that explicitly identify themselves as a tribute
+# act, e.g. "Badfish: A Tribute to Sublime" or "Rain - Tribute to the
+# Beatles". These acts are almost never in MusicBrainz/Last.fm/Wikidata/
+# Discogs under their own name, but the *named* target artist usually is.
+TRIBUTE_PATTERNS = [
+    r"(.+?):\s*a tribute to (.+)",
+    r"(.+?):\s*tribute to (.+)",
+    r"(.+?)\s*-\s*a tribute to (.+)",
+    r"(.+?)\s*-\s*tribute to (.+)",
+]
+
+
+def detect_tribute_target(artist_name):
+    """
+    Detect explicit tribute-act names such as:
+
+    Badfish: A Tribute to Sublime
+    Rain: A Tribute to the Beatles
+
+    Returns the named tribute target, or None.
+    """
+
+    artist_name = artist_name.strip()
+
+    for pattern in TRIBUTE_PATTERNS:
+
+        match = re.match(
+            pattern,
+            artist_name,
+            flags=re.IGNORECASE
+        )
+
+        if match:
+            return match.group(2).strip()
+
+    return None
+
+
+def resolve_tribute_target(target_name):
+    """
+    Classify the explicitly named tribute target using Last.fm and
+    Discogs, since both support lookup by artist name (unlike Wikidata,
+    which needs an MBID we won't have for the target either).
+    """
+
+    if get_lastfm_genre is not None:
+
+        genre, reason = get_lastfm_genre(
+            artist_name=target_name,
+            mbid=None
+        )
+
+        if genre != "unknown":
+            return genre, "tribute_lastfm"
+
+    if get_discogs_genre is not None:
+
+        genre, reason = get_discogs_genre(
+            target_name
+        )
+
+        if genre != "unknown":
+            return genre, "tribute_discogs"
+
+    return "unknown", "unknown"
+
+
+# --------------------------------------------------
+# GENRE BUCKETING
+# --------------------------------------------------
+# Raw genres coming out of resolve_genre() are extremely fine-grained --
+# MusicBrainz/Last.fm/Discogs between them can return 300+ distinct
+# strings ("kawaii metal", "beatdown hardcore", "dark plugg", ...), which
+# is unusable as a dashboard dropdown. This buckets each raw genre into
+# one of a small set of broad categories.
+#
+# This is a best-effort heuristic (ordered keyword matching), not a
+# perfect taxonomy -- genres that are genuinely cross-cutting (e.g.
+# "country rock", "folk punk") get assigned to whichever bucket's
+# keywords are checked first. GENRE_OVERRIDES below exists to hand-fix
+# any specific raw genre that lands somewhere wrong; add to it as you
+# spot-check the results.
+
+# Exact-match overrides checked before the keyword rules -- use this for
+# any specific raw genre string you want pinned to a bucket regardless of
+# what the keyword rules would otherwise pick. Empty for now; add entries
+# as you spot-check bucketing results, e.g. {"some raw genre": "Rock"}.
+GENRE_OVERRIDES = {}
+
+# Checked in order -- first bucket whose keyword appears in the raw genre
+# (as a substring) wins. Order matters: more specific/exclusive genres
+# (metal, punk, hip-hop, electronic) are checked before the broad "Rock"
+# and "Pop" catch-alls, since e.g. "folk metal" should land in Metal, not
+# get caught by a generic "folk" rule first.
+GENRE_BUCKET_RULES = [
+    ("Metal", [
+        "metal", "grindcore", "deathcore", "mathcore", "djent", "thrash",
+    ]),
+    ("Punk/Hardcore", [
+        "punk", "hardcore", "screamo", "emo", "riot grrrl", "psychobilly",
+        "swancore", "emoviolence",
+    ]),
+    ("Hip-Hop/Rap", [
+        "hip hop", "hip-hop", "rap", "trap", "crunk", "boom bap",
+        "gangsta", "cloud rap", "horrorcore", "nerdcore", "g-funk",
+        "dark plugg",
+    ]),
+    ("Electronic/Dance", [
+        "electronic", "edm", "dubstep", "house", "techno", "trance",
+        "electro", "synth", "dance", "breakbeat", "breakcore", "breaks",
+        "drum n bass", "drum and bass", "downtempo", "ambient",
+        "industrial", "ebm", "wave", "goa", "chiptune", "glitch",
+        "ghettotech", "hyperpop", "rave", "hardstyle", "trip hop",
+        "electronica", "big beat", "eurodance", "acid ", "disco",
+        "new age", "lo-fi", "future bass", "drone",
+    ]),
+    ("Reggae/Ska", [
+        "reggae", "dub", "ska", "dancehall",
+    ]),
+    ("Jazz/Blues", [
+        "jazz", "blues", "big band", "swing", "dixieland", "lounge",
+        "bop",
+    ]),
+    ("R&B/Soul/Funk", [
+        "soul", "funk", "new jack swing", "r&b", "rnb",
+    ]),
+    ("Country/Folk/Americana", [
+        "country", "bluegrass", "americana", "folk", "cowboy",
+        "appalachian", "norteño", "red dirt", "singer-songwriter",
+        "acoustic",
+    ]),
+    ("Christian/Gospel", [
+        "christian", "gospel", "religious",
+    ]),
+    ("Classical", [
+        "classical", "opera", "choral", "chamber", "orchestral",
+    ]),
+    ("Comedy/Spoken Word", [
+        "comedy", "parody", "satire", "spoken word", "audiobook",
+        "cookbook", "cabaret", "drag",
+    ]),
+    ("World", [
+        "afrobeat", "cumbia", "salsa", "mariachi", "flamenco", "calypso",
+        "zamrock", "hawaiian", "latin", "celtic", "polka", "k-pop",
+        "filmi",
+    ]),
+    ("Pop", [
+        "pop",
+    ]),
+    ("Rock", [
+        "rock", "grunge", "psych", "indie", "jam band", "shoegaze",
+        "surf", "aor", "alternative",
+    ]),
+]
+
+
+def bucket_genre(raw_genre):
+    """
+    Map a fine-grained raw genre string to a broad dashboard-friendly
+    bucket. Returns "Unknown" for unresolved artists, or
+    "Other/Uncategorized" for anything that doesn't match a rule (often
+    non-genre junk that slipped through upstream sources, e.g. "iowa" or
+    "session").
+    """
+
+    genre = (raw_genre or "").lower().strip()
+
+    if not genre or genre == "unknown":
+        return "Unknown"
+
+    if genre in GENRE_OVERRIDES:
+        return GENRE_OVERRIDES[genre]
+
+    for bucket_name, keywords in GENRE_BUCKET_RULES:
+        if any(keyword in genre for keyword in keywords):
+            return bucket_name
+
+    return "Other/Uncategorized"
+
+
+# --------------------------------------------------
 # FINAL MULTI-SOURCE GENRE RESOLVER
 # --------------------------------------------------
 
@@ -817,7 +1010,38 @@ def resolve_genre(
 
 
     # --------------------------------------------------
-    # 5. UNKNOWN
+    # 5. EXPLICIT TRIBUTE ACT
+    # --------------------------------------------------
+    # Tried last, since it only applies to names matching a specific
+    # "X: A Tribute to Y" pattern -- and even then, classifies the show
+    # by the *original* artist's genre, not the tribute act's own.
+
+    tribute_target = detect_tribute_target(
+        artist_name
+    )
+
+    if tribute_target:
+
+        tribute_genre, tribute_source = resolve_tribute_target(
+            tribute_target
+        )
+
+        if tribute_genre != "unknown":
+
+            result = (
+                tribute_genre,
+                tribute_source
+            )
+
+            enriched_genre_cache[
+                cache_key
+            ] = result
+
+            return result
+
+
+    # --------------------------------------------------
+    # 6. UNKNOWN
     # --------------------------------------------------
 
     result = (
@@ -1060,7 +1284,54 @@ if __name__ == "__main__":
     )
 
 
+    # Keep the fine-grained genre for reference/debugging, but use the
+    # bucketed version for the dashboard-facing output -- 300+ distinct
+    # raw genres isn't a usable dropdown.
+    raw_df["genre_detailed"] = raw_df["genre"]
+    raw_df["genre"] = raw_df["genre_detailed"].apply(bucket_genre)
+
+
     _save_enriched_genre_cache()
+
+
+    # --------------------------------------------------
+    # BUCKETING SUMMARY
+    # --------------------------------------------------
+
+    print(
+        "\n-----------------------------"
+    )
+
+    print(
+        "GENRE BUCKET BREAKDOWN"
+    )
+
+    print(
+        "-----------------------------"
+    )
+
+    print(
+        raw_df["genre"]
+        .value_counts()
+    )
+
+    other_bucket = raw_df[
+        raw_df["genre"] == "Other/Uncategorized"
+    ]
+
+    if len(other_bucket) > 0:
+
+        print(
+            f"\n{len(other_bucket)} records landed in "
+            f"Other/Uncategorized. Raw genres involved "
+            f"(add to GENRE_OVERRIDES if any should move):"
+        )
+
+        print(
+            other_bucket["genre_detailed"]
+            .value_counts()
+            .head(20)
+        )
 
 
     # --------------------------------------------------
@@ -1091,12 +1362,12 @@ if __name__ == "__main__":
 
     known_count = (
         raw_df["genre"]
-        != "unknown"
+        != "Unknown"
     ).sum()
 
     unknown_count = (
         raw_df["genre"]
-        == "unknown"
+        == "Unknown"
     ).sum()
 
     total_count = len(
@@ -1169,7 +1440,7 @@ if __name__ == "__main__":
 
     unique_known = (
         unique_artist_df["genre"]
-        != "unknown"
+        != "Unknown"
     ).sum()
 
     unique_total = len(
@@ -1239,6 +1510,35 @@ if __name__ == "__main__":
     )
 
 
+    # Also keep a detailed reference file with the fine-grained genre
+    # preserved (not used by the dashboard, but useful if you want to
+    # audit a bucket or refine GENRE_BUCKET_RULES later).
+    detailed_grouped = (
+        raw_df
+        .groupby(
+            [
+                "year",
+                "state",
+                "genre",
+                "genre_detailed"
+            ]
+        )
+        .size()
+        .reset_index(
+            name="event_count"
+        )
+    )
+
+    DETAILED_OUTPUT_FILE = (
+        SCRIPT_DIR / "concert_map_data_setlistfm_detailed.csv"
+    )
+
+    detailed_grouped.to_csv(
+        DETAILED_OUTPUT_FILE,
+        index=False
+    )
+
+
     print(
         f"\nDone! Saved "
         f"{len(df_grouped)} rows to:"
@@ -1246,4 +1546,12 @@ if __name__ == "__main__":
 
     print(
         OUTPUT_FILE
+    )
+
+    print(
+        f"\nDetailed (unbucketed) genre breakdown saved to:"
+    )
+
+    print(
+        DETAILED_OUTPUT_FILE
     )
