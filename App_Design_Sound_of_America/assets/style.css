@@ -9,7 +9,7 @@ body {
 /* NAVIGATION */
 
 .sound-navbar {
-    background-color: #0F1720;
+    background-color: #0F1720 !important;
     border-bottom: 1px solid rgba(244, 241, 234, 0.15);
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.20);
 }
