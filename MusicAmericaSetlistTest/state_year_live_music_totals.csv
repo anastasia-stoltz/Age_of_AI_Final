@@ -1,0 +1,54 @@
+year,state,state_name,event_count,method,annual_api_total,daily_queries
+2022,AK,Alaska,41,annual,41,0
+2022,AL,Alabama,1507,annual,1507,0
+2022,AR,Arkansas,1055,annual,1055,0
+2022,AZ,Arizona,3145,annual,3145,0
+2022,CA,California,24896,daily_sum,10000,365
+2022,CO,Colorado,5296,annual,5296,0
+2022,CT,Connecticut,1985,annual,1985,0
+2022,DE,Delaware,345,annual,345,0
+2022,FL,Florida,9430,annual,9430,0
+2022,GA,Georgia,4599,annual,4599,0
+2022,HI,Hawaii,404,annual,404,0
+2022,IA,Iowa,1118,annual,1118,0
+2022,ID,Idaho,993,annual,993,0
+2022,IL,Illinois,9159,annual,9159,0
+2022,IN,Indiana,2702,annual,2702,0
+2022,KS,Kansas,800,annual,800,0
+2022,KY,Kentucky,1877,annual,1877,0
+2022,LA,Louisiana,3117,annual,3117,0
+2022,MA,Massachusetts,5481,annual,5481,0
+2022,MD,Maryland,2514,annual,2514,0
+2022,ME,Maine,648,annual,648,0
+2022,MI,Michigan,4382,annual,4382,0
+2022,MN,Minnesota,3224,annual,3224,0
+2022,MO,Missouri,3192,annual,3192,0
+2022,MS,Mississippi,376,annual,376,0
+2022,MT,Montana,486,annual,486,0
+2022,NC,North Carolina,5198,annual,5198,0
+2022,ND,North Dakota,311,annual,311,0
+2022,NE,Nebraska,867,annual,867,0
+2022,NH,New Hampshire,901,annual,901,0
+2022,NJ,New Jersey,2995,annual,2995,0
+2022,NM,New Mexico,1317,annual,1317,0
+2022,NV,Nevada,5088,annual,5088,0
+2022,NY,New York,14994,daily_sum,10000,365
+2022,OH,Ohio,5895,annual,5895,0
+2022,OK,Oklahoma,1490,annual,1490,0
+2022,OR,Oregon,3991,annual,3991,0
+2022,PA,Pennsylvania,8543,annual,8543,0
+2022,RI,Rhode Island,672,annual,672,0
+2022,SC,South Carolina,1441,annual,1441,0
+2022,SD,South Dakota,311,annual,311,0
+2022,TN,Tennessee,4856,annual,4856,0
+2022,UT,Utah,1880,annual,1880,0
+2022,VA,Virginia,3010,annual,3010,0
+2022,VT,Vermont,473,annual,473,0
+2022,WA,Washington,4697,annual,4697,0
+2022,WI,Wisconsin,3194,annual,3194,0
+2022,WV,West Virginia,348,annual,348,0
+2022,WY,Wyoming,177,annual,177,0
+2023,AK,Alaska,91,annual,91,0
+2023,AL,Alabama,2018,annual,2018,0
+2023,AR,Arkansas,1203,annual,1203,0
+2023,AZ,Arizona,3594,annual,3594,0

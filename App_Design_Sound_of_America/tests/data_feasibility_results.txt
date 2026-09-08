@@ -104,6 +104,215 @@ The goal is to determine whether a fallback data source can improve
 genre coverage enough to make genre a reliable interactive filter
 for the Music Across America dashboard.
 
+============================================================
+WIKIDATA — EXACT MBID GENRE RESCUE TEST
+============================================================
+
+Purpose:
+Determine whether Wikidata can recover genre information for the
+42 artists that had successful MusicBrainz responses but returned
+neither genre nor tags.
+
+Method:
+Each artist was matched to Wikidata using the artist's exact
+MusicBrainz ID (MBID), avoiding name-based matching ambiguity.
+
+Results:
+- 42 artists tested
+- 3 artists had genre information recovered
+- 38 artists still had no genre information
+- 1 Wikidata request returned an HTTP 502 error
+- Rescue rate: 7.1%
+
+Successful rescues:
+- Chad Gray: alternative metal, groove metal, nu metal
+- Alice Bag: rock music
+- Mike D: hardcore punk, hip-hop, alternative hip-hop, rap rock
+
+Combined genre coverage:
+- MusicBrainz supplied genre data for 153 of 195 successful responses.
+- Wikidata recovered genre data for 3 additional artists.
+- Combined known genre coverage: 156 of 195 artists, or 80.0%.
+- 38 of 195 artists remain without genre metadata, excluding the
+  single Wikidata request that failed.
+
+Conclusion:
+Wikidata provides some additional genre information, but the
+improvement is small. Exact-MBID enrichment increased usable genre
+coverage from 78.5% to 80.0% in this sample.
+
+The 7.1% rescue rate among MusicBrainz metadata gaps does not appear
+large enough to justify relying on Wikidata as a comprehensive genre
+fallback.
+
+Genre can still be used analytically, but missing genre values should
+be handled explicitly rather than assuming complete classification.
+
+============================================================
+LAST.FM — CLEAN GENRE RESCUE TEST
+============================================================
+
+Purpose:
+Determine whether Last.fm can recover usable genre information for
+the 42 artists that had successful MusicBrainz responses but returned
+neither genre nor tags.
+
+Method:
+Last.fm artist tags were requested using the artist's MusicBrainz ID
+(MBID) when available, with artist-name lookup as a fallback.
+
+Because Last.fm tags are user-generated and may contain non-genre
+information, returned tags were filtered through an approved genre
+vocabulary. This removed artist names, locations, descriptive labels,
+and other non-genre tags before evaluating coverage.
+
+Results:
+- 42 artists tested
+- 31 artists had usable genre information recovered
+- 11 artists remained without a valid genre
+- 0 API errors
+- Clean rescue rate: 73.8%
+
+Examples of successful clean rescues:
+- DJ Moon: psytrance, electro, goa, breaks
+- Band of Silver: indie, electropop, indie pop, electronic
+- Armlock: lo-fi, indie rock, bedroom pop, indie
+- Midnight Generation: disco, dance, funk, electronic, electronica
+- Devil's Cut: alternative metal, metal
+- Squint: hardcore, hardcore punk, pop punk
+- Jasmine Cain: hard rock, rock
+- Winona Fighter: pop punk, punk
+- Drew & Ellie Holcomb: folk
+
+Still missing after Last.fm:
+- Chad Gray
+- Mismiths
+- Boy Seeking Band
+- doug.
+- Tom Siletto
+- Hope Darling
+- The Rush Tribute Project
+- Yacht Rock Revue
+- Zach John King
+- The Marble Creek Loops
+- The Jess Novak Band
+
+Conclusion:
+Last.fm substantially improved genre coverage for artists missing
+genre metadata in MusicBrainz. After filtering user-generated tags
+through an approved genre vocabulary, Last.fm recovered usable genre
+information for 31 of the 42 missing artists, a 73.8% clean rescue
+rate.
+
+MusicBrainz classified 153 of the 195 artists with successful
+responses. Adding the 31 clean Last.fm rescues increases usable genre
+coverage to 184 of 195 artists, or 94.4%.
+
+Wikidata additionally recovered Chad Gray, who remained unresolved
+by Last.fm. Using the three sources together therefore provides
+genre information for 185 of 195 artists, or 94.9% of the successful
+MusicBrainz sample.
+
+The recommended enrichment hierarchy is:
+
+1. MusicBrainz formal genre data
+2. Last.fm cleaned genre tags
+3. Wikidata exact-MBID genre fallback
+4. Unknown when no source provides usable genre metadata
+
+============================================================
+THEAUDIODB — REMAINING GENRE RESCUE TEST
+============================================================
+
+Purpose:
+Determine whether TheAudioDB could recover structured genre or style
+metadata for the 10 artists that remained unresolved after
+MusicBrainz, cleaned Last.fm enrichment, and Wikidata.
+
+Method:
+The 10 remaining artists were queried using their exact MusicBrainz
+artist IDs (MBIDs).
+
+Results:
+- 10 artists tested
+- 0 artists rescued
+- 10 artists remained unresolved
+- 0 API errors
+- Rescue rate: 0.0%
+
+Conclusion:
+TheAudioDB did not provide additional genre or style coverage for
+any of the remaining unresolved artists in this sample.
+
+Because the test completed without API errors but produced no
+additional genre information, TheAudioDB does not appear to provide
+meaningful incremental value for this project's genre enrichment
+pipeline.
+
+TheAudioDB will therefore not be included in the recommended
+production genre pipeline.
+
+============================================================
+DISCOGS — VERIFIED GENRE RESCUE TEST
+============================================================
+
+Purpose:
+Determine whether Discogs could recover genre information for the
+10 artists that remained unresolved after MusicBrainz, cleaned
+Last.fm enrichment, and Wikidata.
+
+Method:
+Because Discogs search results can include unrelated artists with
+similar names, artist identity was verified before genre information
+was accepted.
+
+The test first searched Discogs specifically for artist records.
+A result was accepted only when the normalized Discogs artist name
+matched the target artist name. Genre and style information was then
+collected only from releases associated with that verified Discogs
+artist ID.
+
+Results:
+- 10 artists tested
+- 7 verified genre rescues
+- 3 artists had no verified Discogs artist match
+- 0 verified artists lacked genre data
+- 0 API errors
+- Verified rescue rate: 70.0%
+
+Successful verified rescues:
+- Mismiths: Rock; Punk, Post-Punk, Alternative Rock, Horror Rock
+- Tom Siletto: Hip Hop; Boom Bap
+- Hope Darling: Rock, Pop; Industrial, Goth Rock
+- The Rush Tribute Project: Rock; Prog Rock
+- Yacht Rock Revue: Rock, Funk / Soul, Pop; Pop Rock, AOR,
+  Power Pop, Soft Rock
+- Zach John King: Folk, World, & Country; Country
+- The Jess Novak Band: Rock
+
+Still unresolved:
+- Boy Seeking Band
+- doug.
+- The Marble Creek Loops
+
+Conclusion:
+Discogs provided substantial additional coverage for artists that
+remained unresolved after the first three metadata sources.
+
+An initial name-based Discogs test produced apparent matches for
+9 of 10 artists, but inspection showed that several results combined
+genre information from unrelated releases. Those results were not
+accepted.
+
+After adding artist-identity verification, Discogs produced 7
+verified genre rescues. This demonstrates the importance of entity
+matching when combining data from multiple music databases.
+
+The verified Discogs results increase total usable genre coverage
+from 185 of 195 artists to 192 of 195 artists, or 98.5%.
+
+Only 3 of the 195 artists with successful MusicBrainz responses
+remain without usable genre metadata after enrichment.
 
 ============================================================
 CURRENT FEASIBILITY STATUS
@@ -112,13 +321,57 @@ CURRENT FEASIBILITY STATUS
 Geographic state coverage:
 CONFIRMED — 50 of 50 U.S. states returned Setlist.fm data.
 
-Genre/category coverage:
-PARTIALLY CONFIRMED — 78.5% formal genre coverage among successful
-MusicBrainz responses.
+Primary genre coverage:
+CONFIRMED WITH LIMITATIONS — MusicBrainz provided formal genre data
+for 153 of 195 successful responses, or 78.5%.
+
+Last.fm genre enrichment:
+STRONG — cleaned Last.fm tags recovered usable genre information for
+31 of the 42 MusicBrainz metadata gaps, a 73.8% clean rescue rate.
+
+Wikidata genre enrichment:
+LIMITED BUT COMPLEMENTARY — Wikidata rescued 3 of 42 MusicBrainz
+metadata gaps. Two overlapped with Last.fm, while Chad Gray provided
+one additional unique rescue.
+
+TheAudioDB genre enrichment:
+NO INCREMENTAL VALUE — TheAudioDB was tested against the 10 artists
+remaining after MusicBrainz, Last.fm, and Wikidata and rescued 0 of
+10 artists.
+
+Discogs genre enrichment:
+STRONG FOR REMAINING GAPS — identity-verified Discogs artist records
+and associated releases rescued 7 of the final 10 unresolved artists,
+a verified rescue rate of 70.0%.
+
+Combined genre coverage:
+VERY STRONG — MusicBrainz, cleaned Last.fm tags, Wikidata, and
+identity-verified Discogs data together provided usable genre
+information for 192 of 195 artists, or 98.5% of the successful
+MusicBrainz sample.
+
+Only three artists remain unresolved:
+- Boy Seeking Band
+- doug.
+- The Marble Creek Loops
 
 API reliability:
 MANAGEABLE — retry logic reduced final MusicBrainz failures to 2.5%.
+The clean Last.fm test completed with zero API errors. Wikidata
+encountered one HTTP 502 error. TheAudioDB and verified Discogs tests
+completed with zero API errors.
 
-Next feasibility task:
-Test fallback genre enrichment for the 42 genuine MusicBrainz
-metadata gaps.
+Overall feasibility:
+STRONGLY SUPPORTED — the available data supports the Music Across
+America analysis, including genre as an analytical dimension.
+
+The enrichment process increased usable genre coverage from 78.5%
+using MusicBrainz alone to 98.5% using a documented multi-source
+pipeline.
+
+Recommended genre pipeline:
+MusicBrainz -> Last.fm cleaned tags -> Wikidata exact-MBID fallback
+-> Discogs identity-verified fallback -> Unknown
+
+Unresolved artists should remain labeled as Unknown rather than
+being silently excluded or assigned an unverified genre.

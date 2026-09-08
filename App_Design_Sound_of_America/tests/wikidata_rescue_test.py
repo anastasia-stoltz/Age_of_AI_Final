@@ -5,7 +5,7 @@ from pathlib import Path
 
 TESTS_DIR = Path(__file__).resolve().parent
 
-MISSING_FILE = TESTS_DIR / "missing_genre_artists.csv"
+MISSING_FILE = TESTS_DIR.parent.parent / "missing_genre_artists.csv"
 
 WIKIDATA_SPARQL_URL = "https://query.wikidata.org/sparql"
 
