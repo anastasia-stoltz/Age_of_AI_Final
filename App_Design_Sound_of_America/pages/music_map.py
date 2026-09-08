@@ -12,7 +12,7 @@ import os
 
 #changed to allow for directory differences
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-df = pd.read_csv(os.path.join(BASE_DIR, "..", "assets", "concert_map_data.csv"))
+df = pd.read_csv(os.path.join(BASE_DIR, "..", "assets", "concert_map_data_setlistfm.csv"))
 
 years = sorted(df["year"].unique())
 genres = sorted(df["genre"].unique())
