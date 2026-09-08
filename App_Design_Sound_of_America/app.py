@@ -19,7 +19,7 @@ navbar = dbc.NavbarSimple(
             href="/music-map",
             active="exact"
         ),
-        dbc.NavLink("Anatomy of a Hit",
+        dbc.NavLink("Lifespan of a Hit",
             href="/anatomy-of-a-hit",
             active="exact"
         ),

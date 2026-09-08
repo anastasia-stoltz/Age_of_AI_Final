@@ -17,7 +17,7 @@ layout = html.Div([
                     className="main-title"),
             html.H3("How does American music change across place, time, and artists?",
                     className="main-question"),
-            html.P("Explore live music across the United States, the characteristics of successful songs and the artists whose careers continue to endure.",
+            html.P("Explore live music across the United States, how long hit songs stay on the charts, and the artists whose careers continue to endure.",
                    className="intro-text"),
             dbc.Button("Explore the Music Map",
                        href="/music-map",
@@ -49,12 +49,12 @@ layout = html.Div([
                 html.Div([
                     html.P("TIME",
                            className="small-label"),
-                    html.H3("Anatomy of a Hit"),
-                    html.P("Explore how the songs that reach the charts have changed across musical eras "
-                        "and what characteristics are associated with chart success."),
-                    html.P("Data: Billboard",
+                    html.H3("Lifespan of a Hit"),
+                    html.P("Explore how long Billboard hits survive on the charts "
+                        "and how that has changed across eras."),
+                    html.P("Data: Billboard Hot 100",
                            className="source-text"),
-                    dbc.Button("Explore Hit Songs",
+                    dbc.Button("Explore Hit Lifespans",
                                href="/anatomy-of-a-hit",
                                className="card-button")
                 ], className="project-card")
@@ -92,7 +92,7 @@ layout = html.Div([
                 html.Div([
                     html.P("TIME",
                            className="small-label"),
-                    html.H4("Anatomy of a Hit finding coming soon")
+                    html.H4("Lifespan of a Hit finding coming soon")
                 ], className="finding-card")
             ], md=4),
             dbc.Col([

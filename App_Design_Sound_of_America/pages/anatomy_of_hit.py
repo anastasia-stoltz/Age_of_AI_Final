@@ -13,7 +13,7 @@ from functools import lru_cache
 dash.register_page(
     __name__,
     path="/anatomy-of-a-hit",
-    name="Anatomy of a Hit"
+    name="Lifestyle of a Hit"
 )
 
 
@@ -52,7 +52,7 @@ YEAR_DATES = {
     2025: ["2025-04-05", "2025-07-05", "2025-10-04"]
 }
 
-print("ANATOMY YEARS LOADED:", list(YEAR_DATES.keys()))
+print("LIFESPAN YEARS LOADED:", list(YEAR_DATES.keys()))
 
 @lru_cache(maxsize=None)
 def summarize_year(year):
@@ -111,7 +111,7 @@ year_options = [
 layout = dbc.Container([
 
     html.H1(
-        "Anatomy of a Hit",
+        "Lifespan of a Hit",
         className="mt-4"
     ),
 
