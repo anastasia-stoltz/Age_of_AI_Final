@@ -1,1299 +1,3540 @@
-year,state,genre,event_count
-2026,AK,alternative country,1
-2026,AK,alternative rock,2
-2026,AK,americana,2
-2026,AK,bluegrass,3
-2026,AK,contemporary christian,1
-2026,AK,contemporary folk,1
-2026,AK,country,4
-2026,AK,country blues,6
-2026,AK,deathcore,1
-2026,AK,dream pop,1
-2026,AK,emo,1
-2026,AK,glam metal,1
-2026,AK,hip hop,1
-2026,AK,indie pop,2
-2026,AK,indie rock,1
-2026,AK,melodic metalcore,1
-2026,AK,pop,2
-2026,AK,post-hardcore,1
-2026,AK,progressive house,1
-2026,AK,reggae,2
-2026,AK,rock,1
-2026,AK,thrash metal,1
-2026,AK,unknown,23
-2026,AL,alternative,1
-2026,AL,alternative metal,2
-2026,AL,alternative r&b,1
-2026,AL,alternative rock,5
-2026,AL,americana,1
-2026,AL,boogie rock,1
-2026,AL,contemporary country,1
-2026,AL,country,5
-2026,AL,country pop,1
-2026,AL,country rock,1
-2026,AL,deathstep,1
-2026,AL,emo,1
-2026,AL,folk,1
-2026,AL,folk pop,1
-2026,AL,folk punk,1
-2026,AL,hard rock,3
-2026,AL,hardcore punk,2
-2026,AL,hip hop,1
-2026,AL,indie,2
-2026,AL,indie folk,1
-2026,AL,indie pop,1
-2026,AL,indie rock,1
-2026,AL,metalcore,2
-2026,AL,nu metal,2
-2026,AL,pop,1
-2026,AL,pop rock,1
-2026,AL,post-hardcore,1
-2026,AL,punk,1
-2026,AL,ska,1
-2026,AL,ska punk,1
-2026,AL,unknown,15
-2026,AR,alternative,1
-2026,AR,alternative rock,5
-2026,AR,americana,2
-2026,AR,art pop,1
-2026,AR,brutal death metal,1
-2026,AR,contemporary r&b,1
-2026,AR,country,3
-2026,AR,country rock,1
-2026,AR,crunk,1
-2026,AR,dance-pop,1
-2026,AR,death metal,1
-2026,AR,deathcore,1
-2026,AR,dirty south,1
-2026,AR,emo,1
-2026,AR,folk,1
-2026,AR,funk,1
-2026,AR,grindcore,1
-2026,AR,hard rock,1
-2026,AR,hip hop,5
-2026,AR,horror punk,1
-2026,AR,indie folk,1
-2026,AR,indie rock,1
-2026,AR,metalcore,2
-2026,AR,noise rock,2
-2026,AR,pop,3
-2026,AR,pop rock,1
-2026,AR,rock,2
-2026,AR,southern rock,1
-2026,AR,unknown,16
-2026,AZ,alternative country,1
-2026,AZ,alternative metal,1
-2026,AZ,alternative rock,1
-2026,AZ,ambient,1
-2026,AZ,americana,2
-2026,AZ,art punk,1
-2026,AZ,bluegrass,1
-2026,AZ,club,1
-2026,AZ,country,4
-2026,AZ,country rock,1
-2026,AZ,death metal,1
-2026,AZ,doom metal,1
-2026,AZ,ebm,1
-2026,AZ,electro,1
-2026,AZ,experimental rock,1
-2026,AZ,hardcore punk,2
-2026,AZ,heavy metal,2
-2026,AZ,horror punk,1
-2026,AZ,indie pop,1
-2026,AZ,new wave,3
-2026,AZ,nu metal,1
-2026,AZ,pop punk,1
-2026,AZ,power metal,2
-2026,AZ,power pop,1
-2026,AZ,progressive rock,2
-2026,AZ,reggaeton,1
-2026,AZ,rock,3
-2026,AZ,symphonic metal,1
-2026,AZ,thrash metal,2
-2026,AZ,unknown,18
-2026,CA,alternative pop,1
-2026,CA,alternative r&b,1
-2026,CA,alternative rock,5
-2026,CA,baroque pop,1
-2026,CA,bedroom pop,1
-2026,CA,bluegrass,1
-2026,CA,blues,2
-2026,CA,classic rock,1
-2026,CA,doom metal,2
-2026,CA,electro,1
-2026,CA,folk,1
-2026,CA,funk,1
-2026,CA,garage rock,1
-2026,CA,hard rock,1
-2026,CA,hardcore punk,3
-2026,CA,hip hop,1
-2026,CA,indie pop,2
-2026,CA,indie rock,3
-2026,CA,industrial metal,1
-2026,CA,pop,5
-2026,CA,post-hardcore,2
-2026,CA,post-punk,1
-2026,CA,progressive rock,1
-2026,CA,punk,1
-2026,CA,riot grrrl,2
-2026,CA,rock,1
-2026,CA,ska,1
-2026,CA,swancore,2
-2026,CA,unknown,14
-2026,CO,alternative metal,1
-2026,CO,alternative rock,2
-2026,CO,awesome name,1
-2026,CO,blues,2
-2026,CO,blues rock,1
-2026,CO,bro-country,1
-2026,CO,coldwave,1
-2026,CO,country,7
-2026,CO,deathcore,2
-2026,CO,electro,1
-2026,CO,funk,1
-2026,CO,grunge,1
-2026,CO,hard rock,1
-2026,CO,hardcore punk,2
-2026,CO,heavy metal,1
-2026,CO,heavy psych,2
-2026,CO,indie folk,2
-2026,CO,jam band,3
-2026,CO,latin,1
-2026,CO,new wave,2
-2026,CO,noise rock,2
-2026,CO,outlaw country,1
-2026,CO,post-punk,2
-2026,CO,rock,1
-2026,CO,trance,1
-2026,CO,unknown,18
-2026,CT,alternative hip hop,1
-2026,CT,alternative metal,3
-2026,CT,alternative rock,4
-2026,CT,americana,1
-2026,CT,blues,1
-2026,CT,blues rock,3
-2026,CT,boogie rock,1
-2026,CT,cloud rap,1
-2026,CT,comedy,1
-2026,CT,contemporary folk,1
-2026,CT,country,2
-2026,CT,dixieland,1
-2026,CT,electronic rock,1
-2026,CT,funk,1
-2026,CT,glam metal,1
-2026,CT,hard rock,2
-2026,CT,indie,1
-2026,CT,indie pop,1
-2026,CT,jazz,1
-2026,CT,pop,3
-2026,CT,post-hardcore,1
-2026,CT,psychobilly,2
-2026,CT,punk rock,1
-2026,CT,rock,4
-2026,CT,southern rock,1
-2026,CT,surf rock,2
-2026,CT,unknown,18
-2026,DE,alternative rock,12
-2026,DE,bluegrass,1
-2026,DE,blues,3
-2026,DE,blues rock,1
-2026,DE,bro-country,1
-2026,DE,country,6
-2026,DE,emo,2
-2026,DE,folk rock,2
-2026,DE,jam band,1
-2026,DE,pop,1
-2026,DE,pop punk,1
-2026,DE,post-hardcore,1
-2026,DE,rock,4
-2026,DE,southern rock,1
-2026,DE,unknown,23
-2026,FL,alternative rock,4
-2026,FL,brothersafterall,1
-2026,FL,brutal death metal,1
-2026,FL,country soul,1
-2026,FL,ebm,1
-2026,FL,emo,2
-2026,FL,flamenco,1
-2026,FL,hard rock,1
-2026,FL,hip hop,3
-2026,FL,jam band,1
-2026,FL,latin,1
-2026,FL,metal,2
-2026,FL,outlaw country,1
-2026,FL,pop punk,6
-2026,FL,pop rock,2
-2026,FL,post-hardcore,1
-2026,FL,progressive house,1
-2026,FL,r&b,1
-2026,FL,ska punk,1
-2026,FL,speed metal,1
-2026,FL,stoner metal,2
-2026,FL,unknown,25
-2026,GA,alternative hip hop,1
-2026,GA,alternative metal,2
-2026,GA,alternative rock,8
-2026,GA,big room house,1
-2026,GA,breakcore,2
-2026,GA,dark wave,1
-2026,GA,deathcore,1
-2026,GA,doom metal,1
-2026,GA,dream pop,1
-2026,GA,emo,2
-2026,GA,experimental rock,1
-2026,GA,folk metal,1
-2026,GA,free jazz,1
-2026,GA,hard rock,2
-2026,GA,heavy psych,1
-2026,GA,hip hop,1
-2026,GA,hyperpop,1
-2026,GA,indie pop,1
-2026,GA,indie rock,2
-2026,GA,k-pop,1
-2026,GA,math rock,1
-2026,GA,metal,1
-2026,GA,noise rock,1
-2026,GA,nu metal,1
-2026,GA,power metal,1
-2026,GA,progressive metal,2
-2026,GA,rock,3
-2026,GA,ska,1
-2026,GA,ska punk,1
-2026,GA,stoner metal,1
-2026,GA,synth-pop,1
-2026,GA,unknown,14
-2026,HI,alternative rock,1
-2026,HI,bass house,1
-2026,HI,blues,1
-2026,HI,bubblegum pop,1
-2026,HI,chillwave,1
-2026,HI,comedy,1
-2026,HI,contemporary r&b,3
-2026,HI,country,1
-2026,HI,dance-pop,2
-2026,HI,dubstep,2
-2026,HI,edm,1
-2026,HI,electronic,2
-2026,HI,experimental,2
-2026,HI,folk,2
-2026,HI,folk metal,1
-2026,HI,funk,1
-2026,HI,future bass,1
-2026,HI,hip hop,1
-2026,HI,indie pop,1
-2026,HI,indie rock,2
-2026,HI,new wave,1
-2026,HI,pigfuck,1
-2026,HI,pop,1
-2026,HI,pop punk,1
-2026,HI,rock,4
-2026,HI,soft rock,5
-2026,HI,unknown,19
-2026,IA,alternative rock,5
-2026,IA,americana,1
-2026,IA,beat music,1
-2026,IA,beatdown hardcore,2
-2026,IA,blue-eyed soul,1
-2026,IA,brutal death metal,1
-2026,IA,christian rock,1
-2026,IA,contemporary christian,2
-2026,IA,contemporary country,1
-2026,IA,country,3
-2026,IA,cybergrind,1
-2026,IA,death metal,3
-2026,IA,deathcore,1
-2026,IA,folk,1
-2026,IA,garage rock,1
-2026,IA,glam metal,1
-2026,IA,hard rock,4
-2026,IA,hardcore punk,1
-2026,IA,indie folk,1
-2026,IA,indie rock,1
-2026,IA,look i like,1
-2026,IA,metal,1
-2026,IA,metalcore,1
-2026,IA,pop,3
-2026,IA,post-punk,1
-2026,IA,psychedelic rock,1
-2026,IA,rock,1
-2026,IA,southern rock,1
-2026,IA,unknown,17
-2026,ID,alternative metal,1
-2026,ID,alternative rock,4
-2026,ID,americana,2
-2026,ID,art punk,1
-2026,ID,beatdown hardcore,2
-2026,ID,brutal death metal,2
-2026,ID,christian rock,1
-2026,ID,coldwave,1
-2026,ID,contemporary country,1
-2026,ID,contemporary r&b,1
-2026,ID,country,1
-2026,ID,country rock,1
-2026,ID,dark ambient,1
-2026,ID,death metal,3
-2026,ID,deathcore,1
-2026,ID,doom metal,1
-2026,ID,emo,1
-2026,ID,groove metal,1
-2026,ID,hardcore punk,4
-2026,ID,heartland rock,1
-2026,ID,heavy metal,1
-2026,ID,heavy psych,1
-2026,ID,hip hop,2
-2026,ID,horror punk,1
-2026,ID,indie folk,2
-2026,ID,indie pop,1
-2026,ID,indie rock,2
-2026,ID,industrial metal,1
-2026,ID,lo-fi,1
-2026,ID,melodic death metal,1
-2026,ID,noise rock,1
-2026,ID,nu metal,1
-2026,ID,pop rap,1
-2026,ID,power pop,1
-2026,ID,stoner metal,1
-2026,ID,unknown,10
-2026,ID,zamrock,1
-2026,IL,acoustic rock,1
-2026,IL,alternative metal,1
-2026,IL,alternative rock,1
-2026,IL,ambient,1
-2026,IL,avant-garde jazz,1
-2026,IL,awesome name,1
-2026,IL,big room house,1
-2026,IL,blues,1
-2026,IL,brutal death metal,1
-2026,IL,composer,1
-2026,IL,contemporary r&b,1
-2026,IL,country,1
-2026,IL,dance,1
-2026,IL,dance-pop,1
-2026,IL,death metal,1
-2026,IL,drone,1
-2026,IL,dubstep,3
-2026,IL,electronic,1
-2026,IL,folk,2
-2026,IL,glam metal,1
-2026,IL,gothic rock,1
-2026,IL,hip hop,1
-2026,IL,house,1
-2026,IL,jungle,1
-2026,IL,melodic techno,1
-2026,IL,metal,1
-2026,IL,modern classical,1
-2026,IL,modern jazz,1
-2026,IL,new jack swing,1
-2026,IL,new wave,2
-2026,IL,pop,1
-2026,IL,psychedelic rock,1
-2026,IL,rock and roll,1
-2026,IL,tribal guarachero,1
-2026,IL,uk garage,1
-2026,IL,unknown,21
-2026,IN,acoustic rock,1
-2026,IN,alternative hip hop,1
-2026,IN,alternative rock,3
-2026,IN,contemporary christian,1
-2026,IN,country,3
-2026,IN,dance-pop,1
-2026,IN,death metal,1
-2026,IN,death-doom metal,1
-2026,IN,doom metal,1
-2026,IN,emo,1
-2026,IN,folk,1
-2026,IN,folk metal,1
-2026,IN,folk pop,1
-2026,IN,funk,1
-2026,IN,funktronica,1
-2026,IN,hard rock,3
-2026,IN,indie folk,1
-2026,IN,industrial metal,1
-2026,IN,industrial rock,2
-2026,IN,jam band,1
-2026,IN,k-pop,1
-2026,IN,kawaii metal,1
-2026,IN,latin,1
-2026,IN,math rock,1
-2026,IN,metal,1
-2026,IN,pop,4
-2026,IN,post-hardcore,1
-2026,IN,psychedelic rock,2
-2026,IN,punk,1
-2026,IN,r&b,1
-2026,IN,rock,1
-2026,IN,southern rock,1
-2026,IN,unknown,17
-2026,KS,alternative rock,2
-2026,KS,americana,1
-2026,KS,bluegrass,1
-2026,KS,comedy,1
-2026,KS,country,8
-2026,KS,country pop,1
-2026,KS,deathcore,1
-2026,KS,electro-industrial,1
-2026,KS,folk,3
-2026,KS,glam metal,1
-2026,KS,grindcore,1
-2026,KS,hard rock,1
-2026,KS,hardcore punk,1
-2026,KS,indie rock,3
-2026,KS,industrial metal,2
-2026,KS,metalcore,1
-2026,KS,nu metal,1
-2026,KS,pop punk,1
-2026,KS,rock,1
-2026,KS,southern rock,1
-2026,KS,special purpose artist,1
-2026,KS,unknown,26
-2026,KY,aln-sh,1
-2026,KY,alternative rock,3
-2026,KY,americana,2
-2026,KY,art pop,1
-2026,KY,bluegrass,2
-2026,KY,blues rock,1
-2026,KY,contemporary country,2
-2026,KY,contemporary folk,1
-2026,KY,country,7
-2026,KY,country rock,1
-2026,KY,death metal,1
-2026,KY,death-doom metal,1
-2026,KY,doom metal,2
-2026,KY,experimental,1
-2026,KY,folk,1
-2026,KY,folk punk,1
-2026,KY,funk,1
-2026,KY,hard rock,1
-2026,KY,heavy metal,1
-2026,KY,hip hop,2
-2026,KY,indie folk,1
-2026,KY,k-pop,1
-2026,KY,metal,1
-2026,KY,noise rock,1
-2026,KY,officialrecurrence,1
-2026,KY,progressive rock,1
-2026,KY,psychedelic rock,2
-2026,KY,rock,1
-2026,KY,thrash metal,1
-2026,KY,unknown,17
-2026,LA,aln-sh,1
-2026,LA,alternative metal,3
-2026,LA,alternative rock,1
-2026,LA,blues,2
-2026,LA,country,4
-2026,LA,death metal,1
-2026,LA,experimental rock,1
-2026,LA,folk punk,1
-2026,LA,folk rock,1
-2026,LA,hard rock,4
-2026,LA,hardcore punk,1
-2026,LA,hip hop,2
-2026,LA,indie folk,1
-2026,LA,indie rock,3
-2026,LA,jazz,2
-2026,LA,jazz fusion,1
-2026,LA,new wave,1
-2026,LA,nu metal,1
-2026,LA,punk,1
-2026,LA,ska,1
-2026,LA,ska punk,2
-2026,LA,synthwave,2
-2026,LA,unknown,23
-2026,MA,alternative country,1
-2026,MA,alternative rock,2
-2026,MA,americana,2
-2026,MA,ballad,1
-2026,MA,bluegrass,1
-2026,MA,blues rock,2
-2026,MA,breakcore,1
-2026,MA,cowboy poetry,1
-2026,MA,death metal,1
-2026,MA,folk,1
-2026,MA,glam metal,1
-2026,MA,hardcore punk,2
-2026,MA,heavy metal,2
-2026,MA,hip hop,3
-2026,MA,jam band,1
-2026,MA,metalcore,2
-2026,MA,pop,5
-2026,MA,praise & worship,1
-2026,MA,psychedelic rock,1
-2026,MA,psychobilly,1
-2026,MA,punk rock,2
-2026,MA,r&b,2
-2026,MA,rock,5
-2026,MA,ska,1
-2026,MA,ska punk,1
-2026,MA,sludge metal,1
-2026,MA,surf rock,1
-2026,MA,thrash metal,2
-2026,MA,unknown,13
-2026,MD,alternative r&b,1
-2026,MD,alternative rock,2
-2026,MD,art punk,1
-2026,MD,art rock,1
-2026,MD,beatdown hardcore,1
-2026,MD,brutal death metal,1
-2026,MD,contemporary r&b,1
-2026,MD,country,2
-2026,MD,death metal,3
-2026,MD,digicore,1
-2026,MD,doom metal,2
-2026,MD,electro,1
-2026,MD,electronic,2
-2026,MD,electropop,1
-2026,MD,emo,2
-2026,MD,hard rock,1
-2026,MD,hardcore punk,1
-2026,MD,indie rock,2
-2026,MD,math rock,1
-2026,MD,neo soul,1
-2026,MD,pop punk,1
-2026,MD,post-hardcore,1
-2026,MD,progressive rock,1
-2026,MD,psychedelic rock,1
-2026,MD,r&b,1
-2026,MD,reggaeton,1
-2026,MD,rock,3
-2026,MD,southern metal,1
-2026,MD,speed metal,1
-2026,MD,unknown,21
-2026,ME,alternative metal,1
-2026,ME,alternative rock,1
-2026,ME,americana,3
-2026,ME,bluegrass,1
-2026,ME,blues,1
-2026,ME,blues rock,2
-2026,ME,boogie rock,1
-2026,ME,country,4
-2026,ME,crossover thrash,2
-2026,ME,dance-pop,1
-2026,ME,dance-punk,1
-2026,ME,electric blues,1
-2026,ME,emo,1
-2026,ME,folk,3
-2026,ME,folk punk,1
-2026,ME,folk rock,1
-2026,ME,metalcore,1
-2026,ME,pop rock,1
-2026,ME,psychedelic rock,1
-2026,ME,reggae,2
-2026,ME,ska,1
-2026,ME,unknown,29
-2026,MI,alternative metal,1
-2026,MI,alternative rock,2
-2026,MI,ambient,1
-2026,MI,art pop,1
-2026,MI,atmospheric black metal,1
-2026,MI,bluegrass,1
-2026,MI,blues,1
-2026,MI,contemporary country,1
-2026,MI,country,1
-2026,MI,dance-pop,2
-2026,MI,death metal,3
-2026,MI,doom metal,2
-2026,MI,emo,3
-2026,MI,funk,1
-2026,MI,garage rock,2
-2026,MI,hip hop,7
-2026,MI,indie rock,1
-2026,MI,modern classical,1
-2026,MI,pop,1
-2026,MI,pop punk,1
-2026,MI,r&b,2
-2026,MI,stoner rock,1
-2026,MI,unknown,23
-2026,MN,a cappella,4
-2026,MN,doom metal,1
-2026,MN,emo,2
-2026,MN,funktronica,1
-2026,MN,heavy metal,1
-2026,MN,indie rock,2
-2026,MN,psychedelic rock,1
-2026,MN,punk,2
-2026,MN,unknown,46
-2026,MO,alternative metal,1
-2026,MO,alternative rock,2
-2026,MO,celtic,3
-2026,MO,country,1
-2026,MO,death metal,1
-2026,MO,doom metal,1
-2026,MO,emo,2
-2026,MO,folk metal,1
-2026,MO,garage rock,2
-2026,MO,glam metal,3
-2026,MO,groove metal,1
-2026,MO,hard rock,5
-2026,MO,hardcore punk,2
-2026,MO,heavy metal,1
-2026,MO,hip hop,3
-2026,MO,horrorcore,1
-2026,MO,indie rock,1
-2026,MO,industrial metal,1
-2026,MO,industrial rock,2
-2026,MO,k-pop,1
-2026,MO,metalcore,2
-2026,MO,noise rock,3
-2026,MO,pop,1
-2026,MO,post-hardcore,2
-2026,MO,reggae,1
-2026,MO,rock,1
-2026,MO,unknown,15
-2026,MS,alternative metal,1
-2026,MS,alternative r&b,1
-2026,MS,alternative rock,5
-2026,MS,comedy,1
-2026,MS,contemporary christian,1
-2026,MS,contemporary country,1
-2026,MS,country,5
-2026,MS,glam metal,1
-2026,MS,hard rock,1
-2026,MS,hip hop,1
-2026,MS,indie,1
-2026,MS,new wave,1
-2026,MS,pop punk,1
-2026,MS,pop rock,1
-2026,MS,r&b,1
-2026,MS,rock,3
-2026,MS,soft rock,1
-2026,MS,tribute band,1
-2026,MS,unknown,32
-2026,MT,alternative rock,6
-2026,MT,americana,5
-2026,MT,blues,1
-2026,MT,blues rock,5
-2026,MT,celtic rock,1
-2026,MT,christian rock,1
-2026,MT,country,5
-2026,MT,dance-punk,2
-2026,MT,folk,1
-2026,MT,funk,1
-2026,MT,hard rock,2
-2026,MT,hardcore punk,1
-2026,MT,heavy metal,3
-2026,MT,horror punk,1
-2026,MT,indie rock,2
-2026,MT,jam band,1
-2026,MT,progressive rock,1
-2026,MT,psychedelic rock,1
-2026,MT,unknown,20
-2026,NC,alternative hip hop,2
-2026,NC,alternative rock,2
-2026,NC,bluegrass,4
-2026,NC,cloud rap,2
-2026,NC,country,1
-2026,NC,death-doom metal,1
-2026,NC,djent,1
-2026,NC,doom metal,1
-2026,NC,electronic,4
-2026,NC,experimental hip hop,1
-2026,NC,folk punk,1
-2026,NC,folk rock,1
-2026,NC,free jazz,1
-2026,NC,hip hop,2
-2026,NC,jam band,1
-2026,NC,mathcore,1
-2026,NC,metalcore,1
-2026,NC,norteño,1
-2026,NC,progressive rock,2
-2026,NC,r&b,1
-2026,NC,reggae,1
-2026,NC,rock,2
-2026,NC,ska punk,1
-2026,NC,sludge metal,4
-2026,NC,synth-pop,2
-2026,NC,unknown,19
-2026,ND,alternative rock,2
-2026,ND,brutal death metal,1
-2026,ND,cabaret,1
-2026,ND,christian rock,1
-2026,ND,comedy,1
-2026,ND,contemporary country,1
-2026,ND,country,7
-2026,ND,glam metal,1
-2026,ND,hard rock,2
-2026,ND,indie rock,1
-2026,ND,metal,2
-2026,ND,noise,1
-2026,ND,pop,1
-2026,ND,progressive rock,1
-2026,ND,unknown,37
-2026,NE,alternative country,1
-2026,NE,alternative hip hop,1
-2026,NE,alternative rock,2
-2026,NE,americana,2
-2026,NE,beat music,1
-2026,NE,blue-eyed soul,1
-2026,NE,brutal death metal,1
-2026,NE,contemporary christian,1
-2026,NE,country,2
-2026,NE,death metal,1
-2026,NE,dream pop,1
-2026,NE,emo,1
-2026,NE,folk,2
-2026,NE,garage rock,1
-2026,NE,hard rock,1
-2026,NE,hardcore punk,1
-2026,NE,indie folk,1
-2026,NE,indie pop,1
-2026,NE,indie rock,1
-2026,NE,lo-fi,1
-2026,NE,math rock,1
-2026,NE,mathcore,1
-2026,NE,outlaw country,1
-2026,NE,pop,3
-2026,NE,pop rock,1
-2026,NE,rock,1
-2026,NE,unknown,28
-2026,NH,alternative country,1
-2026,NH,alternative metal,2
-2026,NH,alternative punk,1
-2026,NH,alternative rock,2
-2026,NH,blues,1
-2026,NH,blues rock,3
-2026,NH,boogie rock,1
-2026,NH,classic pop and rock,1
-2026,NH,contemporary folk,1
-2026,NH,country,3
-2026,NH,crossover thrash,1
-2026,NH,dream pop,1
-2026,NH,folk,1
-2026,NH,hard rock,2
-2026,NH,heavy metal,1
-2026,NH,hip hop,1
-2026,NH,horror punk,1
-2026,NH,indie rock,2
-2026,NH,jazz,1
-2026,NH,math rock,1
-2026,NH,new wave,2
-2026,NH,nu metal,2
-2026,NH,psychobilly,2
-2026,NH,soft rock,1
-2026,NH,surf rock,2
-2026,NH,unknown,23
-2026,NJ,alternative metal,2
-2026,NJ,alternative rock,1
-2026,NJ,bedroom pop,1
-2026,NJ,bluegrass,1
-2026,NJ,comedy,1
-2026,NJ,cowboy poetry,1
-2026,NJ,crossover thrash,1
-2026,NJ,electronic rock,1
-2026,NJ,emo,2
-2026,NJ,filmi,1
-2026,NJ,hard rock,1
-2026,NJ,hardcore punk,1
-2026,NJ,heavy metal,2
-2026,NJ,hip hop,2
-2026,NJ,house,1
-2026,NJ,indie pop,1
-2026,NJ,kawaii metal,1
-2026,NJ,neo soul,1
-2026,NJ,pop,1
-2026,NJ,pop punk,1
-2026,NJ,pop soul,2
-2026,NJ,post-hardcore,1
-2026,NJ,power pop,1
-2026,NJ,punk,1
-2026,NJ,punk rock,1
-2026,NJ,r&b,1
-2026,NJ,rock,2
-2026,NJ,thrash metal,4
-2026,NJ,unknown,23
-2026,NM,alternative metal,1
-2026,NM,alternative rock,2
-2026,NM,avant-garde,1
-2026,NM,big band,1
-2026,NM,bluegrass,1
-2026,NM,blues,2
-2026,NM,blues rock,2
-2026,NM,contemporary country,1
-2026,NM,country,4
-2026,NM,country rock,1
-2026,NM,doo-wop,1
-2026,NM,doom metal,2
-2026,NM,emo,2
-2026,NM,folk,1
-2026,NM,funk,1
-2026,NM,glam metal,1
-2026,NM,gothic,1
-2026,NM,grunge,1
-2026,NM,hard rock,2
-2026,NM,indie rock,2
-2026,NM,melodic hardcore,1
-2026,NM,melodic metalcore,1
-2026,NM,nu metal,2
-2026,NM,pop punk,1
-2026,NM,punk,1
-2026,NM,reggae,2
-2026,NM,ska,2
-2026,NM,soft rock,1
-2026,NM,soul,2
-2026,NM,unknown,17
-2026,NV,alternative hip hop,1
-2026,NV,american,1
-2026,NV,chillwave,1
-2026,NV,contemporary r&b,3
-2026,NV,country,2
-2026,NV,dance,2
-2026,NV,deep house,1
-2026,NV,dubstep,1
-2026,NV,edm,4
-2026,NV,electro house,1
-2026,NV,electronic,2
-2026,NV,glam metal,2
-2026,NV,hardcore punk,1
-2026,NV,heavy metal,2
-2026,NV,hip hop,4
-2026,NV,house,2
-2026,NV,latin,2
-2026,NV,pop,2
-2026,NV,pop punk,2
-2026,NV,punk,2
-2026,NV,rock,3
-2026,NV,ska,2
-2026,NV,soft rock,1
-2026,NV,trance,1
-2026,NV,unknown,15
-2026,NY,cloud rap,2
-2026,NY,comedy,1
-2026,NY,country pop,1
-2026,NY,death metal,1
-2026,NY,deathcore,1
-2026,NY,edm,1
-2026,NY,electro-funk,1
-2026,NY,electronic,1
-2026,NY,emo,1
-2026,NY,folk,1
-2026,NY,funk,1
-2026,NY,hard rock,1
-2026,NY,hardcore punk,1
-2026,NY,hip hop,1
-2026,NY,indie folk,1
-2026,NY,indie rock,1
-2026,NY,jam band,1
-2026,NY,king's x,1
-2026,NY,latin,1
-2026,NY,math rock,1
-2026,NY,mathcore,2
-2026,NY,pop,1
-2026,NY,progressive house,1
-2026,NY,psychedelic rock,1
-2026,NY,reggaeton,2
-2026,NY,rock,4
-2026,NY,soul,2
-2026,NY,unknown,26
-2026,OH,alternative country,1
-2026,OH,alternative metal,1
-2026,OH,americana,1
-2026,OH,blues,1
-2026,OH,classic pop and rock,1
-2026,OH,columbus [oh],1
-2026,OH,country,4
-2026,OH,death metal,3
-2026,OH,digicore,1
-2026,OH,doom metal,1
-2026,OH,electronic,2
-2026,OH,filmi,1
-2026,OH,folk,2
-2026,OH,hard rock,1
-2026,OH,hip hop,4
-2026,OH,indie folk,1
-2026,OH,indie rock,1
-2026,OH,pop punk,1
-2026,OH,post-hardcore,1
-2026,OH,psychedelic rock,1
-2026,OH,r&b,1
-2026,OH,rock,1
-2026,OH,unknown,28
-2026,OK,alternative metal,2
-2026,OK,alternative rock,2
-2026,OK,americana,1
-2026,OK,beatdown hardcore,1
-2026,OK,blues,1
-2026,OK,celtic punk,1
-2026,OK,country,2
-2026,OK,crossover thrash,1
-2026,OK,desert rock,1
-2026,OK,electronic,1
-2026,OK,experimental rock,1
-2026,OK,garage rock,1
-2026,OK,glam metal,2
-2026,OK,grunge,1
-2026,OK,hard rock,8
-2026,OK,hardcore punk,3
-2026,OK,heavy metal,1
-2026,OK,hip hop,2
-2026,OK,horrorcore,1
-2026,OK,indie folk,1
-2026,OK,indie rock,1
-2026,OK,jungle,1
-2026,OK,nu metal,2
-2026,OK,post-grunge,1
-2026,OK,progressive rock,1
-2026,OK,punk,1
-2026,OK,rock,1
-2026,OK,seen live,1
-2026,OK,soul,1
-2026,OK,southern rock,1
-2026,OK,thrash metal,2
-2026,OK,unknown,13
-2026,OR,alternative pop,3
-2026,OR,alternative r&b,1
-2026,OR,alternative rock,1
-2026,OR,anatolian rock,1
-2026,OR,baroque pop,1
-2026,OR,blues,1
-2026,OR,cabaret,2
-2026,OR,classical,1
-2026,OR,coldwave,1
-2026,OR,comedy,3
-2026,OR,contemporary country,1
-2026,OR,doom metal,2
-2026,OR,ebm,1
-2026,OR,folk,2
-2026,OR,funk,2
-2026,OR,garage punk,1
-2026,OR,glam metal,1
-2026,OR,heavy psych,2
-2026,OR,hip hop,1
-2026,OR,horror punk,1
-2026,OR,indie folk,1
-2026,OR,indie pop,1
-2026,OR,industrial,1
-2026,OR,industrial metal,3
-2026,OR,noise rock,1
-2026,OR,pop,2
-2026,OR,pop punk,2
-2026,OR,psychedelic rock,2
-2026,OR,punk,1
-2026,OR,riot grrrl,1
-2026,OR,rock,1
-2026,OR,rockabilly,1
-2026,OR,unknown,13
-2026,OR,zamrock,1
-2026,PA,alternative country,1
-2026,PA,alternative metal,1
-2026,PA,alternative rock,1
-2026,PA,beatdown hardcore,1
-2026,PA,blues,1
-2026,PA,blues rock,1
-2026,PA,brutal death metal,1
-2026,PA,comedy,1
-2026,PA,country,2
-2026,PA,cowboy poetry,1
-2026,PA,crossover thrash,1
-2026,PA,death metal,3
-2026,PA,folk,1
-2026,PA,free jazz,1
-2026,PA,hard rock,2
-2026,PA,hardcore punk,3
-2026,PA,heavy psych,1
-2026,PA,indie folk,2
-2026,PA,indie pop,1
-2026,PA,jam band,1
-2026,PA,pop,2
-2026,PA,pop punk,1
-2026,PA,post-punk,1
-2026,PA,punk rock,1
-2026,PA,rock,1
-2026,PA,singer-songwriter,1
-2026,PA,southern rock,1
-2026,PA,tribute band,1
-2026,PA,unknown,24
-2026,RI,alternative folk,1
-2026,RI,alternative metal,1
-2026,RI,americana,3
-2026,RI,big band,1
-2026,RI,black metal,1
-2026,RI,bluegrass,1
-2026,RI,blues,1
-2026,RI,blues rock,1
-2026,RI,classic pop and rock,1
-2026,RI,contemporary folk,1
-2026,RI,country,2
-2026,RI,dixieland,1
-2026,RI,emo,1
-2026,RI,folk,1
-2026,RI,funk,1
-2026,RI,hardcore punk,1
-2026,RI,jam band,1
-2026,RI,metalcore,1
-2026,RI,new wave,1
-2026,RI,pop,1
-2026,RI,punk rock,1
-2026,RI,rock,1
-2026,RI,ska,1
-2026,RI,soul,1
-2026,RI,unknown,33
-2026,SC,alternative hip hop,1
-2026,SC,alternative rock,5
-2026,SC,beatdown hardcore,1
-2026,SC,blues,1
-2026,SC,blues rock,1
-2026,SC,christian rock,1
-2026,SC,cloud rap,1
-2026,SC,contemporary r&b,2
-2026,SC,country,1
-2026,SC,country pop,1
-2026,SC,deathcore,1
-2026,SC,emo,2
-2026,SC,folk,1
-2026,SC,funk rock,3
-2026,SC,hardcore punk,1
-2026,SC,horror punk,1
-2026,SC,indie,3
-2026,SC,indie rock,1
-2026,SC,jam band,2
-2026,SC,mathcore,2
-2026,SC,metal,1
-2026,SC,metalcore,1
-2026,SC,post-hardcore,1
-2026,SC,psychedelic rock,1
-2026,SC,reggae,1
-2026,SC,ska,1
-2026,SC,synth-pop,1
-2026,SC,thrash metal,1
-2026,SC,unknown,20
-2026,SD,alternative rock,4
-2026,SD,beatdown hardcore,1
-2026,SD,bro-country,2
-2026,SD,brutal death metal,1
-2026,SD,christian rock,1
-2026,SD,comedy rock,1
-2026,SD,contemporary country,1
-2026,SD,country,7
-2026,SD,death metal,3
-2026,SD,folk punk,1
-2026,SD,folk rock,1
-2026,SD,hard rock,5
-2026,SD,hardcore punk,1
-2026,SD,horrorcore,1
-2026,SD,industrial metal,1
-2026,SD,nu metal,4
-2026,SD,pop rock,1
-2026,SD,ska punk,1
-2026,SD,southern rock,1
-2026,SD,unknown,22
-2026,TN,acoustic blues,1
-2026,TN,alternative rock,1
-2026,TN,bluegrass,1
-2026,TN,contemporary country,1
-2026,TN,country,4
-2026,TN,country rock,2
-2026,TN,cumbia,1
-2026,TN,doom metal,1
-2026,TN,folk,2
-2026,TN,hardcore punk,3
-2026,TN,hip hop,1
-2026,TN,horror punk,1
-2026,TN,indie folk,1
-2026,TN,indie rock,1
-2026,TN,metalcore,1
-2026,TN,neo soul,1
-2026,TN,outlaw country,1
-2026,TN,r&b,2
-2026,TN,rock,2
-2026,TN,rock and indie,2
-2026,TN,ska,1
-2026,TN,ska punk,1
-2026,TN,techno,1
-2026,TN,thrash metal,1
-2026,TN,unknown,26
-2026,TX,alternative metal,2
-2026,TX,alternative r&b,2
-2026,TX,alternative rock,5
-2026,TX,americana,3
-2026,TX,christian rock,1
-2026,TX,country,1
-2026,TX,dream pop,3
-2026,TX,emo,2
-2026,TX,folk pop,1
-2026,TX,folk punk,1
-2026,TX,folk rock,1
-2026,TX,hard rock,4
-2026,TX,hardcore punk,2
-2026,TX,hip hop,2
-2026,TX,house,1
-2026,TX,indie rock,2
-2026,TX,jazz fusion,2
-2026,TX,k-pop,2
-2026,TX,nu metal,1
-2026,TX,post-hardcore,4
-2026,TX,progressive rock,1
-2026,TX,r&b,1
-2026,TX,reggaeton,1
-2026,TX,ska punk,1
-2026,TX,thrash metal,2
-2026,TX,unknown,12
-2026,UT,alternative hip hop,1
-2026,UT,alternative rock,2
-2026,UT,ambient,1
-2026,UT,avant-garde,1
-2026,UT,blues,2
-2026,UT,blues rock,1
-2026,UT,country rock,2
-2026,UT,deathcore,3
-2026,UT,ebm,1
-2026,UT,electronic,1
-2026,UT,emo,1
-2026,UT,folk,2
-2026,UT,folk rock,1
-2026,UT,groove metal,1
-2026,UT,hardcore punk,2
-2026,UT,indie pop,1
-2026,UT,indie rock,1
-2026,UT,industrial metal,1
-2026,UT,jam band,1
-2026,UT,lo-fi,1
-2026,UT,new wave,2
-2026,UT,noise rock,1
-2026,UT,post-punk,1
-2026,UT,progressive rock,1
-2026,UT,psychedelic rock,1
-2026,UT,rock,4
-2026,UT,soft rock,1
-2026,UT,unknown,22
-2026,VA,alternative country,1
-2026,VA,alternative r&b,1
-2026,VA,alternative rock,1
-2026,VA,americana,1
-2026,VA,cloud rap,1
-2026,VA,contemporary r&b,1
-2026,VA,country,3
-2026,VA,dancehall,1
-2026,VA,dark ambient,1
-2026,VA,deathcore,1
-2026,VA,doom metal,1
-2026,VA,electric blues,1
-2026,VA,folk rock,1
-2026,VA,hardcore punk,1
-2026,VA,hip hop,7
-2026,VA,hyper-pop,1
-2026,VA,mathcore,2
-2026,VA,metalcore,1
-2026,VA,pop,1
-2026,VA,pop rap,1
-2026,VA,stoner metal,1
-2026,VA,unknown,30
-2026,VT,alternative country,1
-2026,VT,alternative pop,2
-2026,VT,americana,2
-2026,VT,blues rock,1
-2026,VT,boogie rock,1
-2026,VT,country,4
-2026,VT,crossover thrash,1
-2026,VT,death metal,1
-2026,VT,experimental rock,1
-2026,VT,folk,4
-2026,VT,folk punk,1
-2026,VT,folk rock,1
-2026,VT,hard rock,1
-2026,VT,hip hop,1
-2026,VT,indie folk,2
-2026,VT,indie pop,1
-2026,VT,indie rock,1
-2026,VT,jam band,1
-2026,VT,pop rock,1
-2026,VT,rock,1
-2026,VT,ska,2
-2026,VT,ska punk,1
-2026,VT,unknown,28
-2026,WA,acid house,1
-2026,WA,alternative country,1
-2026,WA,alternative r&b,1
-2026,WA,alternative rock,1
-2026,WA,americana,1
-2026,WA,anatolian rock,1
-2026,WA,bedroom pop,1
-2026,WA,bluegrass,1
-2026,WA,classical,1
-2026,WA,comedy,1
-2026,WA,country,1
-2026,WA,dark wave,1
-2026,WA,electronic,1
-2026,WA,folk,1
-2026,WA,grunge,2
-2026,WA,hip hop,3
-2026,WA,horror punk,3
-2026,WA,indie rock,1
-2026,WA,j-pop,1
-2026,WA,missing releases,1
-2026,WA,nerdcore,1
-2026,WA,pop punk,1
-2026,WA,power metal,2
-2026,WA,rock,3
-2026,WA,soul,1
-2026,WA,symphonic metal,1
-2026,WA,unknown,25
-2026,WA,zamrock,1
-2026,WI,alternative hip hop,1
-2026,WI,alternative metal,1
-2026,WI,alternative rock,1
-2026,WI,beat music,1
-2026,WI,beatdown hardcore,1
-2026,WI,blue-eyed soul,1
-2026,WI,brutal death metal,1
-2026,WI,country,3
-2026,WI,country rap,1
-2026,WI,death metal,6
-2026,WI,emo,4
-2026,WI,folk rock,1
-2026,WI,funk,1
-2026,WI,garage rock,1
-2026,WI,hardcore punk,3
-2026,WI,hip hop,1
-2026,WI,indie rock,1
-2026,WI,pop,3
-2026,WI,southern rock,1
-2026,WI,unknown,27
-2026,WV,afrobeat,1
-2026,WV,alternative country,1
-2026,WV,americana,1
-2026,WV,bluegrass,1
-2026,WV,blues,2
-2026,WV,blues rock,1
-2026,WV,country,5
-2026,WV,country pop,1
-2026,WV,experimental rock,1
-2026,WV,folk,2
-2026,WV,folk rock,1
-2026,WV,funk,4
-2026,WV,grunge,1
-2026,WV,hard rock,2
-2026,WV,jam band,3
-2026,WV,nu metal,1
-2026,WV,pop,1
-2026,WV,psychobilly,1
-2026,WV,punk rock,1
-2026,WV,rock,1
-2026,WV,saxophones,1
-2026,WV,southern rock,1
-2026,WV,surf rock,1
-2026,WV,unknown,25
-2026,WY,#animaltalk,1
-2026,WY,alternative country,1
-2026,WY,alternative metal,1
-2026,WY,alternative rock,2
-2026,WY,americana,5
-2026,WY,bluegrass,3
-2026,WY,blues rock,2
-2026,WY,boogie,1
-2026,WY,classical crossover,1
-2026,WY,contemporary country,1
-2026,WY,contemporary r&b,1
-2026,WY,country,3
-2026,WY,electronic,1
-2026,WY,folk,3
-2026,WY,hip hop,2
-2026,WY,indie pop,1
-2026,WY,indie rock,2
-2026,WY,jamgrass,1
-2026,WY,pop,1
-2026,WY,pop rock,1
-2026,WY,punk,1
-2026,WY,rock,1
-2026,WY,soul,1
-2026,WY,southern rock,1
-2026,WY,unknown,22
+year,state,genre,genre_detailed,event_count
+2022,AK,Country/Folk/Americana,americana,1
+2022,AK,Country/Folk/Americana,contemporary country,1
+2022,AK,Country/Folk/Americana,country pop,2
+2022,AK,Country/Folk/Americana,folk,1
+2022,AK,Country/Folk/Americana,indie folk,1
+2022,AK,Punk/Hardcore,folk punk,1
+2022,AK,Punk/Hardcore,melodic hardcore,1
+2022,AK,Punk/Hardcore,psychobilly,1
+2022,AK,Rock,alternative rock,2
+2022,AK,Rock,hard rock,3
+2022,AK,Rock,indie rock,3
+2022,AK,Unknown,unknown,3
+2022,AL,Country/Folk/Americana,country,2
+2022,AL,Country/Folk/Americana,folk,1
+2022,AL,Electronic/Dance,new age,1
+2022,AL,Metal,metalcore,1
+2022,AL,Metal,symphonic metal,1
+2022,AL,Pop,indie pop,2
+2022,AL,Pop,power pop,1
+2022,AL,Punk/Hardcore,hardcore,2
+2022,AL,Punk/Hardcore,post-hardcore,1
+2022,AL,Punk/Hardcore,punk,2
+2022,AL,Rock,alternative rock,1
+2022,AL,Rock,indie rock,1
+2022,AL,Rock,rock,1
+2022,AL,Rock,rock music,2
+2022,AL,Unknown,unknown,1
+2022,AR,Country/Folk/Americana,country,2
+2022,AR,Country/Folk/Americana,country music,1
+2022,AR,Country/Folk/Americana,folk,2
+2022,AR,Country/Folk/Americana,"folk, world, & country",1
+2022,AR,Electronic/Dance,house,1
+2022,AR,Punk/Hardcore,hardcore,3
+2022,AR,Rock,alternative rock,1
+2022,AR,Rock,art rock,1
+2022,AR,Rock,indie,2
+2022,AR,Unknown,unknown,6
+2022,AZ,Country/Folk/Americana,americana,1
+2022,AZ,Country/Folk/Americana,folk rock,2
+2022,AZ,Electronic/Dance,dubstep,2
+2022,AZ,Electronic/Dance,edm,1
+2022,AZ,Electronic/Dance,electronic,3
+2022,AZ,Electronic/Dance,future bass,1
+2022,AZ,Jazz/Blues,contemporary jazz,1
+2022,AZ,Pop,indie pop,1
+2022,AZ,Punk/Hardcore,hardcore,1
+2022,AZ,Punk/Hardcore,punk,2
+2022,AZ,Punk/Hardcore,punk rock,1
+2022,AZ,Rock,alternative,1
+2022,AZ,Rock,hard rock,1
+2022,AZ,Rock,indie rock,1
+2022,AZ,Rock,jam band,1
+2022,CA,Electronic/Dance,dance,2
+2022,CA,Electronic/Dance,deep house,1
+2022,CA,Electronic/Dance,edm,2
+2022,CA,Electronic/Dance,electro house,1
+2022,CA,Electronic/Dance,electronic,1
+2022,CA,Electronic/Dance,house,1
+2022,CA,Jazz/Blues,jazz,1
+2022,CA,Other/Uncategorized,fusion,1
+2022,CA,Other/Uncategorized,queer,1
+2022,CA,Pop,pop,1
+2022,CA,Punk/Hardcore,hardcore,1
+2022,CA,R&B/Soul/Funk,r&b,1
+2022,CA,R&B/Soul/Funk,soul,1
+2022,CA,Rock,hard rock,1
+2022,CA,Rock,soft rock,1
+2022,CA,Unknown,unknown,3
+2022,CO,Country/Folk/Americana,americana,1
+2022,CO,Country/Folk/Americana,bluegrass,1
+2022,CO,Country/Folk/Americana,country,1
+2022,CO,Electronic/Dance,bass house,1
+2022,CO,Electronic/Dance,dubstep,4
+2022,CO,Electronic/Dance,electronic,5
+2022,CO,Electronic/Dance,future bass,2
+2022,CO,Pop,indie pop,1
+2022,CO,Rock,hard rock,1
+2022,CO,Rock,indie,1
+2022,CO,Rock,rock,1
+2022,CO,Unknown,unknown,1
+2022,CT,Comedy/Spoken Word,comedy,1
+2022,CT,Country/Folk/Americana,country,1
+2022,CT,Country/Folk/Americana,folk,3
+2022,CT,Country/Folk/Americana,singer-songwriter,2
+2022,CT,Other/Uncategorized,experimental,2
+2022,CT,Pop,indie pop,1
+2022,CT,Pop,pop,1
+2022,CT,Punk/Hardcore,punk,1
+2022,CT,R&B/Soul/Funk,funk,1
+2022,CT,R&B/Soul/Funk,soul,1
+2022,CT,Rock,alternative,1
+2022,CT,Rock,psychedelic rock,1
+2022,CT,Rock,rock,2
+2022,CT,Unknown,unknown,2
+2022,DE,Comedy/Spoken Word,comedy,1
+2022,DE,Country/Folk/Americana,country rock,1
+2022,DE,Country/Folk/Americana,folk,2
+2022,DE,Electronic/Dance,trip hop,1
+2022,DE,Jazz/Blues,blues rock,1
+2022,DE,Metal,doom metal,3
+2022,DE,Metal,metal,1
+2022,DE,Metal,metalcore,2
+2022,DE,Rock,alternative rock,1
+2022,DE,Rock,psychedelic,1
+2022,DE,Rock,rock music,1
+2022,DE,Unknown,unknown,5
+2022,FL,Electronic/Dance,edm,3
+2022,FL,Electronic/Dance,techno,1
+2022,FL,Hip-Hop/Rap,crunk,1
+2022,FL,Hip-Hop/Rap,hip hop,4
+2022,FL,Hip-Hop/Rap,pop rap,1
+2022,FL,R&B/Soul/Funk,contemporary r&b,2
+2022,FL,R&B/Soul/Funk,funk,2
+2022,FL,R&B/Soul/Funk,rnb,1
+2022,FL,Rock,alternative rock,3
+2022,FL,Rock,rock,1
+2022,FL,Rock,surf rock,1
+2022,GA,Country/Folk/Americana,country rock,1
+2022,GA,Country/Folk/Americana,folk rock,2
+2022,GA,Country/Folk/Americana,progressive bluegrass,2
+2022,GA,Electronic/Dance,dance-pop,1
+2022,GA,Electronic/Dance,melodic dubstep,1
+2022,GA,Metal,melodic metalcore,1
+2022,GA,Pop,indie pop,2
+2022,GA,R&B/Soul/Funk,funk rock,2
+2022,GA,Rock,hard rock,1
+2022,GA,Rock,horror rock,1
+2022,GA,Rock,indie rock,2
+2022,GA,Rock,jam band,2
+2022,GA,Unknown,unknown,2
+2022,HI,Comedy/Spoken Word,comedy,2
+2022,HI,Pop,pop,4
+2022,HI,Reggae/Ska,reggae rock,8
+2022,HI,Rock,alternative rock,2
+2022,HI,Unknown,unknown,4
+2022,IA,Christian/Gospel,christian rock,1
+2022,IA,Classical,classical,1
+2022,IA,Comedy/Spoken Word,cookbook,1
+2022,IA,Country/Folk/Americana,contemporary country,1
+2022,IA,Country/Folk/Americana,country,3
+2022,IA,Country/Folk/Americana,folk,2
+2022,IA,Electronic/Dance,new age,2
+2022,IA,Metal,heavy metal,1
+2022,IA,Pop,pop,2
+2022,IA,R&B/Soul/Funk,soul,1
+2022,IA,Rock,classic rock,1
+2022,IA,Rock,hard rock,1
+2022,IA,Rock,indie rock,1
+2022,IA,Rock,surf rock,1
+2022,IA,Unknown,unknown,1
+2022,ID,Country/Folk/Americana,contemporary country,1
+2022,ID,Country/Folk/Americana,country,1
+2022,ID,Country/Folk/Americana,folk,1
+2022,ID,Electronic/Dance,new age,2
+2022,ID,Hip-Hop/Rap,alternative hip hop,2
+2022,ID,Hip-Hop/Rap,crunk,1
+2022,ID,Hip-Hop/Rap,g-funk,1
+2022,ID,Hip-Hop/Rap,hip hop,2
+2022,ID,Jazz/Blues,jazz,1
+2022,ID,Metal,heavy metal,2
+2022,ID,Other/Uncategorized,vocal,1
+2022,ID,Pop,pop,2
+2022,ID,Punk/Hardcore,emo,1
+2022,ID,Rock,indie rock,1
+2022,ID,Rock,southern rock,1
+2022,IL,Country/Folk/Americana,bluegrass,1
+2022,IL,Country/Folk/Americana,folk,1
+2022,IL,Electronic/Dance,dance,1
+2022,IL,Electronic/Dance,electronic,1
+2022,IL,Electronic/Dance,house,1
+2022,IL,Hip-Hop/Rap,hip-hop,1
+2022,IL,Jazz/Blues,avant-garde jazz,1
+2022,IL,Jazz/Blues,jazz-funk,1
+2022,IL,Other/Uncategorized,club,1
+2022,IL,Pop,indie pop,1
+2022,IL,R&B/Soul/Funk,contemporary r&b,2
+2022,IL,R&B/Soul/Funk,funktronica,1
+2022,IL,Reggae/Ska,dub,1
+2022,IL,Rock,alternative rock,2
+2022,IL,Rock,jam band,1
+2022,IL,Rock,rock,1
+2022,IL,Unknown,unknown,2
+2022,IN,Comedy/Spoken Word,comedy,6
+2022,IN,Country/Folk/Americana,country rock,1
+2022,IN,Electronic/Dance,new age,2
+2022,IN,Pop,pop rock,1
+2022,IN,Rock,alternative rock,4
+2022,IN,Rock,classic rock,2
+2022,IN,Rock,hard rock,1
+2022,IN,Rock,progressive rock,1
+2022,IN,Unknown,unknown,2
+2022,KS,Country/Folk/Americana,country,2
+2022,KS,Country/Folk/Americana,country music,1
+2022,KS,Country/Folk/Americana,folk,1
+2022,KS,Electronic/Dance,new age,2
+2022,KS,Metal,atmospheric black metal,1
+2022,KS,Metal,black metal,1
+2022,KS,Metal,death metal,2
+2022,KS,Metal,thrash metal,1
+2022,KS,Punk/Hardcore,pop punk,1
+2022,KS,Punk/Hardcore,post-hardcore,1
+2022,KS,Rock,alternative rock,1
+2022,KS,Rock,experimental rock,1
+2022,KS,Rock,hard rock,2
+2022,KS,Rock,indie rock,1
+2022,KS,Rock,soft rock,1
+2022,KS,Unknown,unknown,1
+2022,KY,Country/Folk/Americana,country,1
+2022,KY,Country/Folk/Americana,country pop,1
+2022,KY,Country/Folk/Americana,country rock,1
+2022,KY,Electronic/Dance,ambient,1
+2022,KY,Electronic/Dance,electro,1
+2022,KY,Electronic/Dance,new age,1
+2022,KY,Jazz/Blues,country blues,1
+2022,KY,Metal,black metal,1
+2022,KY,Metal,doom metal,1
+2022,KY,Metal,nu metal,1
+2022,KY,Metal,post-metal,1
+2022,KY,Other/Uncategorized,avant-garde,1
+2022,KY,Punk/Hardcore,punk,2
+2022,KY,Rock,alternative rock,2
+2022,KY,Unknown,unknown,4
+2022,LA,Country/Folk/Americana,bluegrass,2
+2022,LA,Jazz/Blues,blues,2
+2022,LA,Jazz/Blues,jazz,2
+2022,LA,Metal,doom metal,1
+2022,LA,Metal,thrash metal,1
+2022,LA,Punk/Hardcore,punk,1
+2022,LA,R&B/Soul/Funk,funk,1
+2022,LA,R&B/Soul/Funk,soul,1
+2022,LA,Rock,rock,2
+2022,LA,Unknown,unknown,7
+2022,MA,Country/Folk/Americana,folk,1
+2022,MA,Electronic/Dance,rave,2
+2022,MA,Jazz/Blues,electric blues,1
+2022,MA,Metal,death metal,1
+2022,MA,Metal,metal,1
+2022,MA,Metal,metalcore,2
+2022,MA,Pop,indie pop,1
+2022,MA,Pop,pop,1
+2022,MA,R&B/Soul/Funk,funk,1
+2022,MA,Rock,alternative rock,1
+2022,MA,Rock,hard rock,1
+2022,MA,Rock,indie,1
+2022,MA,Rock,post rock,1
+2022,MA,Rock,rock,1
+2022,MA,Unknown,unknown,4
+2022,MD,Country/Folk/Americana,singer-songwriter,2
+2022,MD,Electronic/Dance,electronic,1
+2022,MD,Hip-Hop/Rap,hip hop,2
+2022,MD,Jazz/Blues,jazz fusion,2
+2022,MD,Other/Uncategorized,a cappella,1
+2022,MD,Other/Uncategorized,installation art,1
+2022,MD,Punk/Hardcore,hardcore,1
+2022,MD,Punk/Hardcore,hardcore punk,1
+2022,MD,Punk/Hardcore,punk,1
+2022,MD,R&B/Soul/Funk,r&b,1
+2022,MD,Rock,alternative rock,2
+2022,MD,Rock,indie rock,1
+2022,MD,Rock,psychedelic,1
+2022,MD,Unknown,unknown,3
+2022,ME,Country/Folk/Americana,americana,1
+2022,ME,Country/Folk/Americana,bluegrass,1
+2022,ME,Country/Folk/Americana,country,1
+2022,ME,Country/Folk/Americana,folk,1
+2022,ME,Electronic/Dance,trip hop,1
+2022,ME,Hip-Hop/Rap,east coast hip hop,1
+2022,ME,Hip-Hop/Rap,hip-hop,1
+2022,ME,Hip-Hop/Rap,rap,1
+2022,ME,Jazz/Blues,swing revival,1
+2022,ME,Metal,black metal,1
+2022,ME,Other/Uncategorized,experimental,1
+2022,ME,Punk/Hardcore,hardcore punk,1
+2022,ME,Rock,garage rock,1
+2022,ME,Rock,indie rock,2
+2022,ME,Rock,jam band,1
+2022,ME,Rock,psychedelic,1
+2022,ME,Rock,rock,1
+2022,ME,Rock,rock music,2
+2022,MI,Comedy/Spoken Word,comedy,1
+2022,MI,Country/Folk/Americana,country,1
+2022,MI,Jazz/Blues,blues,2
+2022,MI,Metal,symphonic metal,2
+2022,MI,Metal,thrash,2
+2022,MI,Pop,pop,1
+2022,MI,Punk/Hardcore,hardcore,1
+2022,MI,Reggae/Ska,reggae rock,1
+2022,MI,Reggae/Ska,ska,1
+2022,MI,Rock,alternative rock,5
+2022,MI,Unknown,unknown,3
+2022,MN,Classical,chamber pop,1
+2022,MN,Comedy/Spoken Word,comedy,1
+2022,MN,Electronic/Dance,ambient,1
+2022,MN,Electronic/Dance,dubstep,2
+2022,MN,Electronic/Dance,electronic,2
+2022,MN,Electronic/Dance,new wave,1
+2022,MN,Jazz/Blues,jazz,2
+2022,MN,Metal,death metal,2
+2022,MN,Metal,symphonic metal,1
+2022,MN,Pop,indie pop,1
+2022,MN,Pop,pop,1
+2022,MN,Punk/Hardcore,punk,1
+2022,MN,R&B/Soul/Funk,funk,1
+2022,MN,Unknown,unknown,3
+2022,MO,Comedy/Spoken Word,satire,1
+2022,MO,Electronic/Dance,electronic,1
+2022,MO,Electronic/Dance,progressive house,2
+2022,MO,Jazz/Blues,blues,1
+2022,MO,Metal,grindcore,1
+2022,MO,Metal,symphonic metal,2
+2022,MO,Pop,pop,1
+2022,MO,Punk/Hardcore,hardcore,1
+2022,MO,Rock,alternative rock,4
+2022,MO,Rock,hard rock,1
+2022,MO,Unknown,unknown,5
+2022,MS,Christian/Gospel,contemporary christian,1
+2022,MS,Country/Folk/Americana,country,1
+2022,MS,Country/Folk/Americana,folk,1
+2022,MS,Electronic/Dance,dance,1
+2022,MS,Hip-Hop/Rap,hip-hop,1
+2022,MS,Jazz/Blues,blues,3
+2022,MS,Metal,heavy metal,1
+2022,MS,Rock,alternative rock,1
+2022,MS,Rock,indie,1
+2022,MS,Rock,indie rock,3
+2022,MS,Rock,jam band,1
+2022,MS,Rock,rock,1
+2022,MS,Rock,rockabilly,2
+2022,MS,Rock,southern rock,1
+2022,MS,Unknown,unknown,1
+2022,MT,Country/Folk/Americana,bluegrass,5
+2022,MT,Country/Folk/Americana,country,1
+2022,MT,Country/Folk/Americana,folk,3
+2022,MT,Electronic/Dance,new age,2
+2022,MT,Metal,thrash metal,1
+2022,MT,Pop,pop,1
+2022,MT,R&B/Soul/Funk,funk,1
+2022,MT,Rock,alternative rock,2
+2022,MT,Rock,garage rock,1
+2022,MT,Rock,indie rock,1
+2022,MT,Rock,rock,2
+2022,NC,Country/Folk/Americana,bluegrass music,2
+2022,NC,Country/Folk/Americana,folk,1
+2022,NC,Country/Folk/Americana,folk rock,1
+2022,NC,Electronic/Dance,acid jazz,1
+2022,NC,Electronic/Dance,synth-pop,1
+2022,NC,Pop,pop,1
+2022,NC,Punk/Hardcore,pop punk,1
+2022,NC,Punk/Hardcore,punk rock,1
+2022,NC,R&B/Soul/Funk,funk,2
+2022,NC,Reggae/Ska,reggae,1
+2022,NC,Rock,hard rock,2
+2022,NC,Rock,psychedelic,3
+2022,NC,Unknown,unknown,3
+2022,ND,Country/Folk/Americana,alternative country,1
+2022,ND,Country/Folk/Americana,americana,1
+2022,ND,Country/Folk/Americana,contemporary country,1
+2022,ND,Country/Folk/Americana,country,1
+2022,ND,Country/Folk/Americana,folk,1
+2022,ND,Electronic/Dance,lo-fi,1
+2022,ND,Metal,death metal,1
+2022,ND,Metal,heavy metal,1
+2022,ND,Metal,thrash metal,2
+2022,ND,Other/Uncategorized,a cappella,1
+2022,ND,Pop,pop,2
+2022,ND,Rock,alternative rock,1
+2022,ND,Rock,hard rock,2
+2022,ND,Rock,rock,1
+2022,ND,Unknown,unknown,3
+2022,NE,Christian/Gospel,contemporary christian,1
+2022,NE,Comedy/Spoken Word,cookbook,1
+2022,NE,Country/Folk/Americana,country,1
+2022,NE,Electronic/Dance,new age,3
+2022,NE,Hip-Hop/Rap,hip hop,1
+2022,NE,Metal,alternative metal,3
+2022,NE,Metal,death metal,3
+2022,NE,Metal,metal,1
+2022,NE,Metal,thrash metal,1
+2022,NE,Punk/Hardcore,post-hardcore,1
+2022,NE,Rock,hard rock,1
+2022,NE,Rock,math rock,1
+2022,NE,Rock,rock,1
+2022,NE,Unknown,unknown,1
+2022,NH,Classical,rock opera,1
+2022,NH,Country/Folk/Americana,folk,1
+2022,NH,Electronic/Dance,downtempo,1
+2022,NH,Electronic/Dance,trip hop,1
+2022,NH,Jazz/Blues,big band,1
+2022,NH,Metal,death metal,1
+2022,NH,Metal,metal,1
+2022,NH,Metal,metalcore,2
+2022,NH,Punk/Hardcore,alternative punk,1
+2022,NH,Punk/Hardcore,emo,2
+2022,NH,Punk/Hardcore,post-hardcore,1
+2022,NH,Punk/Hardcore,punk,1
+2022,NH,R&B/Soul/Funk,funk,1
+2022,NH,Rock,alternative rock,1
+2022,NH,Rock,indie rock,1
+2022,NH,Rock,rock,2
+2022,NH,Unknown,unknown,1
+2022,NJ,Electronic/Dance,new wave,1
+2022,NJ,Jazz/Blues,jazz,1
+2022,NJ,Other/Uncategorized,acid,1
+2022,NJ,Other/Uncategorized,experimental,1
+2022,NJ,Pop,indie pop,1
+2022,NJ,Punk/Hardcore,pop punk,1
+2022,NJ,Punk/Hardcore,punk,1
+2022,NJ,R&B/Soul/Funk,funk,2
+2022,NJ,Reggae/Ska,reggae,1
+2022,NJ,Rock,indie,1
+2022,NJ,Rock,rock,2
+2022,NJ,Rock,rock & roll,1
+2022,NJ,Unknown,unknown,5
+2022,NJ,World,salsa,1
+2022,NM,Country/Folk/Americana,folk,1
+2022,NM,Country/Folk/Americana,"folk, world, & country",3
+2022,NM,Electronic/Dance,dark electro,1
+2022,NM,Electronic/Dance,dark wave,1
+2022,NM,Metal,groove metal,1
+2022,NM,Metal,metal,1
+2022,NM,Metal,thrash metal,1
+2022,NM,Pop,indie pop,1
+2022,NM,Punk/Hardcore,hardcore punk,1
+2022,NM,Punk/Hardcore,punk rock,1
+2022,NM,R&B/Soul/Funk,alternative r&b,1
+2022,NM,R&B/Soul/Funk,funk,1
+2022,NM,R&B/Soul/Funk,soul,1
+2022,NM,Rock,math rock,1
+2022,NM,Rock,psychedelic,2
+2022,NM,Unknown,unknown,2
+2022,NV,Comedy/Spoken Word,comedy rock,1
+2022,NV,Comedy/Spoken Word,parody,1
+2022,NV,Electronic/Dance,dance,2
+2022,NV,Electronic/Dance,dubstep,1
+2022,NV,Electronic/Dance,electro,1
+2022,NV,Electronic/Dance,electroacoustic,1
+2022,NV,Electronic/Dance,electronic,1
+2022,NV,Electronic/Dance,trance,1
+2022,NV,Hip-Hop/Rap,hip-hop,2
+2022,NV,Hip-Hop/Rap,trap edm,1
+2022,NV,Pop,pop,2
+2022,NV,R&B/Soul/Funk,contemporary r&b,1
+2022,NV,Reggae/Ska,reggae,1
+2022,NV,Rock,alternative rock,2
+2022,NV,Rock,rock,1
+2022,NV,Unknown,unknown,1
+2022,NY,Electronic/Dance,dance,1
+2022,NY,Electronic/Dance,dance-pop,1
+2022,NY,Electronic/Dance,electroclash,1
+2022,NY,Electronic/Dance,electronic,1
+2022,NY,Electronic/Dance,hyperpop,1
+2022,NY,Electronic/Dance,new wave,1
+2022,NY,Hip-Hop/Rap,hip hop,1
+2022,NY,Pop,pop,4
+2022,NY,Punk/Hardcore,dance-punk,1
+2022,NY,Punk/Hardcore,hardcore punk,1
+2022,NY,R&B/Soul/Funk,funk,1
+2022,NY,R&B/Soul/Funk,rnb,1
+2022,NY,Rock,alternative rock,2
+2022,NY,Rock,rock,2
+2022,NY,Rock,rock & roll,1
+2022,OH,Comedy/Spoken Word,black comedy,1
+2022,OH,Comedy/Spoken Word,comedy,1
+2022,OH,Country/Folk/Americana,americana,1
+2022,OH,Country/Folk/Americana,contemporary country,1
+2022,OH,Country/Folk/Americana,country,1
+2022,OH,Jazz/Blues,blues rock,2
+2022,OH,Jazz/Blues,jazz,1
+2022,OH,Metal,symphonic metal,2
+2022,OH,Punk/Hardcore,punk,1
+2022,OH,Punk/Hardcore,punk rock,1
+2022,OH,Reggae/Ska,reggae rock,2
+2022,OH,Reggae/Ska,roots reggae,1
+2022,OH,Rock,indie,1
+2022,OH,Rock,indie rock,1
+2022,OH,Rock,jam band,2
+2022,OH,Unknown,unknown,1
+2022,OK,Comedy/Spoken Word,comedy,1
+2022,OK,Comedy/Spoken Word,satire,1
+2022,OK,Country/Folk/Americana,country,3
+2022,OK,Country/Folk/Americana,folk,1
+2022,OK,Electronic/Dance,hip house,1
+2022,OK,Hip-Hop/Rap,hip hop,1
+2022,OK,Metal,industrial metal,1
+2022,OK,Metal,thrash metal,1
+2022,OK,Other/Uncategorized,experimental,1
+2022,OK,Pop,pop,1
+2022,OK,Punk/Hardcore,emo,1
+2022,OK,Punk/Hardcore,hardcore,1
+2022,OK,Punk/Hardcore,hardcore punk,1
+2022,OK,Punk/Hardcore,post-punk,1
+2022,OK,R&B/Soul/Funk,contemporary r&b,1
+2022,OK,Rock,noise rock,1
+2022,OK,Rock,rock,1
+2022,OK,Unknown,unknown,1
+2022,OR,Country/Folk/Americana,country,1
+2022,OR,Country/Folk/Americana,folk,1
+2022,OR,Electronic/Dance,house,1
+2022,OR,Jazz/Blues,lounge,2
+2022,OR,Metal,heavy metal,1
+2022,OR,Other/Uncategorized,pigfuck,1
+2022,OR,Pop,indie pop,1
+2022,OR,Pop,pop,1
+2022,OR,Punk/Hardcore,garage punk,1
+2022,OR,Punk/Hardcore,punk,1
+2022,OR,Rock,alternative rock,1
+2022,OR,Rock,heavy rock,1
+2022,OR,Rock,indie rock,1
+2022,OR,Rock,progressive rock,1
+2022,OR,Rock,rock,2
+2022,OR,Unknown,unknown,3
+2022,PA,Comedy/Spoken Word,comedy,1
+2022,PA,Country/Folk/Americana,americana,1
+2022,PA,Country/Folk/Americana,bluegrass,1
+2022,PA,Electronic/Dance,dance,1
+2022,PA,Electronic/Dance,house,1
+2022,PA,Jazz/Blues,blues,1
+2022,PA,Jazz/Blues,jazz,1
+2022,PA,Punk/Hardcore,emo,2
+2022,PA,R&B/Soul/Funk,funk,3
+2022,PA,R&B/Soul/Funk,soul,1
+2022,PA,Rock,experimental rock,1
+2022,PA,Rock,hard rock,1
+2022,PA,Rock,indie,1
+2022,PA,Rock,jam band,1
+2022,PA,Unknown,unknown,3
+2022,RI,Country/Folk/Americana,alternative folk,1
+2022,RI,Country/Folk/Americana,folk,1
+2022,RI,Electronic/Dance,ambient,1
+2022,RI,Other/Uncategorized,experimental,1
+2022,RI,Other/Uncategorized,installation art,1
+2022,RI,Pop,pop rock,1
+2022,RI,Punk/Hardcore,emo,1
+2022,RI,Punk/Hardcore,hardcore,1
+2022,RI,Punk/Hardcore,hardcore punk,1
+2022,RI,Punk/Hardcore,post-hardcore,1
+2022,RI,Rock,alternative,1
+2022,RI,Rock,alternative rock,2
+2022,RI,Rock,experimental rock,1
+2022,RI,Rock,hard rock,1
+2022,RI,Rock,indie rock,1
+2022,RI,Rock,psychedelic rock,2
+2022,RI,Rock,rock music,2
+2022,SC,Hip-Hop/Rap,alternative hip hop,1
+2022,SC,Hip-Hop/Rap,gangsta,1
+2022,SC,Metal,alternative metal,1
+2022,SC,Metal,death metal,1
+2022,SC,Metal,grindcore,1
+2022,SC,Metal,metal,1
+2022,SC,Metal,metalcore,2
+2022,SC,Punk/Hardcore,hardcore,4
+2022,SC,R&B/Soul/Funk,soul,1
+2022,SC,Rock,alternative,1
+2022,SC,Rock,alternative rock,1
+2022,SC,Rock,hard rock,1
+2022,SC,Rock,indie,1
+2022,SC,Unknown,unknown,3
+2022,SD,Christian/Gospel,contemporary christian,1
+2022,SD,Country/Folk/Americana,contemporary country,1
+2022,SD,Country/Folk/Americana,country,1
+2022,SD,Country/Folk/Americana,folk,1
+2022,SD,Hip-Hop/Rap,crunk,1
+2022,SD,Hip-Hop/Rap,g-funk,1
+2022,SD,Hip-Hop/Rap,hip hop,2
+2022,SD,Metal,heavy metal,1
+2022,SD,Other/Uncategorized,vocal,1
+2022,SD,Pop,pop,1
+2022,SD,Punk/Hardcore,punk,2
+2022,SD,Punk/Hardcore,punk rock,1
+2022,SD,Unknown,unknown,6
+2022,TN,Comedy/Spoken Word,comedy,1
+2022,TN,Country/Folk/Americana,americana,1
+2022,TN,Country/Folk/Americana,contemporary country,2
+2022,TN,Country/Folk/Americana,country,9
+2022,TN,Country/Folk/Americana,country music,1
+2022,TN,Country/Folk/Americana,country pop,1
+2022,TN,Jazz/Blues,blues rock,1
+2022,TN,Jazz/Blues,jazz-rock,1
+2022,TN,Pop,pop,1
+2022,TN,R&B/Soul/Funk,soul,1
+2022,TN,Rock,jam band,1
+2022,TX,Country/Folk/Americana,country,2
+2022,TX,Electronic/Dance,alternative dance,1
+2022,TX,Electronic/Dance,electro house,1
+2022,TX,Electronic/Dance,hardstyle,1
+2022,TX,Hip-Hop/Rap,alternative hip hop,1
+2022,TX,Hip-Hop/Rap,country rap,1
+2022,TX,Jazz/Blues,big band,1
+2022,TX,Other/Uncategorized,experimental,1
+2022,TX,Other/Uncategorized,gothic,1
+2022,TX,Pop,indie pop,1
+2022,TX,Punk/Hardcore,psychobilly,1
+2022,TX,R&B/Soul/Funk,soul,2
+2022,TX,Rock,indie rock,1
+2022,TX,Rock,psychedelic rock,1
+2022,TX,Unknown,unknown,4
+2022,UT,Classical,classical crossover,2
+2022,UT,Comedy/Spoken Word,comedy,3
+2022,UT,Comedy/Spoken Word,drag queen,1
+2022,UT,Country/Folk/Americana,bluegrass music,2
+2022,UT,Electronic/Dance,dance,1
+2022,UT,Electronic/Dance,new age,5
+2022,UT,Electronic/Dance,vocal house,1
+2022,UT,Other/Uncategorized,vocal,1
+2022,UT,Pop,pop,1
+2022,UT,Punk/Hardcore,punk,1
+2022,UT,Rock,alternative rock,1
+2022,UT,Rock,hard rock,1
+2022,VA,Country/Folk/Americana,bluegrass,1
+2022,VA,Country/Folk/Americana,country,1
+2022,VA,Country/Folk/Americana,folk,3
+2022,VA,Country/Folk/Americana,folk rock,2
+2022,VA,Electronic/Dance,new wave,1
+2022,VA,Hip-Hop/Rap,hip hop,2
+2022,VA,Punk/Hardcore,punk,1
+2022,VA,Rock,alternative rock,1
+2022,VA,Rock,indie rock,1
+2022,VA,Rock,jam band,3
+2022,VA,Rock,psychedelic,1
+2022,VA,Unknown,unknown,3
+2022,VT,Country/Folk/Americana,folk,1
+2022,VT,Country/Folk/Americana,singer-songwriter,1
+2022,VT,Electronic/Dance,disco,3
+2022,VT,Electronic/Dance,new wave,2
+2022,VT,Metal,black metal,1
+2022,VT,Pop,indie pop,1
+2022,VT,Punk/Hardcore,emo,1
+2022,VT,Reggae/Ska,reggae,1
+2022,VT,Rock,garage rock,1
+2022,VT,Rock,indie,2
+2022,VT,Rock,indie rock,1
+2022,VT,Rock,noise rock,1
+2022,VT,Rock,rock,4
+2022,WA,Country/Folk/Americana,folk,2
+2022,WA,Hip-Hop/Rap,crunk,1
+2022,WA,Jazz/Blues,smooth jazz,5
+2022,WA,Metal,doom metal,1
+2022,WA,Pop,indie pop,1
+2022,WA,Punk/Hardcore,hardcore punk,1
+2022,WA,Punk/Hardcore,punk rock,2
+2022,WA,R&B/Soul/Funk,funk,1
+2022,WA,Rock,alternative rock,2
+2022,WA,Rock,math rock,1
+2022,WA,Rock,rock,2
+2022,WA,Unknown,unknown,1
+2022,WI,Country/Folk/Americana,bluegrass,1
+2022,WI,Country/Folk/Americana,folk,1
+2022,WI,Electronic/Dance,electronica,1
+2022,WI,Electronic/Dance,new wave,1
+2022,WI,Metal,heavy metal,2
+2022,WI,Metal,nu metal,4
+2022,WI,Pop,alternative pop,1
+2022,WI,Pop,indie pop,1
+2022,WI,Punk/Hardcore,emo,1
+2022,WI,Punk/Hardcore,punk,1
+2022,WI,Rock,alternative rock,4
+2022,WI,Rock,garage rock,1
+2022,WI,Rock,indie,1
+2022,WV,Country/Folk/Americana,contemporary country,1
+2022,WV,Country/Folk/Americana,country,2
+2022,WV,Country/Folk/Americana,country music,1
+2022,WV,Country/Folk/Americana,singer-songwriter,1
+2022,WV,Electronic/Dance,new age,2
+2022,WV,Jazz/Blues,soul-jazz,1
+2022,WV,Metal,heavy metal,1
+2022,WV,Metal,thrash metal,1
+2022,WV,Punk/Hardcore,punk rock,1
+2022,WV,Reggae/Ska,reggae,1
+2022,WV,Rock,alternative rock,2
+2022,WV,Rock,hard rock,2
+2022,WV,Rock,rock,2
+2022,WV,Unknown,unknown,2
+2022,WY,Country/Folk/Americana,country,4
+2022,WY,Country/Folk/Americana,country music,1
+2022,WY,Country/Folk/Americana,folk rock,1
+2022,WY,Electronic/Dance,new age,1
+2022,WY,Hip-Hop/Rap,crunk,1
+2022,WY,Hip-Hop/Rap,g-funk,1
+2022,WY,Hip-Hop/Rap,hip hop,2
+2022,WY,Metal,death metal,3
+2022,WY,Metal,grindcore,1
+2022,WY,Metal,thrash metal,1
+2022,WY,Other/Uncategorized,experimental,1
+2022,WY,Other/Uncategorized,vocal,1
+2022,WY,Rock,alternative rock,2
+2023,AK,Country/Folk/Americana,acoustic,1
+2023,AK,Country/Folk/Americana,alternative country,1
+2023,AK,Country/Folk/Americana,bluegrass,2
+2023,AK,Country/Folk/Americana,contemporary folk,5
+2023,AK,Country/Folk/Americana,country music,1
+2023,AK,Country/Folk/Americana,singer-songwriter,2
+2023,AK,Electronic/Dance,electronic,2
+2023,AK,Hip-Hop/Rap,hip hop,1
+2023,AK,Jazz/Blues,big band,2
+2023,AK,Other/Uncategorized,#chicagolivemusic,1
+2023,AK,Punk/Hardcore,post-hardcore,1
+2023,AK,Unknown,unknown,1
+2023,AL,Country/Folk/Americana,bluegrass,1
+2023,AL,Electronic/Dance,downtempo,1
+2023,AL,Electronic/Dance,electronic,1
+2023,AL,Metal,crossover thrash,1
+2023,AL,Metal,death metal,2
+2023,AL,Metal,metalcore,1
+2023,AL,Other/Uncategorized,power violence,1
+2023,AL,Punk/Hardcore,beatdown hardcore,1
+2023,AL,Punk/Hardcore,hardcore,1
+2023,AL,Punk/Hardcore,hardcore punk,2
+2023,AL,Punk/Hardcore,post-hardcore,1
+2023,AL,Rock,alternative rock,1
+2023,AL,Rock,garage rock,1
+2023,AL,Rock,noise rock,1
+2023,AL,Rock,rock and roll,1
+2023,AL,Unknown,unknown,3
+2023,AR,Country/Folk/Americana,country rock,1
+2023,AR,Electronic/Dance,dance,1
+2023,AR,Hip-Hop/Rap,gangsta rap,1
+2023,AR,Metal,brutal death metal,1
+2023,AR,Metal,crossover thrash,1
+2023,AR,Metal,death metal,2
+2023,AR,Metal,metalcore,3
+2023,AR,Metal,sludge metal,1
+2023,AR,Punk/Hardcore,hardcore,3
+2023,AR,Punk/Hardcore,hardcore punk,3
+2023,AR,Punk/Hardcore,post-hardcore,1
+2023,AR,Rock,hard rock,1
+2023,AR,Rock,indie,1
+2023,AZ,Electronic/Dance,dubstep,2
+2023,AZ,Electronic/Dance,electronic,3
+2023,AZ,Electronic/Dance,house,1
+2023,AZ,Hip-Hop/Rap,hip hop,1
+2023,AZ,Metal,metalcore,1
+2023,AZ,Other/Uncategorized,a cappella,1
+2023,AZ,Other/Uncategorized,experimental,1
+2023,AZ,Pop,pop,1
+2023,AZ,Punk/Hardcore,emo,1
+2023,AZ,Punk/Hardcore,hardcore,1
+2023,AZ,Punk/Hardcore,pop punk,1
+2023,AZ,Punk/Hardcore,punk,2
+2023,AZ,Punk/Hardcore,punk rock,1
+2023,AZ,Rock,garage rock,1
+2023,AZ,Rock,indie rock,1
+2023,AZ,Rock,yacht rock,1
+2023,CA,Country/Folk/Americana,bluegrass music,1
+2023,CA,Electronic/Dance,dance,1
+2023,CA,Electronic/Dance,edm,2
+2023,CA,Electronic/Dance,tech house,1
+2023,CA,Electronic/Dance,trip hop,1
+2023,CA,Jazz/Blues,blues,1
+2023,CA,Jazz/Blues,jazz,2
+2023,CA,Pop,música popular brasileira,1
+2023,CA,Pop,pop,1
+2023,CA,Punk/Hardcore,punk,1
+2023,CA,Punk/Hardcore,punk rock,1
+2023,CA,R&B/Soul/Funk,alternative r&b,1
+2023,CA,R&B/Soul/Funk,funk,1
+2023,CA,R&B/Soul/Funk,soul,2
+2023,CA,Rock,indie,1
+2023,CA,Rock,rock,1
+2023,CA,Unknown,unknown,1
+2023,CO,Country/Folk/Americana,country,1
+2023,CO,Country/Folk/Americana,folk,1
+2023,CO,Country/Folk/Americana,gothic country,1
+2023,CO,Electronic/Dance,deep house,1
+2023,CO,Electronic/Dance,downtempo,1
+2023,CO,Electronic/Dance,dubstep,2
+2023,CO,Electronic/Dance,edm,2
+2023,CO,Electronic/Dance,electronic,4
+2023,CO,Electronic/Dance,house,1
+2023,CO,Hip-Hop/Rap,hip hop,1
+2023,CO,Other/Uncategorized,#chicagolivemusic,1
+2023,CO,Punk/Hardcore,punk,1
+2023,CO,Rock,rock,1
+2023,CO,Unknown,unknown,2
+2023,CT,Country/Folk/Americana,folk,2
+2023,CT,Country/Folk/Americana,singer-songwriter,2
+2023,CT,Metal,doom metal,1
+2023,CT,Other/Uncategorized,experimental,1
+2023,CT,Pop,pop,1
+2023,CT,Punk/Hardcore,punk,2
+2023,CT,R&B/Soul/Funk,contemporary r&b,3
+2023,CT,Rock,alternative rock,1
+2023,CT,Rock,hard rock,2
+2023,CT,Rock,rock,1
+2023,CT,Rock,stoner rock,1
+2023,CT,Unknown,unknown,3
+2023,DE,Country/Folk/Americana,contemporary country,1
+2023,DE,Country/Folk/Americana,folk,2
+2023,DE,Country/Folk/Americana,folk rock,1
+2023,DE,Country/Folk/Americana,singer-songwriter,1
+2023,DE,Electronic/Dance,electronic,2
+2023,DE,Electronic/Dance,trance,1
+2023,DE,Hip-Hop/Rap,boom bap,1
+2023,DE,Jazz/Blues,jazz,1
+2023,DE,Metal,metal,1
+2023,DE,Other/Uncategorized,tribute band,1
+2023,DE,Pop,dream pop,1
+2023,DE,Pop,indie pop,1
+2023,DE,Punk/Hardcore,emo,1
+2023,DE,Punk/Hardcore,folk punk,1
+2023,DE,R&B/Soul/Funk,contemporary r&b,1
+2023,DE,Rock,rock,3
+2023,FL,Country/Folk/Americana,americana,2
+2023,FL,Country/Folk/Americana,country rock,1
+2023,FL,Electronic/Dance,dance-pop,1
+2023,FL,Electronic/Dance,edm,3
+2023,FL,Electronic/Dance,electro-funk,1
+2023,FL,Electronic/Dance,house,1
+2023,FL,Hip-Hop/Rap,hip hop,4
+2023,FL,Jazz/Blues,country blues,1
+2023,FL,Pop,pop rock,1
+2023,FL,Rock,rock,1
+2023,FL,Unknown,unknown,4
+2023,GA,Country/Folk/Americana,country,1
+2023,GA,Electronic/Dance,electronic,2
+2023,GA,Electronic/Dance,house,1
+2023,GA,Punk/Hardcore,hardcore,1
+2023,GA,Punk/Hardcore,post-hardcore,1
+2023,GA,R&B/Soul/Funk,funk,1
+2023,GA,R&B/Soul/Funk,funk rock,1
+2023,GA,Rock,alternative rock,2
+2023,GA,Rock,indie rock,1
+2023,GA,Rock,jam band,3
+2023,GA,Rock,noise rock,1
+2023,GA,Rock,psychedelic,1
+2023,GA,Rock,rock,1
+2023,GA,Rock,southern rock,2
+2023,GA,Rock,surf rock,1
+2023,HI,Christian/Gospel,contemporary gospel,3
+2023,HI,Country/Folk/Americana,folk,1
+2023,HI,Pop,dream pop,1
+2023,HI,Pop,pop,4
+2023,HI,Reggae/Ska,reggae rock,6
+2023,HI,Unknown,unknown,5
+2023,IA,Christian/Gospel,contemporary christian,3
+2023,IA,Country/Folk/Americana,country,2
+2023,IA,Electronic/Dance,breaks,2
+2023,IA,Electronic/Dance,new age,2
+2023,IA,Electronic/Dance,new wave,1
+2023,IA,Jazz/Blues,big band,1
+2023,IA,Metal,alternative metal,1
+2023,IA,Other/Uncategorized,american,1
+2023,IA,Other/Uncategorized,saturday night live,1
+2023,IA,Punk/Hardcore,pop punk,1
+2023,IA,Punk/Hardcore,post-hardcore,1
+2023,IA,Punk/Hardcore,punk,1
+2023,IA,Rock,hard rock,1
+2023,IA,Rock,rock and roll,1
+2023,IA,Unknown,unknown,1
+2023,ID,Country/Folk/Americana,country,2
+2023,ID,Country/Folk/Americana,folk,1
+2023,ID,Country/Folk/Americana,indie folk,1
+2023,ID,Electronic/Dance,electronic,1
+2023,ID,Metal,death metal,2
+2023,ID,Metal,doom metal,1
+2023,ID,Other/Uncategorized,american primitive guitar,1
+2023,ID,Other/Uncategorized,deathgrind,1
+2023,ID,Other/Uncategorized,experimental,1
+2023,ID,Pop,alternative pop,1
+2023,ID,Pop,pop,1
+2023,ID,R&B/Soul/Funk,funk,1
+2023,ID,Rock,alternative rock,1
+2023,ID,Rock,hard rock,1
+2023,ID,Rock,indie,1
+2023,ID,Rock,piano rock,1
+2023,ID,Rock,rock,2
+2023,IL,Classical,classical crossover,1
+2023,IL,Comedy/Spoken Word,comedy,1
+2023,IL,Country/Folk/Americana,bluegrass,1
+2023,IL,Electronic/Dance,dark wave,1
+2023,IL,Electronic/Dance,electronic,1
+2023,IL,Hip-Hop/Rap,hip hop,1
+2023,IL,Jazz/Blues,chicago blues,1
+2023,IL,Pop,indie pop,1
+2023,IL,Punk/Hardcore,hardcore,2
+2023,IL,Punk/Hardcore,pop punk,1
+2023,IL,Rock,alternative rock,5
+2023,IL,Rock,indie rock,2
+2023,IL,Rock,jam band,1
+2023,IL,Unknown,unknown,1
+2023,IN,Country/Folk/Americana,country,1
+2023,IN,Electronic/Dance,house,1
+2023,IN,Electronic/Dance,progressive house,1
+2023,IN,Hip-Hop/Rap,rap,1
+2023,IN,Metal,symphonic metal,2
+2023,IN,Other/Uncategorized,a cappella,2
+2023,IN,Punk/Hardcore,alternative punk,1
+2023,IN,Punk/Hardcore,punk,1
+2023,IN,R&B/Soul/Funk,funk,1
+2023,IN,Reggae/Ska,reggae,1
+2023,IN,Rock,alternative rock,2
+2023,IN,Rock,indie rock,1
+2023,IN,Rock,rock,1
+2023,IN,Unknown,unknown,4
+2023,KS,Christian/Gospel,christian rock,1
+2023,KS,Comedy/Spoken Word,comedy,1
+2023,KS,Country/Folk/Americana,alternative country,1
+2023,KS,Country/Folk/Americana,contemporary country,1
+2023,KS,Country/Folk/Americana,folk pop,1
+2023,KS,Metal,alternative metal,1
+2023,KS,Metal,symphonic metal,1
+2023,KS,Pop,pop,2
+2023,KS,Punk/Hardcore,folk punk,1
+2023,KS,Punk/Hardcore,hardcore,1
+2023,KS,Punk/Hardcore,pop punk,1
+2023,KS,Punk/Hardcore,punk,1
+2023,KS,Rock,alternative rock,1
+2023,KS,Rock,hard rock,1
+2023,KS,Rock,indie,1
+2023,KS,Rock,indie rock,1
+2023,KS,Rock,soft rock,1
+2023,KS,Unknown,unknown,2
+2023,KY,Comedy/Spoken Word,audiobook,1
+2023,KY,Country/Folk/Americana,americana,2
+2023,KY,Country/Folk/Americana,folk,2
+2023,KY,Electronic/Dance,techno,1
+2023,KY,Metal,crossover thrash,1
+2023,KY,Metal,metal,1
+2023,KY,Other/Uncategorized,american,1
+2023,KY,Punk/Hardcore,punk,2
+2023,KY,Rock,alternative rock,1
+2023,KY,Rock,jam band,1
+2023,KY,Rock,rock,1
+2023,KY,Rock,soft rock,1
+2023,KY,Unknown,unknown,5
+2023,LA,Country/Folk/Americana,americana,1
+2023,LA,Country/Folk/Americana,bluegrass,2
+2023,LA,Country/Folk/Americana,progressive bluegrass,2
+2023,LA,Electronic/Dance,alternative dance,1
+2023,LA,Hip-Hop/Rap,hip hop,1
+2023,LA,Jazz/Blues,jazz-funk,1
+2023,LA,Metal,metalcore,2
+2023,LA,Punk/Hardcore,punk,1
+2023,LA,R&B/Soul/Funk,bayou funk,1
+2023,LA,R&B/Soul/Funk,funk,1
+2023,LA,Rock,alternative rock,1
+2023,LA,Rock,indie rock,1
+2023,LA,Unknown,unknown,5
+2023,MA,Country/Folk/Americana,folk,1
+2023,MA,Electronic/Dance,breakcore,1
+2023,MA,Electronic/Dance,electronic,2
+2023,MA,Jazz/Blues,country blues,1
+2023,MA,Jazz/Blues,rnb/swing,1
+2023,MA,Pop,alternative pop,1
+2023,MA,Pop,indie pop,1
+2023,MA,Pop,pop,1
+2023,MA,R&B/Soul/Funk,funk,2
+2023,MA,Rock,alternative rock,1
+2023,MA,Rock,garage rock,1
+2023,MA,Rock,indie rock,1
+2023,MA,Rock,rock,2
+2023,MA,Rock,rock music,1
+2023,MA,Unknown,unknown,3
+2023,MD,Christian/Gospel,contemporary christian music,1
+2023,MD,Classical,classical music,1
+2023,MD,Country/Folk/Americana,bluegrass,2
+2023,MD,Country/Folk/Americana,contemporary country,1
+2023,MD,Country/Folk/Americana,country rock,1
+2023,MD,Country/Folk/Americana,folk,1
+2023,MD,Electronic/Dance,electronic,1
+2023,MD,Jazz/Blues,vocal jazz,1
+2023,MD,Metal,metal,1
+2023,MD,Other/Uncategorized,ballad,1
+2023,MD,Other/Uncategorized,installation art,1
+2023,MD,Punk/Hardcore,emo,1
+2023,MD,Punk/Hardcore,pop punk,1
+2023,MD,Rock,alternative rock,1
+2023,MD,Rock,hard rock,1
+2023,MD,Rock,indie rock,1
+2023,MD,Rock,rock,1
+2023,MD,Unknown,unknown,2
+2023,ME,Country/Folk/Americana,folk,3
+2023,ME,Country/Folk/Americana,folk rock,1
+2023,ME,Country/Folk/Americana,"folk, world, & country",1
+2023,ME,Hip-Hop/Rap,hip-hop,1
+2023,ME,Hip-Hop/Rap,rap,1
+2023,ME,Jazz/Blues,swing,1
+2023,ME,Metal,metal,1
+2023,ME,Pop,indie pop,1
+2023,ME,Punk/Hardcore,emo,1
+2023,ME,Punk/Hardcore,punk,2
+2023,ME,R&B/Soul/Funk,funk,1
+2023,ME,Rock,hard rock,2
+2023,ME,Rock,noise rock,1
+2023,ME,Rock,psychedelic,1
+2023,ME,Unknown,unknown,2
+2023,MI,Classical,classical,2
+2023,MI,Comedy/Spoken Word,comedy,2
+2023,MI,Country/Folk/Americana,country,1
+2023,MI,Country/Folk/Americana,country music,1
+2023,MI,Country/Folk/Americana,progressive bluegrass,2
+2023,MI,Electronic/Dance,electronic,2
+2023,MI,Jazz/Blues,blues rock,1
+2023,MI,Jazz/Blues,jazz,1
+2023,MI,Punk/Hardcore,hardcore punk,1
+2023,MI,R&B/Soul/Funk,soul,2
+2023,MI,Reggae/Ska,ska,2
+2023,MI,Rock,hard rock,1
+2023,MI,Rock,rock,1
+2023,MI,Unknown,unknown,1
+2023,MN,Country/Folk/Americana,folk,2
+2023,MN,Electronic/Dance,breaks,1
+2023,MN,Electronic/Dance,dance,1
+2023,MN,Electronic/Dance,edm,1
+2023,MN,Electronic/Dance,electropop,1
+2023,MN,Jazz/Blues,free jazz,1
+2023,MN,Metal,symphonic metal,1
+2023,MN,Pop,indie pop,2
+2023,MN,Punk/Hardcore,pop punk,1
+2023,MN,Punk/Hardcore,punk,1
+2023,MN,Punk/Hardcore,punk rock,1
+2023,MN,Rock,hard rock,1
+2023,MN,Rock,indie,1
+2023,MN,Rock,rock,1
+2023,MN,Unknown,unknown,3
+2023,MN,World,polka,1
+2023,MO,Christian/Gospel,contemporary christian,3
+2023,MO,Classical,classical,3
+2023,MO,Electronic/Dance,dubstep,2
+2023,MO,Electronic/Dance,progressive trance,1
+2023,MO,Other/Uncategorized,american idol,1
+2023,MO,Punk/Hardcore,folk punk,1
+2023,MO,Punk/Hardcore,hardcore,1
+2023,MO,R&B/Soul/Funk,blue-eyed soul,1
+2023,MO,Rock,hard rock,1
+2023,MO,Rock,southern rock,1
+2023,MO,Unknown,unknown,5
+2023,MS,Comedy/Spoken Word,comedy,1
+2023,MS,Country/Folk/Americana,alternative country,1
+2023,MS,Country/Folk/Americana,country,5
+2023,MS,Country/Folk/Americana,country music,1
+2023,MS,Country/Folk/Americana,folk pop,1
+2023,MS,Country/Folk/Americana,progressive bluegrass,1
+2023,MS,Electronic/Dance,acid rock,1
+2023,MS,Jazz/Blues,blues rock,2
+2023,MS,Jazz/Blues,dixieland,1
+2023,MS,Metal,sludge metal,1
+2023,MS,Punk/Hardcore,emo,1
+2023,MS,Rock,garage rock,1
+2023,MS,Rock,indie rock,2
+2023,MS,Rock,rock,1
+2023,MT,Country/Folk/Americana,americana,2
+2023,MT,Country/Folk/Americana,bluegrass,2
+2023,MT,Country/Folk/Americana,bluegrass music,3
+2023,MT,Country/Folk/Americana,folk,1
+2023,MT,Jazz/Blues,blues rock,1
+2023,MT,Metal,alternative metal,1
+2023,MT,R&B/Soul/Funk,funk,1
+2023,MT,Rock,alternative rock,1
+2023,MT,Rock,rock,3
+2023,MT,Rock,rock and roll,5
+2023,NC,Country/Folk/Americana,folk,1
+2023,NC,Country/Folk/Americana,folk rock,1
+2023,NC,Electronic/Dance,drone,1
+2023,NC,Hip-Hop/Rap,hip-hop,1
+2023,NC,Jazz/Blues,afro-cuban jazz,1
+2023,NC,Jazz/Blues,jazz fusion,1
+2023,NC,Punk/Hardcore,emo,1
+2023,NC,Punk/Hardcore,pop punk,1
+2023,NC,Punk/Hardcore,punk,1
+2023,NC,Punk/Hardcore,punk rock,1
+2023,NC,R&B/Soul/Funk,funk,1
+2023,NC,R&B/Soul/Funk,rnb,1
+2023,NC,R&B/Soul/Funk,soul,1
+2023,NC,Rock,alternative,1
+2023,NC,Rock,indie,1
+2023,NC,Rock,noise rock,1
+2023,NC,Rock,rock,1
+2023,NC,Rock,rock and roll,1
+2023,NC,Rock,shoegaze,1
+2023,NC,Unknown,unknown,1
+2023,ND,Christian/Gospel,christian rock,1
+2023,ND,Country/Folk/Americana,country,1
+2023,ND,Country/Folk/Americana,country rock,1
+2023,ND,Country/Folk/Americana,folk pop,1
+2023,ND,Electronic/Dance,breaks,2
+2023,ND,Electronic/Dance,new age,2
+2023,ND,Jazz/Blues,rhythm & blues,4
+2023,ND,Metal,alternative metal,1
+2023,ND,Metal,glam metal,1
+2023,ND,Other/Uncategorized,a cappella,1
+2023,ND,Other/Uncategorized,cybergrind,1
+2023,ND,Punk/Hardcore,emo,1
+2023,ND,Punk/Hardcore,screamo,1
+2023,ND,Rock,hard rock,1
+2023,ND,Unknown,unknown,1
+2023,NE,Country/Folk/Americana,country,1
+2023,NE,Country/Folk/Americana,folk,1
+2023,NE,Electronic/Dance,electronic,1
+2023,NE,Electronic/Dance,new age,1
+2023,NE,Hip-Hop/Rap,hip hop,2
+2023,NE,Hip-Hop/Rap,rap,1
+2023,NE,Metal,death metal,2
+2023,NE,Metal,melodic death metal,1
+2023,NE,Metal,metal,1
+2023,NE,Metal,metalcore,1
+2023,NE,Metal,nu metal,2
+2023,NE,Punk/Hardcore,horror punk,1
+2023,NE,Rock,art rock,1
+2023,NE,Rock,hard rock,2
+2023,NE,Rock,rock,1
+2023,NE,Unknown,unknown,1
+2023,NH,Classical,rock opera,1
+2023,NH,Country/Folk/Americana,folk,1
+2023,NH,Country/Folk/Americana,folk rock,1
+2023,NH,Electronic/Dance,dark electro,1
+2023,NH,Electronic/Dance,hardstyle,1
+2023,NH,Electronic/Dance,new wave,1
+2023,NH,Hip-Hop/Rap,rap,2
+2023,NH,Hip-Hop/Rap,underground hip hop,1
+2023,NH,Jazz/Blues,jazz,1
+2023,NH,Metal,metalcore,1
+2023,NH,Punk/Hardcore,emo,1
+2023,NH,Punk/Hardcore,post-hardcore,1
+2023,NH,Punk/Hardcore,punk,1
+2023,NH,Rock,alternative rock,2
+2023,NH,Rock,hard rock,1
+2023,NH,Rock,indie rock,1
+2023,NH,Rock,rock,1
+2023,NH,Unknown,unknown,1
+2023,NJ,Electronic/Dance,dance-pop,1
+2023,NJ,Electronic/Dance,edm,2
+2023,NJ,Electronic/Dance,electronic,1
+2023,NJ,Jazz/Blues,jazz,1
+2023,NJ,Metal,doom metal,1
+2023,NJ,Punk/Hardcore,folk punk,2
+2023,NJ,Punk/Hardcore,punk,1
+2023,NJ,Rock,indie,1
+2023,NJ,Rock,rock,2
+2023,NJ,Rock,rock music,1
+2023,NJ,Unknown,unknown,7
+2023,NM,Christian/Gospel,contemporary christian,1
+2023,NM,Country/Folk/Americana,"folk, world, & country",3
+2023,NM,Country/Folk/Americana,red dirt,1
+2023,NM,Electronic/Dance,big beat,1
+2023,NM,Hip-Hop/Rap,hip hop,3
+2023,NM,Metal,black metal,1
+2023,NM,Punk/Hardcore,punk,4
+2023,NM,R&B/Soul/Funk,contemporary r&b,1
+2023,NM,Rock,alternative rock,1
+2023,NM,Rock,desert rock,1
+2023,NM,Unknown,unknown,3
+2023,NV,Country/Folk/Americana,country,1
+2023,NV,Electronic/Dance,dance,2
+2023,NV,Electronic/Dance,electro house,1
+2023,NV,Electronic/Dance,electronic,1
+2023,NV,Electronic/Dance,house,1
+2023,NV,Electronic/Dance,minimal techno,1
+2023,NV,Electronic/Dance,tech house,3
+2023,NV,Hip-Hop/Rap,hip hop,1
+2023,NV,Hip-Hop/Rap,hip-hop,1
+2023,NV,Pop,pop,5
+2023,NV,Punk/Hardcore,folk punk,1
+2023,NV,Rock,indie rock,1
+2023,NV,Rock,rock,1
+2023,NY,Country/Folk/Americana,folk,2
+2023,NY,Electronic/Dance,dubstep,2
+2023,NY,Electronic/Dance,techno,1
+2023,NY,Hip-Hop/Rap,southern hip hop,1
+2023,NY,Jazz/Blues,blues rock,2
+2023,NY,Jazz/Blues,dixieland,1
+2023,NY,Pop,dream pop,1
+2023,NY,Pop,pop,1
+2023,NY,Punk/Hardcore,gypsy punk,1
+2023,NY,Punk/Hardcore,hardcore punk,1
+2023,NY,Reggae/Ska,reggae,1
+2023,NY,Rock,noise rock,1
+2023,NY,Rock,rock,1
+2023,NY,Rock,rock & roll,1
+2023,NY,Rock,rock music,1
+2023,NY,Unknown,unknown,2
+2023,OH,Country/Folk/Americana,country,1
+2023,OH,Country/Folk/Americana,folk,1
+2023,OH,Electronic/Dance,dance,1
+2023,OH,Hip-Hop/Rap,hip-hop,1
+2023,OH,Hip-Hop/Rap,horrorcore,1
+2023,OH,Hip-Hop/Rap,rap,1
+2023,OH,Metal,doom metal,1
+2023,OH,Metal,metal,1
+2023,OH,Metal,nu metal,1
+2023,OH,Metal,symphonic metal,1
+2023,OH,Punk/Hardcore,punk,1
+2023,OH,R&B/Soul/Funk,funk,1
+2023,OH,R&B/Soul/Funk,soul,1
+2023,OH,Rock,alternative rock,1
+2023,OH,Rock,garage rock,1
+2023,OH,Rock,hard rock,1
+2023,OH,Rock,indie rock,1
+2023,OH,Rock,jam band,1
+2023,OH,Unknown,unknown,2
+2023,OK,Christian/Gospel,christian rock,1
+2023,OK,Comedy/Spoken Word,comedy,2
+2023,OK,Country/Folk/Americana,country,5
+2023,OK,Country/Folk/Americana,country music,2
+2023,OK,Country/Folk/Americana,folk,1
+2023,OK,Country/Folk/Americana,singer-songwriter,2
+2023,OK,Hip-Hop/Rap,rap,1
+2023,OK,Punk/Hardcore,emo,1
+2023,OK,Punk/Hardcore,pop punk,1
+2023,OK,Rock,alternative rock,1
+2023,OK,Rock,hard rock,1
+2023,OK,Rock,rock,1
+2023,OK,Unknown,unknown,1
+2023,OR,Country/Folk/Americana,folk,2
+2023,OR,Jazz/Blues,blues,1
+2023,OR,Pop,indie pop,1
+2023,OR,Punk/Hardcore,folk punk,2
+2023,OR,Punk/Hardcore,hardcore,2
+2023,OR,R&B/Soul/Funk,funk,1
+2023,OR,Rock,garage rock,1
+2023,OR,Rock,jam band,1
+2023,OR,Rock,progressive rock,1
+2023,OR,Rock,psychedelic rock,1
+2023,OR,Rock,rock,3
+2023,OR,Unknown,unknown,4
+2023,PA,Country/Folk/Americana,bluegrass,1
+2023,PA,Country/Folk/Americana,country,1
+2023,PA,Electronic/Dance,drum and bass,1
+2023,PA,Electronic/Dance,dubstep,1
+2023,PA,Electronic/Dance,electronic,3
+2023,PA,Hip-Hop/Rap,boom bap,1
+2023,PA,Hip-Hop/Rap,rap,1
+2023,PA,Jazz/Blues,dixieland,1
+2023,PA,Punk/Hardcore,emo,1
+2023,PA,Punk/Hardcore,pop punk,1
+2023,PA,R&B/Soul/Funk,funk,1
+2023,PA,Reggae/Ska,reggae,1
+2023,PA,Rock,alternative rock,2
+2023,PA,Rock,jam band,1
+2023,PA,Rock,rock,1
+2023,PA,Rock,rock and roll,1
+2023,PA,Unknown,unknown,1
+2023,RI,Classical,classical crossover,1
+2023,RI,Country/Folk/Americana,singer-songwriter,1
+2023,RI,Electronic/Dance,electronic,2
+2023,RI,Hip-Hop/Rap,hip-hop,1
+2023,RI,Metal,death metal,1
+2023,RI,Metal,heavy metal,1
+2023,RI,Metal,melodic death metal,1
+2023,RI,Pop,alternative pop,1
+2023,RI,Pop,indie pop,1
+2023,RI,Punk/Hardcore,hardcore,1
+2023,RI,Punk/Hardcore,post-punk,1
+2023,RI,Punk/Hardcore,punk,1
+2023,RI,Reggae/Ska,reggae,1
+2023,RI,Rock,hard rock,1
+2023,RI,Rock,indie rock,1
+2023,RI,Rock,psychedelic rock,1
+2023,RI,Unknown,unknown,3
+2023,SC,Country/Folk/Americana,folk,3
+2023,SC,Electronic/Dance,electronic,1
+2023,SC,Electronic/Dance,industrial,1
+2023,SC,Metal,death metal,1
+2023,SC,Metal,deathcore,1
+2023,SC,Metal,heavy metal,1
+2023,SC,Metal,metalcore,2
+2023,SC,Metal,technical death metal,1
+2023,SC,Punk/Hardcore,punk,1
+2023,SC,Punk/Hardcore,punk rock,1
+2023,SC,Rock,jam band,1
+2023,SC,Rock,southern rock,2
+2023,SC,Unknown,unknown,4
+2023,SD,Christian/Gospel,christian rock,1
+2023,SD,Country/Folk/Americana,alternative country,1
+2023,SD,Country/Folk/Americana,americana,1
+2023,SD,Country/Folk/Americana,contemporary country,1
+2023,SD,Country/Folk/Americana,country,3
+2023,SD,Country/Folk/Americana,country rock,1
+2023,SD,Electronic/Dance,breaks,2
+2023,SD,Jazz/Blues,rhythm & blues,1
+2023,SD,Metal,alternative metal,1
+2023,SD,Other/Uncategorized,holiday,1
+2023,SD,Punk/Hardcore,emo,2
+2023,SD,Punk/Hardcore,hardcore,2
+2023,SD,Rock,hard rock,2
+2023,SD,Rock,rock,1
+2023,TN,Christian/Gospel,contemporary christian,1
+2023,TN,Country/Folk/Americana,bluegrass,1
+2023,TN,Country/Folk/Americana,country,5
+2023,TN,Country/Folk/Americana,folk,1
+2023,TN,Country/Folk/Americana,singer-songwriter,1
+2023,TN,Country/Folk/Americana,traditional folk music,1
+2023,TN,Jazz/Blues,blues rock,1
+2023,TN,Other/Uncategorized,american idol,1
+2023,TN,Punk/Hardcore,punk,1
+2023,TN,Rock,alternative,1
+2023,TN,Rock,alternative rock,1
+2023,TN,Rock,indie,1
+2023,TN,Rock,indie rock,1
+2023,TN,Rock,rock,1
+2023,TN,Rock,southern rock,1
+2023,TN,Unknown,unknown,1
+2023,TX,Country/Folk/Americana,americana,2
+2023,TX,Country/Folk/Americana,folk,1
+2023,TX,Electronic/Dance,dubstep,2
+2023,TX,Jazz/Blues,big band,1
+2023,TX,Jazz/Blues,blues,1
+2023,TX,Jazz/Blues,texas blues,1
+2023,TX,Other/Uncategorized,experimental,1
+2023,TX,Punk/Hardcore,hardcore,1
+2023,TX,Punk/Hardcore,hardcore hip hop,1
+2023,TX,Punk/Hardcore,punk rock,1
+2023,TX,Rock,hard rock,1
+2023,TX,Rock,indie,1
+2023,TX,Rock,southern rock,1
+2023,TX,Unknown,unknown,5
+2023,UT,Electronic/Dance,chicago house,1
+2023,UT,Electronic/Dance,edm,2
+2023,UT,Electronic/Dance,house,1
+2023,UT,Electronic/Dance,new wave,1
+2023,UT,Electronic/Dance,trance,1
+2023,UT,Hip-Hop/Rap,hip hop,1
+2023,UT,Metal,heavy metal,3
+2023,UT,Metal,melodic death metal,1
+2023,UT,Metal,speed metal,1
+2023,UT,Other/Uncategorized,experimental,1
+2023,UT,Pop,pop,1
+2023,UT,Punk/Hardcore,punk,1
+2023,UT,Rock,indie,1
+2023,UT,Rock,indie rock,1
+2023,UT,Rock,rock,1
+2023,UT,Rock,rock and roll,1
+2023,UT,Unknown,unknown,1
+2023,VA,Country/Folk/Americana,country,3
+2023,VA,Country/Folk/Americana,folk,3
+2023,VA,Electronic/Dance,new wave,1
+2023,VA,Jazz/Blues,blues rock,1
+2023,VA,Jazz/Blues,jazz,1
+2023,VA,Punk/Hardcore,punk,1
+2023,VA,R&B/Soul/Funk,funk,1
+2023,VA,Rock,alternative,1
+2023,VA,Rock,psychedelic,1
+2023,VA,Rock,rock,3
+2023,VA,Rock,southern rock,2
+2023,VA,Unknown,unknown,2
+2023,VT,Classical,rock opera,1
+2023,VT,Electronic/Dance,disco,2
+2023,VT,Hip-Hop/Rap,rap,2
+2023,VT,Jazz/Blues,blues rock,1
+2023,VT,R&B/Soul/Funk,funk,2
+2023,VT,Reggae/Ska,reggae,1
+2023,VT,Rock,indie,1
+2023,VT,Rock,rock,1
+2023,VT,Rock,stoner rock,1
+2023,VT,Unknown,unknown,8
+2023,WA,Electronic/Dance,dance,1
+2023,WA,Electronic/Dance,dubstep,1
+2023,WA,Electronic/Dance,edm,2
+2023,WA,Electronic/Dance,electronic,1
+2023,WA,Electronic/Dance,progressive house,1
+2023,WA,Electronic/Dance,trance,1
+2023,WA,Jazz/Blues,blues,1
+2023,WA,Jazz/Blues,smooth jazz,1
+2023,WA,Pop,indie pop,2
+2023,WA,Punk/Hardcore,punk,1
+2023,WA,Rock,alternative rock,1
+2023,WA,Rock,classic rock,1
+2023,WA,Rock,hard rock,2
+2023,WA,Rock,indie,1
+2023,WA,Rock,rock,1
+2023,WA,Unknown,unknown,1
+2023,WA,World,afrobeat,1
+2023,WI,Country/Folk/Americana,folk,1
+2023,WI,Metal,doom metal,1
+2023,WI,Metal,nu metal,1
+2023,WI,Metal,symphonic metal,2
+2023,WI,Punk/Hardcore,pop punk,1
+2023,WI,Punk/Hardcore,punk,4
+2023,WI,Punk/Hardcore,punk rock,2
+2023,WI,Rock,alternative rock,2
+2023,WI,Rock,hard rock,1
+2023,WI,Rock,rock,1
+2023,WI,Unknown,unknown,4
+2023,WV,Country/Folk/Americana,americana,1
+2023,WV,Country/Folk/Americana,country,4
+2023,WV,Electronic/Dance,disco,1
+2023,WV,Jazz/Blues,smooth jazz,1
+2023,WV,Metal,nu metal,1
+2023,WV,Punk/Hardcore,hardcore punk,1
+2023,WV,Rock,hard rock,1
+2023,WV,Rock,indie rock,1
+2023,WV,Rock,rock,3
+2023,WV,Rock,surf,1
+2023,WV,Unknown,unknown,5
+2023,WY,Comedy/Spoken Word,spoken word,1
+2023,WY,Country/Folk/Americana,americana,1
+2023,WY,Country/Folk/Americana,contemporary country,1
+2023,WY,Country/Folk/Americana,country,1
+2023,WY,Electronic/Dance,breaks,1
+2023,WY,Hip-Hop/Rap,rap,1
+2023,WY,Metal,metalcore,1
+2023,WY,Metal,nu metal,1
+2023,WY,Other/Uncategorized,experimental,1
+2023,WY,Pop,pop,1
+2023,WY,Punk/Hardcore,emo,1
+2023,WY,Punk/Hardcore,punk,1
+2023,WY,R&B/Soul/Funk,soul,1
+2023,WY,Rock,indie,1
+2023,WY,Rock,indie rock,1
+2023,WY,Rock,noise rock,2
+2023,WY,Rock,rock,2
+2023,WY,Unknown,unknown,1
+2024,AK,Country/Folk/Americana,country,1
+2024,AK,Country/Folk/Americana,folk,4
+2024,AK,Country/Folk/Americana,folk pop,1
+2024,AK,Electronic/Dance,electronic,1
+2024,AK,Electronic/Dance,goa,1
+2024,AK,Hip-Hop/Rap,hip hop,1
+2024,AK,Metal,metal,1
+2024,AK,Pop,pop,1
+2024,AK,Punk/Hardcore,emo,2
+2024,AK,Punk/Hardcore,post-hardcore,1
+2024,AK,R&B/Soul/Funk,soul,1
+2024,AK,Rock,alternative rock,2
+2024,AK,Rock,hard rock,2
+2024,AK,Unknown,unknown,1
+2024,AL,Country/Folk/Americana,bluegrass,1
+2024,AL,Country/Folk/Americana,folk,1
+2024,AL,Electronic/Dance,downtempo,1
+2024,AL,Electronic/Dance,eurodance,1
+2024,AL,Electronic/Dance,new age,2
+2024,AL,Metal,death metal,1
+2024,AL,Other/Uncategorized,freestyle,1
+2024,AL,Punk/Hardcore,hardcore,1
+2024,AL,Punk/Hardcore,punk,1
+2024,AL,Punk/Hardcore,screamo,1
+2024,AL,Rock,alternative rock,1
+2024,AL,Rock,rock,2
+2024,AL,Unknown,unknown,6
+2024,AR,Country/Folk/Americana,country music,1
+2024,AR,Country/Folk/Americana,folk,2
+2024,AR,Country/Folk/Americana,folk rock,1
+2024,AR,Country/Folk/Americana,red dirt,1
+2024,AR,Electronic/Dance,hyperpop,1
+2024,AR,Electronic/Dance,tech house,1
+2024,AR,Metal,alternative metal,1
+2024,AR,Metal,death metal,1
+2024,AR,Metal,doom metal,1
+2024,AR,Metal,heavy metal,1
+2024,AR,Metal,metal,1
+2024,AR,Pop,pop rock,1
+2024,AR,Punk/Hardcore,post-hardcore,1
+2024,AR,R&B/Soul/Funk,soul,1
+2024,AR,Rock,alternative rock,1
+2024,AR,Rock,piano rock,1
+2024,AR,Rock,rock music,2
+2024,AR,Unknown,unknown,1
+2024,AZ,Country/Folk/Americana,country,1
+2024,AZ,Electronic/Dance,dance,1
+2024,AZ,Electronic/Dance,dubstep,2
+2024,AZ,Electronic/Dance,electronic,2
+2024,AZ,Electronic/Dance,progressive house,1
+2024,AZ,Metal,heavy metal,1
+2024,AZ,Punk/Hardcore,hardcore punk,1
+2024,AZ,Punk/Hardcore,punk,2
+2024,AZ,Rock,jam band,2
+2024,AZ,Rock,psychedelic,1
+2024,AZ,Rock,rock,1
+2024,AZ,Rock,stoner rock,1
+2024,AZ,Unknown,unknown,2
+2024,AZ,World,cumbia,2
+2024,CA,Country/Folk/Americana,cowboy poetry,1
+2024,CA,Electronic/Dance,big room house,1
+2024,CA,Electronic/Dance,dance,1
+2024,CA,Electronic/Dance,disco,1
+2024,CA,Electronic/Dance,edm,1
+2024,CA,Electronic/Dance,electronic,2
+2024,CA,Electronic/Dance,progressive house,1
+2024,CA,Other/Uncategorized,#chicagolivemusic,1
+2024,CA,Other/Uncategorized,experimental,2
+2024,CA,Pop,future pop,1
+2024,CA,Punk/Hardcore,punk rock,1
+2024,CA,Rock,hard rock,2
+2024,CA,Rock,psychedelic,1
+2024,CA,Rock,rock,2
+2024,CA,Unknown,unknown,1
+2024,CA,World,mariachi,1
+2024,CO,Country/Folk/Americana,folk,1
+2024,CO,Country/Folk/Americana,progressive bluegrass,1
+2024,CO,Electronic/Dance,breakbeat,1
+2024,CO,Electronic/Dance,dance,1
+2024,CO,Electronic/Dance,dubstep,4
+2024,CO,Electronic/Dance,electronic,3
+2024,CO,Electronic/Dance,house,2
+2024,CO,Pop,pop,1
+2024,CO,R&B/Soul/Funk,funk,2
+2024,CO,Rock,garage rock,1
+2024,CO,Rock,indie rock,1
+2024,CO,Rock,jam band,1
+2024,CO,Rock,psychedelic rock,1
+2024,CT,Country/Folk/Americana,folk,2
+2024,CT,Country/Folk/Americana,singer-songwriter,1
+2024,CT,Electronic/Dance,dance-pop,1
+2024,CT,Hip-Hop/Rap,hip-hop,1
+2024,CT,Punk/Hardcore,hardcore,4
+2024,CT,Punk/Hardcore,hardcore punk,2
+2024,CT,R&B/Soul/Funk,funk,2
+2024,CT,Rock,alternative rock,1
+2024,CT,Rock,indie,1
+2024,CT,Rock,rock,3
+2024,CT,Unknown,unknown,2
+2024,DE,Country/Folk/Americana,alternative country,1
+2024,DE,Country/Folk/Americana,contemporary country,2
+2024,DE,Country/Folk/Americana,contemporary folk,1
+2024,DE,Country/Folk/Americana,country rock,1
+2024,DE,Country/Folk/Americana,folk,2
+2024,DE,Country/Folk/Americana,singer-songwriter,1
+2024,DE,Electronic/Dance,electronic,1
+2024,DE,Electronic/Dance,electropop,1
+2024,DE,Electronic/Dance,tech house,1
+2024,DE,Metal,doom metal,2
+2024,DE,Metal,heavy metal,1
+2024,DE,Pop,pop,1
+2024,DE,Punk/Hardcore,emo,1
+2024,DE,Rock,hard rock,1
+2024,DE,Rock,rockabilly,1
+2024,DE,Unknown,unknown,1
+2024,DE,World,celtic,1
+2024,FL,Country/Folk/Americana,americana,1
+2024,FL,Electronic/Dance,breaks,1
+2024,FL,Electronic/Dance,dance,1
+2024,FL,Electronic/Dance,downtempo,1
+2024,FL,Electronic/Dance,electronic,1
+2024,FL,Electronic/Dance,hard trance,1
+2024,FL,Hip-Hop/Rap,hip hop,3
+2024,FL,Hip-Hop/Rap,rap,1
+2024,FL,Jazz/Blues,blues,1
+2024,FL,Pop,pop,3
+2024,FL,R&B/Soul/Funk,funktronica,1
+2024,FL,Rock,alternative rock,1
+2024,FL,Rock,psychedelic,1
+2024,FL,Unknown,unknown,3
+2024,GA,Country/Folk/Americana,contemporary country,1
+2024,GA,Country/Folk/Americana,folk,1
+2024,GA,Electronic/Dance,glitch,1
+2024,GA,Other/Uncategorized,a cappella,1
+2024,GA,Punk/Hardcore,hardcore,1
+2024,GA,Punk/Hardcore,hardcore punk,1
+2024,GA,Punk/Hardcore,punk,1
+2024,GA,R&B/Soul/Funk,funk rock,1
+2024,GA,Rock,alternative rock,2
+2024,GA,Rock,boogie rock,1
+2024,GA,Rock,horror rock,1
+2024,GA,Rock,indie,3
+2024,GA,Rock,indie rock,1
+2024,GA,Rock,psychedelic,1
+2024,GA,Rock,rock,1
+2024,GA,Rock,southern rock,2
+2024,HI,Country/Folk/Americana,folk,2
+2024,HI,Country/Folk/Americana,folk rock,1
+2024,HI,Electronic/Dance,dance,1
+2024,HI,Electronic/Dance,house,1
+2024,HI,Electronic/Dance,new wave,1
+2024,HI,Other/Uncategorized,conscious,1
+2024,HI,Pop,future pop,1
+2024,HI,Pop,pop,4
+2024,HI,Punk/Hardcore,punk,1
+2024,HI,Punk/Hardcore,punk rock,1
+2024,HI,R&B/Soul/Funk,contemporary r&b,2
+2024,HI,Reggae/Ska,reggae rock,1
+2024,HI,Rock,indie rock,1
+2024,HI,World,hawaiian,2
+2024,IA,Country/Folk/Americana,americana,1
+2024,IA,Country/Folk/Americana,folk,2
+2024,IA,Country/Folk/Americana,folk rock,1
+2024,IA,Electronic/Dance,breaks,1
+2024,IA,Electronic/Dance,new age,4
+2024,IA,Hip-Hop/Rap,hip hop,1
+2024,IA,Jazz/Blues,big band,1
+2024,IA,Jazz/Blues,jazz,2
+2024,IA,Metal,alternative metal,1
+2024,IA,Pop,pop,1
+2024,IA,Rock,hard rock,2
+2024,IA,Rock,rock,2
+2024,IA,Unknown,unknown,1
+2024,ID,Christian/Gospel,gospel,1
+2024,ID,Country/Folk/Americana,folk,1
+2024,ID,Country/Folk/Americana,norteño,1
+2024,ID,Electronic/Dance,breakcore,1
+2024,ID,Electronic/Dance,electronic,1
+2024,ID,Electronic/Dance,new age,1
+2024,ID,Hip-Hop/Rap,hip hop,2
+2024,ID,Hip-Hop/Rap,pop rap,1
+2024,ID,Other/Uncategorized,experimental,1
+2024,ID,Pop,pop,2
+2024,ID,Punk/Hardcore,hardcore,2
+2024,ID,Reggae/Ska,ska,1
+2024,ID,Rock,aor,1
+2024,ID,Rock,experimental rock,1
+2024,ID,Rock,hard rock,2
+2024,ID,Rock,psychedelic,1
+2024,IL,Comedy/Spoken Word,comedy,1
+2024,IL,Country/Folk/Americana,alternative country,2
+2024,IL,Country/Folk/Americana,contemporary country,1
+2024,IL,Electronic/Dance,house music,1
+2024,IL,Hip-Hop/Rap,hip hop,2
+2024,IL,Jazz/Blues,avant-garde jazz,1
+2024,IL,Pop,indie pop,1
+2024,IL,Pop,pop,1
+2024,IL,Punk/Hardcore,punk rock,2
+2024,IL,Rock,alternative rock,3
+2024,IL,Rock,hard rock,1
+2024,IL,Rock,math rock,1
+2024,IL,Rock,noise rock,1
+2024,IL,Unknown,unknown,2
+2024,IN,Electronic/Dance,breaks,1
+2024,IN,Electronic/Dance,dubstep,3
+2024,IN,Electronic/Dance,electronic,1
+2024,IN,Jazz/Blues,modern electric blues,1
+2024,IN,Metal,heavy metal,1
+2024,IN,Metal,progressive metal,1
+2024,IN,Pop,pop,1
+2024,IN,Punk/Hardcore,pop punk,1
+2024,IN,R&B/Soul/Funk,soul,1
+2024,IN,Rock,alternative rock,3
+2024,IN,Rock,noise rock,1
+2024,IN,Unknown,unknown,5
+2024,KS,Country/Folk/Americana,bluegrass,1
+2024,KS,Country/Folk/Americana,country,2
+2024,KS,Electronic/Dance,breakcore,1
+2024,KS,Electronic/Dance,drum n bass,1
+2024,KS,Electronic/Dance,new age,1
+2024,KS,Electronic/Dance,tech house,1
+2024,KS,Metal,alternative metal,1
+2024,KS,Metal,atmospheric black metal,1
+2024,KS,Metal,brutal death metal,1
+2024,KS,Metal,deathcore,3
+2024,KS,Metal,doom metal,2
+2024,KS,Metal,heavy metal,1
+2024,KS,Metal,metal,1
+2024,KS,Other/Uncategorized,experimental,1
+2024,KS,Rock,experimental rock,1
+2024,KS,Rock,rock,1
+2024,KY,Classical,classical crossover,1
+2024,KY,Comedy/Spoken Word,comedy,1
+2024,KY,Country/Folk/Americana,country music,1
+2024,KY,Country/Folk/Americana,folk,1
+2024,KY,Electronic/Dance,drone,1
+2024,KY,Electronic/Dance,new age,2
+2024,KY,Metal,nu metal,1
+2024,KY,Other/Uncategorized,american,1
+2024,KY,Punk/Hardcore,punk,3
+2024,KY,Punk/Hardcore,punk rock,1
+2024,KY,Rock,garage rock,1
+2024,KY,Rock,prog rock,1
+2024,KY,Unknown,unknown,5
+2024,LA,Country/Folk/Americana,bluegrass,2
+2024,LA,Country/Folk/Americana,progressive bluegrass,2
+2024,LA,Electronic/Dance,electronic,3
+2024,LA,Hip-Hop/Rap,gangsta,1
+2024,LA,Hip-Hop/Rap,hip hop,1
+2024,LA,Jazz/Blues,jazz,1
+2024,LA,Punk/Hardcore,punk,1
+2024,LA,R&B/Soul/Funk,funk,2
+2024,LA,Rock,rock,2
+2024,LA,Unknown,unknown,5
+2024,MA,Country/Folk/Americana,folk,2
+2024,MA,Electronic/Dance,dance,1
+2024,MA,Jazz/Blues,electric blues,1
+2024,MA,Pop,pop,1
+2024,MA,Pop,power pop,1
+2024,MA,Punk/Hardcore,emo,1
+2024,MA,Punk/Hardcore,hardcore,1
+2024,MA,Rock,alternative rock,1
+2024,MA,Rock,indie,1
+2024,MA,Rock,noise rock,1
+2024,MA,Rock,rock,2
+2024,MA,Rock,rock music,1
+2024,MA,Unknown,unknown,6
+2024,MD,Country/Folk/Americana,bluegrass,2
+2024,MD,Country/Folk/Americana,bluegrass music,1
+2024,MD,Country/Folk/Americana,contemporary country,1
+2024,MD,Country/Folk/Americana,country rock,1
+2024,MD,Country/Folk/Americana,folk,1
+2024,MD,Country/Folk/Americana,singer-songwriter,1
+2024,MD,Electronic/Dance,tech house,1
+2024,MD,Jazz/Blues,electric blues,1
+2024,MD,Metal,doom metal,1
+2024,MD,Metal,heavy metal,1
+2024,MD,Punk/Hardcore,gypsy punk,1
+2024,MD,Punk/Hardcore,hardcore,1
+2024,MD,Punk/Hardcore,hardcore punk,2
+2024,MD,Rock,alternative rock,1
+2024,MD,Rock,jam band,2
+2024,MD,Rock,rock and roll,1
+2024,MD,Unknown,unknown,1
+2024,ME,Country/Folk/Americana,alternative country,1
+2024,ME,Country/Folk/Americana,folk,1
+2024,ME,Hip-Hop/Rap,hip hop,1
+2024,ME,Hip-Hop/Rap,hip-hop,2
+2024,ME,Metal,alternative metal,1
+2024,ME,Pop,dream pop,1
+2024,ME,Pop,pop,1
+2024,ME,Punk/Hardcore,alternative punk,1
+2024,ME,Punk/Hardcore,hardcore punk,2
+2024,ME,Rock,alternative rock,1
+2024,ME,Rock,garage rock,1
+2024,ME,Rock,hard rock,1
+2024,ME,Rock,indie,1
+2024,ME,Rock,psychedelic,1
+2024,ME,Rock,rock,2
+2024,ME,Unknown,unknown,2
+2024,MI,Comedy/Spoken Word,comedy,2
+2024,MI,Electronic/Dance,dubstep,1
+2024,MI,Hip-Hop/Rap,hip hop,1
+2024,MI,Hip-Hop/Rap,rap,1
+2024,MI,Jazz/Blues,country blues,1
+2024,MI,Metal,alternative metal,1
+2024,MI,Metal,symphonic metal,2
+2024,MI,Pop,power pop,1
+2024,MI,Punk/Hardcore,punk,1
+2024,MI,R&B/Soul/Funk,funk,1
+2024,MI,R&B/Soul/Funk,soul,1
+2024,MI,Reggae/Ska,reggae,1
+2024,MI,Reggae/Ska,ska,1
+2024,MI,Rock,alternative rock,1
+2024,MI,Rock,hard rock,1
+2024,MI,Rock,jam band,1
+2024,MI,Unknown,unknown,2
+2024,MN,Classical,classical,1
+2024,MN,Country/Folk/Americana,folk,2
+2024,MN,Country/Folk/Americana,"folk, world, & country",1
+2024,MN,Electronic/Dance,breaks,1
+2024,MN,Electronic/Dance,dubstep,1
+2024,MN,Electronic/Dance,electronic,1
+2024,MN,Electronic/Dance,future bass,1
+2024,MN,Electronic/Dance,house,1
+2024,MN,Electronic/Dance,synth-pop,1
+2024,MN,Jazz/Blues,big band,1
+2024,MN,Jazz/Blues,jazz,2
+2024,MN,Pop,pop,1
+2024,MN,Punk/Hardcore,punk,1
+2024,MN,Rock,alternative rock,1
+2024,MN,Unknown,unknown,4
+2024,MO,Christian/Gospel,christian rock,1
+2024,MO,Classical,classical,3
+2024,MO,Electronic/Dance,drum n bass,1
+2024,MO,Electronic/Dance,electro house,1
+2024,MO,Electronic/Dance,electronic music,1
+2024,MO,Jazz/Blues,country blues,1
+2024,MO,Punk/Hardcore,emo,1
+2024,MO,Punk/Hardcore,hardcore punk,2
+2024,MO,Punk/Hardcore,punk,1
+2024,MO,R&B/Soul/Funk,blue-eyed soul,1
+2024,MO,Rock,alternative,1
+2024,MO,Rock,hard rock,1
+2024,MO,Rock,jam band,1
+2024,MO,Unknown,unknown,4
+2024,MS,Christian/Gospel,contemporary christian,2
+2024,MS,Country/Folk/Americana,americana,1
+2024,MS,Country/Folk/Americana,country,4
+2024,MS,Country/Folk/Americana,country music,1
+2024,MS,Country/Folk/Americana,folk,1
+2024,MS,Electronic/Dance,new age,1
+2024,MS,Jazz/Blues,electric blues,1
+2024,MS,Metal,alternative metal,2
+2024,MS,R&B/Soul/Funk,funk,1
+2024,MS,R&B/Soul/Funk,soul,1
+2024,MS,Rock,alternative rock,1
+2024,MS,Rock,hard rock,1
+2024,MS,Rock,indie rock,2
+2024,MS,Unknown,unknown,1
+2024,MT,Country/Folk/Americana,alternative country,1
+2024,MT,Country/Folk/Americana,americana,1
+2024,MT,Country/Folk/Americana,bluegrass,4
+2024,MT,Country/Folk/Americana,folk,6
+2024,MT,Country/Folk/Americana,singer-songwriter,2
+2024,MT,Electronic/Dance,new age,1
+2024,MT,Pop,pop,2
+2024,MT,Rock,rock and roll,2
+2024,MT,Unknown,unknown,1
+2024,NC,Country/Folk/Americana,americana,1
+2024,NC,Country/Folk/Americana,bluegrass,1
+2024,NC,Country/Folk/Americana,bluegrass music,1
+2024,NC,Country/Folk/Americana,country,1
+2024,NC,Country/Folk/Americana,folk,1
+2024,NC,Country/Folk/Americana,folk rock,1
+2024,NC,Electronic/Dance,drone,1
+2024,NC,Electronic/Dance,new wave,1
+2024,NC,Hip-Hop/Rap,hip hop,1
+2024,NC,R&B/Soul/Funk,funk,4
+2024,NC,Rock,hard rock,1
+2024,NC,Rock,indie,1
+2024,NC,Rock,psychedelic,1
+2024,NC,Rock,rock,1
+2024,NC,Unknown,unknown,3
+2024,ND,Country/Folk/Americana,acoustic,1
+2024,ND,Electronic/Dance,disco,1
+2024,ND,Electronic/Dance,electronic,1
+2024,ND,Electronic/Dance,house,1
+2024,ND,Electronic/Dance,italo-disco,1
+2024,ND,Electronic/Dance,synth-pop,1
+2024,ND,Metal,alternative metal,1
+2024,ND,Metal,metalcore,1
+2024,ND,Other/Uncategorized,special purpose artist,1
+2024,ND,Punk/Hardcore,hardcore,1
+2024,ND,R&B/Soul/Funk,soul,1
+2024,ND,Rock,indie rock,1
+2024,ND,Unknown,unknown,8
+2024,NE,Christian/Gospel,contemporary christian,1
+2024,NE,Comedy/Spoken Word,comedy,1
+2024,NE,Electronic/Dance,new age,4
+2024,NE,Electronic/Dance,tech house,1
+2024,NE,Hip-Hop/Rap,alternative hip hop,1
+2024,NE,Hip-Hop/Rap,hip hop,1
+2024,NE,Jazz/Blues,big band,1
+2024,NE,Metal,alternative metal,1
+2024,NE,Metal,heavy metal,1
+2024,NE,Punk/Hardcore,hardcore punk,1
+2024,NE,R&B/Soul/Funk,funk,1
+2024,NE,Rock,alternative rock,2
+2024,NE,Rock,indie,1
+2024,NE,Rock,rock,2
+2024,NE,Unknown,unknown,1
+2024,NH,Classical,rock opera,1
+2024,NH,Country/Folk/Americana,country,1
+2024,NH,Electronic/Dance,new wave,1
+2024,NH,Jazz/Blues,big band,1
+2024,NH,Jazz/Blues,swing,1
+2024,NH,Metal,brutal death metal,1
+2024,NH,Metal,heavy metal,1
+2024,NH,Metal,metal,1
+2024,NH,Metal,metalcore,2
+2024,NH,Punk/Hardcore,hardcore,1
+2024,NH,Punk/Hardcore,hardcore punk,1
+2024,NH,Punk/Hardcore,punk,1
+2024,NH,Rock,alternative rock,1
+2024,NH,Rock,hard rock,2
+2024,NH,Rock,indie rock,1
+2024,NH,Rock,rock,2
+2024,NH,Unknown,unknown,1
+2024,NJ,Electronic/Dance,house,1
+2024,NJ,Hip-Hop/Rap,hip hop,1
+2024,NJ,Other/Uncategorized,easycore,1
+2024,NJ,Other/Uncategorized,soundtrack,1
+2024,NJ,Punk/Hardcore,emo,1
+2024,NJ,Punk/Hardcore,folk punk,1
+2024,NJ,Punk/Hardcore,gypsy punk,1
+2024,NJ,Punk/Hardcore,hardcore,1
+2024,NJ,Punk/Hardcore,pop punk,1
+2024,NJ,Punk/Hardcore,punk,6
+2024,NJ,R&B/Soul/Funk,soul,1
+2024,NJ,Reggae/Ska,reggae,1
+2024,NJ,Rock,alternative rock,2
+2024,NJ,Unknown,unknown,1
+2024,NM,Country/Folk/Americana,"folk, world, & country",3
+2024,NM,Electronic/Dance,electronic,1
+2024,NM,Hip-Hop/Rap,hip-hop,1
+2024,NM,Other/Uncategorized,christmas music,1
+2024,NM,Other/Uncategorized,contemporary,1
+2024,NM,Other/Uncategorized,slowcore,1
+2024,NM,Punk/Hardcore,garage punk,1
+2024,NM,Punk/Hardcore,hardcore punk,1
+2024,NM,Reggae/Ska,reggae,1
+2024,NM,Reggae/Ska,ska,1
+2024,NM,Rock,alternative rock,2
+2024,NM,Rock,hard rock,2
+2024,NM,Rock,progressive rock,1
+2024,NM,Rock,rock,1
+2024,NM,Unknown,unknown,2
+2024,NV,Country/Folk/Americana,country,1
+2024,NV,Country/Folk/Americana,country music,2
+2024,NV,Electronic/Dance,dance,1
+2024,NV,Electronic/Dance,edm,1
+2024,NV,Electronic/Dance,electronic,2
+2024,NV,Electronic/Dance,synth-pop,1
+2024,NV,Electronic/Dance,trance,1
+2024,NV,Hip-Hop/Rap,hip hop,3
+2024,NV,Hip-Hop/Rap,rap,1
+2024,NV,Other/Uncategorized,easy listening,1
+2024,NV,Pop,pop,1
+2024,NV,R&B/Soul/Funk,rnb,1
+2024,NV,Rock,alternative rock,2
+2024,NV,Rock,rock,2
+2024,NY,Country/Folk/Americana,contemporary country,1
+2024,NY,Country/Folk/Americana,country,1
+2024,NY,Country/Folk/Americana,country rock,1
+2024,NY,Country/Folk/Americana,folk,1
+2024,NY,Electronic/Dance,electronic,1
+2024,NY,Electronic/Dance,electropop,1
+2024,NY,Electronic/Dance,hyperpop,2
+2024,NY,Jazz/Blues,jazz,1
+2024,NY,Other/Uncategorized,doo-wop,1
+2024,NY,Other/Uncategorized,noise,1
+2024,NY,Pop,indie pop,2
+2024,NY,Pop,pop,1
+2024,NY,R&B/Soul/Funk,funk,1
+2024,NY,Rock,alternative rock,1
+2024,NY,Rock,jam band,1
+2024,NY,Rock,rock music,1
+2024,NY,Unknown,unknown,2
+2024,OH,Electronic/Dance,breakbeat,1
+2024,OH,Hip-Hop/Rap,hip hop,3
+2024,OH,Hip-Hop/Rap,hip-hop,1
+2024,OH,Hip-Hop/Rap,horrorcore,1
+2024,OH,Metal,heavy metal,1
+2024,OH,Other/Uncategorized,experimental,1
+2024,OH,Pop,pop,1
+2024,OH,Punk/Hardcore,folk punk,1
+2024,OH,R&B/Soul/Funk,soul,1
+2024,OH,Rock,jam band,1
+2024,OH,Rock,psychedelic,1
+2024,OH,Rock,rock,2
+2024,OH,Unknown,unknown,5
+2024,OK,Country/Folk/Americana,alternative country,1
+2024,OK,Country/Folk/Americana,americana,1
+2024,OK,Country/Folk/Americana,country,7
+2024,OK,Metal,alternative metal,1
+2024,OK,Metal,nu metal,1
+2024,OK,Metal,symphonic metal,2
+2024,OK,Pop,pop,1
+2024,OK,Punk/Hardcore,emo,1
+2024,OK,Punk/Hardcore,punk,1
+2024,OK,Rock,hard rock,1
+2024,OK,Rock,rock,2
+2024,OK,Rock,rock and roll,1
+2024,OR,Comedy/Spoken Word,comedy,1
+2024,OR,Country/Folk/Americana,bluegrass music,2
+2024,OR,Electronic/Dance,dark electro,1
+2024,OR,Electronic/Dance,electronic,1
+2024,OR,Jazz/Blues,blues rock,1
+2024,OR,Metal,metal,1
+2024,OR,Metal,thrash,1
+2024,OR,Punk/Hardcore,folk punk,1
+2024,OR,Punk/Hardcore,punk,2
+2024,OR,Rock,rock,1
+2024,OR,Rock,rock and roll,3
+2024,OR,Unknown,unknown,5
+2024,PA,Electronic/Dance,edm,1
+2024,PA,Electronic/Dance,electronic,2
+2024,PA,Punk/Hardcore,emo,1
+2024,PA,Punk/Hardcore,punk,2
+2024,PA,Punk/Hardcore,punk rock,3
+2024,PA,R&B/Soul/Funk,funk,2
+2024,PA,Rock,experimental rock,1
+2024,PA,Rock,hard rock,1
+2024,PA,Rock,jam band,2
+2024,PA,Rock,rock,2
+2024,PA,Rock,rock and roll,1
+2024,PA,Unknown,unknown,2
+2024,RI,Country/Folk/Americana,alternative country,1
+2024,RI,Country/Folk/Americana,alternative folk,1
+2024,RI,Country/Folk/Americana,folk rock,2
+2024,RI,Country/Folk/Americana,indie folk,1
+2024,RI,Country/Folk/Americana,singer-songwriter,1
+2024,RI,Metal,grindcore,1
+2024,RI,Metal,heavy metal,1
+2024,RI,Pop,bedroom pop,1
+2024,RI,Pop,pop,2
+2024,RI,Punk/Hardcore,hardcore,1
+2024,RI,Rock,alternative,1
+2024,RI,Rock,alternative rock,3
+2024,RI,Rock,experimental rock,1
+2024,RI,Rock,hard rock,1
+2024,RI,Unknown,unknown,2
+2024,SC,Christian/Gospel,contemporary christian,1
+2024,SC,Country/Folk/Americana,americana,1
+2024,SC,Jazz/Blues,swing,1
+2024,SC,Metal,black metal,2
+2024,SC,Metal,metal,1
+2024,SC,Metal,nu metal,1
+2024,SC,Metal,thrash metal,2
+2024,SC,Other/Uncategorized,african,1
+2024,SC,Pop,pop rock,1
+2024,SC,Punk/Hardcore,post-hardcore,1
+2024,SC,R&B/Soul/Funk,soul,1
+2024,SC,Rock,alternative rock,1
+2024,SC,Rock,garage rock,1
+2024,SC,Rock,indie rock,1
+2024,SC,Rock,rock,1
+2024,SC,Unknown,unknown,3
+2024,SD,Christian/Gospel,contemporary christian,1
+2024,SD,Country/Folk/Americana,country,4
+2024,SD,Country/Folk/Americana,folk,2
+2024,SD,Electronic/Dance,ambient,1
+2024,SD,Electronic/Dance,breaks,1
+2024,SD,Electronic/Dance,new age,1
+2024,SD,Jazz/Blues,big band,2
+2024,SD,Other/Uncategorized,a cappella,1
+2024,SD,Pop,pop,1
+2024,SD,Rock,alternative rock,1
+2024,SD,Rock,hard rock,1
+2024,SD,Rock,prog rock,1
+2024,SD,Rock,southern rock,1
+2024,SD,Unknown,unknown,2
+2024,TN,Country/Folk/Americana,americana,1
+2024,TN,Country/Folk/Americana,contemporary country,1
+2024,TN,Country/Folk/Americana,country,4
+2024,TN,Country/Folk/Americana,folk,1
+2024,TN,Hip-Hop/Rap,country rap,1
+2024,TN,Hip-Hop/Rap,trap,1
+2024,TN,Jazz/Blues,blues rock,1
+2024,TN,Metal,metal,1
+2024,TN,Other/Uncategorized,experimental,1
+2024,TN,Pop,indie pop,1
+2024,TN,Punk/Hardcore,egg punk,1
+2024,TN,Punk/Hardcore,pop punk,1
+2024,TN,R&B/Soul/Funk,funk,1
+2024,TN,Rock,hard rock,2
+2024,TN,Rock,soft rock,1
+2024,TN,Unknown,unknown,1
+2024,TX,Comedy/Spoken Word,comedy,1
+2024,TX,Country/Folk/Americana,country,1
+2024,TX,Country/Folk/Americana,folk rock,1
+2024,TX,Electronic/Dance,breakcore,1
+2024,TX,Electronic/Dance,dance,1
+2024,TX,Electronic/Dance,synth-pop,1
+2024,TX,Hip-Hop/Rap,hip hop,1
+2024,TX,Jazz/Blues,blues,1
+2024,TX,Metal,doom metal,1
+2024,TX,Other/Uncategorized,holiday,1
+2024,TX,Punk/Hardcore,pop punk,1
+2024,TX,Punk/Hardcore,punk rock,1
+2024,TX,Rock,art rock,1
+2024,TX,Rock,indie,2
+2024,TX,Unknown,unknown,5
+2024,UT,Country/Folk/Americana,alternative country,1
+2024,UT,Electronic/Dance,dubstep,2
+2024,UT,Electronic/Dance,electronic,1
+2024,UT,Electronic/Dance,new age,4
+2024,UT,Other/Uncategorized,abstract,1
+2024,UT,Pop,indie pop,3
+2024,UT,Reggae/Ska,ska,1
+2024,UT,Rock,alternative rock,2
+2024,UT,Rock,indie rock,1
+2024,UT,Rock,rock,1
+2024,UT,Unknown,unknown,3
+2024,VA,Country/Folk/Americana,bluegrass,1
+2024,VA,Country/Folk/Americana,folk,5
+2024,VA,Country/Folk/Americana,singer-songwriter,1
+2024,VA,Electronic/Dance,new wave,1
+2024,VA,Electronic/Dance,tech house,1
+2024,VA,Jazz/Blues,blues rock,1
+2024,VA,Jazz/Blues,jazz,1
+2024,VA,Metal,doom metal,1
+2024,VA,Metal,heavy metal,1
+2024,VA,Pop,indie pop,1
+2024,VA,Punk/Hardcore,punk rock,1
+2024,VA,R&B/Soul/Funk,soul,1
+2024,VA,Rock,alternative rock,1
+2024,VA,Rock,garage rock,1
+2024,VA,Unknown,unknown,2
+2024,VT,Classical,rock opera,1
+2024,VT,Hip-Hop/Rap,alternative hip hop,1
+2024,VT,Punk/Hardcore,gypsy punk,1
+2024,VT,R&B/Soul/Funk,funk,2
+2024,VT,Reggae/Ska,reggae,1
+2024,VT,Rock,hard rock,1
+2024,VT,Rock,indie,3
+2024,VT,Rock,jam band,4
+2024,VT,Unknown,unknown,6
+2024,WA,Country/Folk/Americana,bluegrass,1
+2024,WA,Electronic/Dance,electronic,1
+2024,WA,Electronic/Dance,hyperpop,1
+2024,WA,Jazz/Blues,lounge,2
+2024,WA,Jazz/Blues,smooth jazz,1
+2024,WA,Metal,doom metal,1
+2024,WA,Other/Uncategorized,experimental,2
+2024,WA,Pop,pop,1
+2024,WA,Punk/Hardcore,hardcore,2
+2024,WA,Punk/Hardcore,punk,1
+2024,WA,R&B/Soul/Funk,funk,2
+2024,WA,Rock,alternative rock,1
+2024,WA,Rock,garage rock,2
+2024,WA,Rock,rock,2
+2024,WI,Country/Folk/Americana,country rock,1
+2024,WI,Country/Folk/Americana,folk,2
+2024,WI,Electronic/Dance,dubstep,2
+2024,WI,Hip-Hop/Rap,crunk,1
+2024,WI,Metal,alternative metal,1
+2024,WI,Metal,symphonic metal,2
+2024,WI,Pop,sunshine pop,1
+2024,WI,Punk/Hardcore,emo,3
+2024,WI,Punk/Hardcore,pop punk,1
+2024,WI,Punk/Hardcore,punk,2
+2024,WI,Rock,alternative rock,3
+2024,WI,Unknown,unknown,1
+2024,WV,Country/Folk/Americana,country,3
+2024,WV,Country/Folk/Americana,indie folk,1
+2024,WV,Country/Folk/Americana,singer-songwriter,1
+2024,WV,Metal,symphonic metal,1
+2024,WV,Rock,hard rock,2
+2024,WV,Rock,rock,3
+2024,WV,Rock,rockabilly,1
+2024,WV,Rock,surf,1
+2024,WV,Unknown,unknown,7
+2024,WY,Country/Folk/Americana,alternative country,1
+2024,WY,Country/Folk/Americana,americana,1
+2024,WY,Country/Folk/Americana,bluegrass,1
+2024,WY,Country/Folk/Americana,contemporary country,2
+2024,WY,Country/Folk/Americana,country,2
+2024,WY,Country/Folk/Americana,folk,4
+2024,WY,Electronic/Dance,breaks,1
+2024,WY,Metal,metalcore,2
+2024,WY,Metal,nu metal,2
+2024,WY,Pop,pop,1
+2024,WY,Punk/Hardcore,horror punk,1
+2024,WY,Rock,progressive rock,1
+2024,WY,Unknown,unknown,1
+2025,AK,Comedy/Spoken Word,comedy,1
+2025,AK,Country/Folk/Americana,country,1
+2025,AK,Country/Folk/Americana,singer-songwriter,1
+2025,AK,Electronic/Dance,edm,2
+2025,AK,Electronic/Dance,electro house,1
+2025,AK,Jazz/Blues,swing revival,1
+2025,AK,Metal,deathcore,1
+2025,AK,Metal,metal,1
+2025,AK,Other/Uncategorized,#chicagolivemusic,1
+2025,AK,Other/Uncategorized,experimental,4
+2025,AK,Punk/Hardcore,hardcore punk,2
+2025,AK,Rock,alternative rock,1
+2025,AK,Rock,rock,1
+2025,AK,Unknown,unknown,2
+2025,AL,Country/Folk/Americana,folk rock,1
+2025,AL,Metal,sludge metal,1
+2025,AL,Punk/Hardcore,hardcore,2
+2025,AL,Punk/Hardcore,hardcore punk,3
+2025,AL,Punk/Hardcore,punk,1
+2025,AL,Rock,alternative rock,1
+2025,AL,Rock,gothic rock,1
+2025,AL,Rock,hard rock,1
+2025,AL,Rock,rock,2
+2025,AL,Unknown,unknown,7
+2025,AR,Country/Folk/Americana,alternative country,1
+2025,AR,Country/Folk/Americana,folk,1
+2025,AR,Metal,doom metal,1
+2025,AR,Metal,metalcore,3
+2025,AR,Metal,sludge metal,1
+2025,AR,Other/Uncategorized,avantgarde,1
+2025,AR,Pop,pop,1
+2025,AR,Punk/Hardcore,beatdown hardcore,1
+2025,AR,Punk/Hardcore,hardcore,1
+2025,AR,Punk/Hardcore,post-hardcore,3
+2025,AR,Punk/Hardcore,punk,1
+2025,AR,Rock,alternative rock,1
+2025,AR,Rock,experimental rock,1
+2025,AR,Rock,jam band,1
+2025,AR,Rock,rock,1
+2025,AR,Unknown,unknown,1
+2025,AZ,Electronic/Dance,dubstep,1
+2025,AZ,Electronic/Dance,edm,1
+2025,AZ,Electronic/Dance,electronic,2
+2025,AZ,Electronic/Dance,house,1
+2025,AZ,Hip-Hop/Rap,hip hop,5
+2025,AZ,Hip-Hop/Rap,rap,1
+2025,AZ,Punk/Hardcore,emo,2
+2025,AZ,Punk/Hardcore,post-punk,1
+2025,AZ,Punk/Hardcore,punk,1
+2025,AZ,Punk/Hardcore,punk rock,1
+2025,AZ,Rock,rock,1
+2025,AZ,Rock,southern rock,1
+2025,AZ,Unknown,unknown,2
+2025,CA,Country/Folk/Americana,americana,1
+2025,CA,Country/Folk/Americana,bluegrass,1
+2025,CA,Electronic/Dance,dance,1
+2025,CA,Electronic/Dance,disco,1
+2025,CA,Electronic/Dance,electronic,2
+2025,CA,Hip-Hop/Rap,hip hop,1
+2025,CA,Hip-Hop/Rap,trap edm,1
+2025,CA,Pop,indie pop,1
+2025,CA,Pop,power pop,1
+2025,CA,Punk/Hardcore,punk,1
+2025,CA,Punk/Hardcore,punk rock,1
+2025,CA,R&B/Soul/Funk,contemporary r&b,1
+2025,CA,R&B/Soul/Funk,funk,1
+2025,CA,R&B/Soul/Funk,soul,1
+2025,CA,Rock,hard rock,1
+2025,CA,Rock,indie rock,1
+2025,CA,Rock,rock,1
+2025,CA,Unknown,unknown,1
+2025,CA,World,cumbia,1
+2025,CO,Country/Folk/Americana,country,1
+2025,CO,Electronic/Dance,dubstep,2
+2025,CO,Electronic/Dance,edm,1
+2025,CO,Electronic/Dance,electronic,6
+2025,CO,Electronic/Dance,house,1
+2025,CO,Electronic/Dance,synth-pop,1
+2025,CO,Punk/Hardcore,dance-punk,1
+2025,CO,Punk/Hardcore,punk,1
+2025,CO,R&B/Soul/Funk,funk,3
+2025,CO,Rock,rock,1
+2025,CO,Unknown,unknown,1
+2025,CO,World,afrobeat,1
+2025,CT,Country/Folk/Americana,folk,2
+2025,CT,Country/Folk/Americana,singer-songwriter,1
+2025,CT,Electronic/Dance,electronic,1
+2025,CT,Electronic/Dance,new wave,3
+2025,CT,Metal,nu metal,1
+2025,CT,Other/Uncategorized,experimental,1
+2025,CT,Pop,pop,1
+2025,CT,Punk/Hardcore,punk,2
+2025,CT,Rock,alternative rock,1
+2025,CT,Rock,indie,1
+2025,CT,Rock,indie rock,1
+2025,CT,Rock,jam band,1
+2025,CT,Rock,rock,2
+2025,CT,Unknown,unknown,2
+2025,DE,Country/Folk/Americana,acoustic,1
+2025,DE,Country/Folk/Americana,appalachian music,1
+2025,DE,Country/Folk/Americana,folk,1
+2025,DE,Metal,alternative metal,1
+2025,DE,Metal,metalcore,1
+2025,DE,Other/Uncategorized,session,1
+2025,DE,Other/Uncategorized,soundtrack,1
+2025,DE,Punk/Hardcore,pop punk,1
+2025,DE,Punk/Hardcore,post-hardcore,1
+2025,DE,Rock,alternative rock,1
+2025,DE,Rock,hard rock,1
+2025,DE,Rock,indie,2
+2025,DE,Rock,rock,4
+2025,DE,Rock,rock and roll,1
+2025,DE,Unknown,unknown,2
+2025,FL,Electronic/Dance,dubstep,1
+2025,FL,Electronic/Dance,electronic,1
+2025,FL,Hip-Hop/Rap,hip hop,1
+2025,FL,Hip-Hop/Rap,rap,1
+2025,FL,Metal,black metal,1
+2025,FL,Metal,death metal,1
+2025,FL,Metal,deathcore,1
+2025,FL,Metal,melodic metalcore,1
+2025,FL,Metal,thrash,1
+2025,FL,Pop,pop,2
+2025,FL,Pop,pop rock,1
+2025,FL,Punk/Hardcore,happy hardcore,1
+2025,FL,Punk/Hardcore,hardcore punk,1
+2025,FL,Punk/Hardcore,ska punk,1
+2025,FL,Reggae/Ska,dub,1
+2025,FL,Reggae/Ska,reggaeton,1
+2025,FL,Rock,alternative rock,1
+2025,FL,Rock,rock,1
+2025,FL,Unknown,unknown,1
+2025,GA,Country/Folk/Americana,bluegrass,1
+2025,GA,Country/Folk/Americana,country,1
+2025,GA,Electronic/Dance,dubstep,2
+2025,GA,Hip-Hop/Rap,trap,2
+2025,GA,Jazz/Blues,country blues,1
+2025,GA,Metal,sludge metal,1
+2025,GA,R&B/Soul/Funk,contemporary r&b,1
+2025,GA,Rock,hard rock,1
+2025,GA,Rock,horror rock,1
+2025,GA,Rock,jam band,5
+2025,GA,Rock,southern rock,1
+2025,GA,Unknown,unknown,3
+2025,HI,Comedy/Spoken Word,comedy,1
+2025,HI,Country/Folk/Americana,folk,9
+2025,HI,Electronic/Dance,downtempo,1
+2025,HI,Metal,black metal,1
+2025,HI,Metal,progressive metal,2
+2025,HI,Pop,indie pop,2
+2025,HI,Rock,alternative rock,2
+2025,HI,Rock,rock,1
+2025,HI,Rock,rock & roll,1
+2025,IA,Country/Folk/Americana,bluegrass,1
+2025,IA,Country/Folk/Americana,country,1
+2025,IA,Electronic/Dance,bleep techno,1
+2025,IA,Electronic/Dance,techno,1
+2025,IA,Jazz/Blues,blues rock,1
+2025,IA,Metal,metal,1
+2025,IA,Other/Uncategorized,iowa,2
+2025,IA,Pop,pop,2
+2025,IA,Pop,pop music,1
+2025,IA,Pop,pop rock,1
+2025,IA,Punk/Hardcore,emo,1
+2025,IA,Punk/Hardcore,hardcore,1
+2025,IA,Punk/Hardcore,punk,2
+2025,IA,Punk/Hardcore,punk rock,1
+2025,IA,R&B/Soul/Funk,funk,1
+2025,IA,Unknown,unknown,2
+2025,ID,Country/Folk/Americana,alternative country,1
+2025,ID,Country/Folk/Americana,folk rock,1
+2025,ID,Electronic/Dance,electronic music,1
+2025,ID,Hip-Hop/Rap,dark plugg,1
+2025,ID,Hip-Hop/Rap,instrumental hip hop,1
+2025,ID,Jazz/Blues,swing,1
+2025,ID,Metal,metalcore,1
+2025,ID,Pop,pop,2
+2025,ID,Punk/Hardcore,hardcore,1
+2025,ID,Punk/Hardcore,midwest emo,1
+2025,ID,Punk/Hardcore,post-hardcore,1
+2025,ID,Rock,alternative rock,1
+2025,ID,Rock,experimental rock,1
+2025,ID,Rock,psychedelic,1
+2025,ID,Rock,rock,1
+2025,ID,Unknown,unknown,4
+2025,IL,Country/Folk/Americana,alternative country,1
+2025,IL,Electronic/Dance,acid house,1
+2025,IL,Electronic/Dance,dubstep,1
+2025,IL,Electronic/Dance,electronic,2
+2025,IL,Hip-Hop/Rap,boom bap,1
+2025,IL,Hip-Hop/Rap,hip hop,1
+2025,IL,Jazz/Blues,electric blues,1
+2025,IL,Metal,black metal,1
+2025,IL,Rock,alternative rock,4
+2025,IL,Rock,hard rock,1
+2025,IL,Rock,indie rock,1
+2025,IL,Rock,rock,3
+2025,IL,Unknown,unknown,2
+2025,IN,Hip-Hop/Rap,east coast hip hop,1
+2025,IN,Metal,alternative metal,1
+2025,IN,Metal,heavy metal,1
+2025,IN,Metal,metal,1
+2025,IN,Other/Uncategorized,canzone napoletana,1
+2025,IN,Pop,pop,1
+2025,IN,Punk/Hardcore,punk,1
+2025,IN,Reggae/Ska,reggaecore,1
+2025,IN,Rock,alternative rock,2
+2025,IN,Rock,psychedelic,4
+2025,IN,Unknown,unknown,6
+2025,KS,Country/Folk/Americana,alternative country,1
+2025,KS,Country/Folk/Americana,country,1
+2025,KS,Country/Folk/Americana,folk,1
+2025,KS,Electronic/Dance,drum n bass,1
+2025,KS,Electronic/Dance,dubstep,2
+2025,KS,Electronic/Dance,new age,1
+2025,KS,Metal,atmospheric black metal,1
+2025,KS,Metal,doom metal,1
+2025,KS,Pop,pop,2
+2025,KS,Pop,pop rock,1
+2025,KS,Pop,power pop,1
+2025,KS,Rock,alternative rock,1
+2025,KS,Rock,indie rock,1
+2025,KS,Rock,psychedelic,1
+2025,KS,Rock,rock,2
+2025,KS,Unknown,unknown,2
+2025,KY,Comedy/Spoken Word,audiobook,1
+2025,KY,Country/Folk/Americana,"folk, world, & country",2
+2025,KY,Electronic/Dance,ambient,1
+2025,KY,Electronic/Dance,italo-disco,1
+2025,KY,Electronic/Dance,lo-fi,1
+2025,KY,Hip-Hop/Rap,hip hop,2
+2025,KY,Jazz/Blues,country blues,1
+2025,KY,Metal,metalcore,1
+2025,KY,Other/Uncategorized,avant-garde,1
+2025,KY,Pop,dream pop,1
+2025,KY,Punk/Hardcore,punk,1
+2025,KY,R&B/Soul/Funk,funk,1
+2025,KY,Rock,hard rock,1
+2025,KY,Rock,prog rock,1
+2025,KY,Rock,shoegaze,1
+2025,KY,Unknown,unknown,3
+2025,LA,Country/Folk/Americana,"folk, world, & country",1
+2025,LA,Electronic/Dance,hard trance,1
+2025,LA,Electronic/Dance,lo-fi,1
+2025,LA,Hip-Hop/Rap,gangsta,1
+2025,LA,Jazz/Blues,blues,4
+2025,LA,Jazz/Blues,contemporary jazz,1
+2025,LA,Jazz/Blues,jazz,1
+2025,LA,Metal,thrash,1
+2025,LA,Other/Uncategorized,experimental,1
+2025,LA,Pop,indie pop,1
+2025,LA,Punk/Hardcore,emo,1
+2025,LA,R&B/Soul/Funk,funk,2
+2025,LA,Rock,rock,3
+2025,LA,Unknown,unknown,1
+2025,MA,Comedy/Spoken Word,black comedy,1
+2025,MA,Country/Folk/Americana,folk,2
+2025,MA,Electronic/Dance,dance,1
+2025,MA,Electronic/Dance,electronic,1
+2025,MA,Jazz/Blues,jazz,1
+2025,MA,Other/Uncategorized,easy listening,1
+2025,MA,Punk/Hardcore,art punk,1
+2025,MA,Rock,alternative rock,1
+2025,MA,Rock,hard rock,1
+2025,MA,Rock,indie,2
+2025,MA,Rock,jam band,2
+2025,MA,Rock,rock music,1
+2025,MA,Unknown,unknown,5
+2025,MD,Country/Folk/Americana,acoustic,1
+2025,MD,Country/Folk/Americana,singer-songwriter,1
+2025,MD,Electronic/Dance,electronic,1
+2025,MD,Metal,brutal death metal,1
+2025,MD,Metal,death metal,2
+2025,MD,Metal,grindcore,1
+2025,MD,Metal,mathcore,1
+2025,MD,Metal,metal,1
+2025,MD,Metal,nu metal,1
+2025,MD,Punk/Hardcore,punk,1
+2025,MD,Rock,alternative rock,3
+2025,MD,Rock,indie rock,2
+2025,MD,Rock,rock,1
+2025,MD,Rock,surf,1
+2025,MD,Unknown,unknown,2
+2025,ME,Country/Folk/Americana,folk,5
+2025,ME,Hip-Hop/Rap,hip hop,1
+2025,ME,Hip-Hop/Rap,hip-hop,2
+2025,ME,Punk/Hardcore,emo,1
+2025,ME,Punk/Hardcore,gypsy punk,1
+2025,ME,Punk/Hardcore,hardcore,1
+2025,ME,Reggae/Ska,dub,1
+2025,ME,Rock,alternative rock,2
+2025,ME,Rock,rock,1
+2025,ME,Rock,rock & roll,1
+2025,ME,Rock,rock music,1
+2025,ME,Unknown,unknown,3
+2025,MI,Electronic/Dance,acid rock,1
+2025,MI,Electronic/Dance,electronic,1
+2025,MI,Hip-Hop/Rap,crunk,1
+2025,MI,Hip-Hop/Rap,hip hop,2
+2025,MI,Jazz/Blues,jazz,1
+2025,MI,Metal,heavy metal,1
+2025,MI,Metal,symphonic metal,1
+2025,MI,Punk/Hardcore,punk,1
+2025,MI,R&B/Soul/Funk,contemporary r&b,1
+2025,MI,R&B/Soul/Funk,funk,1
+2025,MI,Reggae/Ska,reggaecore,1
+2025,MI,Rock,aor,1
+2025,MI,Rock,classic rock,1
+2025,MI,Rock,progressive rock,1
+2025,MI,Rock,rock,2
+2025,MI,Unknown,unknown,3
+2025,MN,Country/Folk/Americana,country,1
+2025,MN,Country/Folk/Americana,folk,1
+2025,MN,Electronic/Dance,electroclash,1
+2025,MN,Electronic/Dance,electronic,1
+2025,MN,Jazz/Blues,modern electric blues,1
+2025,MN,Other/Uncategorized,abstract,1
+2025,MN,Pop,indie pop,1
+2025,MN,Pop,pop,2
+2025,MN,R&B/Soul/Funk,funk / soul,1
+2025,MN,Rock,alternative rock,2
+2025,MN,Rock,indie,1
+2025,MN,Unknown,unknown,7
+2025,MO,Electronic/Dance,bass house,1
+2025,MO,Electronic/Dance,dance,1
+2025,MO,Electronic/Dance,drum and bass,1
+2025,MO,Electronic/Dance,dubstep,3
+2025,MO,Electronic/Dance,electronic,5
+2025,MO,Electronic/Dance,glitch hop,1
+2025,MO,Electronic/Dance,tech house,1
+2025,MO,Jazz/Blues,blues rock,1
+2025,MO,R&B/Soul/Funk,blue-eyed soul,1
+2025,MO,Rock,hard rock,1
+2025,MO,Rock,space rock,1
+2025,MO,Unknown,unknown,3
+2025,MS,Country/Folk/Americana,alternative country,1
+2025,MS,Country/Folk/Americana,americana,1
+2025,MS,Country/Folk/Americana,country,1
+2025,MS,Country/Folk/Americana,"folk, world, & country",1
+2025,MS,Jazz/Blues,blues rock,1
+2025,MS,Metal,glam metal,2
+2025,MS,Rock,arena rock,1
+2025,MS,Rock,classic rock,1
+2025,MS,Rock,hard rock,2
+2025,MS,Rock,indie rock,3
+2025,MS,Rock,rock,2
+2025,MS,Rock,soft rock,1
+2025,MS,Unknown,unknown,3
+2025,MT,Comedy/Spoken Word,comedy,1
+2025,MT,Country/Folk/Americana,alternative country,2
+2025,MT,Country/Folk/Americana,bluegrass,2
+2025,MT,Country/Folk/Americana,folk pop,1
+2025,MT,Metal,metalcore,2
+2025,MT,Metal,progressive metal,1
+2025,MT,Other/Uncategorized,special effects,1
+2025,MT,Punk/Hardcore,punk rock,1
+2025,MT,Rock,indie,1
+2025,MT,Rock,psychedelic,1
+2025,MT,Rock,psychedelic rock,1
+2025,MT,Rock,rock,3
+2025,MT,Unknown,unknown,3
+2025,NC,Country/Folk/Americana,bluegrass,1
+2025,NC,Country/Folk/Americana,folk,2
+2025,NC,Country/Folk/Americana,folk rock,1
+2025,NC,Electronic/Dance,dubstep,1
+2025,NC,Electronic/Dance,electronic,1
+2025,NC,Hip-Hop/Rap,hip hop,1
+2025,NC,Metal,alternative metal,1
+2025,NC,Metal,metalcore,1
+2025,NC,Other/Uncategorized,experimental,1
+2025,NC,Punk/Hardcore,pop punk,1
+2025,NC,Punk/Hardcore,punk,1
+2025,NC,Punk/Hardcore,punk rock,1
+2025,NC,R&B/Soul/Funk,funk,2
+2025,NC,Rock,alternative rock,1
+2025,NC,Rock,psychedelic,1
+2025,NC,Unknown,unknown,3
+2025,ND,Electronic/Dance,breakbeat,1
+2025,ND,Electronic/Dance,synth-pop,1
+2025,ND,Metal,symphonic metal,2
+2025,ND,Other/Uncategorized,holiday,3
+2025,ND,Pop,pop rock,3
+2025,ND,Punk/Hardcore,hardcore,2
+2025,ND,Rock,psychedelic,1
+2025,ND,Unknown,unknown,7
+2025,NE,Classical,classical crossover,1
+2025,NE,Country/Folk/Americana,alternative country,1
+2025,NE,Country/Folk/Americana,contemporary country,1
+2025,NE,Country/Folk/Americana,country,3
+2025,NE,Country/Folk/Americana,folk,1
+2025,NE,Electronic/Dance,breaks,1
+2025,NE,Electronic/Dance,electronic,1
+2025,NE,Electronic/Dance,new age,1
+2025,NE,Hip-Hop/Rap,crunk,1
+2025,NE,Metal,metal,1
+2025,NE,Metal,metalcore,1
+2025,NE,R&B/Soul/Funk,blue-eyed soul,1
+2025,NE,Rock,alternative rock,2
+2025,NE,Rock,rock,2
+2025,NE,Unknown,unknown,2
+2025,NH,Classical,rock opera,1
+2025,NH,Country/Folk/Americana,folk,1
+2025,NH,Electronic/Dance,rave,1
+2025,NH,Hip-Hop/Rap,rap,1
+2025,NH,Metal,glam metal,1
+2025,NH,Metal,heavy metal,1
+2025,NH,Other/Uncategorized,experimental,1
+2025,NH,Pop,indie pop,1
+2025,NH,Pop,pop,3
+2025,NH,Punk/Hardcore,horror punk,1
+2025,NH,Punk/Hardcore,punk,1
+2025,NH,Reggae/Ska,dub,1
+2025,NH,Rock,alternative rock,1
+2025,NH,Rock,rock & roll,2
+2025,NH,Unknown,unknown,3
+2025,NJ,Electronic/Dance,dance-pop,1
+2025,NJ,Electronic/Dance,new wave,2
+2025,NJ,Hip-Hop/Rap,rap,1
+2025,NJ,Jazz/Blues,post bop,1
+2025,NJ,Metal,metalcore,1
+2025,NJ,Other/Uncategorized,noise,1
+2025,NJ,Pop,pop,1
+2025,NJ,Punk/Hardcore,beatdown hardcore,3
+2025,NJ,Punk/Hardcore,emo,1
+2025,NJ,Punk/Hardcore,hardcore punk,1
+2025,NJ,Rock,alternative rock,1
+2025,NJ,Rock,rock,1
+2025,NJ,Unknown,unknown,5
+2025,NM,Country/Folk/Americana,country,1
+2025,NM,Country/Folk/Americana,folk,1
+2025,NM,Country/Folk/Americana,"folk, world, & country",2
+2025,NM,Hip-Hop/Rap,hip hop,1
+2025,NM,Hip-Hop/Rap,rap,1
+2025,NM,Metal,doom metal,1
+2025,NM,Metal,heavy metal,2
+2025,NM,Metal,metalcore,1
+2025,NM,Metal,thrash metal,2
+2025,NM,Punk/Hardcore,emo,1
+2025,NM,Punk/Hardcore,emoviolence,1
+2025,NM,Punk/Hardcore,midwest emo,1
+2025,NM,Rock,desert rock,1
+2025,NM,Rock,indie rock,1
+2025,NM,Rock,psychedelic,1
+2025,NM,Unknown,unknown,1
+2025,NM,World,afrobeat,1
+2025,NV,Electronic/Dance,alternative dance,1
+2025,NV,Electronic/Dance,dance,1
+2025,NV,Electronic/Dance,dance-pop,1
+2025,NV,Electronic/Dance,house,1
+2025,NV,Hip-Hop/Rap,hip hop,2
+2025,NV,Hip-Hop/Rap,rap,1
+2025,NV,Pop,pop,3
+2025,NV,Pop,pop rock,1
+2025,NV,Punk/Hardcore,pop punk,1
+2025,NV,R&B/Soul/Funk,soul,1
+2025,NV,Rock,alternative rock,1
+2025,NV,Rock,hard rock,1
+2025,NV,Rock,indie,1
+2025,NV,Rock,rock,1
+2025,NV,Unknown,unknown,1
+2025,NV,World,calypso,1
+2025,NV,World,k-pop,1
+2025,NY,Country/Folk/Americana,country rock,1
+2025,NY,Country/Folk/Americana,folk,1
+2025,NY,Electronic/Dance,chiptune,1
+2025,NY,Electronic/Dance,dance,1
+2025,NY,Electronic/Dance,electronic,1
+2025,NY,Electronic/Dance,ghettotech,1
+2025,NY,Electronic/Dance,new wave,1
+2025,NY,Other/Uncategorized,many names,1
+2025,NY,Pop,indie pop,1
+2025,NY,Pop,pop,2
+2025,NY,Punk/Hardcore,punk,1
+2025,NY,R&B/Soul/Funk,r&b,1
+2025,NY,Reggae/Ska,dub,1
+2025,NY,Rock,alternative rock,2
+2025,NY,Rock,jam band,1
+2025,NY,Rock,rock music,1
+2025,NY,Unknown,unknown,1
+2025,NY,World,k-pop,1
+2025,OH,Classical,choral,2
+2025,OH,Electronic/Dance,electronic,2
+2025,OH,Jazz/Blues,dixieland,1
+2025,OH,Metal,metal,2
+2025,OH,Pop,alt-pop,1
+2025,OH,Punk/Hardcore,punk,1
+2025,OH,R&B/Soul/Funk,funk,1
+2025,OH,Reggae/Ska,reggae,1
+2025,OH,Rock,alternative rock,1
+2025,OH,Rock,indie rock,1
+2025,OH,Rock,math rock,1
+2025,OH,Rock,rock,1
+2025,OH,Unknown,unknown,5
+2025,OK,Country/Folk/Americana,country,3
+2025,OK,Country/Folk/Americana,country rock,2
+2025,OK,Jazz/Blues,blues,1
+2025,OK,Metal,alternative metal,2
+2025,OK,Other/Uncategorized,abstract,2
+2025,OK,Pop,indie pop,2
+2025,OK,Pop,pop,1
+2025,OK,Rock,hard rock,2
+2025,OK,Rock,jam band,1
+2025,OK,Rock,rock,2
+2025,OK,Unknown,unknown,1
+2025,OK,World,latin,1
+2025,OR,Comedy/Spoken Word,comedy,1
+2025,OR,Country/Folk/Americana,indie folk,1
+2025,OR,Jazz/Blues,lounge,2
+2025,OR,Metal,doom metal,1
+2025,OR,Other/Uncategorized,special effects,1
+2025,OR,Pop,dream pop,1
+2025,OR,R&B/Soul/Funk,funk,1
+2025,OR,Rock,alternative rock,1
+2025,OR,Rock,garage rock,1
+2025,OR,Rock,indie rock,1
+2025,OR,Rock,progressive rock,1
+2025,OR,Rock,rock,2
+2025,OR,Rock,surf,1
+2025,OR,Rock,surf music,1
+2025,OR,Unknown,unknown,4
+2025,PA,Country/Folk/Americana,bluegrass,2
+2025,PA,Country/Folk/Americana,folk-rock,1
+2025,PA,Electronic/Dance,edm,1
+2025,PA,Hip-Hop/Rap,boom bap,1
+2025,PA,Hip-Hop/Rap,hip hop,2
+2025,PA,Other/Uncategorized,session,1
+2025,PA,R&B/Soul/Funk,funk,1
+2025,PA,R&B/Soul/Funk,soul,1
+2025,PA,Rock,rock,1
+2025,PA,Rock,rock and roll,1
+2025,PA,Rock,rock music,1
+2025,PA,Unknown,unknown,7
+2025,RI,Classical,rock opera,1
+2025,RI,Comedy/Spoken Word,black comedy,1
+2025,RI,Country/Folk/Americana,folk,2
+2025,RI,Electronic/Dance,chiptune,1
+2025,RI,Electronic/Dance,trance,1
+2025,RI,Jazz/Blues,blues rock,1
+2025,RI,Metal,mathcore,1
+2025,RI,Metal,metalcore,1
+2025,RI,Other/Uncategorized,experimental,1
+2025,RI,Punk/Hardcore,punk,1
+2025,RI,R&B/Soul/Funk,funk,1
+2025,RI,R&B/Soul/Funk,soul,1
+2025,RI,Rock,heartland rock,1
+2025,RI,Rock,indie rock,3
+2025,RI,Rock,rock,1
+2025,RI,Unknown,unknown,2
+2025,SC,Country/Folk/Americana,folk,2
+2025,SC,Jazz/Blues,blues,1
+2025,SC,Metal,death metal,1
+2025,SC,Metal,doom metal,1
+2025,SC,Metal,sludge metal,2
+2025,SC,Punk/Hardcore,cowpunk,1
+2025,SC,Punk/Hardcore,hardcore punk,1
+2025,SC,Punk/Hardcore,melodic hardcore,1
+2025,SC,Punk/Hardcore,punk,2
+2025,SC,Rock,hard rock,1
+2025,SC,Rock,rock,2
+2025,SC,Rock,rock & roll,1
+2025,SC,Unknown,unknown,4
+2025,SD,Country/Folk/Americana,acoustic rock,1
+2025,SD,Country/Folk/Americana,country,1
+2025,SD,Hip-Hop/Rap,gangsta rap,1
+2025,SD,Hip-Hop/Rap,rap,1
+2025,SD,Metal,alternative metal,1
+2025,SD,Metal,heavy metal,2
+2025,SD,Metal,metalcore,1
+2025,SD,Metal,nu metal,2
+2025,SD,Pop,pop,1
+2025,SD,Punk/Hardcore,hardcore punk,1
+2025,SD,Punk/Hardcore,punk,2
+2025,SD,Rock,hard rock,1
+2025,SD,Rock,rock,4
+2025,SD,Unknown,unknown,1
+2025,TN,Christian/Gospel,southern gospel,4
+2025,TN,Country/Folk/Americana,country,10
+2025,TN,Electronic/Dance,electronic,2
+2025,TN,Hip-Hop/Rap,hip hop,1
+2025,TN,R&B/Soul/Funk,funk rock,1
+2025,TN,Rock,rock,1
+2025,TN,Rock,soft rock,1
+2025,TX,Country/Folk/Americana,country,2
+2025,TX,Country/Folk/Americana,folk,2
+2025,TX,Electronic/Dance,bass house,1
+2025,TX,Electronic/Dance,dark wave,1
+2025,TX,Electronic/Dance,electronic,4
+2025,TX,Electronic/Dance,synth-pop,1
+2025,TX,Punk/Hardcore,post-punk,1
+2025,TX,Rock,arena rock,1
+2025,TX,Rock,rock,1
+2025,TX,Rock,trop rock,1
+2025,TX,Unknown,unknown,5
+2025,UT,Comedy/Spoken Word,comedy,1
+2025,UT,Electronic/Dance,acid techno,1
+2025,UT,Electronic/Dance,dance,1
+2025,UT,Electronic/Dance,dubstep,1
+2025,UT,Hip-Hop/Rap,rap,1
+2025,UT,Metal,black metal,1
+2025,UT,Metal,death metal,1
+2025,UT,Other/Uncategorized,vocal,1
+2025,UT,Pop,dream pop,1
+2025,UT,Punk/Hardcore,midwest emo,1
+2025,UT,Rock,alternative,1
+2025,UT,Rock,alternative rock,1
+2025,UT,Rock,indie rock,1
+2025,UT,Rock,psychedelic,1
+2025,UT,Rock,rock,1
+2025,UT,Rock,shoegaze,1
+2025,UT,Rock,soft rock,1
+2025,UT,Unknown,unknown,3
+2025,VA,Country/Folk/Americana,folk,3
+2025,VA,Electronic/Dance,new wave,1
+2025,VA,Hip-Hop/Rap,coke rap,2
+2025,VA,Jazz/Blues,blues,2
+2025,VA,Jazz/Blues,harmonica blues,1
+2025,VA,Rock,alternative rock,1
+2025,VA,Rock,indie rock,1
+2025,VA,Rock,psychedelic,1
+2025,VA,Rock,rock,2
+2025,VA,Rock,rockabilly,1
+2025,VA,Unknown,unknown,5
+2025,VT,Country/Folk/Americana,country,2
+2025,VT,Country/Folk/Americana,folk rock,3
+2025,VT,Country/Folk/Americana,indie folk,1
+2025,VT,Country/Folk/Americana,progressive bluegrass,1
+2025,VT,Punk/Hardcore,emo,1
+2025,VT,Punk/Hardcore,gypsy punk,1
+2025,VT,Punk/Hardcore,punk,1
+2025,VT,R&B/Soul/Funk,funk,1
+2025,VT,R&B/Soul/Funk,funk / soul,1
+2025,VT,Reggae/Ska,reggae,1
+2025,VT,Rock,alternative rock,1
+2025,VT,Rock,rock,2
+2025,VT,Rock,roots rock,1
+2025,VT,Unknown,unknown,3
+2025,WA,Country/Folk/Americana,singer-songwriter,1
+2025,WA,Jazz/Blues,smooth jazz,8
+2025,WA,Metal,heavy metal,1
+2025,WA,Other/Uncategorized,experimental,1
+2025,WA,Other/Uncategorized,tribute act,1
+2025,WA,Rock,alternative rock,2
+2025,WA,Rock,indie rock,1
+2025,WA,Unknown,unknown,5
+2025,WI,Country/Folk/Americana,bluegrass,1
+2025,WI,Jazz/Blues,jazz,1
+2025,WI,Metal,heavy metal,2
+2025,WI,Metal,symphonic metal,2
+2025,WI,Punk/Hardcore,punk,1
+2025,WI,Reggae/Ska,reggaecore,2
+2025,WI,Rock,alternative rock,4
+2025,WI,Rock,jam band,3
+2025,WI,Rock,psychedelic,1
+2025,WI,Rock,rock,1
+2025,WI,Rock,symphonic rock,1
+2025,WI,Unknown,unknown,1
+2025,WV,Christian/Gospel,contemporary christian,1
+2025,WV,Comedy/Spoken Word,parody,1
+2025,WV,Country/Folk/Americana,bluegrass,1
+2025,WV,Country/Folk/Americana,country,1
+2025,WV,Country/Folk/Americana,folk,1
+2025,WV,Electronic/Dance,breakcore,1
+2025,WV,Metal,death metal,1
+2025,WV,Metal,doom metal,1
+2025,WV,Metal,heavy metal,2
+2025,WV,Metal,mathcore,1
+2025,WV,Other/Uncategorized,christmas music,1
+2025,WV,Punk/Hardcore,ska punk,1
+2025,WV,Rock,alternative rock,1
+2025,WV,Rock,grunge,1
+2025,WV,Rock,hard rock,2
+2025,WV,Rock,indie rock,1
+2025,WV,Unknown,unknown,2
+2025,WY,Country/Folk/Americana,contemporary country,1
+2025,WY,Country/Folk/Americana,country,4
+2025,WY,Country/Folk/Americana,folk,1
+2025,WY,Country/Folk/Americana,indie folk,1
+2025,WY,Metal,black metal,1
+2025,WY,Metal,grindcore,1
+2025,WY,Metal,groove metal,1
+2025,WY,Metal,metal,2
+2025,WY,Metal,metalcore,1
+2025,WY,Metal,nu metal,1
+2025,WY,Metal,thrash metal,1
+2025,WY,Other/Uncategorized,special effects,1
+2025,WY,Punk/Hardcore,cowpunk,1
+2025,WY,Punk/Hardcore,post-hardcore,1
+2025,WY,Punk/Hardcore,punk,1
+2025,WY,R&B/Soul/Funk,soul,1
+2026,AK,Comedy/Spoken Word,audiobook,1
+2026,AK,Comedy/Spoken Word,black comedy,1
+2026,AK,Country/Folk/Americana,alternative country,1
+2026,AK,Country/Folk/Americana,contemporary folk,1
+2026,AK,Country/Folk/Americana,country,1
+2026,AK,Country/Folk/Americana,folk,1
+2026,AK,Electronic/Dance,progressive house,1
+2026,AK,Hip-Hop/Rap,hip hop,1
+2026,AK,Jazz/Blues,country blues,2
+2026,AK,Metal,glam metal,1
+2026,AK,Metal,metal,1
+2026,AK,Pop,pop,3
+2026,AK,R&B/Soul/Funk,soul,1
+2026,AK,Reggae/Ska,reggae,1
+2026,AK,Rock,alternative rock,1
+2026,AK,Rock,indie rock,1
+2026,AK,Rock,rock,1
+2026,AL,Country/Folk/Americana,country pop,1
+2026,AL,Hip-Hop/Rap,hip hop,1
+2026,AL,Hip-Hop/Rap,rap,1
+2026,AL,Metal,alternative metal,2
+2026,AL,Metal,metalcore,1
+2026,AL,Metal,nu metal,2
+2026,AL,Punk/Hardcore,emo,1
+2026,AL,Punk/Hardcore,folk punk,1
+2026,AL,Punk/Hardcore,hardcore punk,2
+2026,AL,Punk/Hardcore,post-hardcore,1
+2026,AL,Punk/Hardcore,punk,2
+2026,AL,Punk/Hardcore,ska punk,1
+2026,AL,Reggae/Ska,ska,1
+2026,AL,Rock,hard rock,2
+2026,AL,Rock,indie rock,1
+2026,AR,Country/Folk/Americana,americana,1
+2026,AR,Country/Folk/Americana,country,1
+2026,AR,Hip-Hop/Rap,hip hop,2
+2026,AR,Hip-Hop/Rap,hip-hop,1
+2026,AR,Hip-Hop/Rap,rap,2
+2026,AR,Pop,indie pop,1
+2026,AR,Pop,pop,2
+2026,AR,Punk/Hardcore,horror punk,1
+2026,AR,R&B/Soul/Funk,contemporary r&b,1
+2026,AR,Rock,alternative rock,1
+2026,AR,Rock,hard rock,2
+2026,AR,Rock,noise rock,1
+2026,AR,Rock,rock,2
+2026,AR,Rock,southern rock,1
+2026,AR,Unknown,unknown,1
+2026,AZ,Country/Folk/Americana,folk,2
+2026,AZ,Country/Folk/Americana,singer-songwriter,1
+2026,AZ,Electronic/Dance,ebm,1
+2026,AZ,Electronic/Dance,electro,1
+2026,AZ,Hip-Hop/Rap,rap,1
+2026,AZ,Metal,doom metal,1
+2026,AZ,Pop,indie pop,1
+2026,AZ,Pop,pop,3
+2026,AZ,Punk/Hardcore,art punk,1
+2026,AZ,Punk/Hardcore,hardcore punk,1
+2026,AZ,Punk/Hardcore,pop punk,1
+2026,AZ,Rock,alternative rock,1
+2026,AZ,Rock,indie,2
+2026,AZ,Rock,progressive rock,1
+2026,AZ,Unknown,unknown,2
+2026,CA,Country/Folk/Americana,singer-songwriter,1
+2026,CA,Electronic/Dance,electro,1
+2026,CA,Electronic/Dance,lo-fi,1
+2026,CA,Jazz/Blues,blues,1
+2026,CA,Metal,doom metal,1
+2026,CA,Pop,baroque pop,1
+2026,CA,Pop,indie pop,2
+2026,CA,Pop,pop,2
+2026,CA,Punk/Hardcore,punk,1
+2026,CA,Punk/Hardcore,riot grrrl,1
+2026,CA,Punk/Hardcore,swancore,1
+2026,CA,R&B/Soul/Funk,rnb,1
+2026,CA,Rock,alternative rock,4
+2026,CA,Rock,indie rock,2
+2026,CO,Country/Folk/Americana,bro-country,1
+2026,CO,Country/Folk/Americana,country,2
+2026,CO,Country/Folk/Americana,singer-songwriter,1
+2026,CO,Electronic/Dance,coldwave,1
+2026,CO,Electronic/Dance,new wave,1
+2026,CO,Hip-Hop/Rap,boom bap,1
+2026,CO,Metal,alternative metal,1
+2026,CO,Metal,deathcore,2
+2026,CO,Metal,heavy metal,1
+2026,CO,Other/Uncategorized,awesome name,1
+2026,CO,Rock,garage rock,1
+2026,CO,Rock,grunge,1
+2026,CO,Rock,hard rock,1
+2026,CO,Rock,heavy psych,2
+2026,CO,Rock,noise rock,1
+2026,CO,Rock,psychedelic,1
+2026,CO,Rock,rock,1
+2026,CT,Comedy/Spoken Word,comedy,1
+2026,CT,Country/Folk/Americana,americana,1
+2026,CT,Country/Folk/Americana,country,2
+2026,CT,Metal,heavy metal,1
+2026,CT,Pop,pop,1
+2026,CT,Punk/Hardcore,psychobilly,1
+2026,CT,Rock,alternative rock,1
+2026,CT,Rock,hard rock,3
+2026,CT,Rock,indie,1
+2026,CT,Rock,rock,4
+2026,CT,Rock,rock & roll,1
+2026,CT,Rock,rock music,1
+2026,CT,Rock,southern rock,1
+2026,CT,Rock,surf rock,1
+2026,DE,Country/Folk/Americana,country,1
+2026,DE,Country/Folk/Americana,country music,1
+2026,DE,Country/Folk/Americana,country rock,1
+2026,DE,Country/Folk/Americana,folk,1
+2026,DE,Jazz/Blues,blues,1
+2026,DE,Pop,pop,2
+2026,DE,Punk/Hardcore,pop punk,1
+2026,DE,Punk/Hardcore,post-hardcore,1
+2026,DE,Rock,alternative rock,4
+2026,DE,Rock,hard rock,1
+2026,DE,Rock,rock,4
+2026,DE,Rock,southern rock,1
+2026,DE,Unknown,unknown,1
+2026,FL,Country/Folk/Americana,folk,1
+2026,FL,Electronic/Dance,industrial,1
+2026,FL,Hip-Hop/Rap,rap,4
+2026,FL,Metal,metal,2
+2026,FL,Metal,metalcore,1
+2026,FL,Metal,stoner metal,1
+2026,FL,Pop,pop rock,2
+2026,FL,Punk/Hardcore,post-hardcore,1
+2026,FL,Punk/Hardcore,ska punk,1
+2026,FL,R&B/Soul/Funk,r&b,1
+2026,FL,Rock,alternative rock,2
+2026,FL,Rock,jam band,1
+2026,FL,Unknown,unknown,1
+2026,FL,World,flamenco,1
+2026,GA,Country/Folk/Americana,folk,1
+2026,GA,Electronic/Dance,breakcore,1
+2026,GA,Electronic/Dance,edm,1
+2026,GA,Electronic/Dance,rave,1
+2026,GA,Metal,doom metal,1
+2026,GA,Metal,folk metal,1
+2026,GA,Metal,metal,1
+2026,GA,Metal,power metal,1
+2026,GA,Metal,progressive metal,1
+2026,GA,Pop,pop,3
+2026,GA,Punk/Hardcore,hardcore,1
+2026,GA,Rock,experimental rock,1
+2026,GA,Rock,heavy psych,1
+2026,GA,Rock,indie,2
+2026,GA,Rock,math rock,1
+2026,GA,Rock,rock,1
+2026,GA,Unknown,unknown,1
+2026,HI,Country/Folk/Americana,singer-songwriter,2
+2026,HI,Electronic/Dance,electronic,2
+2026,HI,Hip-Hop/Rap,boom bap,2
+2026,HI,Other/Uncategorized,experimental,2
+2026,HI,Pop,indie pop,2
+2026,HI,Rock,rock,4
+2026,HI,Rock,rock music,1
+2026,HI,Rock,soft rock,5
+2026,IA,Christian/Gospel,christian rock,1
+2026,IA,Christian/Gospel,contemporary christian,1
+2026,IA,Country/Folk/Americana,contemporary country,1
+2026,IA,Country/Folk/Americana,country,1
+2026,IA,Country/Folk/Americana,folk,1
+2026,IA,Electronic/Dance,darkwave,1
+2026,IA,Electronic/Dance,electronic,1
+2026,IA,Metal,deathcore,1
+2026,IA,Metal,glam metal,1
+2026,IA,Metal,metal,1
+2026,IA,Metal,metalcore,1
+2026,IA,Other/Uncategorized,cybergrind,1
+2026,IA,Rock,alternative rock,2
+2026,IA,Rock,hard rock,2
+2026,IA,Rock,indie,1
+2026,IA,Rock,indie rock,1
+2026,IA,Rock,rock,1
+2026,IA,Unknown,unknown,1
+2026,ID,Country/Folk/Americana,country,1
+2026,ID,Electronic/Dance,coldwave,1
+2026,ID,Electronic/Dance,electronic,1
+2026,ID,Electronic/Dance,lo-fi,1
+2026,ID,Hip-Hop/Rap,conscious hip hop,1
+2026,ID,Hip-Hop/Rap,hip-hop,2
+2026,ID,Hip-Hop/Rap,rap,1
+2026,ID,Metal,black metal,1
+2026,ID,Metal,deathcore,1
+2026,ID,Metal,metalcore,1
+2026,ID,Pop,indie pop,1
+2026,ID,Punk/Hardcore,art punk,1
+2026,ID,Punk/Hardcore,hardcore punk,1
+2026,ID,Punk/Hardcore,pop punk,1
+2026,ID,Rock,garage rock,1
+2026,ID,Rock,heavy psych,1
+2026,ID,Rock,indie rock,1
+2026,ID,Rock,noise rock,1
+2026,ID,World,zamrock,1
+2026,IL,Classical,modern classical,1
+2026,IL,Country/Folk/Americana,bluegrass,1
+2026,IL,Country/Folk/Americana,bluegrass music,1
+2026,IL,Electronic/Dance,dubstep,1
+2026,IL,Electronic/Dance,house,1
+2026,IL,Electronic/Dance,new wave,1
+2026,IL,Hip-Hop/Rap,hip hop,1
+2026,IL,Jazz/Blues,new jack swing,1
+2026,IL,Metal,brutal death metal,1
+2026,IL,Metal,death metal,1
+2026,IL,Metal,metalcore,1
+2026,IL,Other/Uncategorized,experimental,1
+2026,IL,Pop,pop,2
+2026,IL,Punk/Hardcore,hardcore,1
+2026,IL,R&B/Soul/Funk,rnb,1
+2026,IL,Rock,art rock,1
+2026,IL,Rock,indie,1
+2026,IL,Rock,psychedelic rock,1
+2026,IL,Rock,rock music,1
+2026,IN,Country/Folk/Americana,country,1
+2026,IN,Country/Folk/Americana,indie folk,1
+2026,IN,Electronic/Dance,industrial rock,2
+2026,IN,Metal,folk metal,1
+2026,IN,Metal,industrial metal,1
+2026,IN,Metal,melodic death metal,1
+2026,IN,Metal,metalcore,1
+2026,IN,Pop,pop,3
+2026,IN,Punk/Hardcore,emo,1
+2026,IN,Punk/Hardcore,post-hardcore,1
+2026,IN,R&B/Soul/Funk,r&b,1
+2026,IN,Rock,alternative rock,1
+2026,IN,Rock,classic rock,1
+2026,IN,Rock,rock,1
+2026,IN,Unknown,unknown,3
+2026,KS,Country/Folk/Americana,country,2
+2026,KS,Country/Folk/Americana,country pop,1
+2026,KS,Country/Folk/Americana,folk,4
+2026,KS,Electronic/Dance,dance,1
+2026,KS,Electronic/Dance,electro-industrial,1
+2026,KS,Electronic/Dance,electronic,1
+2026,KS,Metal,deathcore,1
+2026,KS,Metal,grindcore,1
+2026,KS,Metal,industrial metal,1
+2026,KS,Punk/Hardcore,hardcore punk,1
+2026,KS,Rock,alternative rock,2
+2026,KS,Rock,indie rock,2
+2026,KS,Rock,rock,1
+2026,KS,Rock,southern rock,1
+2026,KY,Country/Folk/Americana,bluegrass,1
+2026,KY,Country/Folk/Americana,contemporary country,1
+2026,KY,Country/Folk/Americana,country,2
+2026,KY,Country/Folk/Americana,folk,3
+2026,KY,Country/Folk/Americana,indie folk,1
+2026,KY,Metal,melodic death metal,1
+2026,KY,Other/Uncategorized,experimental,1
+2026,KY,Punk/Hardcore,hardcore punk,1
+2026,KY,Rock,alternative,1
+2026,KY,Rock,alternative rock,2
+2026,KY,Rock,hard rock,1
+2026,KY,Rock,noise rock,1
+2026,KY,Rock,progressive rock,1
+2026,KY,Rock,psychedelic rock,1
+2026,KY,Rock,rock,1
+2026,KY,Unknown,unknown,1
+2026,LA,Country/Folk/Americana,country,4
+2026,LA,Electronic/Dance,synthwave,2
+2026,LA,Hip-Hop/Rap,hip hop,1
+2026,LA,Hip-Hop/Rap,rap,1
+2026,LA,Metal,alternative metal,3
+2026,LA,Metal,nu metal,1
+2026,LA,Punk/Hardcore,folk punk,1
+2026,LA,Punk/Hardcore,ska punk,2
+2026,LA,R&B/Soul/Funk,soul,1
+2026,LA,Rock,alternative rock,1
+2026,LA,Rock,experimental rock,1
+2026,LA,Rock,hard rock,2
+2026,MA,Country/Folk/Americana,cowboy poetry,1
+2026,MA,Electronic/Dance,breakcore,1
+2026,MA,Hip-Hop/Rap,hip hop,1
+2026,MA,Hip-Hop/Rap,hip-hop,1
+2026,MA,Hip-Hop/Rap,rap,2
+2026,MA,Jazz/Blues,blues rock,1
+2026,MA,Metal,death metal,1
+2026,MA,Metal,heavy metal,1
+2026,MA,Metal,metal,1
+2026,MA,Metal,metalcore,3
+2026,MA,Other/Uncategorized,ballad,1
+2026,MA,Punk/Hardcore,hardcore punk,1
+2026,MA,Punk/Hardcore,punk,2
+2026,MA,Rock,jam band,1
+2026,MA,Rock,noise rock,1
+2026,MA,Rock,psychedelic rock,1
+2026,MD,Electronic/Dance,darkwave,1
+2026,MD,Metal,brutal death metal,1
+2026,MD,Metal,death metal,2
+2026,MD,Metal,metalcore,1
+2026,MD,Punk/Hardcore,beatdown hardcore,1
+2026,MD,Punk/Hardcore,hardcore,1
+2026,MD,Punk/Hardcore,punk,1
+2026,MD,R&B/Soul/Funk,contemporary r&b,1
+2026,MD,R&B/Soul/Funk,neo soul,1
+2026,MD,R&B/Soul/Funk,r&b,1
+2026,MD,R&B/Soul/Funk,rnb,1
+2026,MD,Rock,hard rock,3
+2026,MD,Rock,indie rock,1
+2026,MD,Rock,math rock,1
+2026,MD,Rock,noise rock,1
+2026,MD,Rock,psychedelic rock,1
+2026,MD,Unknown,unknown,1
+2026,ME,Christian/Gospel,religious,1
+2026,ME,Country/Folk/Americana,americana,1
+2026,ME,Country/Folk/Americana,country rock,1
+2026,ME,Country/Folk/Americana,folk,3
+2026,ME,Country/Folk/Americana,singer-songwriter,1
+2026,ME,Jazz/Blues,blues rock,1
+2026,ME,Punk/Hardcore,dance-punk,1
+2026,ME,Rock,indie rock,2
+2026,ME,Rock,psychedelic rock,1
+2026,ME,Rock,rock,3
+2026,ME,Rock,rockabilly,2
+2026,ME,Unknown,unknown,3
+2026,MI,Classical,modern classical,1
+2026,MI,Country/Folk/Americana,bluegrass,1
+2026,MI,Country/Folk/Americana,singer-songwriter,1
+2026,MI,Electronic/Dance,dance-pop,1
+2026,MI,Hip-Hop/Rap,hip hop,2
+2026,MI,Metal,alternative metal,3
+2026,MI,Metal,doom metal,2
+2026,MI,Pop,pop,2
+2026,MI,Punk/Hardcore,pop punk,1
+2026,MI,R&B/Soul/Funk,funk,1
+2026,MI,R&B/Soul/Funk,r&b,1
+2026,MI,Rock,alternative rock,1
+2026,MI,Rock,aor,1
+2026,MI,Rock,rock,1
+2026,MI,Rock,stoner rock,1
+2026,MN,Christian/Gospel,gospel music,1
+2026,MN,Jazz/Blues,cool jazz,2
+2026,MN,Metal,black metal,1
+2026,MN,Other/Uncategorized,abstract,1
+2026,MN,Punk/Hardcore,emo,1
+2026,MN,Punk/Hardcore,punk,2
+2026,MN,R&B/Soul/Funk,funktronica,1
+2026,MN,R&B/Soul/Funk,soul,1
+2026,MN,Rock,indie,1
+2026,MN,Rock,indie rock,1
+2026,MN,Rock,math rock,2
+2026,MN,Unknown,unknown,6
+2026,MO,Country/Folk/Americana,country,1
+2026,MO,Electronic/Dance,industrial rock,2
+2026,MO,Metal,doom metal,1
+2026,MO,Metal,folk metal,1
+2026,MO,Metal,glam metal,1
+2026,MO,Metal,groove metal,1
+2026,MO,Metal,heavy metal,1
+2026,MO,Metal,industrial metal,1
+2026,MO,Pop,pop,2
+2026,MO,Punk/Hardcore,hardcore,1
+2026,MO,Punk/Hardcore,hardcore punk,1
+2026,MO,Rock,hard rock,3
+2026,MO,Rock,noise rock,2
+2026,MO,Rock,prog rock,1
+2026,MO,Rock,rock,1
+2026,MS,Christian/Gospel,religious,1
+2026,MS,Comedy/Spoken Word,comedy,1
+2026,MS,Country/Folk/Americana,country,1
+2026,MS,Electronic/Dance,hard techno,1
+2026,MS,Metal,heavy metal,1
+2026,MS,Other/Uncategorized,tribute band,1
+2026,MS,R&B/Soul/Funk,r&b,1
+2026,MS,Rock,alternative rock,4
+2026,MS,Rock,hard rock,2
+2026,MS,Rock,indie,4
+2026,MS,Rock,rock,1
+2026,MS,Unknown,unknown,2
+2026,MT,Country/Folk/Americana,bluegrass,2
+2026,MT,Country/Folk/Americana,folk,1
+2026,MT,Jazz/Blues,blues,1
+2026,MT,Jazz/Blues,blues rock,3
+2026,MT,Metal,death metal,1
+2026,MT,Metal,heavy metal,3
+2026,MT,Pop,indie pop,1
+2026,MT,Punk/Hardcore,hardcore punk,1
+2026,MT,Punk/Hardcore,pop punk,1
+2026,MT,R&B/Soul/Funk,funk,1
+2026,MT,Rock,alternative rock,1
+2026,MT,Rock,classic rock,1
+2026,MT,Rock,jam band,1
+2026,MT,Rock,psychedelic rock,1
+2026,MT,Rock,rock,1
+2026,NC,Electronic/Dance,disco,1
+2026,NC,Electronic/Dance,electronic,2
+2026,NC,Electronic/Dance,psytrance,1
+2026,NC,Electronic/Dance,synth-pop,2
+2026,NC,Hip-Hop/Rap,alternative hip hop,2
+2026,NC,Hip-Hop/Rap,experimental hip hop,1
+2026,NC,Hip-Hop/Rap,hip hop,1
+2026,NC,Hip-Hop/Rap,trap,1
+2026,NC,Metal,djent,1
+2026,NC,Metal,doom metal,1
+2026,NC,Metal,melodic death metal,1
+2026,NC,Metal,metalcore,3
+2026,NC,Punk/Hardcore,hardcore,1
+2026,NC,Rock,alternative rock,2
+2026,ND,Comedy/Spoken Word,cabaret,1
+2026,ND,Comedy/Spoken Word,comedy,1
+2026,ND,Country/Folk/Americana,country,5
+2026,ND,Country/Folk/Americana,folk rock,1
+2026,ND,Metal,brutal death metal,1
+2026,ND,Metal,metal,2
+2026,ND,Pop,pop,1
+2026,ND,Punk/Hardcore,hardcore,1
+2026,ND,Reggae/Ska,reggae,1
+2026,ND,Rock,goth rock,3
+2026,ND,Rock,rock,1
+2026,ND,Unknown,unknown,2
+2026,NE,Christian/Gospel,contemporary christian,1
+2026,NE,Country/Folk/Americana,americana,1
+2026,NE,Country/Folk/Americana,folk,1
+2026,NE,Electronic/Dance,lo-fi,1
+2026,NE,Hip-Hop/Rap,gangsta,1
+2026,NE,Metal,alternative metal,1
+2026,NE,Metal,brutal death metal,1
+2026,NE,Metal,death metal,1
+2026,NE,Punk/Hardcore,emo,1
+2026,NE,Punk/Hardcore,post-hardcore,1
+2026,NE,Rock,alternative rock,1
+2026,NE,Rock,hard rock,1
+2026,NE,Rock,indie rock,2
+2026,NE,Rock,prog rock,1
+2026,NE,Rock,rock,1
+2026,NE,Unknown,unknown,4
+2026,NH,Country/Folk/Americana,alternative country,1
+2026,NH,Country/Folk/Americana,contemporary folk,1
+2026,NH,Country/Folk/Americana,country music,1
+2026,NH,Electronic/Dance,new wave,1
+2026,NH,Electronic/Dance,synth-pop,1
+2026,NH,Hip-Hop/Rap,hip-hop,1
+2026,NH,Jazz/Blues,blues rock,2
+2026,NH,Pop,classic pop and rock,1
+2026,NH,Pop,traditional pop,1
+2026,NH,Punk/Hardcore,alternative punk,1
+2026,NH,Punk/Hardcore,psychobilly,2
+2026,NH,Rock,rock,3
+2026,NH,Rock,surf rock,2
+2026,NH,Unknown,unknown,2
+2026,NJ,Electronic/Dance,electronic rock,1
+2026,NJ,Electronic/Dance,trance,1
+2026,NJ,Metal,alternative metal,1
+2026,NJ,Metal,kawaii metal,1
+2026,NJ,Pop,bedroom pop,1
+2026,NJ,Pop,indie pop,1
+2026,NJ,Punk/Hardcore,emo,1
+2026,NJ,Punk/Hardcore,pop punk,2
+2026,NJ,Punk/Hardcore,post-hardcore,1
+2026,NJ,Rock,alternative rock,4
+2026,NJ,Rock,hard rock,1
+2026,NJ,Rock,rock,2
+2026,NJ,Unknown,unknown,3
+2026,NM,Country/Folk/Americana,contemporary country,1
+2026,NM,Country/Folk/Americana,country,1
+2026,NM,Country/Folk/Americana,singer-songwriter,1
+2026,NM,Metal,alternative metal,1
+2026,NM,Metal,doom metal,1
+2026,NM,Metal,nu metal,1
+2026,NM,Other/Uncategorized,dansband,1
+2026,NM,Other/Uncategorized,doo-wop,1
+2026,NM,Punk/Hardcore,emo,2
+2026,NM,Punk/Hardcore,hardcore,1
+2026,NM,Punk/Hardcore,melodic hardcore,1
+2026,NM,Punk/Hardcore,pop punk,2
+2026,NM,Punk/Hardcore,punk,1
+2026,NM,Rock,grunge,1
+2026,NM,Rock,hard rock,1
+2026,NM,Rock,soft rock,1
+2026,NM,Unknown,unknown,2
+2026,NV,Electronic/Dance,dance,1
+2026,NV,Electronic/Dance,deep house,1
+2026,NV,Electronic/Dance,edm,1
+2026,NV,Electronic/Dance,electronic,1
+2026,NV,Electronic/Dance,house,1
+2026,NV,Hip-Hop/Rap,alternative hip hop,1
+2026,NV,Hip-Hop/Rap,hip hop,1
+2026,NV,Metal,glam metal,1
+2026,NV,Metal,heavy metal,1
+2026,NV,Pop,pop,1
+2026,NV,Punk/Hardcore,punk,3
+2026,NV,Punk/Hardcore,punk rock,2
+2026,NV,R&B/Soul/Funk,contemporary r&b,1
+2026,NV,Reggae/Ska,ska,1
+2026,NV,Unknown,unknown,2
+2026,NV,World,latin,1
+2026,NY,Comedy/Spoken Word,comedy,1
+2026,NY,Country/Folk/Americana,indie folk,1
+2026,NY,Electronic/Dance,electronic,1
+2026,NY,Electronic/Dance,lo-fi,1
+2026,NY,Hip-Hop/Rap,cloud rap,1
+2026,NY,Hip-Hop/Rap,rap,1
+2026,NY,Metal,deathcore,1
+2026,NY,Metal,mathcore,2
+2026,NY,Pop,pop,1
+2026,NY,Punk/Hardcore,emo,1
+2026,NY,Punk/Hardcore,hardcore,1
+2026,NY,Reggae/Ska,reggaeton,2
+2026,NY,Rock,indie rock,1
+2026,NY,Rock,math rock,1
+2026,NY,Rock,noise rock,1
+2026,NY,Rock,psychedelic,1
+2026,NY,Rock,rock,2
+2026,OH,Country/Folk/Americana,alternative country,1
+2026,OH,Country/Folk/Americana,americana,1
+2026,OH,Country/Folk/Americana,country,2
+2026,OH,Hip-Hop/Rap,hip hop,2
+2026,OH,Jazz/Blues,blues,1
+2026,OH,Metal,alternative metal,3
+2026,OH,Metal,doom metal,1
+2026,OH,Punk/Hardcore,pop punk,2
+2026,OH,Punk/Hardcore,post-hardcore,1
+2026,OH,Rock,hard rock,1
+2026,OH,Rock,indie rock,1
+2026,OH,Unknown,unknown,3
+2026,OH,World,filmi,1
+2026,OK,Country/Folk/Americana,indie folk,1
+2026,OK,Hip-Hop/Rap,hip-hop,1
+2026,OK,Jazz/Blues,blues,1
+2026,OK,Metal,alternative metal,1
+2026,OK,Metal,crossover thrash,1
+2026,OK,Metal,heavy metal,1
+2026,OK,Metal,metalcore,1
+2026,OK,Metal,nu metal,1
+2026,OK,Metal,thrash metal,2
+2026,OK,Punk/Hardcore,beatdown hardcore,1
+2026,OK,Punk/Hardcore,hardcore punk,3
+2026,OK,Rock,alternative rock,2
+2026,OK,Rock,hard rock,3
+2026,OK,Rock,indie rock,1
+2026,OR,Classical,opera,1
+2026,OR,Comedy/Spoken Word,cabaret,1
+2026,OR,Comedy/Spoken Word,comedy,2
+2026,OR,Electronic/Dance,electronic,1
+2026,OR,Metal,doom metal,2
+2026,OR,Metal,industrial metal,1
+2026,OR,Other/Uncategorized,musical,1
+2026,OR,Pop,indie pop,1
+2026,OR,Pop,pop,1
+2026,OR,Punk/Hardcore,punk rock,1
+2026,OR,Punk/Hardcore,riot grrrl,1
+2026,OR,R&B/Soul/Funk,alternative r&b,1
+2026,OR,R&B/Soul/Funk,funk,1
+2026,OR,Rock,anatolian rock,1
+2026,OR,Rock,indie,1
+2026,OR,Rock,psychedelic rock,2
+2026,OR,Rock,rock,1
+2026,PA,Country/Folk/Americana,country,1
+2026,PA,Country/Folk/Americana,folk,2
+2026,PA,Country/Folk/Americana,indie folk,2
+2026,PA,Country/Folk/Americana,singer-songwriter,1
+2026,PA,Jazz/Blues,blues,1
+2026,PA,Metal,alternative metal,1
+2026,PA,Metal,brutal death metal,1
+2026,PA,Metal,death metal,2
+2026,PA,Metal,metalcore,1
+2026,PA,Punk/Hardcore,beatdown hardcore,1
+2026,PA,Punk/Hardcore,hardcore,1
+2026,PA,Punk/Hardcore,punk,2
+2026,PA,Rock,hard rock,1
+2026,PA,Rock,modern rock,1
+2026,PA,Rock,noise rock,1
+2026,PA,Unknown,unknown,1
+2026,RI,Country/Folk/Americana,americana,1
+2026,RI,Country/Folk/Americana,bluegrass,2
+2026,RI,Country/Folk/Americana,country,1
+2026,RI,Country/Folk/Americana,folk,2
+2026,RI,Country/Folk/Americana,folk rock,1
+2026,RI,Electronic/Dance,new wave,1
+2026,RI,Jazz/Blues,big band,1
+2026,RI,Jazz/Blues,blues,2
+2026,RI,Jazz/Blues,dixieland,1
+2026,RI,Metal,black metal,1
+2026,RI,Pop,classic pop and rock,1
+2026,RI,Pop,traditional pop,1
+2026,RI,Punk/Hardcore,hardcore punk,1
+2026,RI,R&B/Soul/Funk,funk,1
+2026,RI,Rock,rock,2
+2026,RI,Unknown,unknown,1
+2026,SC,Christian/Gospel,christian rock,1
+2026,SC,Country/Folk/Americana,folk,1
+2026,SC,Electronic/Dance,synth-pop,1
+2026,SC,Hip-Hop/Rap,alternative hip hop,1
+2026,SC,Hip-Hop/Rap,cloud rap,1
+2026,SC,Jazz/Blues,blues rock,1
+2026,SC,Metal,deathcore,1
+2026,SC,Metal,mathcore,2
+2026,SC,Metal,metalcore,1
+2026,SC,Punk/Hardcore,emo,1
+2026,SC,Punk/Hardcore,post-hardcore,1
+2026,SC,R&B/Soul/Funk,funk rock,2
+2026,SC,Reggae/Ska,reggae,1
+2026,SC,Reggae/Ska,ska,1
+2026,SC,Rock,alternative rock,2
+2026,SC,Rock,indie rock,1
+2026,SC,Rock,jam band,1
+2026,SD,Comedy/Spoken Word,comedy rock,1
+2026,SD,Country/Folk/Americana,bro-country,2
+2026,SD,Country/Folk/Americana,country,2
+2026,SD,Country/Folk/Americana,folk,1
+2026,SD,Country/Folk/Americana,folk rock,1
+2026,SD,Metal,brutal death metal,1
+2026,SD,Metal,death metal,2
+2026,SD,Metal,metalcore,1
+2026,SD,Pop,pop rock,1
+2026,SD,Punk/Hardcore,beatdown hardcore,1
+2026,SD,Punk/Hardcore,hardcore,1
+2026,SD,Rock,alternative rock,2
+2026,SD,Rock,hard rock,1
+2026,SD,Unknown,unknown,3
+2026,TN,Country/Folk/Americana,country rock,1
+2026,TN,Country/Folk/Americana,folk,1
+2026,TN,Country/Folk/Americana,singer-songwriter,1
+2026,TN,Electronic/Dance,techno,1
+2026,TN,Hip-Hop/Rap,hip hop,1
+2026,TN,Hip-Hop/Rap,rap,1
+2026,TN,Metal,metalcore,1
+2026,TN,Pop,pop rock,1
+2026,TN,Punk/Hardcore,hardcore punk,1
+2026,TN,R&B/Soul/Funk,neo soul,1
+2026,TN,R&B/Soul/Funk,r&b,2
+2026,TN,Reggae/Ska,ska,1
+2026,TN,Rock,alternative rock,1
+2026,TN,Rock,garage rock,1
+2026,TN,Rock,indie rock,1
+2026,TN,Rock,rock,1
+2026,TN,Rock,rock and indie,1
+2026,TN,Rock,southern rock,1
+2026,TN,Unknown,unknown,1
+2026,TX,Christian/Gospel,christian rock,1
+2026,TX,Country/Folk/Americana,folk,1
+2026,TX,Metal,alternative metal,1
+2026,TX,Pop,dream pop,1
+2026,TX,Pop,indie pop,1
+2026,TX,Punk/Hardcore,emo,2
+2026,TX,Punk/Hardcore,folk punk,1
+2026,TX,Punk/Hardcore,hardcore punk,1
+2026,TX,Punk/Hardcore,post-hardcore,3
+2026,TX,R&B/Soul/Funk,alternative r&b,1
+2026,TX,R&B/Soul/Funk,r&b,1
+2026,TX,Rock,alternative rock,3
+2026,TX,Rock,hard rock,2
+2026,TX,Unknown,unknown,1
+2026,UT,Electronic/Dance,ambient,1
+2026,UT,Electronic/Dance,new wave,2
+2026,UT,Jazz/Blues,blues,2
+2026,UT,Jazz/Blues,blues rock,1
+2026,UT,Metal,deathcore,2
+2026,UT,Metal,metalcore,1
+2026,UT,Other/Uncategorized,experimental,1
+2026,UT,Pop,pop,1
+2026,UT,Punk/Hardcore,hardcore punk,2
+2026,UT,Punk/Hardcore,post-punk,1
+2026,UT,Rock,alternative rock,1
+2026,UT,Rock,garage rock,1
+2026,UT,Rock,psychedelic rock,1
+2026,UT,Rock,rock,1
+2026,UT,Unknown,unknown,2
+2026,VA,Country/Folk/Americana,americana,1
+2026,VA,Country/Folk/Americana,country,1
+2026,VA,Country/Folk/Americana,folk,1
+2026,VA,Hip-Hop/Rap,cloud rap,1
+2026,VA,Hip-Hop/Rap,hip hop,2
+2026,VA,Hip-Hop/Rap,rap,1
+2026,VA,Jazz/Blues,electric blues,1
+2026,VA,Metal,metalcore,1
+2026,VA,Metal,stoner metal,1
+2026,VA,Other/Uncategorized,cover band,1
+2026,VA,Punk/Hardcore,hardcore punk,1
+2026,VA,R&B/Soul/Funk,contemporary r&b,1
+2026,VA,R&B/Soul/Funk,rnb,1
+2026,VA,R&B/Soul/Funk,soul,1
+2026,VA,Rock,alternative rock,2
+2026,VA,Unknown,unknown,3
+2026,VT,Country/Folk/Americana,alternative country,1
+2026,VT,Country/Folk/Americana,americana,1
+2026,VT,Country/Folk/Americana,folk,1
+2026,VT,Country/Folk/Americana,singer-songwriter,1
+2026,VT,Hip-Hop/Rap,hip hop,1
+2026,VT,Jazz/Blues,blues,1
+2026,VT,Jazz/Blues,blues rock,1
+2026,VT,Jazz/Blues,jazz,2
+2026,VT,Jazz/Blues,jazz-rock,1
+2026,VT,Pop,pop,1
+2026,VT,Rock,hard rock,1
+2026,VT,Rock,indie,1
+2026,VT,Rock,jam band,1
+2026,VT,Rock,rock,1
+2026,VT,Rock,soft rock,2
+2026,VT,Unknown,unknown,3
+2026,WA,Classical,opera,1
+2026,WA,Country/Folk/Americana,country,1
+2026,WA,Hip-Hop/Rap,nerdcore,1
+2026,WA,Metal,power metal,2
+2026,WA,Metal,symphonic metal,1
+2026,WA,Punk/Hardcore,horror punk,2
+2026,WA,Punk/Hardcore,punk,4
+2026,WA,Punk/Hardcore,punk rock,2
+2026,WA,R&B/Soul/Funk,alternative r&b,1
+2026,WA,Rock,anatolian rock,1
+2026,WA,Rock,grunge,1
+2026,WA,Rock,rock,2
+2026,WA,Unknown,unknown,1
+2026,WI,Country/Folk/Americana,country,1
+2026,WI,Country/Folk/Americana,folk,1
+2026,WI,Country/Folk/Americana,folk rock,1
+2026,WI,Hip-Hop/Rap,alternative hip hop,1
+2026,WI,Hip-Hop/Rap,crunk,1
+2026,WI,Hip-Hop/Rap,hip hop,1
+2026,WI,Hip-Hop/Rap,hip-hop,1
+2026,WI,Hip-Hop/Rap,rap,1
+2026,WI,Metal,brutal death metal,1
+2026,WI,Metal,death metal,2
+2026,WI,Metal,metalcore,1
+2026,WI,Punk/Hardcore,beatdown hardcore,1
+2026,WI,Punk/Hardcore,emo,1
+2026,WI,Punk/Hardcore,hardcore,1
+2026,WI,Punk/Hardcore,hardcore punk,2
+2026,WI,R&B/Soul/Funk,funk,1
+2026,WI,Rock,rock music,1
+2026,WI,Unknown,unknown,1
+2026,WV,Country/Folk/Americana,alternative country,1
+2026,WV,Country/Folk/Americana,americana,1
+2026,WV,Country/Folk/Americana,country,3
+2026,WV,Country/Folk/Americana,folk,1
+2026,WV,Country/Folk/Americana,folk rock,1
+2026,WV,Country/Folk/Americana,singer-songwriter,1
+2026,WV,Jazz/Blues,blues,1
+2026,WV,Punk/Hardcore,psychobilly,1
+2026,WV,Punk/Hardcore,punk rock,1
+2026,WV,Rock,grunge,1
+2026,WV,Rock,hard rock,2
+2026,WV,Rock,southern rock,1
+2026,WV,Rock,surf,1
+2026,WV,Rock,surf rock,1
+2026,WV,Unknown,unknown,3
+2026,WY,Country/Folk/Americana,bluegrass,2
+2026,WY,Country/Folk/Americana,country,2
+2026,WY,Country/Folk/Americana,singer-songwriter,1
+2026,WY,Electronic/Dance,electronic,1
+2026,WY,Hip-Hop/Rap,hip hop,2
+2026,WY,Jazz/Blues,blues,1
+2026,WY,Jazz/Blues,blues rock,2
+2026,WY,Other/Uncategorized,#animaltalk,1
+2026,WY,Pop,pop,1
+2026,WY,R&B/Soul/Funk,soul,1
+2026,WY,Rock,alternative rock,2
+2026,WY,Rock,indie rock,1
+2026,WY,Rock,southern rock,1
+2026,WY,Unknown,unknown,2
