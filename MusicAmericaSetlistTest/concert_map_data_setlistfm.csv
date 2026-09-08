@@ -31,10 +31,11 @@ year,state,genre,event_count
 2022,AR,country,2
 2022,AR,country music,1
 2022,AR,folk,2
+2022,AR,"folk, world, & country",1
 2022,AR,hardcore,3
 2022,AR,house,1
 2022,AR,indie,2
-2022,AR,unknown,7
+2022,AR,unknown,6
 2022,AZ,alternative,1
 2022,AZ,americana,1
 2022,AZ,contemporary jazz,1
@@ -87,10 +88,11 @@ year,state,genre,event_count
 2022,CT,indie pop,1
 2022,CT,pop,1
 2022,CT,psychedelic rock,1
+2022,CT,punk,1
 2022,CT,rock,2
 2022,CT,singer-songwriter,2
 2022,CT,soul,1
-2022,CT,unknown,3
+2022,CT,unknown,2
 2022,DE,alternative rock,1
 2022,DE,blues rock,1
 2022,DE,comedy,1
@@ -127,10 +129,11 @@ year,state,genre,event_count
 2022,GA,melodic metalcore,1
 2022,GA,progressive bluegrass,2
 2022,GA,unknown,2
+2022,HI,alternative rock,2
 2022,HI,comedy,2
 2022,HI,pop,4
 2022,HI,reggae rock,8
-2022,HI,unknown,6
+2022,HI,unknown,4
 2022,IA,christian rock,1
 2022,IA,classic rock,1
 2022,IA,classical,1
@@ -140,11 +143,12 @@ year,state,genre,event_count
 2022,IA,folk,2
 2022,IA,hard rock,1
 2022,IA,heavy metal,1
+2022,IA,indie rock,1
 2022,IA,new age,2
 2022,IA,pop,2
 2022,IA,soul,1
 2022,IA,surf rock,1
-2022,IA,unknown,2
+2022,IA,unknown,1
 2022,ID,alternative hip hop,2
 2022,ID,contemporary country,1
 2022,ID,country,1
@@ -157,9 +161,9 @@ year,state,genre,event_count
 2022,ID,indie rock,1
 2022,ID,jazz,1
 2022,ID,new age,2
-2022,ID,pop,1
+2022,ID,pop,2
 2022,ID,southern rock,1
-2022,ID,unknown,2
+2022,ID,vocal,1
 2022,IL,alternative rock,2
 2022,IL,avant-garde jazz,1
 2022,IL,bluegrass,1
@@ -174,16 +178,18 @@ year,state,genre,event_count
 2022,IL,house,1
 2022,IL,indie pop,1
 2022,IL,jam band,1
+2022,IL,jazz-funk,1
 2022,IL,rock,1
-2022,IL,unknown,3
+2022,IL,unknown,2
 2022,IN,alternative rock,4
-2022,IN,comedy,1
+2022,IN,classic rock,2
+2022,IN,comedy,6
 2022,IN,country rock,1
 2022,IN,hard rock,1
 2022,IN,new age,2
 2022,IN,pop rock,1
 2022,IN,progressive rock,1
-2022,IN,unknown,9
+2022,IN,unknown,2
 2022,KS,alternative rock,1
 2022,KS,atmospheric black metal,1
 2022,KS,black metal,1
@@ -200,26 +206,31 @@ year,state,genre,event_count
 2022,KS,soft rock,1
 2022,KS,thrash metal,1
 2022,KS,unknown,1
-2022,KY,alternative rock,1
+2022,KY,alternative rock,2
+2022,KY,ambient,1
 2022,KY,avant-garde,1
 2022,KY,black metal,1
 2022,KY,country,1
 2022,KY,country blues,1
 2022,KY,country pop,1
 2022,KY,country rock,1
+2022,KY,doom metal,1
+2022,KY,electro,1
 2022,KY,new age,1
 2022,KY,nu metal,1
+2022,KY,post-metal,1
 2022,KY,punk,2
-2022,KY,unknown,9
+2022,KY,unknown,4
 2022,LA,bluegrass,2
 2022,LA,blues,2
 2022,LA,doom metal,1
 2022,LA,funk,1
 2022,LA,jazz,2
+2022,LA,punk,1
 2022,LA,rock,2
 2022,LA,soul,1
 2022,LA,thrash metal,1
-2022,LA,unknown,8
+2022,LA,unknown,7
 2022,MA,alternative rock,1
 2022,MA,death metal,1
 2022,MA,electric blues,1
@@ -281,7 +292,7 @@ year,state,genre,event_count
 2022,MN,ambient,1
 2022,MN,chamber pop,1
 2022,MN,comedy,1
-2022,MN,death metal,1
+2022,MN,death metal,2
 2022,MN,dubstep,2
 2022,MN,electronic,2
 2022,MN,funk,1
@@ -291,7 +302,7 @@ year,state,genre,event_count
 2022,MN,pop,1
 2022,MN,punk,1
 2022,MN,symphonic metal,1
-2022,MN,unknown,4
+2022,MN,unknown,3
 2022,MO,alternative rock,4
 2022,MO,blues,1
 2022,MO,electronic,1
@@ -299,10 +310,11 @@ year,state,genre,event_count
 2022,MO,hard rock,1
 2022,MO,hardcore,1
 2022,MO,pop,1
-2022,MO,progressive house,1
+2022,MO,progressive house,2
 2022,MO,satire,1
 2022,MO,symphonic metal,2
-2022,MO,unknown,6
+2022,MO,unknown,5
+2022,MS,alternative rock,1
 2022,MS,blues,3
 2022,MS,contemporary christian,1
 2022,MS,country,1
@@ -316,7 +328,7 @@ year,state,genre,event_count
 2022,MS,rock,1
 2022,MS,rockabilly,2
 2022,MS,southern rock,1
-2022,MS,unknown,2
+2022,MS,unknown,1
 2022,MT,alternative rock,2
 2022,MT,bluegrass,5
 2022,MT,country,1
@@ -347,6 +359,7 @@ year,state,genre,event_count
 2022,ND,americana,1
 2022,ND,contemporary country,1
 2022,ND,country,1
+2022,ND,death metal,1
 2022,ND,folk,1
 2022,ND,hard rock,2
 2022,ND,heavy metal,1
@@ -354,7 +367,7 @@ year,state,genre,event_count
 2022,ND,pop,2
 2022,ND,rock,1
 2022,ND,thrash metal,2
-2022,ND,unknown,4
+2022,ND,unknown,3
 2022,NE,alternative metal,3
 2022,NE,contemporary christian,1
 2022,NE,cookbook,1
@@ -381,22 +394,29 @@ year,state,genre,event_count
 2022,NH,metal,1
 2022,NH,metalcore,2
 2022,NH,post-hardcore,1
+2022,NH,punk,1
 2022,NH,rock,2
 2022,NH,rock opera,1
 2022,NH,trip hop,1
-2022,NH,unknown,2
+2022,NH,unknown,1
+2022,NJ,acid,1
 2022,NJ,experimental,1
 2022,NJ,funk,2
 2022,NJ,indie,1
+2022,NJ,indie pop,1
+2022,NJ,jazz,1
 2022,NJ,new wave,1
 2022,NJ,pop punk,1
 2022,NJ,punk,1
-2022,NJ,rock,1
+2022,NJ,reggae,1
+2022,NJ,rock,2
 2022,NJ,rock & roll,1
-2022,NJ,unknown,11
+2022,NJ,salsa,1
+2022,NJ,unknown,5
 2022,NM,alternative r&b,1
 2022,NM,dark electro,1
 2022,NM,dark wave,1
+2022,NM,folk,1
 2022,NM,"folk, world, & country",3
 2022,NM,funk,1
 2022,NM,groove metal,1
@@ -408,7 +428,7 @@ year,state,genre,event_count
 2022,NM,punk rock,1
 2022,NM,soul,1
 2022,NM,thrash metal,1
-2022,NM,unknown,3
+2022,NM,unknown,2
 2022,NV,alternative rock,2
 2022,NV,comedy rock,1
 2022,NV,contemporary r&b,1
@@ -442,20 +462,25 @@ year,state,genre,event_count
 2022,NY,rock & roll,1
 2022,OH,americana,1
 2022,OH,black comedy,1
+2022,OH,blues rock,2
 2022,OH,comedy,1
 2022,OH,contemporary country,1
 2022,OH,country,1
 2022,OH,indie,1
 2022,OH,indie rock,1
 2022,OH,jam band,2
+2022,OH,jazz,1
 2022,OH,punk,1
 2022,OH,punk rock,1
 2022,OH,reggae rock,2
+2022,OH,roots reggae,1
 2022,OH,symphonic metal,2
-2022,OH,unknown,5
+2022,OH,unknown,1
 2022,OK,comedy,1
 2022,OK,contemporary r&b,1
 2022,OK,country,3
+2022,OK,emo,1
+2022,OK,experimental,1
 2022,OK,folk,1
 2022,OK,hardcore,1
 2022,OK,hardcore punk,1
@@ -468,34 +493,38 @@ year,state,genre,event_count
 2022,OK,rock,1
 2022,OK,satire,1
 2022,OK,thrash metal,1
-2022,OK,unknown,3
+2022,OK,unknown,1
 2022,OR,alternative rock,1
 2022,OR,country,1
 2022,OR,folk,1
 2022,OR,garage punk,1
 2022,OR,heavy metal,1
 2022,OR,heavy rock,1
+2022,OR,house,1
 2022,OR,indie pop,1
 2022,OR,indie rock,1
 2022,OR,lounge,2
 2022,OR,pigfuck,1
+2022,OR,pop,1
 2022,OR,progressive rock,1
 2022,OR,punk,1
 2022,OR,rock,2
-2022,OR,unknown,5
+2022,OR,unknown,3
 2022,PA,americana,1
+2022,PA,bluegrass,1
 2022,PA,blues,1
 2022,PA,comedy,1
 2022,PA,dance,1
 2022,PA,emo,2
 2022,PA,experimental rock,1
 2022,PA,funk,3
+2022,PA,hard rock,1
 2022,PA,house,1
 2022,PA,indie,1
 2022,PA,jam band,1
 2022,PA,jazz,1
 2022,PA,soul,1
-2022,PA,unknown,5
+2022,PA,unknown,3
 2022,RI,alternative,1
 2022,RI,alternative folk,1
 2022,RI,alternative rock,2
@@ -511,19 +540,22 @@ year,state,genre,event_count
 2022,RI,installation art,1
 2022,RI,pop rock,1
 2022,RI,post-hardcore,1
+2022,RI,psychedelic rock,2
 2022,RI,rock music,2
-2022,RI,unknown,2
 2022,SC,alternative,1
 2022,SC,alternative hip hop,1
 2022,SC,alternative metal,1
 2022,SC,alternative rock,1
+2022,SC,death metal,1
+2022,SC,gangsta,1
+2022,SC,grindcore,1
 2022,SC,hard rock,1
-2022,SC,hardcore,3
+2022,SC,hardcore,4
 2022,SC,indie,1
 2022,SC,metal,1
 2022,SC,metalcore,2
 2022,SC,soul,1
-2022,SC,unknown,7
+2022,SC,unknown,3
 2022,SD,contemporary christian,1
 2022,SD,contemporary country,1
 2022,SD,country,1
@@ -535,7 +567,8 @@ year,state,genre,event_count
 2022,SD,pop,1
 2022,SD,punk,2
 2022,SD,punk rock,1
-2022,SD,unknown,7
+2022,SD,unknown,6
+2022,SD,vocal,1
 2022,TN,americana,1
 2022,TN,blues rock,1
 2022,TN,comedy,1
@@ -565,13 +598,13 @@ year,state,genre,event_count
 2022,UT,alternative rock,1
 2022,UT,bluegrass music,2
 2022,UT,classical crossover,2
+2022,UT,comedy,3
 2022,UT,dance,1
 2022,UT,drag queen,1
 2022,UT,hard rock,1
 2022,UT,new age,5
 2022,UT,pop,1
 2022,UT,punk,1
-2022,UT,unknown,3
 2022,UT,vocal,1
 2022,UT,vocal house,1
 2022,VA,alternative rock,1
@@ -580,10 +613,14 @@ year,state,genre,event_count
 2022,VA,folk,3
 2022,VA,folk rock,2
 2022,VA,hip hop,2
+2022,VA,indie rock,1
 2022,VA,jam band,3
+2022,VA,new wave,1
 2022,VA,psychedelic,1
 2022,VA,punk,1
-2022,VA,unknown,5
+2022,VA,unknown,3
+2022,VT,black metal,1
+2022,VT,disco,3
 2022,VT,emo,1
 2022,VT,folk,1
 2022,VT,garage rock,1
@@ -595,7 +632,6 @@ year,state,genre,event_count
 2022,VT,reggae,1
 2022,VT,rock,4
 2022,VT,singer-songwriter,1
-2022,VT,unknown,4
 2022,WA,alternative rock,2
 2022,WA,crunk,1
 2022,WA,doom metal,1
@@ -605,11 +641,12 @@ year,state,genre,event_count
 2022,WA,indie pop,1
 2022,WA,math rock,1
 2022,WA,punk rock,2
-2022,WA,rock,1
+2022,WA,rock,2
 2022,WA,smooth jazz,5
-2022,WA,unknown,2
+2022,WA,unknown,1
 2022,WI,alternative pop,1
 2022,WI,alternative rock,4
+2022,WI,bluegrass,1
 2022,WI,electronica,1
 2022,WI,emo,1
 2022,WI,folk,1
@@ -620,7 +657,6 @@ year,state,genre,event_count
 2022,WI,new wave,1
 2022,WI,nu metal,4
 2022,WI,punk,1
-2022,WI,unknown,1
 2022,WV,alternative rock,2
 2022,WV,contemporary country,1
 2022,WV,country,2
@@ -639,7 +675,7 @@ year,state,genre,event_count
 2022,WY,country,4
 2022,WY,country music,1
 2022,WY,crunk,1
-2022,WY,death metal,2
+2022,WY,death metal,3
 2022,WY,experimental,1
 2022,WY,folk rock,1
 2022,WY,g-funk,1
@@ -647,21 +683,24 @@ year,state,genre,event_count
 2022,WY,hip hop,2
 2022,WY,new age,1
 2022,WY,thrash metal,1
-2022,WY,unknown,2
+2022,WY,vocal,1
 2023,AK,#chicagolivemusic,1
+2023,AK,acoustic,1
 2023,AK,alternative country,1
 2023,AK,big band,2
+2023,AK,bluegrass,2
 2023,AK,contemporary folk,5
 2023,AK,country music,1
 2023,AK,electronic,2
 2023,AK,hip hop,1
 2023,AK,post-hardcore,1
 2023,AK,singer-songwriter,2
-2023,AK,unknown,4
+2023,AK,unknown,1
 2023,AL,alternative rock,1
 2023,AL,beatdown hardcore,1
 2023,AL,bluegrass,1
-2023,AL,death metal,1
+2023,AL,crossover thrash,1
+2023,AL,death metal,2
 2023,AL,downtempo,1
 2023,AL,electronic,1
 2023,AL,garage rock,1
@@ -669,8 +708,10 @@ year,state,genre,event_count
 2023,AL,hardcore punk,2
 2023,AL,metalcore,1
 2023,AL,noise rock,1
+2023,AL,post-hardcore,1
+2023,AL,power violence,1
 2023,AL,rock and roll,1
-2023,AL,unknown,7
+2023,AL,unknown,3
 2023,AR,brutal death metal,1
 2023,AR,country rock,1
 2023,AR,crossover thrash,1
@@ -738,16 +779,17 @@ year,state,genre,event_count
 2023,CT,folk,2
 2023,CT,hard rock,2
 2023,CT,pop,1
-2023,CT,punk,1
+2023,CT,punk,2
 2023,CT,rock,1
 2023,CT,singer-songwriter,2
 2023,CT,stoner rock,1
-2023,CT,unknown,4
+2023,CT,unknown,3
 2023,DE,boom bap,1
 2023,DE,contemporary country,1
 2023,DE,contemporary r&b,1
 2023,DE,dream pop,1
 2023,DE,electronic,2
+2023,DE,emo,1
 2023,DE,folk,2
 2023,DE,folk punk,1
 2023,DE,folk rock,1
@@ -758,7 +800,6 @@ year,state,genre,event_count
 2023,DE,singer-songwriter,1
 2023,DE,trance,1
 2023,DE,tribute band,1
-2023,DE,unknown,1
 2023,FL,americana,2
 2023,FL,country blues,1
 2023,FL,country rock,1
@@ -799,14 +840,17 @@ year,state,genre,event_count
 2023,IA,country,2
 2023,IA,hard rock,1
 2023,IA,new age,2
+2023,IA,new wave,1
+2023,IA,pop punk,1
 2023,IA,post-hardcore,1
+2023,IA,punk,1
 2023,IA,rock and roll,1
 2023,IA,saturday night live,1
-2023,IA,unknown,4
+2023,IA,unknown,1
 2023,ID,alternative pop,1
 2023,ID,alternative rock,1
 2023,ID,american primitive guitar,1
-2023,ID,country,1
+2023,ID,country,2
 2023,ID,death metal,2
 2023,ID,deathgrind,1
 2023,ID,doom metal,1
@@ -819,11 +863,12 @@ year,state,genre,event_count
 2023,ID,indie folk,1
 2023,ID,piano rock,1
 2023,ID,pop,1
-2023,ID,rock,1
-2023,ID,unknown,2
+2023,ID,rock,2
 2023,IL,alternative rock,5
 2023,IL,bluegrass,1
+2023,IL,chicago blues,1
 2023,IL,classical crossover,1
+2023,IL,comedy,1
 2023,IL,dark wave,1
 2023,IL,electronic,1
 2023,IL,hardcore,2
@@ -832,18 +877,21 @@ year,state,genre,event_count
 2023,IL,indie rock,2
 2023,IL,jam band,1
 2023,IL,pop punk,1
-2023,IL,unknown,3
+2023,IL,unknown,1
 2023,IN,a cappella,2
 2023,IN,alternative punk,1
 2023,IN,alternative rock,2
 2023,IN,country,1
 2023,IN,funk,1
+2023,IN,house,1
+2023,IN,indie rock,1
 2023,IN,progressive house,1
 2023,IN,punk,1
 2023,IN,rap,1
 2023,IN,reggae,1
+2023,IN,rock,1
 2023,IN,symphonic metal,2
-2023,IN,unknown,7
+2023,IN,unknown,4
 2023,KS,alternative country,1
 2023,KS,alternative metal,1
 2023,KS,alternative rock,1
@@ -922,16 +970,20 @@ year,state,genre,event_count
 2023,MD,unknown,2
 2023,MD,vocal jazz,1
 2023,ME,emo,1
+2023,ME,folk,3
+2023,ME,folk rock,1
+2023,ME,"folk, world, & country",1
 2023,ME,funk,1
 2023,ME,hard rock,2
 2023,ME,hip-hop,1
+2023,ME,indie pop,1
 2023,ME,metal,1
 2023,ME,noise rock,1
 2023,ME,psychedelic,1
 2023,ME,punk,2
 2023,ME,rap,1
 2023,ME,swing,1
-2023,ME,unknown,8
+2023,ME,unknown,2
 2023,MI,blues rock,1
 2023,MI,classical,2
 2023,MI,comedy,2
@@ -942,37 +994,42 @@ year,state,genre,event_count
 2023,MI,hardcore punk,1
 2023,MI,jazz,1
 2023,MI,progressive bluegrass,2
+2023,MI,rock,1
 2023,MI,ska,2
 2023,MI,soul,2
-2023,MI,unknown,2
+2023,MI,unknown,1
 2023,MN,breaks,1
 2023,MN,dance,1
 2023,MN,edm,1
 2023,MN,electropop,1
 2023,MN,folk,2
+2023,MN,free jazz,1
 2023,MN,hard rock,1
 2023,MN,indie,1
-2023,MN,indie pop,1
+2023,MN,indie pop,2
 2023,MN,polka,1
 2023,MN,pop punk,1
 2023,MN,punk,1
 2023,MN,punk rock,1
 2023,MN,rock,1
 2023,MN,symphonic metal,1
-2023,MN,unknown,5
+2023,MN,unknown,3
 2023,MO,american idol,1
 2023,MO,blue-eyed soul,1
 2023,MO,classical,3
 2023,MO,contemporary christian,3
 2023,MO,dubstep,2
 2023,MO,folk punk,1
+2023,MO,hard rock,1
 2023,MO,hardcore,1
-2023,MO,unknown,8
+2023,MO,progressive trance,1
+2023,MO,southern rock,1
+2023,MO,unknown,5
 2023,MS,acid rock,1
 2023,MS,alternative country,1
 2023,MS,blues rock,2
 2023,MS,comedy,1
-2023,MS,country,4
+2023,MS,country,5
 2023,MS,country music,1
 2023,MS,dixieland,1
 2023,MS,emo,1
@@ -982,7 +1039,6 @@ year,state,genre,event_count
 2023,MS,progressive bluegrass,1
 2023,MS,rock,1
 2023,MS,sludge metal,1
-2023,MS,unknown,1
 2023,MT,alternative metal,1
 2023,MT,alternative rock,1
 2023,MT,americana,2
@@ -995,6 +1051,7 @@ year,state,genre,event_count
 2023,MT,rock and roll,5
 2023,NC,afro-cuban jazz,1
 2023,NC,alternative,1
+2023,NC,drone,1
 2023,NC,emo,1
 2023,NC,folk,1
 2023,NC,folk rock,1
@@ -1011,7 +1068,7 @@ year,state,genre,event_count
 2023,NC,rock and roll,1
 2023,NC,shoegaze,1
 2023,NC,soul,1
-2023,NC,unknown,2
+2023,NC,unknown,1
 2023,ND,a cappella,1
 2023,ND,alternative metal,1
 2023,ND,breaks,2
@@ -1019,15 +1076,17 @@ year,state,genre,event_count
 2023,ND,country,1
 2023,ND,country rock,1
 2023,ND,cybergrind,1
+2023,ND,emo,1
 2023,ND,folk pop,1
 2023,ND,glam metal,1
 2023,ND,hard rock,1
 2023,ND,new age,2
 2023,ND,rhythm & blues,4
 2023,ND,screamo,1
-2023,ND,unknown,2
+2023,ND,unknown,1
+2023,NE,art rock,1
 2023,NE,country,1
-2023,NE,death metal,1
+2023,NE,death metal,2
 2023,NE,electronic,1
 2023,NE,folk,1
 2023,NE,hard rock,2
@@ -1040,32 +1099,36 @@ year,state,genre,event_count
 2023,NE,nu metal,2
 2023,NE,rap,1
 2023,NE,rock,1
-2023,NE,unknown,3
-2023,NH,alternative rock,1
+2023,NE,unknown,1
+2023,NH,alternative rock,2
+2023,NH,dark electro,1
 2023,NH,emo,1
 2023,NH,folk,1
 2023,NH,folk rock,1
 2023,NH,hard rock,1
+2023,NH,hardstyle,1
 2023,NH,indie rock,1
 2023,NH,jazz,1
 2023,NH,metalcore,1
 2023,NH,new wave,1
 2023,NH,post-hardcore,1
+2023,NH,punk,1
 2023,NH,rap,2
 2023,NH,rock,1
 2023,NH,rock opera,1
 2023,NH,underground hip hop,1
-2023,NH,unknown,5
+2023,NH,unknown,1
 2023,NJ,dance-pop,1
 2023,NJ,doom metal,1
 2023,NJ,edm,2
 2023,NJ,electronic,1
 2023,NJ,folk punk,2
 2023,NJ,indie,1
+2023,NJ,jazz,1
 2023,NJ,punk,1
 2023,NJ,rock,2
 2023,NJ,rock music,1
-2023,NJ,unknown,8
+2023,NJ,unknown,7
 2023,NM,alternative rock,1
 2023,NM,big beat,1
 2023,NM,black metal,1
@@ -1079,15 +1142,17 @@ year,state,genre,event_count
 2023,NM,unknown,3
 2023,NV,country,1
 2023,NV,dance,2
+2023,NV,electro house,1
 2023,NV,electronic,1
 2023,NV,folk punk,1
 2023,NV,hip hop,1
 2023,NV,hip-hop,1
+2023,NV,house,1
+2023,NV,indie rock,1
 2023,NV,minimal techno,1
 2023,NV,pop,5
 2023,NV,rock,1
-2023,NV,tech house,1
-2023,NV,unknown,5
+2023,NV,tech house,3
 2023,NY,blues rock,2
 2023,NY,dixieland,1
 2023,NY,dream pop,1
@@ -1117,11 +1182,12 @@ year,state,genre,event_count
 2023,OH,indie rock,1
 2023,OH,jam band,1
 2023,OH,metal,1
+2023,OH,nu metal,1
 2023,OH,punk,1
 2023,OH,rap,1
 2023,OH,soul,1
 2023,OH,symphonic metal,1
-2023,OH,unknown,3
+2023,OH,unknown,2
 2023,OK,alternative rock,1
 2023,OK,christian rock,1
 2023,OK,comedy,2
@@ -1138,12 +1204,20 @@ year,state,genre,event_count
 2023,OR,blues,1
 2023,OR,folk,2
 2023,OR,folk punk,2
+2023,OR,funk,1
+2023,OR,garage rock,1
 2023,OR,hardcore,2
 2023,OR,indie pop,1
 2023,OR,jam band,1
 2023,OR,progressive rock,1
-2023,OR,rock,2
-2023,OR,unknown,8
+2023,OR,psychedelic rock,1
+2023,OR,rock,3
+2023,OR,unknown,4
+2023,PA,alternative rock,2
+2023,PA,bluegrass,1
+2023,PA,boom bap,1
+2023,PA,country,1
+2023,PA,dixieland,1
 2023,PA,drum and bass,1
 2023,PA,dubstep,1
 2023,PA,electronic,3
@@ -1155,7 +1229,7 @@ year,state,genre,event_count
 2023,PA,reggae,1
 2023,PA,rock,1
 2023,PA,rock and roll,1
-2023,PA,unknown,7
+2023,PA,unknown,1
 2023,RI,alternative pop,1
 2023,RI,classical crossover,1
 2023,RI,death metal,1
@@ -1168,46 +1242,54 @@ year,state,genre,event_count
 2023,RI,indie rock,1
 2023,RI,melodic death metal,1
 2023,RI,post-punk,1
+2023,RI,psychedelic rock,1
+2023,RI,punk,1
 2023,RI,reggae,1
 2023,RI,singer-songwriter,1
-2023,RI,unknown,5
+2023,RI,unknown,3
+2023,SC,death metal,1
 2023,SC,deathcore,1
 2023,SC,electronic,1
 2023,SC,folk,3
+2023,SC,heavy metal,1
+2023,SC,industrial,1
 2023,SC,jam band,1
 2023,SC,metalcore,2
 2023,SC,punk,1
 2023,SC,punk rock,1
 2023,SC,southern rock,2
 2023,SC,technical death metal,1
-2023,SC,unknown,7
+2023,SC,unknown,4
 2023,SD,alternative country,1
 2023,SD,alternative metal,1
 2023,SD,americana,1
 2023,SD,breaks,2
 2023,SD,christian rock,1
 2023,SD,contemporary country,1
-2023,SD,country,2
+2023,SD,country,3
 2023,SD,country rock,1
+2023,SD,emo,2
 2023,SD,hard rock,2
 2023,SD,hardcore,2
 2023,SD,holiday,1
 2023,SD,rhythm & blues,1
 2023,SD,rock,1
-2023,SD,unknown,3
 2023,TN,alternative,1
+2023,TN,alternative rock,1
 2023,TN,american idol,1
+2023,TN,bluegrass,1
 2023,TN,blues rock,1
 2023,TN,contemporary christian,1
 2023,TN,country,5
 2023,TN,folk,1
 2023,TN,indie,1
 2023,TN,indie rock,1
+2023,TN,punk,1
 2023,TN,rock,1
 2023,TN,singer-songwriter,1
 2023,TN,southern rock,1
 2023,TN,traditional folk music,1
-2023,TN,unknown,4
+2023,TN,unknown,1
 2023,TX,americana,2
 2023,TX,big band,1
 2023,TX,blues,1
@@ -1220,33 +1302,39 @@ year,state,genre,event_count
 2023,TX,indie,1
 2023,TX,punk rock,1
 2023,TX,southern rock,1
-2023,TX,unknown,6
+2023,TX,texas blues,1
+2023,TX,unknown,5
 2023,UT,chicago house,1
 2023,UT,edm,2
 2023,UT,experimental,1
 2023,UT,heavy metal,3
 2023,UT,hip hop,1
+2023,UT,house,1
 2023,UT,indie,1
+2023,UT,indie rock,1
 2023,UT,melodic death metal,1
 2023,UT,new wave,1
 2023,UT,pop,1
+2023,UT,punk,1
 2023,UT,rock,1
 2023,UT,rock and roll,1
 2023,UT,speed metal,1
 2023,UT,trance,1
-2023,UT,unknown,4
+2023,UT,unknown,1
 2023,VA,alternative,1
 2023,VA,blues rock,1
 2023,VA,country,3
 2023,VA,folk,3
 2023,VA,funk,1
 2023,VA,jazz,1
+2023,VA,new wave,1
 2023,VA,psychedelic,1
 2023,VA,punk,1
 2023,VA,rock,3
 2023,VA,southern rock,2
-2023,VA,unknown,3
+2023,VA,unknown,2
 2023,VT,blues rock,1
+2023,VT,disco,2
 2023,VT,funk,2
 2023,VT,indie,1
 2023,VT,rap,2
@@ -1254,7 +1342,7 @@ year,state,genre,event_count
 2023,VT,rock,1
 2023,VT,rock opera,1
 2023,VT,stoner rock,1
-2023,VT,unknown,10
+2023,VT,unknown,8
 2023,WA,afrobeat,1
 2023,WA,alternative rock,1
 2023,WA,blues,1
@@ -1298,6 +1386,7 @@ year,state,genre,event_count
 2023,WY,breaks,1
 2023,WY,contemporary country,1
 2023,WY,country,1
+2023,WY,emo,1
 2023,WY,experimental,1
 2023,WY,indie,1
 2023,WY,indie rock,1
@@ -1310,7 +1399,7 @@ year,state,genre,event_count
 2023,WY,rock,2
 2023,WY,soul,1
 2023,WY,spoken word,1
-2023,WY,unknown,2
+2023,WY,unknown,1
 2024,AK,alternative rock,2
 2024,AK,country,1
 2024,AK,electronic,1
@@ -1418,6 +1507,7 @@ year,state,genre,event_count
 2024,DE,doom metal,2
 2024,DE,electronic,1
 2024,DE,electropop,1
+2024,DE,emo,1
 2024,DE,folk,2
 2024,DE,hard rock,1
 2024,DE,heavy metal,1
@@ -1425,7 +1515,7 @@ year,state,genre,event_count
 2024,DE,rockabilly,1
 2024,DE,singer-songwriter,1
 2024,DE,tech house,1
-2024,DE,unknown,2
+2024,DE,unknown,1
 2024,FL,alternative rock,1
 2024,FL,americana,1
 2024,FL,blues,1
@@ -1477,10 +1567,13 @@ year,state,genre,event_count
 2024,IA,folk,2
 2024,IA,folk rock,1
 2024,IA,hard rock,2
+2024,IA,hip hop,1
 2024,IA,jazz,2
 2024,IA,new age,4
 2024,IA,pop,1
-2024,IA,unknown,4
+2024,IA,rock,2
+2024,IA,unknown,1
+2024,ID,aor,1
 2024,ID,breakcore,1
 2024,ID,electronic,1
 2024,ID,experimental,1
@@ -1496,10 +1589,10 @@ year,state,genre,event_count
 2024,ID,pop rap,1
 2024,ID,psychedelic,1
 2024,ID,ska,1
-2024,ID,unknown,1
 2024,IL,alternative country,2
 2024,IL,alternative rock,3
 2024,IL,avant-garde jazz,1
+2024,IL,comedy,1
 2024,IL,contemporary country,1
 2024,IL,hard rock,1
 2024,IL,hip hop,2
@@ -1509,7 +1602,7 @@ year,state,genre,event_count
 2024,IL,noise rock,1
 2024,IL,pop,1
 2024,IL,punk rock,2
-2024,IL,unknown,3
+2024,IL,unknown,2
 2024,IN,alternative rock,3
 2024,IN,breaks,1
 2024,IN,dubstep,3
@@ -1524,10 +1617,11 @@ year,state,genre,event_count
 2024,IN,unknown,5
 2024,KS,alternative metal,1
 2024,KS,atmospheric black metal,1
+2024,KS,bluegrass,1
 2024,KS,breakcore,1
 2024,KS,brutal death metal,1
-2024,KS,country,1
-2024,KS,deathcore,2
+2024,KS,country,2
+2024,KS,deathcore,3
 2024,KS,doom metal,2
 2024,KS,drum n bass,1
 2024,KS,experimental,1
@@ -1537,26 +1631,29 @@ year,state,genre,event_count
 2024,KS,new age,1
 2024,KS,rock,1
 2024,KS,tech house,1
-2024,KS,unknown,3
 2024,KY,american,1
 2024,KY,classical crossover,1
+2024,KY,comedy,1
 2024,KY,country music,1
+2024,KY,drone,1
 2024,KY,folk,1
+2024,KY,garage rock,1
 2024,KY,new age,2
 2024,KY,nu metal,1
 2024,KY,prog rock,1
 2024,KY,punk,3
 2024,KY,punk rock,1
-2024,KY,unknown,8
+2024,KY,unknown,5
 2024,LA,bluegrass,2
 2024,LA,electronic,3
 2024,LA,funk,2
+2024,LA,gangsta,1
 2024,LA,hip hop,1
 2024,LA,jazz,1
 2024,LA,progressive bluegrass,2
 2024,LA,punk,1
 2024,LA,rock,2
-2024,LA,unknown,6
+2024,LA,unknown,5
 2024,MA,alternative rock,1
 2024,MA,dance,1
 2024,MA,electric blues,1
@@ -1592,6 +1689,7 @@ year,state,genre,event_count
 2024,ME,alternative punk,1
 2024,ME,alternative rock,1
 2024,ME,dream pop,1
+2024,ME,folk,1
 2024,ME,garage rock,1
 2024,ME,hard rock,1
 2024,ME,hardcore punk,2
@@ -1601,7 +1699,7 @@ year,state,genre,event_count
 2024,ME,pop,1
 2024,ME,psychedelic,1
 2024,ME,rock,2
-2024,ME,unknown,3
+2024,ME,unknown,2
 2024,MI,alternative metal,1
 2024,MI,alternative rock,1
 2024,MI,comedy,2
@@ -1614,10 +1712,11 @@ year,state,genre,event_count
 2024,MI,power pop,1
 2024,MI,punk,1
 2024,MI,rap,1
+2024,MI,reggae,1
 2024,MI,ska,1
 2024,MI,soul,1
 2024,MI,symphonic metal,2
-2024,MI,unknown,3
+2024,MI,unknown,2
 2024,MN,alternative rock,1
 2024,MN,big band,1
 2024,MN,breaks,1
@@ -1671,16 +1770,20 @@ year,state,genre,event_count
 2024,MT,singer-songwriter,2
 2024,MT,unknown,1
 2024,NC,americana,1
+2024,NC,bluegrass,1
 2024,NC,bluegrass music,1
 2024,NC,country,1
+2024,NC,drone,1
 2024,NC,folk,1
 2024,NC,folk rock,1
 2024,NC,funk,4
 2024,NC,hard rock,1
 2024,NC,hip hop,1
 2024,NC,indie,1
+2024,NC,new wave,1
 2024,NC,psychedelic,1
-2024,NC,unknown,7
+2024,NC,rock,1
+2024,NC,unknown,3
 2024,ND,acoustic,1
 2024,ND,alternative metal,1
 2024,ND,disco,1
@@ -1714,6 +1817,7 @@ year,state,genre,event_count
 2024,NH,brutal death metal,1
 2024,NH,country,1
 2024,NH,hard rock,2
+2024,NH,hardcore,1
 2024,NH,hardcore punk,1
 2024,NH,heavy metal,1
 2024,NH,indie rock,1
@@ -1724,7 +1828,7 @@ year,state,genre,event_count
 2024,NH,rock,2
 2024,NH,rock opera,1
 2024,NH,swing,1
-2024,NH,unknown,2
+2024,NH,unknown,1
 2024,NJ,alternative rock,2
 2024,NJ,easycore,1
 2024,NJ,emo,1
@@ -1749,10 +1853,11 @@ year,state,genre,event_count
 2024,NM,hardcore punk,1
 2024,NM,hip-hop,1
 2024,NM,progressive rock,1
+2024,NM,reggae,1
 2024,NM,rock,1
 2024,NM,ska,1
 2024,NM,slowcore,1
-2024,NM,unknown,3
+2024,NM,unknown,2
 2024,NV,alternative rock,2
 2024,NV,country,1
 2024,NV,country music,2
@@ -1767,8 +1872,10 @@ year,state,genre,event_count
 2024,NV,rock,2
 2024,NV,synth-pop,1
 2024,NV,trance,1
+2024,NY,alternative rock,1
 2024,NY,contemporary country,1
 2024,NY,country,1
+2024,NY,country rock,1
 2024,NY,doo-wop,1
 2024,NY,electronic,1
 2024,NY,electropop,1
@@ -1781,7 +1888,7 @@ year,state,genre,event_count
 2024,NY,noise,1
 2024,NY,pop,1
 2024,NY,rock music,1
-2024,NY,unknown,4
+2024,NY,unknown,2
 2024,OH,breakbeat,1
 2024,OH,experimental,1
 2024,OH,folk punk,1
@@ -1793,7 +1900,8 @@ year,state,genre,event_count
 2024,OH,pop,1
 2024,OH,psychedelic,1
 2024,OH,rock,2
-2024,OH,unknown,6
+2024,OH,soul,1
+2024,OH,unknown,5
 2024,OK,alternative country,1
 2024,OK,alternative metal,1
 2024,OK,americana,1
@@ -1807,6 +1915,8 @@ year,state,genre,event_count
 2024,OK,rock and roll,1
 2024,OK,symphonic metal,2
 2024,OR,bluegrass music,2
+2024,OR,blues rock,1
+2024,OR,comedy,1
 2024,OR,dark electro,1
 2024,OR,electronic,1
 2024,OR,folk punk,1
@@ -1815,7 +1925,7 @@ year,state,genre,event_count
 2024,OR,rock,1
 2024,OR,rock and roll,3
 2024,OR,thrash,1
-2024,OR,unknown,7
+2024,OR,unknown,5
 2024,PA,edm,1
 2024,PA,electronic,2
 2024,PA,emo,1
@@ -1846,18 +1956,22 @@ year,state,genre,event_count
 2024,SC,african,1
 2024,SC,alternative rock,1
 2024,SC,americana,1
-2024,SC,black metal,1
+2024,SC,black metal,2
 2024,SC,contemporary christian,1
 2024,SC,garage rock,1
+2024,SC,indie rock,1
 2024,SC,metal,1
 2024,SC,nu metal,1
+2024,SC,pop rock,1
 2024,SC,post-hardcore,1
 2024,SC,rock,1
 2024,SC,soul,1
 2024,SC,swing,1
 2024,SC,thrash metal,2
-2024,SC,unknown,6
+2024,SC,unknown,3
 2024,SD,a cappella,1
+2024,SD,alternative rock,1
+2024,SD,ambient,1
 2024,SD,big band,2
 2024,SD,breaks,1
 2024,SD,contemporary christian,1
@@ -1866,8 +1980,9 @@ year,state,genre,event_count
 2024,SD,hard rock,1
 2024,SD,new age,1
 2024,SD,pop,1
+2024,SD,prog rock,1
 2024,SD,southern rock,1
-2024,SD,unknown,5
+2024,SD,unknown,2
 2024,TN,americana,1
 2024,TN,blues rock,1
 2024,TN,contemporary country,1
@@ -1878,24 +1993,30 @@ year,state,genre,event_count
 2024,TN,folk,1
 2024,TN,funk,1
 2024,TN,hard rock,2
+2024,TN,indie pop,1
 2024,TN,metal,1
 2024,TN,pop punk,1
 2024,TN,soft rock,1
-2024,TN,unknown,3
+2024,TN,trap,1
+2024,TN,unknown,1
 2024,TX,art rock,1
 2024,TX,blues,1
+2024,TX,breakcore,1
 2024,TX,comedy,1
 2024,TX,country,1
 2024,TX,dance,1
 2024,TX,doom metal,1
 2024,TX,folk rock,1
 2024,TX,hip hop,1
+2024,TX,holiday,1
 2024,TX,indie,2
 2024,TX,pop punk,1
 2024,TX,punk rock,1
 2024,TX,synth-pop,1
-2024,TX,unknown,7
+2024,TX,unknown,5
+2024,UT,abstract,1
 2024,UT,alternative country,1
+2024,UT,alternative rock,2
 2024,UT,dubstep,2
 2024,UT,electronic,1
 2024,UT,indie pop,3
@@ -1903,7 +2024,8 @@ year,state,genre,event_count
 2024,UT,new age,4
 2024,UT,rock,1
 2024,UT,ska,1
-2024,UT,unknown,6
+2024,UT,unknown,3
+2024,VA,alternative rock,1
 2024,VA,bluegrass,1
 2024,VA,blues rock,1
 2024,VA,doom metal,1
@@ -1912,11 +2034,12 @@ year,state,genre,event_count
 2024,VA,heavy metal,1
 2024,VA,indie pop,1
 2024,VA,jazz,1
+2024,VA,new wave,1
 2024,VA,punk rock,1
 2024,VA,singer-songwriter,1
 2024,VA,soul,1
 2024,VA,tech house,1
-2024,VA,unknown,4
+2024,VA,unknown,2
 2024,VT,alternative hip hop,1
 2024,VT,funk,2
 2024,VT,gypsy punk,1
@@ -2082,26 +2205,34 @@ year,state,genre,event_count
 2025,DE,metalcore,1
 2025,DE,pop punk,1
 2025,DE,post-hardcore,1
-2025,DE,rock,3
+2025,DE,rock,4
 2025,DE,rock and roll,1
 2025,DE,session,1
 2025,DE,soundtrack,1
-2025,DE,unknown,3
+2025,DE,unknown,2
 2025,FL,alternative rock,1
+2025,FL,black metal,1
+2025,FL,death metal,1
+2025,FL,deathcore,1
 2025,FL,dub,1
 2025,FL,dubstep,1
 2025,FL,electronic,1
+2025,FL,happy hardcore,1
 2025,FL,hardcore punk,1
 2025,FL,hip hop,1
 2025,FL,melodic metalcore,1
 2025,FL,pop,2
+2025,FL,pop rock,1
 2025,FL,rap,1
 2025,FL,reggaeton,1
 2025,FL,rock,1
 2025,FL,ska punk,1
 2025,FL,thrash,1
-2025,FL,unknown,6
+2025,FL,unknown,1
+2025,GA,bluegrass,1
 2025,GA,contemporary r&b,1
+2025,GA,country,1
+2025,GA,country blues,1
 2025,GA,dubstep,2
 2025,GA,hard rock,1
 2025,GA,horror rock,1
@@ -2109,15 +2240,16 @@ year,state,genre,event_count
 2025,GA,sludge metal,1
 2025,GA,southern rock,1
 2025,GA,trap,2
-2025,GA,unknown,6
+2025,GA,unknown,3
 2025,HI,alternative rock,2
+2025,HI,black metal,1
 2025,HI,comedy,1
 2025,HI,downtempo,1
 2025,HI,folk,9
 2025,HI,indie pop,2
 2025,HI,progressive metal,2
 2025,HI,rock,1
-2025,HI,unknown,2
+2025,HI,rock & roll,1
 2025,IA,bleep techno,1
 2025,IA,bluegrass,1
 2025,IA,blues rock,1
@@ -2139,6 +2271,7 @@ year,state,genre,event_count
 2025,ID,dark plugg,1
 2025,ID,electronic music,1
 2025,ID,experimental rock,1
+2025,ID,folk rock,1
 2025,ID,hardcore,1
 2025,ID,instrumental hip hop,1
 2025,ID,metalcore,1
@@ -2148,7 +2281,7 @@ year,state,genre,event_count
 2025,ID,psychedelic,1
 2025,ID,rock,1
 2025,ID,swing,1
-2025,ID,unknown,5
+2025,ID,unknown,4
 2025,IL,acid house,1
 2025,IL,alternative country,1
 2025,IL,alternative rock,4
@@ -2189,6 +2322,7 @@ year,state,genre,event_count
 2025,KS,psychedelic,1
 2025,KS,rock,2
 2025,KS,unknown,2
+2025,KY,ambient,1
 2025,KY,audiobook,1
 2025,KY,avant-garde,1
 2025,KY,country blues,1
@@ -2197,20 +2331,27 @@ year,state,genre,event_count
 2025,KY,funk,1
 2025,KY,hard rock,1
 2025,KY,hip hop,2
+2025,KY,italo-disco,1
 2025,KY,lo-fi,1
 2025,KY,metalcore,1
 2025,KY,prog rock,1
 2025,KY,punk,1
 2025,KY,shoegaze,1
-2025,KY,unknown,5
+2025,KY,unknown,3
 2025,LA,blues,4
+2025,LA,contemporary jazz,1
+2025,LA,emo,1
+2025,LA,experimental,1
+2025,LA,"folk, world, & country",1
 2025,LA,funk,2
+2025,LA,gangsta,1
 2025,LA,hard trance,1
 2025,LA,indie pop,1
 2025,LA,jazz,1
 2025,LA,lo-fi,1
 2025,LA,rock,3
-2025,LA,unknown,7
+2025,LA,thrash,1
+2025,LA,unknown,1
 2025,MA,alternative rock,1
 2025,MA,art punk,1
 2025,MA,black comedy,1
@@ -2221,15 +2362,16 @@ year,state,genre,event_count
 2025,MA,hard rock,1
 2025,MA,indie,2
 2025,MA,jam band,2
+2025,MA,jazz,1
 2025,MA,rock music,1
-2025,MA,unknown,6
+2025,MA,unknown,5
 2025,MD,acoustic,1
 2025,MD,alternative rock,3
 2025,MD,brutal death metal,1
 2025,MD,death metal,2
 2025,MD,electronic,1
 2025,MD,grindcore,1
-2025,MD,indie rock,1
+2025,MD,indie rock,2
 2025,MD,mathcore,1
 2025,MD,metal,1
 2025,MD,nu metal,1
@@ -2237,15 +2379,19 @@ year,state,genre,event_count
 2025,MD,rock,1
 2025,MD,singer-songwriter,1
 2025,MD,surf,1
-2025,MD,unknown,3
-2025,ME,alternative rock,1
+2025,MD,unknown,2
+2025,ME,alternative rock,2
+2025,ME,dub,1
 2025,ME,emo,1
-2025,ME,folk,4
+2025,ME,folk,5
 2025,ME,gypsy punk,1
+2025,ME,hardcore,1
+2025,ME,hip hop,1
 2025,ME,hip-hop,2
 2025,ME,rock,1
+2025,ME,rock & roll,1
 2025,ME,rock music,1
-2025,ME,unknown,9
+2025,ME,unknown,3
 2025,MI,acid rock,1
 2025,MI,aor,1
 2025,MI,classic rock,1
@@ -2292,12 +2438,13 @@ year,state,genre,event_count
 2025,MS,blues rock,1
 2025,MS,classic rock,1
 2025,MS,country,1
+2025,MS,"folk, world, & country",1
 2025,MS,glam metal,2
 2025,MS,hard rock,2
 2025,MS,indie rock,3
 2025,MS,rock,2
 2025,MS,soft rock,1
-2025,MS,unknown,4
+2025,MS,unknown,3
 2025,MT,alternative country,2
 2025,MT,bluegrass,2
 2025,MT,comedy,1
@@ -2308,9 +2455,9 @@ year,state,genre,event_count
 2025,MT,psychedelic,1
 2025,MT,psychedelic rock,1
 2025,MT,punk rock,1
-2025,MT,rock,2
+2025,MT,rock,3
 2025,MT,special effects,1
-2025,MT,unknown,4
+2025,MT,unknown,3
 2025,NC,alternative metal,1
 2025,NC,alternative rock,1
 2025,NC,bluegrass,1
@@ -2323,8 +2470,10 @@ year,state,genre,event_count
 2025,NC,hip hop,1
 2025,NC,metalcore,1
 2025,NC,pop punk,1
+2025,NC,psychedelic,1
+2025,NC,punk,1
 2025,NC,punk rock,1
-2025,NC,unknown,5
+2025,NC,unknown,3
 2025,ND,breakbeat,1
 2025,ND,hardcore,2
 2025,ND,holiday,3
@@ -2339,15 +2488,17 @@ year,state,genre,event_count
 2025,NE,breaks,1
 2025,NE,classical crossover,1
 2025,NE,contemporary country,1
-2025,NE,country,2
+2025,NE,country,3
 2025,NE,crunk,1
 2025,NE,electronic,1
+2025,NE,folk,1
 2025,NE,metal,1
 2025,NE,metalcore,1
 2025,NE,new age,1
-2025,NE,rock,1
-2025,NE,unknown,5
+2025,NE,rock,2
+2025,NE,unknown,2
 2025,NH,alternative rock,1
+2025,NH,dub,1
 2025,NH,experimental,1
 2025,NH,folk,1
 2025,NH,glam metal,1
@@ -2355,11 +2506,12 @@ year,state,genre,event_count
 2025,NH,horror punk,1
 2025,NH,indie pop,1
 2025,NH,pop,3
+2025,NH,punk,1
 2025,NH,rap,1
 2025,NH,rave,1
 2025,NH,rock & roll,2
 2025,NH,rock opera,1
-2025,NH,unknown,5
+2025,NH,unknown,3
 2025,NJ,alternative rock,1
 2025,NJ,beatdown hardcore,3
 2025,NJ,dance-pop,1
@@ -2392,6 +2544,7 @@ year,state,genre,event_count
 2025,NM,unknown,1
 2025,NV,alternative dance,1
 2025,NV,alternative rock,1
+2025,NV,calypso,1
 2025,NV,dance,1
 2025,NV,dance-pop,1
 2025,NV,hard rock,1
@@ -2405,8 +2558,9 @@ year,state,genre,event_count
 2025,NV,rap,1
 2025,NV,rock,1
 2025,NV,soul,1
-2025,NV,unknown,2
+2025,NV,unknown,1
 2025,NY,alternative rock,2
+2025,NY,chiptune,1
 2025,NY,country rock,1
 2025,NY,dance,1
 2025,NY,dub,1
@@ -2422,25 +2576,32 @@ year,state,genre,event_count
 2025,NY,punk,1
 2025,NY,r&b,1
 2025,NY,rock music,1
-2025,NY,unknown,2
+2025,NY,unknown,1
+2025,OH,alt-pop,1
 2025,OH,alternative rock,1
 2025,OH,choral,2
+2025,OH,dixieland,1
 2025,OH,electronic,2
 2025,OH,funk,1
+2025,OH,indie rock,1
 2025,OH,math rock,1
 2025,OH,metal,2
+2025,OH,punk,1
+2025,OH,reggae,1
 2025,OH,rock,1
-2025,OH,unknown,10
+2025,OH,unknown,5
+2025,OK,abstract,2
 2025,OK,alternative metal,2
 2025,OK,blues,1
 2025,OK,country,3
-2025,OK,country rock,1
+2025,OK,country rock,2
 2025,OK,hard rock,2
-2025,OK,indie pop,1
+2025,OK,indie pop,2
 2025,OK,jam band,1
+2025,OK,latin,1
 2025,OK,pop,1
 2025,OK,rock,2
-2025,OK,unknown,6
+2025,OK,unknown,1
 2025,OR,alternative rock,1
 2025,OR,comedy,1
 2025,OR,doom metal,1
@@ -2475,14 +2636,15 @@ year,state,genre,event_count
 2025,RI,folk,2
 2025,RI,funk,1
 2025,RI,heartland rock,1
-2025,RI,indie rock,2
+2025,RI,indie rock,3
 2025,RI,mathcore,1
 2025,RI,metalcore,1
+2025,RI,punk,1
 2025,RI,rock,1
 2025,RI,rock opera,1
 2025,RI,soul,1
 2025,RI,trance,1
-2025,RI,unknown,4
+2025,RI,unknown,2
 2025,SC,blues,1
 2025,SC,cowpunk,1
 2025,SC,death metal,1
@@ -2541,47 +2703,56 @@ year,state,genre,event_count
 2025,UT,midwest emo,1
 2025,UT,psychedelic,1
 2025,UT,rap,1
+2025,UT,rock,1
 2025,UT,shoegaze,1
 2025,UT,soft rock,1
-2025,UT,unknown,4
+2025,UT,unknown,3
 2025,UT,vocal,1
+2025,VA,alternative rock,1
 2025,VA,blues,2
 2025,VA,coke rap,2
 2025,VA,folk,3
+2025,VA,harmonica blues,1
+2025,VA,indie rock,1
+2025,VA,new wave,1
 2025,VA,psychedelic,1
 2025,VA,rock,2
 2025,VA,rockabilly,1
-2025,VA,unknown,9
+2025,VA,unknown,5
 2025,VT,alternative rock,1
-2025,VT,country,1
+2025,VT,country,2
 2025,VT,emo,1
 2025,VT,folk rock,3
 2025,VT,funk,1
+2025,VT,funk / soul,1
 2025,VT,gypsy punk,1
 2025,VT,indie folk,1
 2025,VT,progressive bluegrass,1
 2025,VT,punk,1
+2025,VT,reggae,1
 2025,VT,rock,2
 2025,VT,roots rock,1
-2025,VT,unknown,6
-2025,WA,alternative rock,1
+2025,VT,unknown,3
+2025,WA,alternative rock,2
 2025,WA,experimental,1
 2025,WA,heavy metal,1
 2025,WA,indie rock,1
 2025,WA,singer-songwriter,1
 2025,WA,smooth jazz,8
 2025,WA,tribute act,1
-2025,WA,unknown,6
+2025,WA,unknown,5
 2025,WI,alternative rock,4
 2025,WI,bluegrass,1
 2025,WI,heavy metal,2
 2025,WI,jam band,3
+2025,WI,jazz,1
 2025,WI,psychedelic,1
 2025,WI,punk,1
 2025,WI,reggaecore,2
 2025,WI,rock,1
 2025,WI,symphonic metal,2
-2025,WI,unknown,3
+2025,WI,symphonic rock,1
+2025,WI,unknown,1
 2025,WV,alternative rock,1
 2025,WV,bluegrass,1
 2025,WV,breakcore,1
@@ -2596,8 +2767,9 @@ year,state,genre,event_count
 2025,WV,heavy metal,2
 2025,WV,indie rock,1
 2025,WV,mathcore,1
+2025,WV,parody,1
 2025,WV,ska punk,1
-2025,WV,unknown,3
+2025,WV,unknown,2
 2025,WY,black metal,1
 2025,WY,contemporary country,1
 2025,WY,country,4
@@ -2856,8 +3028,8 @@ year,state,genre,event_count
 2026,KS,hardcore punk,1
 2026,KS,indie rock,2
 2026,KS,industrial metal,1
+2026,KS,rock,1
 2026,KS,southern rock,1
-2026,KS,unknown,1
 2026,KY,alternative,1
 2026,KY,alternative rock,2
 2026,KY,bluegrass,1
@@ -2884,8 +3056,8 @@ year,state,genre,event_count
 2026,LA,nu metal,1
 2026,LA,rap,1
 2026,LA,ska punk,2
+2026,LA,soul,1
 2026,LA,synthwave,2
-2026,LA,unknown,1
 2026,MA,ballad,1
 2026,MA,blues rock,1
 2026,MA,breakcore,1
@@ -2909,14 +3081,16 @@ year,state,genre,event_count
 2026,MD,death metal,2
 2026,MD,hard rock,3
 2026,MD,hardcore,1
+2026,MD,indie rock,1
 2026,MD,math rock,1
 2026,MD,metalcore,1
 2026,MD,neo soul,1
 2026,MD,noise rock,1
+2026,MD,psychedelic rock,1
 2026,MD,punk,1
 2026,MD,r&b,1
 2026,MD,rnb,1
-2026,MD,unknown,3
+2026,MD,unknown,1
 2026,ME,americana,1
 2026,ME,blues rock,1
 2026,ME,country rock,1
@@ -2924,10 +3098,11 @@ year,state,genre,event_count
 2026,ME,folk,3
 2026,ME,indie rock,2
 2026,ME,psychedelic rock,1
+2026,ME,religious,1
 2026,ME,rock,3
 2026,ME,rockabilly,2
 2026,ME,singer-songwriter,1
-2026,ME,unknown,4
+2026,ME,unknown,3
 2026,MI,alternative metal,3
 2026,MI,alternative rock,1
 2026,MI,aor,1
@@ -2940,10 +3115,12 @@ year,state,genre,event_count
 2026,MI,pop,2
 2026,MI,pop punk,1
 2026,MI,r&b,1
+2026,MI,rock,1
 2026,MI,singer-songwriter,1
 2026,MI,stoner rock,1
-2026,MI,unknown,1
 2026,MN,abstract,1
+2026,MN,black metal,1
+2026,MN,cool jazz,2
 2026,MN,emo,1
 2026,MN,funktronica,1
 2026,MN,gospel music,1
@@ -2952,7 +3129,7 @@ year,state,genre,event_count
 2026,MN,math rock,2
 2026,MN,punk,2
 2026,MN,soul,1
-2026,MN,unknown,9
+2026,MN,unknown,6
 2026,MO,country,1
 2026,MO,doom metal,1
 2026,MO,folk metal,1
@@ -2972,17 +3149,20 @@ year,state,genre,event_count
 2026,MS,comedy,1
 2026,MS,country,1
 2026,MS,hard rock,2
+2026,MS,hard techno,1
+2026,MS,heavy metal,1
 2026,MS,indie,4
 2026,MS,r&b,1
 2026,MS,religious,1
 2026,MS,rock,1
 2026,MS,tribute band,1
-2026,MS,unknown,4
+2026,MS,unknown,2
 2026,MT,alternative rock,1
 2026,MT,bluegrass,2
 2026,MT,blues,1
 2026,MT,blues rock,3
 2026,MT,classic rock,1
+2026,MT,death metal,1
 2026,MT,folk,1
 2026,MT,funk,1
 2026,MT,hardcore punk,1
@@ -2991,7 +3171,7 @@ year,state,genre,event_count
 2026,MT,jam band,1
 2026,MT,pop punk,1
 2026,MT,psychedelic rock,1
-2026,MT,unknown,2
+2026,MT,rock,1
 2026,NC,alternative hip hop,2
 2026,NC,alternative rock,2
 2026,NC,disco,1
@@ -3011,10 +3191,13 @@ year,state,genre,event_count
 2026,ND,comedy,1
 2026,ND,country,5
 2026,ND,folk rock,1
+2026,ND,goth rock,3
 2026,ND,hardcore,1
 2026,ND,metal,2
 2026,ND,pop,1
-2026,ND,unknown,7
+2026,ND,reggae,1
+2026,ND,rock,1
+2026,ND,unknown,2
 2026,NE,alternative metal,1
 2026,NE,alternative rock,1
 2026,NE,americana,1
@@ -3025,12 +3208,12 @@ year,state,genre,event_count
 2026,NE,folk,1
 2026,NE,gangsta,1
 2026,NE,hard rock,1
-2026,NE,indie rock,1
+2026,NE,indie rock,2
 2026,NE,lo-fi,1
 2026,NE,post-hardcore,1
 2026,NE,prog rock,1
 2026,NE,rock,1
-2026,NE,unknown,5
+2026,NE,unknown,4
 2026,NH,alternative country,1
 2026,NH,alternative punk,1
 2026,NH,blues rock,2
@@ -3206,7 +3389,7 @@ year,state,genre,event_count
 2026,SD,bro-country,2
 2026,SD,brutal death metal,1
 2026,SD,comedy rock,1
-2026,SD,country,1
+2026,SD,country,2
 2026,SD,death metal,2
 2026,SD,folk,1
 2026,SD,folk rock,1
@@ -3214,7 +3397,7 @@ year,state,genre,event_count
 2026,SD,hardcore,1
 2026,SD,metalcore,1
 2026,SD,pop rock,1
-2026,SD,unknown,4
+2026,SD,unknown,3
 2026,TN,alternative rock,1
 2026,TN,country rock,1
 2026,TN,folk,1
@@ -3261,7 +3444,8 @@ year,state,genre,event_count
 2026,UT,pop,1
 2026,UT,post-punk,1
 2026,UT,psychedelic rock,1
-2026,UT,unknown,3
+2026,UT,rock,1
+2026,UT,unknown,2
 2026,VA,alternative rock,2
 2026,VA,americana,1
 2026,VA,cloud rap,1

@@ -1084,8 +1084,8 @@
     "lastfm"
   ],
   "mbid::1cc2a960-4d20-458f-9f9b-13ea8393ba2b": [
-    "unknown",
-    "unknown"
+    "rock",
+    "tribute_lastfm"
   ],
   "mbid::955e709e-0506-42f4-b15c-23d3d4ed5625": [
     "electro-industrial",
@@ -1224,8 +1224,8 @@
     "discogs"
   ],
   "mbid::f1e537b8-c559-4a5e-b660-3a0a3f14a77e": [
-    "unknown",
-    "unknown"
+    "soul",
+    "discogs"
   ],
   "mbid::490edaab-6da3-435f-8129-2074ec63fff3": [
     "psychedelic rock",
@@ -1284,8 +1284,8 @@
     "unknown"
   ],
   "mbid::fb03c4f0-c358-4ee0-bdc5-600e17e91ac3": [
-    "unknown",
-    "unknown"
+    "religious",
+    "discogs"
   ],
   "mbid::0609aa62-8635-4d60-9ea5-4a9ae104642f": [
     "unknown",
@@ -1348,12 +1348,12 @@
     "musicbrainz"
   ],
   "mbid::07682f72-4962-4434-b2f0-364f48c16afe": [
-    "unknown",
-    "unknown"
+    "psychedelic rock",
+    "discogs"
   ],
   "mbid::c3466a3e-b595-4eb8-ad40-f921b57bf125": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::2bbc7a00-ead2-42cb-85ae-1d666893e7ab": [
     "metalcore",
@@ -1480,8 +1480,8 @@
     "lastfm"
   ],
   "mbid::b5b5bb27-56e2-4a8c-825e-b39525dc4bc8": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::2469950a-f0ca-425a-bfbc-baf55ea3afde": [
     "funk",
@@ -1520,8 +1520,8 @@
     "lastfm"
   ],
   "mbid::4c722d35-c6a2-440c-aeb2-fe292ff1d633": [
-    "unknown",
-    "unknown"
+    "black metal",
+    "discogs"
   ],
   "mbid::30cd76a5-eb39-4d26-9dce-0e7dadbdbb76": [
     "unknown",
@@ -1544,8 +1544,8 @@
     "lastfm"
   ],
   "mbid::088c5c10-53d2-4058-a37d-e728431b0db3": [
-    "unknown",
-    "unknown"
+    "cool jazz",
+    "discogs"
   ],
   "mbid::4a59229c-67b6-4577-8a32-1ff3c3b94371": [
     "tribute band",
@@ -1588,8 +1588,8 @@
     "discogs"
   ],
   "mbid::92d77742-6f1d-49cf-84ed-0cdb1e1c3599": [
-    "unknown",
-    "unknown"
+    "hard techno",
+    "discogs"
   ],
   "mbid::afa6387d-5235-4427-8e5d-437bcfeb988b": [
     "r&b",
@@ -1600,8 +1600,8 @@
     "lastfm"
   ],
   "mbid::1d37b75a-1520-414e-90e5-50c4ea5770e8": [
-    "unknown",
-    "unknown"
+    "heavy metal",
+    "discogs"
   ],
   "mbid::c54e2f5b-b688-429f-8cc4-3eff17d308e9": [
     "pop",
@@ -1652,16 +1652,16 @@
     "musicbrainz"
   ],
   "mbid::71d33de5-66a1-448e-a190-bfb12821534f": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::194272cc-dcc8-4640-a4a6-66da7d250d5c": [
     "psychedelic rock",
     "musicbrainz"
   ],
   "mbid::3c811c73-4fd1-4eeb-ad6b-cdf34df7ac2a": [
-    "unknown",
-    "unknown"
+    "death metal",
+    "discogs"
   ],
   "mbid::0f0da09c-3940-4cb5-879f-4cea28907810": [
     "blues rock",
@@ -1732,8 +1732,8 @@
     "musicbrainz"
   ],
   "mbid::bd33e83e-641f-4ba9-8e0a-116089666244": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::50bbf070-c38d-4206-8308-151bbd765500": [
     "death metal",
@@ -2176,12 +2176,12 @@
     "musicbrainz"
   ],
   "mbid::149c1cd5-9dfa-4e53-a5e2-06971c2577f0": [
-    "unknown",
-    "unknown"
+    "goth rock",
+    "discogs"
   ],
   "mbid::99845172-b367-4e07-8131-7930968fe9eb": [
-    "unknown",
-    "unknown"
+    "reggae",
+    "discogs"
   ],
   "mbid::7746d775-9550-4360-b8d5-c37bd448ce01": [
     "comedy",
@@ -2192,8 +2192,8 @@
     "musicbrainz"
   ],
   "mbid::8cc5b76c-8a92-4701-bcab-ec864c9775ce": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::f336e40b-2aa7-4c9d-a284-d9573f4bd8c4": [
     "unknown",
@@ -2480,8 +2480,8 @@
     "musicbrainz"
   ],
   "mbid::a1a61d72-bfa9-4b8f-9468-2048112ea4f7": [
-    "unknown",
-    "unknown"
+    "country",
+    "discogs"
   ],
   "mbid::508f4f83-26dc-4d21-98d9-1a8c04d5ad4a": [
     "bro-country",
@@ -3448,8 +3448,8 @@
     "lastfm"
   ],
   "mbid::31388273-6ebd-419f-82e1-dda50a733896": [
-    "unknown",
-    "unknown"
+    "rock",
+    "tribute_lastfm"
   ],
   "mbid::b44c7bf7-4837-4092-b423-7a55c9a13a56": [
     "alternative metal",
@@ -3484,8 +3484,8 @@
     "discogs"
   ],
   "mbid::ce17935e-abea-4459-8f4d-fb23e4827024": [
-    "unknown",
-    "unknown"
+    "black metal",
+    "discogs"
   ],
   "mbid::2ed61962-e04f-478f-a476-9d70aec39bed": [
     "unknown",
@@ -3500,28 +3500,28 @@
     "lastfm"
   ],
   "mbid::56620f84-f5e3-453c-8a21-a38644603ab6": [
-    "unknown",
-    "unknown"
+    "death metal",
+    "discogs"
   ],
   "mbid::2d5583be-aafd-41ec-addd-df85913855ef": [
     "hip hop",
     "musicbrainz"
   ],
   "mbid::e430f7a4-c2dd-42c0-9dbd-0402aac59efb": [
-    "unknown",
-    "unknown"
+    "deathcore",
+    "discogs"
   ],
   "mbid::b0403ca0-3cc3-4733-8937-bba4b4bbba97": [
     "electronic",
     "lastfm"
   ],
   "mbid::5c3c2e90-c8dd-4e03-b26d-cdbc40ed50bf": [
-    "unknown",
-    "unknown"
+    "pop rock",
+    "discogs"
   ],
   "mbid::4276e8fd-5797-4052-9e7f-a71c84399fb5": [
-    "unknown",
-    "unknown"
+    "happy hardcore",
+    "discogs"
   ],
   "mbid::e54e065f-0ce6-4779-9a9a-afd7b997471f": [
     "ska punk",
@@ -3564,8 +3564,8 @@
     "discogs"
   ],
   "mbid::3df37b59-161c-4a82-b76b-a5b9b69bdf1c": [
-    "unknown",
-    "unknown"
+    "country blues",
+    "discogs"
   ],
   "mbid::e2c435ad-e7e9-43c6-9736-ec464ac3f96d": [
     "unknown",
@@ -3580,12 +3580,12 @@
     "unknown"
   ],
   "mbid::d139f0d4-8407-412f-b964-6b3640ba2ee0": [
-    "unknown",
-    "unknown"
+    "country",
+    "discogs"
   ],
   "mbid::b25f915f-989a-477c-8d8a-eafdce15fd2e": [
-    "unknown",
-    "unknown"
+    "bluegrass",
+    "discogs"
   ],
   "mbid::cb3d3e49-bf08-4cdb-bfa8-4dc7c458cea1": [
     "trap",
@@ -3608,8 +3608,8 @@
     "musicbrainz"
   ],
   "mbid::db7873de-b0a2-4fdd-bd6f-23d66dbeeb53": [
-    "unknown",
-    "unknown"
+    "black metal",
+    "discogs"
   ],
   "mbid::0ea427c8-07d4-4f9c-92c6-bc4e8241799a": [
     "downtempo",
@@ -3624,16 +3624,16 @@
     "lastfm"
   ],
   "mbid::70e77abb-efa6-46b7-b4b1-4e99e0264369": [
-    "unknown",
-    "unknown"
+    "rock & roll",
+    "discogs"
   ],
   "mbid::a5291637-73a1-43cc-9ca7-ab7262849c50": [
     "psychedelic",
     "lastfm"
   ],
   "mbid::e8cf7719-e3e7-4838-8131-0558f487ce3e": [
-    "unknown",
-    "unknown"
+    "folk rock",
+    "discogs"
   ],
   "mbid::097de7cf-904a-4f0b-9e0a-6982d544971e": [
     "unknown",
@@ -3980,12 +3980,12 @@
     "musicbrainz"
   ],
   "mbid::437fc60e-281d-4f36-8a0d-b0e923959dce": [
-    "unknown",
-    "unknown"
+    "italo-disco",
+    "discogs"
   ],
   "mbid::f4ae1c56-28a9-46a2-bcf2-56015d6066b1": [
-    "unknown",
-    "unknown"
+    "ambient",
+    "discogs"
   ],
   "mbid::ff8e70f7-171b-4ebd-a7f7-2073c45709ed": [
     "avant-garde",
@@ -3996,8 +3996,8 @@
     "lastfm"
   ],
   "mbid::5d95a2cd-81e5-4f65-a3c5-9f5766c9da03": [
-    "unknown",
-    "unknown"
+    "gangsta",
+    "discogs"
   ],
   "mbid::037de8e9-8069-4efd-8768-7d5da1db3190": [
     "lo-fi",
@@ -4028,8 +4028,8 @@
     "discogs"
   ],
   "mbid::9cbfec65-0242-47f3-834f-412aa0d8bd1a": [
-    "unknown",
-    "unknown"
+    "emo",
+    "discogs"
   ],
   "mbid::cabbdf87-5cb2-4f3c-be65-254655c87508": [
     "funk",
@@ -4040,28 +4040,28 @@
     "unknown"
   ],
   "mbid::88acc4fc-f051-4e80-94b3-8042a9875876": [
-    "unknown",
-    "unknown"
+    "thrash",
+    "discogs"
   ],
   "mbid::13c39eaa-e46c-4e66-a84d-a534f804e450": [
     "blues",
     "musicbrainz"
   ],
   "mbid::8400466f-4917-4a9f-a8fc-cd40bc2e0fc3": [
-    "unknown",
-    "unknown"
+    "contemporary jazz",
+    "discogs"
   ],
   "mbid::7b4a9120-eeda-4606-a1a8-5ef59c6a21cf": [
-    "unknown",
-    "unknown"
+    "experimental",
+    "discogs"
   ],
   "mbid::43d8ef11-2c5b-4faa-9b09-f71aaa93e3a9": [
     "blues",
     "musicbrainz"
   ],
   "mbid::b719207a-dc82-40ab-bc8f-a91c1e225fdc": [
-    "unknown",
-    "unknown"
+    "folk, world, & country",
+    "discogs"
   ],
   "mbid::2c69c10e-0bdb-4518-954e-4f9bc81130f5": [
     "blues",
@@ -4096,24 +4096,24 @@
     "unknown"
   ],
   "mbid::44f2ad52-4897-4f18-bddd-892b4df5488a": [
-    "unknown",
-    "unknown"
+    "rock & roll",
+    "discogs"
   ],
   "mbid::94c89f67-8c6e-4317-8186-8aad506bf2ae": [
     "folk",
     "lastfm"
   ],
   "mbid::ed32056b-bb09-4f21-9509-6ee3a92bf50a": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::51bda9e3-1703-4024-aa0a-2992ff930cb9": [
-    "unknown",
-    "unknown"
+    "folk",
+    "discogs"
   ],
   "mbid::b9223e02-ddb8-4748-87fa-94cef39385cc": [
-    "unknown",
-    "unknown"
+    "hip hop",
+    "discogs"
   ],
   "mbid::403bc4cd-602c-4b59-8379-05cb24f66aa6": [
     "emo",
@@ -4124,16 +4124,16 @@
     "lastfm"
   ],
   "mbid::2d27f230-66c9-40f7-84b1-e9fdfcc61dcb": [
-    "unknown",
-    "unknown"
+    "hardcore",
+    "discogs"
   ],
   "mbid::adabaf13-ae27-4f2f-9809-3b0ede18e7da": [
     "folk",
     "lastfm"
   ],
   "mbid::fa42e15b-e09c-464a-9b5f-b6e70843438f": [
-    "unknown",
-    "unknown"
+    "dub",
+    "discogs"
   ],
   "mbid::f76167bb-c117-4022-8b6b-54c796edf5c9": [
     "brutal death metal",
@@ -4152,8 +4152,8 @@
     "musicbrainz"
   ],
   "mbid::bf444c5a-f28a-485e-9eb8-22a8635c5707": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::d2f0a4fe-6c75-481b-9429-345142b91aba": [
     "unknown",
@@ -4188,8 +4188,8 @@
     "unknown"
   ],
   "mbid::4ce5c27e-07b1-4062-8d6a-0ba3d70dcd71": [
-    "unknown",
-    "unknown"
+    "jazz",
+    "discogs"
   ],
   "mbid::afcca32f-c202-4f18-8951-af79d483791a": [
     "indie",
@@ -4584,12 +4584,12 @@
     "lastfm"
   ],
   "mbid::e85044fb-d71a-4a1d-b49a-a7127eab6d7e": [
-    "unknown",
-    "unknown"
+    "folk",
+    "discogs"
   ],
   "mbid::d0da565b-64c4-4e4f-bebf-f4bb7c56ef30": [
-    "unknown",
-    "unknown"
+    "country",
+    "discogs"
   ],
   "mbid::811b016f-fd27-463c-b5b3-13a508bc87b1": [
     "electronic",
@@ -4652,8 +4652,8 @@
     "musicbrainz"
   ],
   "mbid::f84b4dd8-c25b-4180-8113-9268a66050bd": [
-    "unknown",
-    "unknown"
+    "calypso",
+    "discogs"
   ],
   "mbid::ddfd9b2f-186e-4b2c-ad09-01aa5380c225": [
     "soul",
@@ -4668,8 +4668,8 @@
     "lastfm"
   ],
   "mbid::a7c9279c-5a3a-4dcc-b1f1-7d32cc37cc8b": [
-    "unknown",
-    "unknown"
+    "punk",
+    "tribute_lastfm"
   ],
   "mbid::509995d7-76c1-4455-abf2-d0f7b2db26e1": [
     "unknown",
@@ -4840,8 +4840,8 @@
     "musicbrainz"
   ],
   "mbid::f32a3832-13ed-4422-b7d7-c19dcdf5a62a": [
-    "unknown",
-    "unknown"
+    "chiptune",
+    "discogs"
   ],
   "mbid::03172286-f7ed-4864-a4db-459cd5ca9790": [
     "r&b",
@@ -4904,8 +4904,8 @@
     "musicbrainz"
   ],
   "mbid::a10e5cab-8c33-49f5-ad07-21e80d24b868": [
-    "unknown",
-    "unknown"
+    "psychedelic",
+    "discogs"
   ],
   "mbid::67f53ffc-7e2b-4d2c-b1c1-4ace4366c461": [
     "unknown",
@@ -4916,8 +4916,8 @@
     "musicbrainz"
   ],
   "mbid::cdcf7713-60bc-4da6-8f74-aab9d1688b40": [
-    "unknown",
-    "unknown"
+    "punk",
+    "discogs"
   ],
   "mbid::08e99447-c86a-4730-b78d-8c314d8cbe9a": [
     "experimental",
@@ -5012,8 +5012,8 @@
     "discogs"
   ],
   "mbid::47f34e9a-ea2f-4541-ad44-c36588e9496c": [
-    "unknown",
-    "unknown"
+    "punk",
+    "discogs"
   ],
   "mbid::6f33bdd4-e763-452c-85fd-cafecb0e9321": [
     "unknown",
@@ -5028,8 +5028,8 @@
     "unknown"
   ],
   "mbid::8117882c-a6f0-46be-8573-e18a5a23bb95": [
-    "unknown",
-    "unknown"
+    "dixieland",
+    "discogs"
   ],
   "mbid::70bfd498-8381-4cf9-bbd7-e9562fa5665d": [
     "math rock",
@@ -5040,8 +5040,8 @@
     "unknown"
   ],
   "mbid::29c13855-9105-4415-afd0-e3e595d48a57": [
-    "unknown",
-    "unknown"
+    "reggae",
+    "discogs"
   ],
   "mbid::b4681cdc-4002-4521-8458-ac812f1b6d28": [
     "electronic",
@@ -5052,12 +5052,12 @@
     "unknown"
   ],
   "mbid::5b0a4d27-431a-4ab1-832b-4a1046aa81d5": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::7a5fbefe-bb18-4437-ad70-630a72dc881a": [
-    "unknown",
-    "unknown"
+    "alt-pop",
+    "discogs"
   ],
   "mbid::f6c07316-1175-472f-a3c1-bcafb87481fc": [
     "indie pop",
@@ -5072,8 +5072,8 @@
     "musicbrainz"
   ],
   "mbid::aa2b82f0-f1e8-4221-890a-85a0a0e9e425": [
-    "unknown",
-    "unknown"
+    "latin",
+    "discogs"
   ],
   "mbid::39b22a9e-59dd-412b-ac3c-0725c807c72b": [
     "alternative metal",
@@ -5088,16 +5088,16 @@
     "musicbrainz"
   ],
   "mbid::c1bfbd8d-08ff-4c75-9b6f-449bc7cea21b": [
-    "unknown",
-    "unknown"
+    "abstract",
+    "discogs"
   ],
   "mbid::3ed833d2-c293-4fd7-9786-f5e8c19268e1": [
     "rock",
     "lastfm"
   ],
   "mbid::13d16bf6-9130-4958-9982-88fb926db9a2": [
-    "unknown",
-    "unknown"
+    "indie pop",
+    "discogs"
   ],
   "mbid::32b2e717-9e01-4f45-ac73-9542ccf18d4d": [
     "pop",
@@ -5108,8 +5108,8 @@
     "unknown"
   ],
   "mbid::f991ec40-6d1b-47bd-8bdf-bbddd88a4f4f": [
-    "unknown",
-    "unknown"
+    "country rock",
+    "discogs"
   ],
   "mbid::113e0972-077f-423b-9b5f-3cc8a5bafa0f": [
     "lounge",
@@ -5612,12 +5612,12 @@
     "musicbrainz"
   ],
   "mbid::3edf9a3d-f7d6-4121-8663-94c82105cab5": [
-    "unknown",
-    "unknown"
+    "country",
+    "discogs"
   ],
   "mbid::bd1dcb5b-ab45-4a00-943e-23f2d16add26": [
-    "unknown",
-    "unknown"
+    "funk / soul",
+    "discogs"
   ],
   "mbid::dc6dccb4-73dd-4312-a60a-06bb3479d039": [
     "unknown",
@@ -5636,8 +5636,8 @@
     "unknown"
   ],
   "mbid::1f504c4d-4a10-4e3f-a8cd-304876ac2451": [
-    "unknown",
-    "unknown"
+    "new wave",
+    "discogs"
   ],
   "mbid::b2e2abfa-fb1e-4be0-b500-56c4584f41cd": [
     "folk",
@@ -5672,20 +5672,20 @@
     "musicbrainz"
   ],
   "mbid::c88ae83a-8cbd-4da7-bc84-ab4914cce427": [
-    "unknown",
-    "unknown"
+    "harmonica blues",
+    "discogs"
   ],
   "mbid::9c296120-9699-45b3-81ad-0bedf445671a": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::b8f15e09-d79b-4b35-a183-7c6821f4bd5b": [
     "folk",
     "musicbrainz"
   ],
   "mbid::168617bb-8e16-4525-923b-3ba723a66260": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::e675295a-1efe-4247-aa3b-53b78d0cdffc": [
     "alternative rock",
@@ -5708,8 +5708,8 @@
     "unknown"
   ],
   "mbid::868fa2f6-3360-4efd-9dc2-f1810d97dc06": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::90ee221e-3c6c-4607-92ca-841f71869e11": [
     "tribute act",
@@ -5756,8 +5756,8 @@
     "musicbrainz"
   ],
   "mbid::7573df58-aa76-4b1c-9035-8a0ed0d4e994": [
-    "unknown",
-    "unknown"
+    "parody",
+    "discogs"
   ],
   "mbid::83a26bec-49fc-4c61-983c-0beef780b78d": [
     "folk",
@@ -5780,12 +5780,12 @@
     "musicbrainz"
   ],
   "mbid::add9d31e-c9ce-42f9-8d91-72abe0caa7c8": [
-    "unknown",
-    "unknown"
+    "symphonic rock",
+    "discogs"
   ],
   "mbid::87e89df1-1211-42ad-ac87-7c2f3095c2f8": [
-    "unknown",
-    "unknown"
+    "jazz",
+    "discogs"
   ],
   "mbid::34ca25ef-eb65-4cc9-9d0a-8154865f3d6f": [
     "punk",
@@ -6456,8 +6456,8 @@
     "discogs"
   ],
   "mbid::6c47207f-9d19-4feb-a24e-ead3d73e4794": [
-    "unknown",
-    "unknown"
+    "aor",
+    "discogs"
   ],
   "mbid::2f76bd85-ba19-4d80-9bb7-4555abe463c5": [
     "gospel",
@@ -6524,8 +6524,8 @@
     "musicbrainz"
   ],
   "mbid::090d4dee-0248-4f09-987a-f9b78dd30e1f": [
-    "unknown",
-    "unknown"
+    "comedy",
+    "discogs"
   ],
   "mbid::ad590765-191c-4c07-9d64-49633488e9a8": [
     "contemporary country",
@@ -6648,8 +6648,8 @@
     "lastfm"
   ],
   "mbid::a942e785-71f0-4df2-856a-ecd4c055ec83": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::9f870653-72b0-4c6d-8c59-439a95963e09": [
     "hard rock",
@@ -6664,8 +6664,8 @@
     "musicbrainz"
   ],
   "mbid::47ae300b-a2a5-40b2-b5ac-ae8b250bf883": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::956f2c57-97f3-4a0b-b5ca-576d367dc822": [
     "americana",
@@ -6688,16 +6688,16 @@
     "musicbrainz"
   ],
   "mbid::ae404df4-c19c-4336-8351-58db117c2656": [
-    "unknown",
-    "unknown"
+    "hip hop",
+    "discogs"
   ],
   "mbid::22bec07a-984d-46b4-af3b-bec98a9fb6d2": [
     "unknown",
     "unknown"
   ],
   "mbid::185b705b-7bd2-4774-bc2f-1cbe1fc4d74f": [
-    "unknown",
-    "unknown"
+    "bluegrass",
+    "discogs"
   ],
   "mbid::b865b28e-b9db-4ac0-96e4-ac7ea962b17d": [
     "brutal death metal",
@@ -6712,16 +6712,16 @@
     "musicbrainz"
   ],
   "mbid::10409269-c2f2-4211-9002-fb9b13545560": [
-    "unknown",
-    "unknown"
+    "deathcore",
+    "discogs"
   ],
   "mbid::726a3e37-98ec-4d68-b1a1-638c66515ecb": [
     "doom metal",
     "musicbrainz"
   ],
   "mbid::79612e9f-af9b-4707-b56d-3128948dde5b": [
-    "unknown",
-    "unknown"
+    "country",
+    "discogs"
   ],
   "mbid::253b02e7-a094-40b0-9257-28ee4cbceb01": [
     "rock",
@@ -6736,8 +6736,8 @@
     "musicbrainz"
   ],
   "mbid::df825625-f641-4eff-ba15-85f4552c6f02": [
-    "unknown",
-    "unknown"
+    "comedy",
+    "discogs"
   ],
   "mbid::fd95f811-981e-4802-a712-f023fc4197fb": [
     "american",
@@ -6756,16 +6756,16 @@
     "unknown"
   ],
   "mbid::f5680802-ce43-47d1-bc55-76f6353538bd": [
-    "unknown",
-    "unknown"
+    "garage rock",
+    "discogs"
   ],
   "mbid::cd7ff725-d5a7-40fc-bcdc-99d1ff7d192b": [
     "unknown",
     "unknown"
   ],
   "mbid::34c76189-b669-4ca3-8c8a-2257aecc0dd6": [
-    "unknown",
-    "unknown"
+    "drone",
+    "discogs"
   ],
   "mbid::1cd4d43c-68bb-4e91-9de8-596470e413ed": [
     "folk",
@@ -7448,8 +7448,8 @@
     "unknown"
   ],
   "mbid::15a82e55-4931-43c2-8b18-995127eb8dd4": [
-    "unknown",
-    "unknown"
+    "reggae",
+    "discogs"
   ],
   "mbid::1d9d11e5-f3ea-4649-9916-9a4da2e0b296": [
     "unknown",
@@ -7468,8 +7468,8 @@
     "unknown"
   ],
   "mbid::0c0ce4be-6548-48c9-be39-295bad8f4df5": [
-    "unknown",
-    "unknown"
+    "country rock",
+    "discogs"
   ],
   "mbid::f8064d92-e284-47c0-8156-bbecab0e0249": [
     "unknown",
@@ -7500,8 +7500,8 @@
     "musicbrainz"
   ],
   "mbid::2f03487a-51fc-4c81-b6f8-363af6c2c531": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::84b7b812-55ae-423b-97ac-4dd4bbf9e6fc": [
     "jazz",
@@ -7520,16 +7520,16 @@
     "musicbrainz"
   ],
   "mbid::da3174a3-0c25-412f-8083-bf4cd1cbd7f5": [
-    "unknown",
-    "unknown"
+    "new wave",
+    "discogs"
   ],
   "mbid::c239bcdd-bb75-4c0c-a6aa-2f231ebc284b": [
     "unknown",
     "unknown"
   ],
   "mbid::5dc2ada8-9a8b-4db3-ae75-338ababe57df": [
-    "unknown",
-    "unknown"
+    "bluegrass",
+    "discogs"
   ],
   "mbid::e6d12aea-bf58-45b2-892b-daebc25fc357": [
     "folk",
@@ -7540,8 +7540,8 @@
     "unknown"
   ],
   "mbid::d9a0a71f-2e12-4812-8375-2618cf18e2d4": [
-    "unknown",
-    "unknown"
+    "drone",
+    "discogs"
   ],
   "mbid::d37d25ba-d785-41b0-8be5-df8671fa7a83": [
     "americana",
@@ -7552,8 +7552,8 @@
     "musicbrainz"
   ],
   "mbid::dafb12a8-4789-4b84-93fa-c43bf04449cb": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::624447ba-f5de-481e-8d37-ca9aed1b046f": [
     "indie",
@@ -7680,8 +7680,8 @@
     "unknown"
   ],
   "mbid::e2989ae8-a940-4e8b-a790-10f0d84ee68e": [
-    "unknown",
-    "unknown"
+    "soul",
+    "discogs"
   ],
   "mbid::f851528b-e574-4309-92df-4b33ffde1340": [
     "hip hop",
@@ -7756,12 +7756,12 @@
     "discogs"
   ],
   "mbid::ba4d2762-8cb4-47eb-9c20-d5692724ee91": [
-    "unknown",
-    "unknown"
+    "blues rock",
+    "discogs"
   ],
   "mbid::ebf48614-6b24-41bd-9ebb-a90af8e473b7": [
-    "unknown",
-    "unknown"
+    "comedy",
+    "discogs"
   ],
   "mbid::729df9cd-50e9-4924-98f9-15040c3bb3bf": [
     "punk rock",
@@ -7880,8 +7880,8 @@
     "musicbrainz"
   ],
   "mbid::9a56536e-5edd-4155-9435-20d12b398b24": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::3abeb2e4-a691-4668-88d6-f7be0d23b21c": [
     "alternative rock",
@@ -7920,8 +7920,8 @@
     "discogs"
   ],
   "mbid::b1832c85-511d-446d-859d-2be2832072ae": [
-    "unknown",
-    "unknown"
+    "black metal",
+    "discogs"
   ],
   "mbid::25c92eda-596a-4cd7-9e79-e0ca07578f47": [
     "post-hardcore",
@@ -7944,16 +7944,16 @@
     "lastfm"
   ],
   "mbid::97364d1e-d9dd-4ad7-aa32-b5f94c03ca54": [
-    "unknown",
-    "unknown"
+    "prog rock",
+    "discogs"
   ],
   "mbid::25909806-7914-406e-81b3-46069fe9b485": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::8fefb090-5d99-4a1c-9479-c75904ff2ac5": [
-    "unknown",
-    "unknown"
+    "ambient",
+    "discogs"
   ],
   "mbid::ab5a7a60-1b71-4e5b-b622-e0ae2ce84c32": [
     "country rap",
@@ -7968,8 +7968,8 @@
     "musicbrainz"
   ],
   "mbid::73c55215-3ae6-4da1-9d4e-3e337e8ee128": [
-    "unknown",
-    "unknown"
+    "trap",
+    "discogs"
   ],
   "mbid::0202af38-ac32-48d0-a546-87caaef2dee2": [
     "country",
@@ -7980,8 +7980,8 @@
     "lastfm"
   ],
   "mbid::d58330a5-d426-4a38-9f5c-b82c72a5b6b3": [
-    "unknown",
-    "unknown"
+    "indie pop",
+    "discogs"
   ],
   "mbid::5152320e-7c84-41fd-820a-fd8d95c5d77f": [
     "americana",
@@ -8024,8 +8024,8 @@
     "musicbrainz"
   ],
   "mbid::c50908fa-eab2-43db-985f-bc3920f7b8b9": [
-    "unknown",
-    "unknown"
+    "breakcore",
+    "discogs"
   ],
   "mbid::432fe058-d698-4a89-a938-9e7725cd5cc2": [
     "pop punk",
@@ -8060,8 +8060,8 @@
     "discogs"
   ],
   "mbid::a4f77f24-baa1-472c-b392-ba282b5e6106": [
-    "unknown",
-    "unknown"
+    "holiday",
+    "discogs"
   ],
   "mbid::6ced2b8e-7024-4ccf-b49d-555fe905bd78": [
     "punk rock",
@@ -8080,16 +8080,16 @@
     "lastfm"
   ],
   "mbid::0259d243-9d09-496b-8d57-4b9ea5415af2": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::67651c88-aba0-4129-a1e1-63127368d270": [
     "indie pop",
     "lastfm"
   ],
   "mbid::1bd80a15-25d9-4eea-a0b7-b19c3c94606d": [
-    "unknown",
-    "unknown"
+    "abstract",
+    "discogs"
   ],
   "mbid::b2a42abd-e2f5-43e2-9213-1cc487a8fceb": [
     "unknown",
@@ -8356,12 +8356,12 @@
     "lastfm"
   ],
   "mbid::31dbbb48-6677-4a44-a220-028f0217a5a0": [
-    "unknown",
-    "unknown"
+    "post-hardcore",
+    "discogs"
   ],
   "mbid::bfaedc9c-f361-42c0-bbee-b3adde4bbc60": [
-    "unknown",
-    "unknown"
+    "death metal",
+    "discogs"
   ],
   "mbid::dca42ad1-1957-4d4b-9108-6f08acda2232": [
     "unknown",
@@ -8376,20 +8376,20 @@
     "musicbrainz"
   ],
   "mbid::a32c7643-62ce-45e4-a3b2-f9019166cb20": [
-    "unknown",
-    "unknown"
+    "power violence",
+    "discogs"
   ],
   "mbid::5cbe88fb-0a6e-4b25-9736-3e228822549f": [
-    "unknown",
-    "unknown"
+    "crossover thrash",
+    "discogs"
   ],
   "mbid::59eda569-b380-4958-b98c-051d1667b3e1": [
     "hip hop",
     "musicbrainz"
   ],
   "mbid::34a9be02-dc2f-42b9-9ff9-dda409a37861": [
-    "unknown",
-    "unknown"
+    "bluegrass",
+    "discogs"
   ],
   "mbid::90cda7b7-9112-4ec7-9d6f-3f4675ef5130": [
     "post-hardcore",
@@ -8404,8 +8404,8 @@
     "musicbrainz"
   ],
   "mbid::8e1bd31e-34b4-4230-bfb8-c1bdf99c6447": [
-    "unknown",
-    "unknown"
+    "acoustic",
+    "discogs"
   ],
   "mbid::3e6f0239-8973-481e-afe2-12944106d1d7": [
     "electronic",
@@ -8868,16 +8868,16 @@
     "unknown"
   ],
   "mbid::a10da00d-6451-4c85-b3e7-cedcd913d0e7": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::53e218d9-4fba-426b-9864-6c812a5f5a9d": [
     "hard rock",
     "lastfm"
   ],
   "mbid::3fbe788d-d4df-4ab1-b6cc-efc5781bb1f2": [
-    "unknown",
-    "unknown"
+    "country",
+    "discogs"
   ],
   "mbid::7ed712bf-df94-4764-9221-6c8b8ec5dcad": [
     "experimental",
@@ -8936,8 +8936,8 @@
     "musicbrainz"
   ],
   "mbid::c07731e6-4193-4bdb-b0a7-823c8925bc59": [
-    "unknown",
-    "unknown"
+    "chicago blues",
+    "discogs"
   ],
   "mbid::ebab8bca-36b0-4536-aed7-d0dbfd216932": [
     "indie pop",
@@ -8948,8 +8948,8 @@
     "musicbrainz"
   ],
   "mbid::da392a43-2b0f-4e06-a84d-dbb5008d088a": [
-    "unknown",
-    "unknown"
+    "comedy",
+    "discogs"
   ],
   "mbid::dd736e1d-5998-4db9-91f2-de8083880eb3": [
     "hardcore",
@@ -8988,16 +8988,16 @@
     "musicbrainz"
   ],
   "mbid::4388495f-671a-42aa-b4be-e67699b13b12": [
-    "unknown",
-    "unknown"
+    "house",
+    "discogs"
   ],
   "mbid::deebf442-6911-402b-9b7d-f19abae2fa2e": [
     "progressive house",
     "musicbrainz"
   ],
   "mbid::7afd5952-66c8-40ac-88c1-ff7ff9648f54": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::61accad1-e728-4c4a-ae45-4440c17a8534": [
     "alternative punk",
@@ -9016,8 +9016,8 @@
     "musicbrainz"
   ],
   "mbid::a5708af4-9d5f-48e1-a6f3-12b55c68fde1": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::c51200de-4337-4d18-8cc5-3053df667a9b": [
     "unknown",
@@ -9028,8 +9028,8 @@
     "musicbrainz"
   ],
   "mbid::28a0bc18-c0a4-457c-8768-e49cfe4d1b88": [
-    "unknown",
-    "unknown"
+    "pop punk",
+    "discogs"
   ],
   "mbid::1f444240-5397-4e63-a3e8-a3eac2aace32": [
     "contemporary christian",
@@ -9052,12 +9052,12 @@
     "musicbrainz"
   ],
   "mbid::79414922-c4b9-4109-aee1-1513c02e9153": [
-    "unknown",
-    "unknown"
+    "new wave",
+    "discogs"
   ],
   "mbid::ff1be96f-9055-4b15-86d8-e273cf44c685": [
-    "unknown",
-    "unknown"
+    "punk",
+    "discogs"
   ],
   "mbid::a320c615-206f-452f-9a9b-13ea15f8c0eb": [
     "country",
@@ -9204,28 +9204,28 @@
     "musicbrainz"
   ],
   "mbid::6f935e2d-5f17-408c-a74a-584e9796ef27": [
-    "unknown",
-    "unknown"
+    "folk",
+    "discogs"
   ],
   "mbid::0344b965-240d-439c-bbaa-a4754544a60e": [
-    "unknown",
-    "unknown"
+    "indie pop",
+    "discogs"
   ],
   "mbid::a615b8f7-a9f6-4d7a-90c7-6fdf26b13411": [
     "noise rock",
     "lastfm"
   ],
   "mbid::d7b93799-38f0-4136-9b29-65021124336d": [
-    "unknown",
-    "unknown"
+    "folk, world, & country",
+    "discogs"
   ],
   "mbid::6e1724fb-f257-4704-af42-adc12bd7aaee": [
     "funk",
     "musicbrainz"
   ],
   "mbid::8765fb93-546b-460e-abc3-161bab86c341": [
-    "unknown",
-    "unknown"
+    "folk rock",
+    "discogs"
   ],
   "mbid::a0344eb2-d71c-40a8-b9f7-17f19e319421": [
     "hard rock",
@@ -9384,8 +9384,8 @@
     "musicbrainz"
   ],
   "mbid::878da1d3-7e83-4022-958c-d83b8ab86e4c": [
-    "unknown",
-    "unknown"
+    "free jazz",
+    "discogs"
   ],
   "mbid::5962d15b-9494-41c9-9b0d-6c46974e0b6a": [
     "electropop",
@@ -9400,8 +9400,8 @@
     "musicbrainz"
   ],
   "mbid::baeb4156-3606-4fa0-8228-61a776961f1d": [
-    "unknown",
-    "unknown"
+    "indie pop",
+    "discogs"
   ],
   "mbid::13b39323-33ea-4576-9f46-1e882361b774": [
     "unknown",
@@ -9464,28 +9464,28 @@
     "musicbrainz"
   ],
   "mbid::cb112ae8-4e88-4622-9ac8-8cdf37039806": [
-    "unknown",
-    "unknown"
+    "country",
+    "discogs"
   ],
   "mbid::e21acee7-623f-4995-952c-33489a5d9ae3": [
-    "unknown",
-    "unknown"
+    "southern rock",
+    "discogs"
   ],
   "mbid::84b27bad-1cc2-4fd0-9c0e-8ab0f64d3b65": [
     "hardcore",
     "lastfm"
   ],
   "mbid::af9ce2fc-48ad-4818-9969-49dcd5db6651": [
-    "unknown",
-    "unknown"
+    "progressive trance",
+    "discogs"
   ],
   "mbid::ed962474-bb85-47f9-b108-073184f09bc8": [
     "dubstep",
     "musicbrainz"
   ],
   "mbid::f86ff0ba-fd11-40f5-bfcd-dc1d33ec8a1e": [
-    "unknown",
-    "unknown"
+    "hard rock",
+    "discogs"
   ],
   "mbid::6bcf61d5-3a08-4194-8112-5e155b7afffa": [
     "contemporary christian",
@@ -9540,8 +9540,8 @@
     "musicbrainz"
   ],
   "mbid::bf0b5c3a-321a-4f0d-9faa-07e8f855e6d4": [
-    "unknown",
-    "unknown"
+    "death metal",
+    "discogs"
   ],
   "mbid::18e9bfd5-db23-4bc1-be0f-5710e5d656e4": [
     "metal",
@@ -9568,8 +9568,8 @@
     "musicbrainz"
   ],
   "mbid::8fbe5043-ccda-4d79-8c78-8de8abb5e2df": [
-    "unknown",
-    "unknown"
+    "art rock",
+    "discogs"
   ],
   "mbid::5df62a88-cac9-490a-b62c-c7c88f4020f4": [
     "hip hop",
@@ -9588,8 +9588,8 @@
     "musicbrainz"
   ],
   "mbid::883621e9-dc1a-42a2-a804-86ddab00a8df": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::87f93182-a0e1-4f8e-a330-dc1051e1aa15": [
     "rock",
@@ -9600,12 +9600,12 @@
     "lastfm"
   ],
   "mbid::125c3580-e1f2-4f5a-b47f-b6752b0645de": [
-    "unknown",
-    "unknown"
+    "house",
+    "discogs"
   ],
   "mbid::bb717754-43b4-45d0-936b-4fea0290f1da": [
-    "unknown",
-    "unknown"
+    "electro house",
+    "discogs"
   ],
   "mbid::d339efbb-77b9-4147-ba9e-59f2f24550b2": [
     "pop",
@@ -9616,16 +9616,16 @@
     "musicbrainz"
   ],
   "mbid::f40f1e6a-99fb-4efb-b70f-2eda0d1e61df": [
-    "unknown",
-    "unknown"
+    "tech house",
+    "discogs"
   ],
   "mbid::b202beb7-99bd-47e7-8b72-195c8d72ebdd": [
     "pop",
     "musicbrainz"
   ],
   "mbid::99eefdbd-bcc4-4317-b013-c726fca6d3f0": [
-    "unknown",
-    "unknown"
+    "tech house",
+    "discogs"
   ],
   "mbid::ae0d1794-c9d3-4436-94fc-ceff6130da2c": [
     "minimal techno",
@@ -9636,8 +9636,8 @@
     "lastfm"
   ],
   "mbid::7fde8db4-75e1-4613-9503-9c81f9755451": [
-    "unknown",
-    "unknown"
+    "hardstyle",
+    "discogs"
   ],
   "mbid::59bc9caa-5700-4c77-9ab7-f089aa7a357f": [
     "folk rock",
@@ -9648,8 +9648,8 @@
     "lastfm"
   ],
   "mbid::24f9cd40-603c-45aa-a0c6-d468800d1c52": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::bdaec28c-2321-492b-8e93-fad996a8ac5a": [
     "rap",
@@ -9672,8 +9672,8 @@
     "discogs"
   ],
   "mbid::2ed05952-4c2b-46f4-b153-846c5b78bf36": [
-    "unknown",
-    "unknown"
+    "dark electro",
+    "discogs"
   ],
   "mbid::d8280cd2-0e04-4126-b7d5-40996ae3a97d": [
     "jazz",
@@ -9688,8 +9688,8 @@
     "musicbrainz"
   ],
   "mbid::7d18a5ff-645c-4182-ba53-02b1f14115d3": [
-    "unknown",
-    "unknown"
+    "jazz",
+    "discogs"
   ],
   "mbid::bb9bea53-df43-4d9f-80d6-7a16e69dcbf7": [
     "punk",
@@ -9972,8 +9972,8 @@
     "discogs"
   ],
   "mbid::04a503a5-7382-4ce0-9a9c-9f6b109f19e7": [
-    "unknown",
-    "unknown"
+    "nu metal",
+    "discogs"
   ],
   "mbid::39c0b99a-7e0e-42c7-94e2-14dc7c99a019": [
     "country",
@@ -10012,8 +10012,8 @@
     "musicbrainz"
   ],
   "mbid::e7dcad3e-490e-4971-bbee-0f54083772bf": [
-    "unknown",
-    "unknown"
+    "psychedelic rock",
+    "discogs"
   ],
   "mbid::b863c269-792b-4a39-830c-09a11d1cc85a": [
     "hardcore",
@@ -10028,8 +10028,8 @@
     "unknown"
   ],
   "mbid::ff24a74c-237b-481b-adb5-7f4f6171f5f5": [
-    "unknown",
-    "unknown"
+    "funk",
+    "discogs"
   ],
   "mbid::e562111b-0e86-44a3-beee-8ba88f4fb3dc": [
     "hardcore",
@@ -10040,24 +10040,24 @@
     "musicbrainz"
   ],
   "mbid::f7b9b273-deb3-4c26-8a59-62132714dda0": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::74c9387b-ecaa-4091-9627-8914fef15e4b": [
-    "unknown",
-    "unknown"
+    "garage rock",
+    "discogs"
   ],
   "mbid::ae13e1fc-a2b1-4e3c-bfb9-737d3aeb7dab": [
     "pop punk",
     "musicbrainz"
   ],
   "mbid::fe50367d-506c-4e8c-beab-2113469ee2be": [
-    "unknown",
-    "unknown"
+    "dixieland",
+    "discogs"
   ],
   "mbid::10ed9d82-1210-460f-b5a7-8050367aedbd": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::7c619fd1-0e0a-4cc8-9735-987e015cd822": [
     "drum and bass",
@@ -10068,12 +10068,12 @@
     "lastfm"
   ],
   "mbid::e84ddc5c-06e3-48fc-a8f1-fa0cf430d6b5": [
-    "unknown",
-    "unknown"
+    "bluegrass",
+    "discogs"
   ],
   "mbid::a70ead91-689a-4402-aa6d-1cfec309e235": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::0258934a-d273-4bc2-bd5d-f44a0b90f44a": [
     "electronic",
@@ -10088,16 +10088,16 @@
     "unknown"
   ],
   "mbid::d37157cd-092c-43fc-99ef-c7ddfa72afba": [
-    "unknown",
-    "unknown"
+    "country",
+    "discogs"
   ],
   "mbid::2b1e0708-7317-4b09-b6a2-6dc6cb9c0479": [
     "emo",
     "musicbrainz"
   ],
   "mbid::3dc1d94d-3f48-4dd2-964f-586650ed848d": [
-    "unknown",
-    "unknown"
+    "boom bap",
+    "discogs"
   ],
   "mbid::5a45dc79-94bc-4051-a7e8-78e242e701ee": [
     "unknown",
@@ -10112,8 +10112,8 @@
     "musicbrainz"
   ],
   "mbid::f46040d5-2506-4190-a89d-f550c81456e1": [
-    "unknown",
-    "unknown"
+    "psychedelic rock",
+    "discogs"
   ],
   "mbid::b774cde6-edc1-4464-ac53-e7034396e7ec": [
     "hardcore",
@@ -10156,16 +10156,16 @@
     "lastfm"
   ],
   "mbid::a8f87edf-0310-4214-a82d-6760e182db7a": [
-    "unknown",
-    "unknown"
+    "heavy metal",
+    "discogs"
   ],
   "mbid::aa0b8b75-714f-465e-9d66-c54c17247f6f": [
     "folk",
     "musicbrainz"
   ],
   "mbid::dc01b0c6-2e94-4613-aa32-a91d3d47ae4b": [
-    "unknown",
-    "unknown"
+    "industrial",
+    "discogs"
   ],
   "mbid::76a2a340-7f21-4e39-bea0-67763ed6ea34": [
     "unknown",
@@ -10188,8 +10188,8 @@
     "musicbrainz"
   ],
   "mbid::b08b12be-9f50-4c6f-a46b-4f100363afed": [
-    "unknown",
-    "unknown"
+    "death metal",
+    "discogs"
   ],
   "mbid::dd7dcc11-0134-46e8-8778-d23d39d3bc7f": [
     "unknown",
@@ -10216,8 +10216,8 @@
     "discogs"
   ],
   "mbid::310bfb05-9699-421e-b845-6b4d93bbf6d0": [
-    "unknown",
-    "unknown"
+    "country",
+    "discogs"
   ],
   "mbid::faabeed5-3dd0-4be5-aec5-e6486e68db2f": [
     "country",
@@ -10244,24 +10244,24 @@
     "lastfm"
   ],
   "mbid::434af604-ce84-493a-85c4-914fb12b379f": [
-    "unknown",
-    "unknown"
+    "punk",
+    "discogs"
   ],
   "mbid::f69e5a58-b70d-4212-a19d-65bd1ba87175": [
     "singer-songwriter",
     "lastfm"
   ],
   "mbid::2bb7e629-46f4-4a95-9c01-469e8bd2ea19": [
-    "unknown",
-    "unknown"
+    "bluegrass",
+    "discogs"
   ],
   "mbid::49870c09-e99b-48d8-b824-f4d6039ba0fb": [
     "indie rock",
     "musicbrainz"
   ],
   "mbid::97b4b543-b280-480e-97d4-e46b35dd0d6a": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::ab4a6f85-54ce-4ca2-9d30-ef8f37be29e8": [
     "traditional folk music",
@@ -10296,8 +10296,8 @@
     "musicbrainz"
   ],
   "mbid::2f82b802-0cbc-4ec2-805a-775232e000c1": [
-    "unknown",
-    "unknown"
+    "texas blues",
+    "discogs"
   ],
   "mbid::960afc67-9c21-46dd-9c7f-ff2b509e3150": [
     "hardcore hip hop",
@@ -10328,20 +10328,20 @@
     "musicbrainz"
   ],
   "mbid::29b69d1e-2b03-4d44-ae02-a88bb11a3103": [
-    "unknown",
-    "unknown"
+    "punk",
+    "discogs"
   ],
   "mbid::83ae9600-e271-4dd3-a432-3f3d08a6f682": [
-    "unknown",
-    "unknown"
+    "house",
+    "discogs"
   ],
   "mbid::9b6f11f4-bef1-4265-987b-816bbbb67be1": [
     "speed metal",
     "musicbrainz"
   ],
   "mbid::b6325973-01da-45d6-8fd0-732fdd704396": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::77f4b530-5657-4c75-ad4f-92a75f72deb1": [
     "rock",
@@ -10372,8 +10372,8 @@
     "lastfm"
   ],
   "mbid::4f69b59a-3a31-4d69-9bf4-ef9ecf55fed8": [
-    "unknown",
-    "unknown"
+    "disco",
+    "discogs"
   ],
   "mbid::2b6f6ed7-8a1e-4907-8300-3b246134fc1a": [
     "stoner rock",
@@ -11036,8 +11036,8 @@
     "discogs"
   ],
   "mbid::5266cc11-e51d-4cc9-bf83-9a68ef5ef2dd": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::4149a27f-18b9-4cbd-9c90-ea1b1f8804df": [
     "indie rock",
@@ -11052,16 +11052,16 @@
     "musicbrainz"
   ],
   "mbid::c9c8eb0c-dd42-4838-8897-d9e658a5a487": [
-    "unknown",
-    "unknown"
+    "vocal",
+    "discogs"
   ],
   "mbid::85d7666c-d3ce-4e2c-8b1b-f20db7cdae4f": [
     "g-funk",
     "musicbrainz"
   ],
   "mbid::d2b8465e-5020-4955-b21d-3ac24bbae7d3": [
-    "unknown",
-    "unknown"
+    "pop",
+    "discogs"
   ],
   "mbid::7d04f9e7-740f-476a-b482-59352e222774": [
     "emo",
@@ -11092,8 +11092,8 @@
     "lastfm"
   ],
   "mbid::2a635483-1074-48a1-ab3f-1bb6c4ef3774": [
-    "unknown",
-    "unknown"
+    "jazz-funk",
+    "discogs"
   ],
   "mbid::96cac06e-61eb-4648-9f32-6acf313fdde2": [
     "unknown",
@@ -11108,20 +11108,20 @@
     "musicbrainz"
   ],
   "mbid::2a0433d5-c5d6-46b0-81e0-d9d7c4117fba": [
-    "unknown",
-    "unknown"
+    "classic rock",
+    "discogs"
   ],
   "mbid::f18bb7de-8885-4ed3-8e37-09c04db1a8de": [
-    "unknown",
-    "unknown"
+    "comedy",
+    "discogs"
   ],
   "mbid::73e5abd9-0af9-45dc-ad7c-c1f83eec397e": [
-    "unknown",
-    "unknown"
+    "classic rock",
+    "discogs"
   ],
   "mbid::a1e1ceb3-0ca4-462d-9db6-8f3f3b8e7988": [
-    "unknown",
-    "unknown"
+    "indie rock",
+    "discogs"
   ],
   "mbid::e57908ed-e14f-4325-95b2-56d1aa20810d": [
     "hard rock",
@@ -11200,12 +11200,12 @@
     "discogs"
   ],
   "mbid::c281e59a-f3ba-4747-a986-bdd1bc097874": [
-    "unknown",
-    "unknown"
+    "electro",
+    "discogs"
   ],
   "mbid::f4a7c519-a14a-4f8a-b9a8-2c0e1e7e76f4": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::489a7eba-2070-4351-9c3b-eb3f85126b29": [
     "unknown",
@@ -11220,12 +11220,12 @@
     "unknown"
   ],
   "mbid::53cf9aae-30b0-47bc-a9fa-7605ef8b1a87": [
-    "unknown",
-    "unknown"
+    "doom metal",
+    "discogs"
   ],
   "mbid::00ef6902-afad-4d82-b13f-49aab2e91745": [
-    "unknown",
-    "unknown"
+    "post-metal",
+    "discogs"
   ],
   "mbid::aa4fc8d3-aca1-4be4-b730-0ccb823c20ba": [
     "soul",
@@ -11236,8 +11236,8 @@
     "unknown"
   ],
   "mbid::0eb9da62-8611-4591-9063-2ef9008df1ed": [
-    "unknown",
-    "unknown"
+    "punk",
+    "discogs"
   ],
   "mbid::cacd5542-11df-4290-993c-efdb1c5e0894": [
     "unknown",
@@ -11488,8 +11488,8 @@
     "discogs"
   ],
   "mbid::45c103dc-e832-4d4f-a2b4-20f87ac860b4": [
-    "unknown",
-    "unknown"
+    "death metal",
+    "discogs"
   ],
   "mbid::c8e48299-2214-4be5-84ba-113adc5efb35": [
     "new wave",
@@ -11512,8 +11512,8 @@
     "lastfm"
   ],
   "mbid::b18df894-bfcd-4bb2-b9bb-46b6a6f634ab": [
-    "unknown",
-    "unknown"
+    "alternative rock",
+    "discogs"
   ],
   "mbid::3470c4ca-f73c-47fc-80a6-e9a72be968b9": [
     "country",
@@ -11552,8 +11552,8 @@
     "lastfm"
   ],
   "mbid::15312a36-2ded-4cb3-a717-8dcec48d92e2": [
-    "unknown",
-    "unknown"
+    "progressive house",
+    "discogs"
   ],
   "mbid::3dd40359-5b66-4b1a-affc-d171a34079ff": [
     "satire",
@@ -11716,8 +11716,8 @@
     "musicbrainz"
   ],
   "mbid::70e414e1-f35f-4ad6-b6b5-328146ee516d": [
-    "unknown",
-    "unknown"
+    "reggae",
+    "discogs"
   ],
   "mbid::c7a4d766-6bc7-4766-b86e-35e8d8e3fa43": [
     "punk",
@@ -11740,36 +11740,36 @@
     "unknown"
   ],
   "mbid::77307b54-446a-42a0-999e-b7153a9c38b7": [
-    "unknown",
-    "unknown"
+    "indie pop",
+    "discogs"
   ],
   "mbid::99df3e94-ca87-4b59-8b3f-4e335f9bd9b4": [
-    "unknown",
-    "unknown"
+    "acid",
+    "discogs"
   ],
   "mbid::1a1cd7f3-e5df-4eca-bae2-2757c9e656b5": [
     "new wave",
     "musicbrainz"
   ],
   "mbid::7f7ff3cf-44cf-44cf-9b0d-44a592dfbcec": [
-    "unknown",
-    "unknown"
+    "rock",
+    "discogs"
   ],
   "mbid::1349d100-fa96-44d5-8e2e-4e38ccbd56fd": [
     "unknown",
     "unknown"
   ],
   "mbid::0828884e-2ee6-4315-9dba-62172933a245": [
-    "unknown",
-    "unknown"
+    "salsa",
+    "discogs"
   ],
   "mbid::7cb1c14d-39bd-410d-8d0c-3b3a34ab2d8b": [
     "unknown",
     "unknown"
   ],
   "mbid::6fffa2e0-01fe-4ec6-949a-db5249ce6062": [
-    "unknown",
-    "unknown"
+    "folk",
+    "discogs"
   ],
   "mbid::b367f1c8-bb29-4727-bc0d-a96770fd698e": [
     "psychedelic",
@@ -11908,8 +11908,8 @@
     "unknown"
   ],
   "mbid::23caeef7-b9c1-48aa-9fdb-5ac41dbe8c99": [
-    "unknown",
-    "unknown"
+    "death metal",
+    "discogs"
   ],
   "mbid::fa8d3148-e40b-4478-b610-c67cb4bccbd1": [
     "lo-fi",
@@ -11924,20 +11924,20 @@
     "wikidata"
   ],
   "mbid::a90185da-1cee-47d2-a1ea-891dd03a96a4": [
-    "unknown",
-    "unknown"
+    "jazz",
+    "discogs"
   ],
   "mbid::2761f5cc-5c08-46db-825c-8032533a8b9e": [
-    "unknown",
-    "unknown"
+    "roots reggae",
+    "discogs"
   ],
   "mbid::12e35806-e97a-4c8a-81a5-7053916ffd03": [
     "indie",
     "lastfm"
   ],
   "mbid::1dd2b03e-1947-46da-920d-49d1762bdd70": [
-    "unknown",
-    "unknown"
+    "blues rock",
+    "discogs"
   ],
   "mbid::c3fa12d9-4057-4495-a81b-b7fc3441f997": [
     "americana",
@@ -11964,8 +11964,8 @@
     "unknown"
   ],
   "mbid::a2d6f2b6-30ce-435c-95a9-4e0b7df1dcd2": [
-    "unknown",
-    "unknown"
+    "emo",
+    "discogs"
   ],
   "mbid::c9d4f63d-6c2c-47ae-84fe-819001e3d3ea": [
     "hip house",
@@ -11992,8 +11992,8 @@
     "musicbrainz"
   ],
   "mbid::d5c3dce0-fdaf-471e-94b8-73c185d6bc97": [
-    "unknown",
-    "unknown"
+    "experimental",
+    "discogs"
   ],
   "mbid::84b0af1a-8f10-433f-a1ed-948e71712b16": [
     "pop",
@@ -12032,8 +12032,8 @@
     "lastfm"
   ],
   "mbid::bf5f6273-7498-448c-ba78-a576cc0a20c0": [
-    "unknown",
-    "unknown"
+    "pop",
+    "discogs"
   ],
   "mbid::97bb32a9-a490-403f-8eda-cd33d9466059": [
     "heavy rock",
@@ -12056,12 +12056,12 @@
     "discogs"
   ],
   "mbid::c2fc3d9c-8e13-48e5-a4c6-227b79c16b94": [
-    "unknown",
-    "unknown"
+    "house",
+    "discogs"
   ],
   "mbid::cf509558-98cb-4628-9e5a-8e4340a9f1cf": [
-    "unknown",
-    "unknown"
+    "hard rock",
+    "discogs"
   ],
   "mbid::7d817293-2533-4151-9610-95449bee2e0f": [
     "unknown",
@@ -12120,8 +12120,8 @@
     "discogs"
   ],
   "mbid::12c7ee1b-96a4-40a6-9565-d86cfa2ca1a6": [
-    "unknown",
-    "unknown"
+    "gangsta",
+    "discogs"
   ],
   "mbid::d8d86b37-9c04-4496-8c5a-829e2e956887": [
     "metal",
@@ -12136,12 +12136,12 @@
     "lastfm"
   ],
   "mbid::4dc45f79-d367-4ee2-b521-4b016628f54c": [
-    "unknown",
-    "unknown"
+    "death metal",
+    "discogs"
   ],
   "mbid::e3616fa1-9e92-48ed-9ebf-1558831cddac": [
-    "unknown",
-    "unknown"
+    "hardcore",
+    "discogs"
   ],
   "mbid::0e139e8e-88a9-4a35-ba62-0a016ab54097": [
     "alternative metal",
@@ -12164,8 +12164,8 @@
     "discogs"
   ],
   "mbid::7f8f0f32-1672-4634-8f0f-294f34395f69": [
-    "unknown",
-    "unknown"
+    "grindcore",
+    "discogs"
   ],
   "mbid::40baf67d-1490-47e2-95e4-c83273df7c9f": [
     "contemporary christian",
@@ -12420,8 +12420,8 @@
     "lastfm"
   ],
   "mbid::8be20340-e13e-4791-8e1a-bad0d25748d0": [
-    "unknown",
-    "unknown"
+    "bluegrass",
+    "discogs"
   ],
   "mbid::88a18be3-2b9f-4283-93a9-adf28347d518": [
     "country music",
@@ -12436,8 +12436,8 @@
     "musicbrainz"
   ],
   "mbid::b364254e-66c7-4a4b-8f00-8c1a3ed66b3b": [
-    "unknown",
-    "unknown"
+    "death metal",
+    "discogs"
   ],
   "mbid::423a85de-66ba-4113-abdc-ba2678ee89ba": [
     "alternative rock",
