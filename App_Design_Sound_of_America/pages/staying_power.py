@@ -187,7 +187,8 @@ layout = html.Div(
                                     min=3,
                                     max=MAX_ARTISTS_SHOWN,
                                     step=1,
-                                    marks={i: str(i) for i in range(3, MAX_ARTISTS_SHOWN + 1, max(1, MAX_ARTISTS_SHOWN // 8))},
+                                    marks={i: {"label": str(i), "style": {"color": "#b7bec7"}}
+        for i in range(3, MAX_ARTISTS_SHOWN + 1, max(1, MAX_ARTISTS_SHOWN // 8))},
                                     value=DEFAULT_TOP_N,
                                 ),
                             ],
