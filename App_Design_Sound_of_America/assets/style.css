@@ -231,3 +231,36 @@ body {
     background-color: rgba(232, 184, 109, 0.10) !important;
     color: #F4F1EA !important;
 }
+
+/* =========================================
+   GLOBAL DROPDOWN READABILITY
+   ========================================= */
+
+.Select-control {
+    background-color: #F4F1EA !important;
+    color: #1D2A30 !important;
+}
+
+.Select-value-label,
+.Select-placeholder,
+.Select-input > input,
+.Select-arrow-zone,
+.Select-clear-zone {
+    color: #1D2A30 !important;
+}
+
+.Select-menu-outer,
+.Select-menu {
+    background-color: #F4F1EA !important;
+    color: #1D2A30 !important;
+}
+
+.VirtualizedSelectOption {
+    background-color: #F4F1EA !important;
+    color: #1D2A30 !important;
+}
+
+.VirtualizedSelectFocusedOption {
+    background-color: #E8B86D !important;
+    color: #1D2A30 !important;
+}
