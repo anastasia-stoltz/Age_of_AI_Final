@@ -285,6 +285,11 @@ body {
     line-height: 1.45;
 }
 
+.analysis-page {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px;
+}
 
 /* MOBILE */
 
@@ -453,8 +458,183 @@ body {
     opacity: 1 !important;
 }
 
+.rc-slider-track {
+    background-color: #E8B86D !important;
+}
+
+.rc-slider-handle {
+    border-color: #E8B86D !important;
+    background-color: #F4F1EA !important;
+}
+
+.rc-slider-handle:hover,
+.rc-slider-handle:active,
+.rc-slider-handle:focus {
+    border-color: #E8B86D !important;
+    box-shadow: 0 0 0 3px rgba(232, 184, 109, 0.20) !important;
+}
+
+.rc-slider-rail {
+    background-color: #3A4652 !important;
+}
+
 /* Slider numeric input */
 input[type="number"] {
     color: #1D2A30 !important;
     background-color: #F4F1EA !important;
+}
+
+/* ==================================================
+   MUSIC ACROSS AMERICA
+   ================================================== */
+
+.map-page {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.map-title {
+    max-width: 900px;
+    color: #F4F1EA;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 1.08;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+.map-question {
+    max-width: 850px;
+    color: #F4F1EA;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 14px;
+}
+
+.map-intro-text {
+    max-width: 850px;
+    color: rgba(244, 241, 234, 0.74);
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.map-control-card {
+    background-color: #18222D;
+    border: 1px solid rgba(244, 241, 234, 0.12);
+    border-top: 3px solid #E8B86D;
+    border-radius: 10px;
+    padding: 28px 30px 24px;
+    margin-bottom: 24px;
+}
+
+.map-load-button {
+    margin-top: 24px;
+}
+
+.map-control-note {
+    color: rgba(244, 241, 234, 0.62);
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.map-stat-row {
+    margin-bottom: 24px;
+}
+
+.map-stat-card {
+    height: 100%;
+    background-color: #18222D;
+    border: 1px solid rgba(244, 241, 234, 0.10);
+    border-left: 3px solid #E8B86D;
+    border-radius: 8px;
+    padding: 20px 22px;
+}
+
+.map-stat-label {
+    color: #E8B86D;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+}
+
+.map-stat-value {
+    color: #F4F1EA;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.map-chart-card {
+    background-color: #18222D;
+    border: 1px solid rgba(244, 241, 234, 0.10);
+    border-radius: 10px;
+    padding: 22px;
+    margin-bottom: 24px;
+}
+
+.map-detail-row {
+    margin-top: 4px;
+}
+
+.map-section-title {
+    color: #F4F1EA;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.map-state-summary {
+    color: rgba(244, 241, 234, 0.72);
+    line-height: 1.6;
+    min-height: 52px;
+}
+
+.map-data-note {
+    max-width: 950px;
+    color: rgba(244, 241, 234, 0.70);
+    line-height: 1.65;
+    font-size: 14px;
+    margin: 24px auto 0;
+    padding: 20px 22px;
+    background-color: #18222D;
+    border: 1px solid rgba(244, 241, 234, 0.10);
+    border-radius: 8px;
+}
+
+.map-data-note summary {
+    color: #E8B86D;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.map-data-note a {
+    color: #E8B86D;
+}
+
+@media (max-width: 768px) {
+
+    .map-page {
+        padding-top: 45px;
+    }
+
+    .map-title {
+        font-size: 44px;
+    }
+
+    .map-question {
+        font-size: 21px;
+    }
+
+    .map-control-card,
+    .map-chart-card {
+        padding: 18px;
+    }
 }
