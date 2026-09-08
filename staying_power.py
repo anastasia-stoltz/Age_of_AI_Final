@@ -22,13 +22,13 @@ MIN_CHARTING_SONGS = 2  # exclude one-hit wonders so the ranking stays meaningfu
 # and mirrored on Kaggle. Licensed CC BY-SA: redistribution and adaptation
 # are permitted with attribution and share-alike terms.
 #
-# This is a static CSV, not a live API. Download "Hot Stuff.csv" from the
+# This is a static CSV, not a live API. Download "Hot_Stuff.csv" from the
 # dataset and place it in the project's data/ folder (App_Design_Sound_of_America/data/,
 # a sibling of apis/, assets/, and pages/) - or set BILLBOARD_CSV_PATH in .env to
 # point somewhere else.
 BILLBOARD_CSV_ENV_VAR = "BILLBOARD_CSV_PATH"
 # pages/staying_power.py -> parent is pages/, parent.parent is the app root.
-DEFAULT_BILLBOARD_CSV = Path(__file__).resolve().parent.parent / "data" / "Hot Stuff.csv"
+DEFAULT_BILLBOARD_CSV = Path(__file__).resolve().parent.parent / "data" / "Hot_Stuff.csv"
 BILLBOARD_ATTRIBUTION = (
     "Chart data: Billboard Hot 100 (1958-2021), compiled by Sean Miller / data.world, CC BY-SA."
 )
@@ -42,7 +42,7 @@ def _load_billboard_song_level():
     csv_path = _resolve_billboard_csv_path()
     if not csv_path.exists():
         raise FileNotFoundError(
-            f"[staying_power] Hot Stuff.csv not found at {csv_path}. "
+            f"[staying_power] Hot_Stuff.csv not found at {csv_path}. "
             f"Download it from the Billboard Hot 100 dataset (data.world/Kaggle, CC BY-SA) "
             f"and set {BILLBOARD_CSV_ENV_VAR} or place it at that path."
         )
@@ -62,7 +62,7 @@ def _load_billboard_song_level():
         .drop(columns=["SongID"])
     )
     if song_level.empty:
-        raise ValueError("[staying_power] Hot Stuff.csv produced no usable rows.")
+        raise ValueError("[staying_power] Hot_Stuff.csv produced no usable rows.")
     return song_level
 
 
