@@ -65,7 +65,7 @@ layout = html.Div([
                            className="small-label"),
                     html.H3("Staying Power"),
                     html.P("Compare artists across generations and examine what separates brief popularity from a lasting musical career."),
-                    html.P("Data: Artist longevity metrics",
+                    html.P("Data: Billboard Hot 100",
                            className="source-text"),
                     dbc.Button("Explore Artist Legacy",
                                href="/staying-power",
@@ -99,7 +99,7 @@ layout = html.Div([
                 html.Div([
                     html.P("LEGACY",
                            className="small-label"),
-                    html.H4("Staying Power finding coming soon")
+                    html.H4("Taylor Swift has the highest staying power of any artist, with a composite score of 685.4 — driven by 119 charting songs across 16 years.")
                 ], className="finding-card")
             ], md=4)
         ], className="g-4")

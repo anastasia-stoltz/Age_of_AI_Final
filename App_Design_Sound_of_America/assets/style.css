@@ -179,3 +179,127 @@ body {
     color: #111820 !important;
     background-color: #f4f1ea !important;
 }
+
+/* Genre dropdown reuses .hit-dropdown styling (added via className in
+   music_map.py). This just fills the one gap those rules don't cover:
+   the placeholder text shown before a value is selected. */
+.hit-dropdown [class*="placeholder"] {
+    color: #111820 !important;
+}
+
+/* Year-slider floating tooltip (the bubble above the handle showing the
+   selected year). Confirmed via dev tools inspection: this component
+   uses .dash-slider-tooltip (not the rc-slider classes earlier attempts
+   assumed), with the actual year text in a child div whose id ends in
+   "-content". Separate from the mark labels below the track, which are
+   styled inline via the marks dict in music_map.py. */
+.dash-slider-tooltip {
+    background-color: #ffffff !important;
+    border: 1px solid #1D2A30;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+.dash-slider-tooltip [id$="-content"] {
+    color: #1D2A30 !important;
+    font-weight: 600 !important;
+}
+
+/* ==================================================
+   GLOBAL TABLES
+   ================================================== */
+
+.table,
+.table > :not(caption) > * > * {
+    color: #F4F1EA !important;
+    background-color: transparent !important;
+    border-color: rgba(244, 241, 234, 0.12) !important;
+}
+
+.table thead th {
+    background-color: #1D2A30 !important;
+    color: #E8B86D !important;
+    border-color: rgba(244, 241, 234, 0.18) !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba(244, 241, 234, 0.04) !important;
+    color: #F4F1EA !important;
+}
+
+.table-hover > tbody > tr:hover > * {
+    background-color: rgba(232, 184, 109, 0.10) !important;
+    color: #F4F1EA !important;
+}
+
+/* =========================================
+   GLOBAL DROPDOWN READABILITY
+   ========================================= */
+
+.Select-control {
+    background-color: #F4F1EA !important;
+    color: #1D2A30 !important;
+}
+
+.Select-value-label,
+.Select-placeholder,
+.Select-input > input,
+.Select-arrow-zone,
+.Select-clear-zone {
+    color: #1D2A30 !important;
+}
+
+.Select-menu-outer,
+.Select-menu {
+    background-color: #F4F1EA !important;
+    color: #1D2A30 !important;
+}
+
+.VirtualizedSelectOption {
+    background-color: #F4F1EA !important;
+    color: #1D2A30 !important;
+}
+
+.VirtualizedSelectFocusedOption {
+    background-color: #E8B86D !important;
+    color: #1D2A30 !important;
+}
+
+/* ==================================================
+   FINAL FORM CONTROL READABILITY FIX
+   ================================================== */
+
+/* Newer Dash dcc.Dropdown */
+.dash-dropdown,
+.dash-dropdown * {
+    color: #1D2A30 !important;
+}
+
+/* Selected dropdown value */
+.Select-value,
+.Select-value-label,
+.Select-placeholder,
+.Select-input,
+.Select-input input {
+    color: #1D2A30 !important;
+}
+
+/* Dropdown menu/options */
+.Select-menu-outer,
+.Select-option,
+.VirtualizedSelectOption {
+    color: #1D2A30 !important;
+    background-color: #F4F1EA !important;
+}
+
+/* Slider tick labels */
+.rc-slider-mark-text {
+    color: #F4F1EA !important;
+    opacity: 1 !important;
+}
+
+/* Slider numeric input */
+input[type="number"] {
+    color: #1D2A30 !important;
+    background-color: #F4F1EA !important;
+}
