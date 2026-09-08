@@ -208,9 +208,9 @@ body {
     border-top: 4px solid #E8B86D;
     border-radius: 10px;
     padding: 30px;
-
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 12px 30px rgba(15, 23, 32, 0.14);
-
     transition: 0.2s;
 }
 
@@ -239,7 +239,9 @@ body {
     color: #E8B86D;
 }
 
-
+.project-card .source-text {
+    margin-top: auto;
+}
 .source-text {
     font-size: 13px;
 }
@@ -251,6 +253,7 @@ body {
     color: #E8B86D;
     margin-top: 10px;
     font-weight: bold;
+    align-self: flex-start;
 }
 
 
