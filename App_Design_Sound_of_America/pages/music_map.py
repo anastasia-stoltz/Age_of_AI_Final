@@ -10,12 +10,9 @@ BG = "#0F1720"
 IVORY = "#F4F1EA"
 GOLD = "#E8B86D"
 
-# changed to allow for directory differences
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 df = pd.read_csv(os.path.join(BASE_DIR, "..", "data", "concert_map_data_setlistfm.csv"))
 
-# Keep complete years and classified genres only
-df = df[df["year"] < 2026].copy()
 df = df[~df["genre"].isin(["Unknown", "Other/Uncategorized"])].copy()
 
 years = sorted(df["year"].unique())
