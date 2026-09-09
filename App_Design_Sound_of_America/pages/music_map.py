@@ -64,20 +64,27 @@ layout = html.Div(
                            'marginBottom': '8px'}),
                 html.P(
                     "Concert data comes from setlist.fm, a crowd-sourced archive of "
-                    "real, documented setlists. We queried it state by state and year "
-                    "by year to make sure every state and each year from 2022–2026 is "
-                    "represented, rather than just whatever was most recently added."),
+                    "documented live-performance setlists. The Overall Live Music view "
+                    "uses state-by-year totals to compare activity across all 50 states "
+                    "and selected years."
+                    ),
                 html.P(
-                    "Genres are resolved per artist through a chain of sources "
-                    "(MusicBrainz, Last.fm, Wikidata, and Discogs), then grouped into "
-                    "broad categories like \"Rock\" or \"Electronic/Dance\" so the map "
-                    "stays readable — the underlying data has hundreds of much more "
-                    "specific micro-genres."),
+                    "The Explore by Genre view uses a sample of setlists collected for "
+                    "each state and year. Artist genres were identified through MusicBrainz, "
+                    "Last.fm, Wikidata, and Discogs, then grouped into broad categories. "
+                    "Because this view is sample-based, it represents genre mix rather than "
+                    "the total number of performances."
+                    ),
                 html.P(
-                    "A few honest limitations: not every show that ever happened is in "
-                    "setlist.fm, coverage is a sample rather than a full census, and "
-                    "some artists' genres couldn't be resolved by any source and are "
-                    "grouped as \"Unknown\" or \"Other/Uncategorized.\""),
+                    "Setlist.fm does not document every concert, so these results should "
+                    "not be interpreted as a complete census of live music. Some artists "
+                    "could not be reliably classified and appear as \"Unknown\" or \"Other.\""
+                    ),
+                html.P(
+                    "Data was last retrieved from the setlist.fm API on September 8, 2026, "
+                    "and cached locally to improve dashboard speed and comply with API "
+                    "request limits. Because setlist.fm is continually updated, the dataset "
+                    "requires periodic refreshes. Data for 2026 represents the year to date."),
             ]),
     ]
 )
