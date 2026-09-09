@@ -386,9 +386,9 @@ Example placeholder:
 
 python tests/state_coverage_test.py
 
-Render Deployment
+## Render Deployment
 
-The final project is intended to be deployed as a Render Web Service.
+The final project is deployed as a Render Web Service.
 
 Use the following configuration:
 
@@ -406,11 +406,11 @@ gunicorn app:server --bind 0.0.0.0:$PORT
 
 Instance Type: Free
 
-app.py already exposes the Flask server through:
+app.py exposes the Flask server through:
 
 server = app.server
 
-Final deployment status: [ADD RENDER URL AND DATE VERIFIED]
+Final deployment status: https://age-of-ai-final.onrender.com/ — verified September 9, 2026.
 
 Known Limitations
 
