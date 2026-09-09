@@ -458,3 +458,142 @@ input[type="number"] {
     color: #1D2A30 !important;
     background-color: #F4F1EA !important;
 }
+
+/* ==================================================
+   MUSIC ACROSS AMERICA — GENRE-FOCUSED FINAL
+   ================================================== */
+
+.map-page {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 65px 40px;
+}
+
+.map-question {
+    max-width: 850px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.map-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+
+    background-color: #18222D;
+    border: 1px solid rgba(244, 241, 234, 0.12);
+    border-top: 3px solid #E8B86D;
+    border-radius: 10px;
+
+    padding: 24px;
+    margin: 30px 0;
+}
+
+.map-controls label {
+    display: block;
+    color: #F4F1EA;
+    font-weight: bold;
+    margin: 16px 0 8px;
+}
+
+.map-control-item label {
+    display: block;
+    color: #F4F1EA;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.map-controls label:first-child {
+    margin-top: 0;
+}
+
+.map-summary {
+    color: rgba(244, 241, 234, 0.80);
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 8px 0 20px;
+}
+
+.map-panel {
+    background-color: #18222D;
+    border: 1px solid rgba(244, 241, 234, 0.12);
+    border-left: 4px solid #E8B86D;
+    border-radius: 10px;
+
+    padding: 26px;
+    margin-top: 30px;
+}
+
+.map-panel h3 {
+    color: #F4F1EA;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-bottom: 8px;
+}
+
+.map-state-description {
+    color: rgba(244, 241, 234, 0.72);
+    margin-bottom: 10px;
+}
+
+.map-data-note {
+    color: rgba(244, 241, 234, 0.76);
+    line-height: 1.6;
+    margin-top: 30px;
+}
+
+.map-data-note summary {
+    color: #E8B86D;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.map-page .source-text a {
+    color: #E8B86D;
+}
+
+/* Keep radio controls readable anywhere else in the app. */
+input[type="radio"] {
+    accent-color: #E8B86D;
+}
+
+.map-radio label {
+    color: #F4F1EA !important;
+}
+
+@media (max-width: 768px) {
+
+    .map-page {
+        padding: 45px 20px;
+    }
+
+    .map-question {
+        font-size: 21px;
+    }
+
+    .map-controls {
+        grid-template-columns: 1fr;
+    }
+}
+
+.rc-slider-track {
+    background-color: #E8B86D !important;
+}
+
+.rc-slider-rail {
+    background-color: #3A4652 !important;
+}
+
+.rc-slider-handle {
+    background-color: #F4F1EA !important;
+    border-color: #E8B86D !important;
+}
+
+.rc-slider-handle:hover,
+.rc-slider-handle:active,
+.rc-slider-handle:focus {
+    border-color: #E8B86D !important;
+    box-shadow: 0 0 0 3px rgba(232, 184, 109, 0.20) !important;
+}
