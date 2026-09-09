@@ -95,8 +95,7 @@ layout = html.Div(
                     "documented live-performance setlists."
                 ),
                 html.P(
-                    "This page keeps the team's existing sampled Setlist.fm records and "
-                    "genre-enrichment work. Artist genres were identified through "
+                    "Artist genres were identified through "
                     "MusicBrainz, Last.fm, Wikidata, and Discogs, then grouped into broad categories."
                 ),
                 html.P(
