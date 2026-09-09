@@ -68,8 +68,6 @@ The current prepared map dataset covers 2022–2026 and contains 3,539 data rows
 
 The map should be interpreted as a view of documented Setlist.fm activity, not as a complete census of every concert that occurred in the United States. Setlist.fm is crowd-sourced, so coverage varies by artist, location, and time.
 
-# Current development task: before final submission, verify that rows are aggregated to one state-level value per selected broad genre and year before the choropleth is drawn.
-
 Lifespan of a Hit
 
 This page compares historical Billboard Hot 100 chart behavior across selected years. The current implementation samples three comparable chart weeks — April, July, and October — for each benchmark year from 1985 through 2025.
@@ -186,8 +184,6 @@ normalizes detailed music genres into broader map categories;
 retains an Unknown/Other category when genre resolution is incomplete;
 
 uses cached web requests in the Lifespan page to avoid repeatedly downloading the same Billboard chart JSON during one app session.
-
-# Before final submission, the team should document any additional cleaning completed after this README draft and verify key values against the underlying files.
 
 Data Dictionary
 
@@ -426,46 +422,16 @@ The Staying Power Score is a custom index. Its weights are team choices rather t
 
 Historical Billboard coverage differs between pages. The Staying Power dataset currently ends in 2021, while the Lifespan page retrieves selected chart dates through 2025.
 
-# [ADD ANY ADDITIONAL LIMITATION DISCOVERED DURING FINAL QA.]
 
 # Current Final-Project Checklist
-
-Multi-page Dash structure
-
-Home page and shared navigation
-
-Shared visual theme / CSS
-
-U.S. choropleth visualization
-
-Billboard time-series visualizations
-
-Artist-ranking bar chart and table
-
-External data sources
-
-User controls on all analysis pages
-
-requirements.txt
-
-Basic data-pipeline tests
 
 ===============================================================
         # TO DO
 ================================================================  
-Verify map state-level aggregation for each selected year/genre
 
-Confirm at least 4 callback decorators across the final integrated app
+U.S. choropleth visualization
 
-Replace Home page finding placeholders with verified findings
-
-Complete final integration and cross-page style QA
-
-Verify every source/attribution and licensing statement
-
-Complete AI Usage Appendix/comments
-
-Deploy to Render and verify the public URL
+Fixing years aggregation for music map
 
 Add final poster screenshots and final presentation finding
 
