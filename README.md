@@ -20,7 +20,7 @@ The dashboard is designed for music fans and curious users who want to explore p
 
 Live App
 
-## Render: [ADD LIVE RENDER URL AFTER DEPLOYMENT]
+## Render: https://age-of-ai-final.onrender.com/
 
 GitHub repository: https://github.com/anastasia-stoltz/Age_of_AI_Final
 
@@ -51,8 +51,6 @@ Testing, documentation, poster, and final QA: Anastaia Stolz, Christian Fannell,
 Home
 
 The landing page introduces the project as an interactive music atlas and organizes the app around three perspectives: Place, Time, and Legacy. It also provides navigation to each analysis page and will eventually display one headline finding from each analysis.
-
-# Final-home-page task: replace the three "finding coming soon" cards with verified results from the completed analyses.
 
 Music Across America
 
