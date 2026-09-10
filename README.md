@@ -1,415 +1,345 @@
-## The Sound of America ##
+# The Sound of America
 
-The Sound of America is a multi-page Dash application that explores how American music changes across place, time, and artists. The project combines live-performance geography with historical Billboard chart data to let users explore where live music is documented, how long hit songs stay on the charts, and which artists have demonstrated the greatest long-term chart presence.
+**The Sound of America** is a multi-page Dash application that explores how American popular music changes across **place, time, and legacy**. The project combines documented live-performance data with historical Billboard chart data so users can explore where genres appear in live-music samples, how long hit songs remain on the charts, and which artists demonstrate the strongest long-term chart presence.
 
-## Project Question ##
+## Project Question
 
-How does American music change across place, time, and artists?
+**How does American music change across place, time, and artists?**
 
 The dashboard approaches that question through three connected views:
 
-Place — Music Across America: Where are different genres of live music documented across the United States, and how does that pattern change by year?
+1. **Place — Music Across America:** How does the genre mix of documented live music differ across U.S. states, and how does it change by year?
+2. **Time — Lifespan of a Hit:** How has the amount of time a Billboard Hot 100 hit remains on the chart changed across eras?
+3. **Legacy — Artist Staying Power:** Which artists demonstrate the strongest long-term chart presence when success is measured across multiple dimensions?
 
-Time — Lifespan of a Hit: How has the amount of time a Billboard Hot 100 hit remains on the chart changed across eras?
+## Audience and Value
 
-Legacy — Artist Staying Power: Which artists demonstrate the strongest long-term chart presence when success is measured across multiple dimensions?
+The dashboard is designed for **music fans and data-curious listeners who want to explore patterns in American popular music without working directly with raw music-industry datasets**. Instead of presenting one static analysis, the app lets users change genres, years, comparison periods, and ranking measures to investigate the data themselves.
 
-Audience and Value
+## Live App
 
-The dashboard is designed for music fans and curious users who want to explore patterns in American popular music without needing to work directly with raw music-industry datasets. Instead of presenting one static analysis, the app lets users change genres, years, comparison periods, and ranking measures to investigate the data themselves.
+**Render:** https://age-of-ai-final.onrender.com
 
-Live App
+**GitHub repository:** https://github.com/anastasia-stoltz/Age_of_AI_Final
 
-## Render: https://age-of-ai-final.onrender.com/
+## Team
 
-GitHub repository: https://github.com/anastasia-stoltz/Age_of_AI_Final
+**Team One**
 
-Team One
+- Christian Fannell
+- Tracy Frey
+- Sean McElwain
+- Anastasia Stoltz
 
-Christian Fannell
+### Team Contributions
 
-Tracy Frey
+The project was completed collaboratively across several workstreams:
 
-Sean McElwain
+- Home page, navigation, shared visual design, app integration, and deployment;
+- Setlist.fm data collection, genre enrichment, and Music Across America development;
+- Lifespan of a Hit analysis and page development;
+- Artist Staying Power analysis and page development;
+- testing, documentation, poster preparation, and final quality assurance.
 
-Anastasia Stoltz
-
-Team Contributions
-
-Home page, navigation, shared design, Music Across America integration, final app integration, and Render deployment: Christian Fannell, Anastasia Stoltz
-
-Lifespan of a Hit analysis/page: Tracy Frey
-
-Artist Staying Power analysis/page: Sean McElwain
-
-Setlist.fm data collection and genre-enrichment pipeline: Anastasia Stoltz
-
-Testing, documentation, poster, and final QA: Anastaia Stolz, Christian Fannell, Sean McElwain and Tracy Frey
+Individual participation is also documented through the course group-participation process.
 
 ## Application Pages
 
-Home
+### Home
 
-The landing page introduces the project as an interactive music atlas and organizes the app around three perspectives: Place, Time, and Legacy. It also provides navigation to each analysis page and will eventually display one headline finding from each analysis.
+The landing page introduces the project as an interactive music atlas and organizes the app around three perspectives: **Place, Time, and Legacy**. It connects the three analyses into one shared story and provides navigation to each interactive page.
 
-Music Across America
+### Music Across America
 
-This page displays an interactive U.S. choropleth based on prepared Setlist.fm concert/setlist data. Users can:
+This page uses prepared Setlist.fm data to show how the **genre mix within the collected sample** differs across U.S. states.
 
-select a broad music genre;
+Users can:
 
-move across available years with a year slider;
+- select a broad music genre;
+- move across available years with a year slider;
+- compare within-state genre shares on a U.S. choropleth;
+- hover over states to inspect the selected genre's share and sample counts;
+- click a state to view its leading genre categories in a state sound profile.
 
-compare geographic patterns across U.S. states;
+Darker gold means the selected genre accounts for a larger share of that state's **genre-identified setlists** in the chosen year.
 
-hover over states to inspect documented show counts.
+The prepared data cover **2022–2026**. Because 2026 is a partial year, the page defaults to the most recent complete year when 2026 is present. State/year samples are relatively small, so individual percentages should be interpreted as suggestive rather than statistically precise.
 
-The current prepared map dataset covers 2022–2026 and contains 3,539 data rows plus a header, with five fields: year, state, broad genre, detailed genre, and event count.
+The map should **not** be interpreted as a complete census of concerts or as a measure of listener preference.
 
-The map should be interpreted as a view of documented Setlist.fm activity, not as a complete census of every concert that occurred in the United States. Setlist.fm is crowd-sourced, so coverage varies by artist, location, and time.
+### Lifespan of a Hit
 
-Lifespan of a Hit
-
-This page compares historical Billboard Hot 100 chart behavior across selected years. The current implementation samples three comparable chart weeks — April, July, and October — for each benchmark year from 1985 through 2025.
+This page compares historical Billboard Hot 100 chart behavior across selected benchmark years. The implementation samples three comparable chart weeks — April, July, and October — for each benchmark year from **1985 through 2025**.
 
 Users choose two years and the page updates:
 
-average weeks on the Hot 100;
+- average weeks on the Hot 100;
+- average weeks on chart for songs currently occupying the Top 10;
+- average number of unique artists represented;
+- a historical hit-lifespan trend chart;
+- an artist-variety trend chart;
+- a written comparison generated from the selected years.
 
-average weeks on chart for songs currently in the Top 10;
+Because the page samples three weeks per benchmark year rather than every weekly chart, its findings should be interpreted as patterns in the selected comparable samples rather than a complete census of every Hot 100 week.
 
-average number of unique artists represented;
+### Artist Staying Power
 
-a historical lifespan trend chart;
+This page aggregates historical Billboard Hot 100 performance by artist and allows users to change both the **ranking measure** and the **number of artists displayed**.
 
-an artist-variety trend chart;
+Available measures include:
 
-a written comparison generated from the selected years.
+- Staying Power Score;
+- distinct charting songs;
+- total chart weeks;
+- Top 10 hits;
+- number-one hits;
+- career span in years.
 
-Because this page samples three weeks per benchmark year rather than every weekly chart, its findings should be described as patterns in the selected comparable samples rather than a complete census of every Hot 100 week.
-
-Artist Staying Power
-
-This page aggregates Billboard Hot 100 history by artist and allows users to rank artists using several measures:
-
-Staying Power Score;
-
-distinct charting songs;
-
-total chart weeks;
-
-Top 10 hits;
-
-number-one hits;
-
-career span in years.
-
-Artists with only one charting song are excluded from the ranking so the page focuses on repeated chart presence rather than one-hit appearances.
+Artists with only one charting song are excluded so the ranking focuses on repeated chart presence.
 
 The project-created Staying Power Score is:
 
+```text
 Staying Power Score =
     1.5 × Distinct Charting Songs
   + 0.35 × Total Chart Weeks
   + 4 × Top 10 Hits
   + 5 × Number-One Hits
   + 1.2 × Career Span in Years
+```
 
-This is a team-designed composite measure, not an official Billboard metric. Its weights are analytical choices and should be explained as such.
+This is a **team-designed composite measure**, not an official Billboard metric. Its weights are analytical choices and are shown in the dashboard so users can understand how the score is constructed.
 
-Data Sources
+## Key Findings
 
-1. Setlist.fm
+### Place — Music Across America
 
-Use in project: live-performance geography and documented setlists by state/year.
+The sampled live-music data show that **genre mix varies meaningfully across states rather than following one uniform national pattern**. The state profile interaction makes those differences visible, while the page's sample-size note makes clear that individual state percentages are exploratory rather than population-level estimates.
 
-Source: https://api.setlist.fm/docs/
+### Time — Lifespan of a Hit
 
-Format: REST API returning JSON during data collection; prepared CSV used by the dashboard.
+Songs occupying the Billboard Hot 100 Top 10 in **2025 had been on the chart for an average of 32.57 weeks, compared with 10.93 weeks in 1990 — nearly three times longer**.
 
-Current app file: App_Design_Sound_of_America/data/concert_map_data_setlistfm.csv
+Across the same comparison, the average number of unique artists appearing in the sampled Hot 100 charts fell from **91.0 to 71.33**, a decrease of approximately **21.6%**.
 
-Important limitation: Setlist.fm is crowd-sourced. Counts represent documented records rather than every concert that occurred.
+### Legacy — Staying Power
 
-2. MusicBrainz and Genre-Enrichment Sources
+Under the dashboard's composite **Staying Power Score**, **Taylor Swift ranks first at 685.4**, followed by **Madonna at 615.9** and **The Beatles at 568.9**. Because the score combines chart volume, longevity, Top 10 hits, number-one hits, and career span, it rewards sustained chart presence rather than a single peak.
 
-Artist genre information used in the map-preparation workflow is enriched through several sources where available:
+## Data Sources
 
-MusicBrainz: https://musicbrainz.org/doc/MusicBrainz_API
+### 1. Setlist.fm
 
-Last.fm API: https://www.last.fm/api
+- **Use in project:** documented live-performance geography and setlists by state/year.
+- **Source:** https://api.setlist.fm/docs/
+- **Format:** REST API returning JSON during data collection; prepared CSV used by the dashboard.
+- **Dashboard file:** `App_Design_Sound_of_America/data/concert_map_data_setlistfm.csv`
+- **Important limitation:** Setlist.fm is crowd-sourced. The data represent documented records rather than every concert that occurred.
 
-Wikidata SPARQL: https://query.wikidata.org/
+### 2. MusicBrainz and Genre-Enrichment Sources
 
-Discogs API: https://www.discogs.com/developers
+Artist genre information used in the map-preparation workflow was enriched through several metadata sources where available:
 
-Genres are normalized into broader categories so the map remains usable. Some artists cannot be confidently classified and may appear as Unknown or Other/Uncategorized.
+- MusicBrainz: https://musicbrainz.org/doc/MusicBrainz_API
+- Last.fm API: https://www.last.fm/api
+- Wikidata SPARQL: https://query.wikidata.org/
+- Discogs API: https://www.discogs.com/developers
 
-3. Billboard Hot 100 JSON Archive
+Detailed genre labels are grouped into broader dashboard categories so the map remains readable. Artists whose genre could not be resolved are not treated as a known genre when the page calculates the displayed genre shares.
 
-Use in project: Lifespan of a Hit.
+### 3. Billboard Hot 100 JSON Archive
 
-Source used in code: https://github.com/mhollingshead/billboard-hot-100
+- **Use in project:** Lifespan of a Hit.
+- **Source used in code:** https://github.com/mhollingshead/billboard-hot-100
+- **Format:** JSON files retrieved programmatically with `requests`.
+- **Analysis period:** benchmark years from 1985–2025 using three comparable chart dates per year.
 
-Format: JSON files retrieved programmatically with requests.
+### 4. Billboard Hot 100 Historical CSV
 
-Current analysis period: benchmark years from 1985–2025, using three comparable chart dates per year.
+- **Use in project:** Artist Staying Power.
+- **Dataset:** Billboard Hot 100 history compiled by Sean Miller / data.world.
+- **Dashboard file:** `App_Design_Sound_of_America/data/Hot_Stuff.csv`
+- **Coverage used by the page:** 1958–2021.
+- **Attribution stated in code:** CC BY-SA.
 
-4. Billboard Hot 100 Historical CSV
-
-Use in project: Artist Staying Power.
-
-Dataset: Billboard Hot 100 history compiled by Sean Miller / data.world.
-
-Current app file: App_Design_Sound_of_America/data/Hot_Stuff.csv
-
-Coverage used by the page: 1958–2021.
-
-Attribution stated in code: CC BY-SA.
-
-Data Cleaning and Transformation
+## Data Cleaning and Transformation
 
 The project performs several transformations before visualization:
 
-strips and standardizes artist names where needed;
+- strips and standardizes artist names where needed;
+- converts Billboard chart dates to usable year fields;
+- aggregates weekly Billboard observations to song-level records for Staying Power;
+- aggregates song-level records to artist-level measures;
+- normalizes detailed artist genre labels into broader map categories;
+- uses fallback metadata sources when primary genre information is unavailable;
+- excludes unresolved/uncategorized genre records from the denominator used for the displayed genre-share map;
+- aggregates state/year/genre records before visualization;
+- caches repeated Billboard JSON requests during an app session;
+- includes safeguards for empty map selections and state/year combinations.
 
-converts chart dates to years;
+## Data Dictionary
 
-aggregates weekly Billboard observations to song-level records for Staying Power;
+### `concert_map_data_setlistfm.csv`
 
-aggregates song-level records to artist-level metrics;
+| Variable | Type | Description |
+|---|---|---|
+| `year` | Integer | Year associated with the documented live-performance records. |
+| `state` | String | Two-letter U.S. state code used by the choropleth. |
+| `genre` | String | Genre label used by the dashboard filter. |
+| `genre_detailed` | String | More specific genre/tag retained from the enrichment process. |
+| `event_count` | Integer | Number of sampled documented records associated with that grouping. |
 
-normalizes detailed music genres into broader map categories;
+### `Hot_Stuff.csv` — fields used by Staying Power
 
-retains an Unknown/Other category when genre resolution is incomplete;
-
-uses cached web requests in the Lifespan page to avoid repeatedly downloading the same Billboard chart JSON during one app session.
-
-Data Dictionary
-
-concert_map_data_setlistfm.csv
-
-Variable
-
-Type
-
-Description
-
-year
-
-Integer
-
-Year of the documented live-performance records.
-
-state
-
-String
-
-Two-letter U.S. state code used by the choropleth.
-
-genre
-
-String
-
-Broad normalized genre category used by the dashboard filter.
-
-genre_detailed
-
-String
-
-More specific genre/tag retained from the enrichment process.
-
-event_count
-
-Integer
-
-Number of prepared documented events associated with that row.
-
-Hot_Stuff.csv — fields used by Staying Power
-
-Variable
-
-Description
-
-Performer
-
-Artist/performer name.
-
-SongID
-
-Song identifier in the historical dataset.
-
-Song
-
-Song title.
-
-WeekID
-
-Weekly chart date.
-
-Peak Position
-
-Best chart position achieved by the song.
-
-Weeks on Chart
-
-Number of Hot 100 weeks recorded for the song observation.
+| Variable | Description |
+|---|---|
+| `Performer` | Artist/performer name. |
+| `SongID` | Song identifier in the historical dataset. |
+| `Song` | Song title. |
+| `WeekID` | Weekly chart date. |
+| `Peak Position` | Best chart position achieved by the song. |
+| `Weeks on Chart` | Number of Hot 100 weeks recorded for the song observation. |
 
 The Staying Power page transforms these fields into artist-level measures including distinct songs, total chart weeks, Top 10 hits, number-one hits, first/last chart year, career span, and the custom Staying Power Score.
 
-Billboard JSON — fields used by Lifespan of a Hit
+### Billboard JSON — fields used by Lifespan of a Hit
 
-Variable
+| Variable | Description |
+|---|---|
+| `date` | Billboard chart date. |
+| `artist` | Artist credited on the chart entry. |
+| `weeks_on_chart` | Number of weeks the song has appeared on the Hot 100 as of that chart date. |
 
-Description
-
-date
-
-Billboard chart date.
-
-artist
-
-Artist credited on the chart entry.
-
-weeks_on_chart
-
-Number of weeks the song has appeared on the Hot 100 as of that chart date.
-
-The analysis also uses chart ordering to examine the songs currently occupying the Top 10.
-
+The analysis also uses chart order to identify the songs occupying the Top 10 in each sampled week.
 
 ## Local Setup
 
-1. Clone the repository
+### 1. Clone the repository
 
+```bash
 git clone https://github.com/anastasia-stoltz/Age_of_AI_Final.git
 cd Age_of_AI_Final/App_Design_Sound_of_America
+```
 
-2. Create or activate a Python environment
+### 2. Create and activate a virtual environment
 
-Use your preferred Python environment. The project was developed with Python and Dash in VS Code.
+Windows PowerShell:
 
-3. Install dependencies
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
 
-pip install -r requirements.txt
+macOS/Linux:
 
-The pinned dependencies currently include Dash, Dash Bootstrap Components, pandas, Plotly, requests, python-dotenv, and gunicorn.
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
-4. Run the app
+### 3. Install dependencies
 
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Run the app
+
+```bash
 python app.py
+```
 
 Open the local address shown in the terminal, normally:
 
+```text
 http://127.0.0.1:8050/
+```
 
-Environment Variables
+## Environment Variables
 
-The committed dashboard can run from the prepared data files without exposing API credentials. API keys used to regenerate or enrich data should be stored in a local .env file or as deployment environment variables and must not be committed to GitHub.
+The committed dashboard can run from the prepared data files without exposing API credentials. API keys used to regenerate or enrich data should be stored in a local `.env` file or as deployment environment variables and **must not be committed to GitHub**.
 
-Possible development variables include:
+Development variables used by the data-collection/enrichment workflow may include:
 
+```text
 LASTFM_API_KEY=...
 DISCOGS_API_KEY=...
 SETLISTFM_API_KEY=...
 BILLBOARD_CSV_PATH=...   # optional path override for Staying Power
+```
 
-Only include variables that the current data-collection workflow actually requires. .env, __pycache__/, and *.pyc are excluded by .gitignore.
+`.env`, `__pycache__/`, and `*.pyc` are excluded by `.gitignore`.
 
-Testing
+## Requirements
 
-The repository currently includes feasibility and coverage tests for the data pipeline, including:
+The pinned dependencies are stored in:
 
-Billboard data testing;
+`App_Design_Sound_of_America/requirements.txt`
 
-genre coverage;
+They include:
 
-state coverage;
+- Dash
+- Dash Bootstrap Components
+- gunicorn
+- pandas
+- Plotly
+- python-dotenv
+- requests
 
-enrichment-pipeline smoke testing;
+## Testing and Validation
 
-Wikidata rescue logic.
+The repository includes development tests and validation scripts for:
 
-Before final submission: [ADD THE EXACT COMMAND(S) USED TO RUN THE FINAL TEST SUITE AND THE FINAL RESULT.]
+- Billboard data behavior;
+- enrichment-pipeline smoke testing;
+- genre coverage;
+- state coverage;
+- Wikidata fallback/rescue logic.
 
-Example placeholder:
-
-python tests/state_coverage_test.py
+The final app was also reviewed through manual interaction testing, including page navigation, dropdown/slider changes, map updates, state-click behavior, chart rendering, file paths, and deployment behavior.
 
 ## Render Deployment
 
-The final project is deployed as a Render Web Service.
+The project is configured as a Render Web Service.
 
-Use the following configuration:
+- **Live app:** https://age-of-ai-final.onrender.com
+- **Branch:** `main`
+- **Root Directory:** `App_Design_Sound_of_America`
+- **Build Command:** `pip install -r requirements.txt`
+- **Start Command:** `gunicorn app:server --bind 0.0.0.0:$PORT`
 
-Root Directory: App_Design_Sound_of_America
+`app.py` exposes the Flask server through:
 
-Branch: main
-
-Build Command:
-
-pip install -r requirements.txt
-
-Start Command:
-
-gunicorn app:server --bind 0.0.0.0:$PORT
-
-Instance Type: Free
-
-app.py exposes the Flask server through:
-
+```python
 server = app.server
+```
 
-Final deployment status: https://age-of-ai-final.onrender.com/ — verified September 9, 2026.
+## Known Limitations
 
-Known Limitations
+- **Setlist.fm coverage is incomplete and crowd-sourced.** The map represents documented setlists, not every live performance that occurred.
+- **State/year samples are small.** A small number of documented performances can move a state's genre share substantially.
+- **Genre classification is imperfect.** Some artists have missing, ambiguous, or multiple genre labels.
+- **Broad genre categories simplify musical complexity.** They are useful for mapping but should not be interpreted as definitive artist identities.
+- **Lifespan of a Hit samples three chart weeks per benchmark year.** It does not analyze every weekly Hot 100 chart between 1985 and 2025.
+- **The Staying Power Score is a custom index.** Its weights are team choices rather than an industry-standard measure.
+- **Historical Billboard coverage differs between pages.** Staying Power currently uses the historical CSV through 2021, while Lifespan of a Hit retrieves selected chart dates through 2025.
 
-Setlist.fm coverage is incomplete and crowd-sourced. The map represents documented setlists, not every live performance that occurred.
+## AI Assistance
 
-Genre classification is imperfect. Some artists have missing, ambiguous, or multiple genre labels, requiring normalization and fallback sources.
+Generative AI was used as an assistive tool for selected design, debugging, data-interpretation review, documentation, and deployment tasks. AI output was reviewed, edited, tested, and either incorporated or discarded by the team.
 
-Broad genre categories simplify musical complexity. They are useful for mapping but should not be interpreted as definitive artist identities.
+See **[AI Usage Appendix](AI_USAGE.md)** for the tools used, representative high-level prompts, where AI assistance was applied, and how outputs were verified.
 
-Lifespan of a Hit samples three chart weeks per benchmark year. It does not analyze every weekly Hot 100 chart between 1985 and 2025.
-
-The Staying Power Score is a custom index. Its weights are team choices rather than an industry-standard measure.
-
-Historical Billboard coverage differs between pages. The Staying Power dataset currently ends in 2021, while the Lifespan page retrieves selected chart dates through 2025.
-
-## AI Assistance: 
-See AI_USAGE.md for the tools used, representative prompt types,
-where AI assistance was applied, and how outputs were reviewed and verified.
-
-# Key Findings
-
-Place — Music Across America
-
-In the 2025 Setlist.fm sample, Mississippi had the highest sampled Rock share at 58.8% of its genre-identified setlists. This reflects the composition of the collected sample rather than total concert activity or statewide listener preference.
-
-Time — Lifespan of a Hit
-
-Songs occupying the Billboard Hot 100 Top 10 in 2025 had been on the chart for an average of 32.57 weeks, compared with 10.93 weeks in 1990 — nearly three times longer. Over the same comparison, the average number of unique artists appearing across the Hot 100 fell from 91.0 to 71.33, a decrease of about 21.6%.
-
-Legacy — Staying Power
-
-Under the dashboard's composite Staying Power Score, Taylor Swift ranks first at 685.4, followed by Madonna at 615.9 and The Beatles at 568.9. Because the ranking combines chart volume, longevity, Top 10 hits, number-one hits, and career span, it rewards sustained success rather than a single peak.
-
-Future Improvements
+## Future Improvements
 
 Possible extensions include:
 
-a click-a-state interaction that reveals a state-level genre trend over time;
+- expand and refresh the live-music sample;
+- improve genre-classification coverage and validation;
+- analyze a more complete set of historical Billboard chart weeks;
+- investigate factors that may be associated with longer modern chart lifespans;
+- allow users to adjust the Staying Power Score weights as a scenario-analysis feature.
 
-population normalization for live-performance counts;
+## Attribution
 
-additional validation of genre assignments;
-
-more complete historical Billboard sampling;
-
-adjustable weights for the Staying Power Score;
-
-richer cross-page storytelling connecting geography, chart longevity, and artist legacy.
-
-Attribution
-
-This project is an academic, non-commercial student project. Data and metadata remain subject to the terms and licenses of their original sources. The dashboard should retain visible attribution for Setlist.fm and the Billboard datasets, and any additional attribution required by MusicBrainz, Last.fm, Wikidata, or Discogs where those sources contribute to displayed data.
+This project is an academic, non-commercial student project. Data and metadata remain subject to the terms and licenses of their original sources. The dashboard retains source attribution and describes important limitations so results are interpreted in the context of the underlying data.
