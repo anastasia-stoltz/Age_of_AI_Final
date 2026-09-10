@@ -41,8 +41,6 @@ The project was completed collaboratively across several workstreams:
 - Artist Staying Power analysis and page development;
 - testing, documentation, poster preparation, and final quality assurance.
 
-Individual participation is also documented through the course group-participation process.
-
 ## Application Pages
 
 ### Home
@@ -51,7 +49,7 @@ The landing page introduces the project as an interactive music atlas and organi
 
 ### Music Across America
 
-This page uses prepared Setlist.fm data to show how the **genre mix within the collected sample** differs across U.S. states.
+This page uses prepared Setlist.fm data to show how the genre mix within the collected sample differs across U.S. states.
 
 Users can:
 
@@ -61,9 +59,9 @@ Users can:
 - hover over states to inspect the selected genre's share and sample counts;
 - click a state to view its leading genre categories in a state sound profile.
 
-Darker gold means the selected genre accounts for a larger share of that state's **genre-identified setlists** in the chosen year.
+Darker gold means the selected genre accounts for a larger share of that state's genre-identified setlists in the chosen year.
 
-The prepared data cover **2022–2026**. Because 2026 is a partial year, the page defaults to the most recent complete year when 2026 is present. State/year samples are relatively small, so individual percentages should be interpreted as suggestive rather than statistically precise.
+The prepared data cover 2022–2026**. Because 2026 is a partial year, the page defaults to the most recent complete year when 2026 is present. State/year samples are relatively small, so individual percentages should be interpreted as suggestive rather than statistically precise.
 
 The map should **not** be interpreted as a complete census of concerts or as a measure of listener preference.
 
@@ -108,23 +106,23 @@ Staying Power Score =
   + 1.2 × Career Span in Years
 ```
 
-This is a **team-designed composite measure**, not an official Billboard metric. Its weights are analytical choices and are shown in the dashboard so users can understand how the score is constructed.
+This is a team-designed composite measure, not an official Billboard metric. Its weights are analytical choices and are shown in the dashboard so users can understand how the score is constructed.
 
 ## Key Findings
 
 ### Place — Music Across America
 
-The sampled live-music data show that **genre mix varies meaningfully across states rather than following one uniform national pattern**. The state profile interaction makes those differences visible, while the page's sample-size note makes clear that individual state percentages are exploratory rather than population-level estimates.
+The sampled live-music data show that genre mix varies meaningfully across states rather than following one uniform national pattern. The state profile interaction makes those differences visible, while the page's sample-size note makes clear that individual state percentages are exploratory rather than population-level estimates.
 
 ### Time — Lifespan of a Hit
 
-Songs occupying the Billboard Hot 100 Top 10 in **2025 had been on the chart for an average of 32.57 weeks, compared with 10.93 weeks in 1990 — nearly three times longer**.
+Songs occupying the Billboard Hot 100 Top 10 in 2025 had been on the chart for an average of 32.57 weeks, compared with 10.93 weeks in 1990 — nearly three times longer.
 
-Across the same comparison, the average number of unique artists appearing in the sampled Hot 100 charts fell from **91.0 to 71.33**, a decrease of approximately **21.6%**.
+Across the same comparison, the average number of unique artists appearing in the sampled Hot 100 charts fell from 91.0 to 71.33, a decrease of approximately 21.6%.
 
 ### Legacy — Staying Power
 
-Under the dashboard's composite **Staying Power Score**, **Taylor Swift ranks first at 685.4**, followed by **Madonna at 615.9** and **The Beatles at 568.9**. Because the score combines chart volume, longevity, Top 10 hits, number-one hits, and career span, it rewards sustained chart presence rather than a single peak.
+Under the dashboard's composite Staying Power Score, Taylor Swift ranks first at 685.4, followed by Madonna at 615.9 and The Beatles at 568.9. Because the score combines chart volume, longevity, Top 10 hits, number-one hits, and career span, it rewards sustained chart presence rather than a single peak.
 
 ## Data Sources
 
@@ -151,14 +149,14 @@ Detailed genre labels are grouped into broader dashboard categories so the map r
 
 - **Use in project:** Lifespan of a Hit.
 - **Source used in code:** https://github.com/mhollingshead/billboard-hot-100
-- **Format:** JSON files retrieved programmatically with `requests`.
+- **Format:** JSON files retrieved programmatically with requests.
 - **Analysis period:** benchmark years from 1985–2025 using three comparable chart dates per year.
 
 ### 4. Billboard Hot 100 Historical CSV
 
 - **Use in project:** Artist Staying Power.
 - **Dataset:** Billboard Hot 100 history compiled by Sean Miller / data.world.
-- **Dashboard file:** `App_Design_Sound_of_America/data/Hot_Stuff.csv`
+- **Dashboard file:** App_Design_Sound_of_America/data/Hot_Stuff.csv
 - **Coverage used by the page:** 1958–2021.
 - **Attribution stated in code:** CC BY-SA.
 
@@ -192,7 +190,6 @@ The project performs several transformations before visualization:
 ### `Hot_Stuff.csv` — fields used by Staying Power
 
 | Variable | Description |
-|---|---|
 | `Performer` | Artist/performer name. |
 | `SongID` | Song identifier in the historical dataset. |
 | `Song` | Song title. |
@@ -205,7 +202,6 @@ The Staying Power page transforms these fields into artist-level measures includ
 ### Billboard JSON — fields used by Lifespan of a Hit
 
 | Variable | Description |
-|---|---|
 | `date` | Billboard chart date. |
 | `artist` | Artist credited on the chart entry. |
 | `weeks_on_chart` | Number of weeks the song has appeared on the Hot 100 as of that chart date. |
@@ -322,13 +318,13 @@ server = app.server
 - **Broad genre categories simplify musical complexity.** They are useful for mapping but should not be interpreted as definitive artist identities.
 - **Lifespan of a Hit samples three chart weeks per benchmark year.** It does not analyze every weekly Hot 100 chart between 1985 and 2025.
 - **The Staying Power Score is a custom index.** Its weights are team choices rather than an industry-standard measure.
-- **Historical Billboard coverage differs between pages.** Staying Power currently uses the historical CSV through 2021, while Lifespan of a Hit retrieves selected chart dates through 2025.
+- **Historical Billboard coverage differs between pages.** Staying Power currently uses the historical CSV through 2021, while Lifespan of a Hit retrieves selected chart dates through 2026.
 
 ## AI Assistance
 
 Generative AI was used as an assistive tool for selected design, debugging, data-interpretation review, documentation, and deployment tasks. AI output was reviewed, edited, tested, and either incorporated or discarded by the team.
 
-See **[AI Usage Appendix](AI_USAGE.md)** for the tools used, representative high-level prompts, where AI assistance was applied, and how outputs were verified.
+See AI_USAGE.md for the tools used, representative high-level prompts, where AI assistance was applied, and how outputs were verified.
 
 ## Future Improvements
 
