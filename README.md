@@ -277,54 +277,8 @@ Number of weeks the song has appeared on the Hot 100 as of that chart date.
 
 The analysis also uses chart ordering to examine the songs currently occupying the Top 10.
 
-Project Structure
 
-Age_of_AI_Final/
-│
-├── App_Design_Sound_of_America/
-│   ├── apis/
-│   │   ├── census_api.py
-│   │   ├── discogs_api.py
-│   │   ├── lastfm_api.py
-│   │   ├── musicbrainz_api.py
-│   │   ├── setlist_api.py
-│   │   └── wikidata_api.py
-│   │
-│   ├── assets/
-│   │   └── style.css
-│   │
-│   ├── data/
-│   │   ├── Hot_Stuff.csv
-│   │   ├── artist_enriched_genre_cache.json
-│   │   ├── artist_genre_cache.json
-│   │   ├── concert_map_data_setlistfm.csv
-│   │   └── raw_setlists_cache.csv
-│   │
-│   ├── pages/
-│   │   ├── home.py
-│   │   ├── music_map.py
-│   │   ├── anatomy_of_hit.py
-│   │   └── staying_power.py
-│   │
-│   ├── tests/
-│   │   ├── billboard_test.py
-│   │   ├── enrichment_pipeline_smoke_test.py
-│   │   ├── genre_coverage_test.py
-│   │   ├── state_coverage_test.py
-│   │   ├── wikidata_rescue_test.py
-│   │   └── data_feasibility_results.txt
-│   │
-│   ├── app.py
-│   ├── requirements.txt
-│   └── .gitignore
-│
-├── MusicAmericaSetlistTest/
-├── MusicAmericaTicketmasterTest/
-├── Pitches_&_Lab_qmd/
-├── .gitignore
-└── README.md
-
-Local Setup
+## Local Setup
 
 1. Clone the repository
 
@@ -422,63 +376,23 @@ The Staying Power Score is a custom index. Its weights are team choices rather t
 
 Historical Billboard coverage differs between pages. The Staying Power dataset currently ends in 2021, while the Lifespan page retrieves selected chart dates through 2025.
 
-
-# Current Final-Project Checklist
-
-===============================================================
-        # TO DO
-================================================================  
-
-U.S. choropleth visualization
-
-Fixing years aggregation for music map
-
-Add final poster screenshots and final presentation finding
-
-AI Assistance
-
-Generative AI has been used as an assistant during parts of the project for tasks such as brainstorming dashboard structure, discussing layout and CSS choices, troubleshooting Dash integration, reviewing code, and drafting documentation. Team members are responsible for reviewing, editing, testing, and understanding all code and written material included in the final submission.
-
-Before submission, add the team's complete AI-use record here or link to a separate appendix:
-
-Tools used: ChatGPT, Claude
-
-## AI Usage
-
-The team usedgenerative AI tools as assistants during development.
-
-Used for:
-- brainstorming dashboard structure and page organization
-- helping design the shared navigation and CSS
-- troubleshooting Dash multi-page routing
-- assisting with callback structure
-- reviewing API integration approaches
-- identifying potential data-cleaning and aggregation issues
-- helping prepare deployment configuration for Render
-- drafting documentation and README structure
-
-Example high-level prompts:
-- "Help us create a multi-page Dash architecture for three music analyses."
-- "Explain how to create an interactive U.S. choropleth with callbacks."
-- "Review this map aggregation logic for correctness."
-- "Help prepare our Dash project for Render deployment."
-
-Verification/editing:
-All generated code was reviewed and edited by team members. The team ran the application locally, checked calculations against the underlying data, and modified generated code and text to fit the project's requirements and design.
-
-Uses: layout/design brainstorming, Dash multi-page structure, navigation setup, callback planning, debugging, API/data integration guidance, aggregation and logic review, Render deployment preparation, requirements.txt setup, documentation drafting, README development, and code review.
-
-Human verification: AI-assisted code was reviewed line by line by team members, run locally in VS Code, and modified to match the project structure and course requirements. Dashboard pages, navigation, callbacks, filters, file paths, and visual outputs were tested manually. Calculations and aggregations were checked against the underlying CSV/API data, and AI-generated wording was edited for accuracy, clarity, and consistency with the team’s intended story. Deployment-related code and package requirements were compared against the course instructions before being added.
+## AI Assistance: 
+See AI_USAGE.md for the tools used, representative prompt types,
+where AI assistance was applied, and how outputs were reviewed and verified.
 
 # Key Findings
 
-Replace these placeholders only after the team has verified the calculations against the final data.
+Place — Music Across America
 
-# Place — Music Across America: [ADD ONE VERIFIED MAP FINDING]
+In the 2025 Setlist.fm sample, Mississippi had the highest sampled Rock share at 58.8% of its genre-identified setlists. This reflects the composition of the collected sample rather than total concert activity or statewide listener preference.
 
-# Time — Lifespan of a Hit: [ADD ONE VERIFIED BILLBOARD LIFESPAN FINDING]
+Time — Lifespan of a Hit
 
-# Legacy — Staying Power: [ADD ONE VERIFIED ARTIST-LONGEVITY FINDING]
+Songs occupying the Billboard Hot 100 Top 10 in 2025 had been on the chart for an average of 32.57 weeks, compared with 10.93 weeks in 1990 — nearly three times longer. Over the same comparison, the average number of unique artists appearing across the Hot 100 fell from 91.0 to 71.33, a decrease of about 21.6%.
+
+Legacy — Staying Power
+
+Under the dashboard's composite Staying Power Score, Taylor Swift ranks first at 685.4, followed by Madonna at 615.9 and The Beatles at 568.9. Because the ranking combines chart volume, longevity, Top 10 hits, number-one hits, and career span, it rewards sustained success rather than a single peak.
 
 Future Improvements
 
